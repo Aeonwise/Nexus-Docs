@@ -1,41 +1,82 @@
 # Decentralized World
 
-### Signature Chains
+### Roadmap
 
-A major benefit of using cryptocurrencies is the security gained through the use of public key cryptography. Though this is a vast improvement to centralized login systems, this benefit comes with the drawback of key management. In order to manage keys, most cryptocurrency wallets use a database storage file called a ‘wallet.dat’ that keeps a record of all the keys that have been / will be used to access coins.
+**Trust System - (Released 09/16/2018)**\
+This milestone marks the introduction of the new trust key decay rate, with trust decreasing 3 times faster than it accrues. Replacing the hard 24-hour time limit in September 2018, the new decay rate gives staking wallets greater ability to retain trust and more accurately reflects the effort invested in securing the blockchain.
 
-We believe that the adoption of cryptocurrency and blockchain technology will always be limited if relying on such a model, due to the inconvenience of having to make regular wallet backups, loss or theft of hard drives, and the risk of sending funds to unspendable addresses. These systems are susceptible to human error, boding for the need for complex hardware designed specifically to store private keys securely. Though these devices are a step towards user friendliness, they are still at risk of being lost or stolen, and therefore are not a reliable replacement for authorization systems.
+**Legacy Mode - (Released 06/26/2019)**\
+Full update to Nexus Core software supporting Legacy blockchain operation. This mode features fast sync times, instant loading, and a small memory and disk footprint.
 
-Therefore, we have automated the management of keys via a decentralized login system we call Signature Chains. This allows you to log in to your Nexus Wallet simply through a Username, Password and PIN. Signature Chains still use public key cryptography, but rather than maintaining the keys on disk or the cloud, they are stored in ‘mathematical hyperspace’ meaning that your credentials become the 'key' to a 'virtual space' that you own with a Signature Chain. This also removes the burden of key management when using DApps, which often require third party plugins such as MetaMask.
+**API / SDK - (Released 11/05/2019)**\
+Our API gives developers access to a wide set of features available through a simple HTTP interface. This provides easy access to smart contracts that can be embedded directly into web applications and existing login systems.
 
-Signature Chains decouple the private key from the user account, therefore one is unbound by the possession or security of a single private key. The private key becomes obsolete when the next transaction is generated, producing higher levels of security compared to the continual reuse of a private key, as is the case with other blockchain technologies.
+**LISP - (Released 01/31/2019)**\
+The Locator/ID Separation Protocol is an important network protocol that allows one to control their IP addressing, without relying on ISPs for allocation.
 
-Signature Chains (Sigchains) are comparable to a 'personal Blockchain', and provide the foundation for DApps that manage all types of digital property. They integrate into existing application frameworks that already rely on authorization systems through username and password combinations, and thereby provide DApp developers the ability to integrate blockchain functionalities as an elevated layer into existing applications with minimal architectural modification. They can also be integrated with various security measures such as biometrics and hardware password managers.
+**Interface / Wallet - (Released 06/26/2019)**\
+The Nexus interface supports full wallet function. Modular functionality allows custom themes and addon modules such as Binance trading, multi-coin storage, a block explorer, Tritium features, and anything module developers might dream up.
 
-Additional benefits are the efficiency gained by reducing the requirement of storing a large amount of signatures on disk, and the ability to use a variety of key types such as FALCON for increased Quantum Resistance.
+**Mobile Wallet - 95% Completed**\
+Our official mobile wallet will be developed using most of the software that runs the desktop wallet, with changes to the interface to be more mobile friendly, and daemon packages that incrementally will be improved over time to enable more contract functionality and staking. The Mobile Wallet will still have the modular design of the Nexus Wallet, so that developers can extend it with their DApps by simply deploying new modules to the Wallet.
 
-Sigchains use an account based model that replaces the clunky UTxO (Unspent Transaction Output) architecture that Bitcoin introduced. Sigchains contain all user data on a unique chain, and provide higher levels of scalability, as only one signature is required to be verified per transaction.
+**Pooled Staking - 90% Completed**\
+As more people continue to join the staking process, the network becomes more secure through the increase in the Trust channel difficulty. Though this provides benefits to the network as a whole, it constantly drives up the required amount of coins to maintain a Trust key. Pooled Staking solves this by giving smaller balances the ability to collaborate with peers, ultimately resulting in increased staking access to the regular user, and higher network security. This approach does not require a central service, since it will work as a sub network inside Nexus, that itself comes to consensus on the Trust keys to be included. This is a pure, decentralized, staking protocol that will benefit the entire network as a whole.
 
-Along with Sigchains, Nexus transactions are decoupled from the block, which means that only a single hash or ‘proof’ per transaction is required in the block level data, rather than the entire transaction itself. This results in the accommodation of approximately 31,728 transactions per 2 MB block. Together, these innovations produce lightweight blocks and efficient transaction processing, without the requirement of off chain (Layer 2) scaling solutions.
+**The P2P Market API - 80% Completed**\
+The Decentralized Exchange will sit mainly in the Logical / Interface layers, with the exchange itself being facilitated by a conditional contract on the Operations layer. The DEX will be able to be used to trade tokens and assets listed on Nexus, promoting the development of decentralized marketplaces where any type of asset can be traded in a truly free, peer to peer manner without a need for a custodian service. There is no authority that designates the process of listing, and there are no other parties involved in the exchange other than the buyer and the seller.
 
-UTxO is an architecture envisioned by Satoshi Nakamoto in the Bitcoin whitepaper under Section 9, ‘Splitting and Combining Value’ \[[Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf)]. In this architecture, outputs contain a given value, such as 0.5 BTC, which then become inputs to another. The following diagram illustrates this model:
+**Augmented Contracts - 30% Completed**\
+Augmented Contracts are the second type of contracts that will be available in the Tritium Protocol. These types of contracts extend the Conditional VM (Virtual Machine that processes Conditional Statements) to provide additional benefits including, but not limited to, methods, functions, operation overloading, and encapsulation. Augmented contracts add a layer of complexity and processing, so will carry a higher fee to execute. This will require more on-chain processing, but overall makes our Contract Engine much more powerful.
 
-These outputs are then ‘split and combined’ into more outputs in the next transaction as shown in the example in the diagram above: 50 BTC is split into two outputs of 0.5 BTC and 49.5 BTC, respectively. Though this architecture provides the benefit of privacy, it does not scale very well due to the need for many exhaustive cryptographic operations to move even a small amount of coins. This is because the minimum transaction amount per input is 0.00000001, which could result in the requirement for thousands of inputs, each of which would require a signature verification, increasing the size of the transaction. A notable example of this is:
+**Hybrid Mode - 90% Completed**\
+An important feature, hybrid mode is capable of forming an individual network out of the box, making it a highly useful tool for businesses that wish to utilize our blockchain technology, while retaining high levels of privacy.
 
-[The largest Bitcoin transaction ever made](https://www.blockchain.com/btc/tx/bb41a757f405890fb0f5856228e23b715702d714d59bf2b1feb70d8b2b4e3e08)
+**Object Modeling - 80% Completed**\
+Object Modeling is a new feature that will extend the API layer allowing developers to model their Object Registers in languages such as XML (EXtensible Markup Language). This will also contain modeling languages that will make it possible for advanced developers to work with lower level object operations. These could include using specific data types and specifiers, developing more complex object behavior through Augmented Contracts, or creating extra conditions that regulate the object’s overall behavior.
 
-As you can see from the above link, this transaction consumed an entire Bitcoin block and was only moving 0.05569 BTC. If this were a common occurrence, Bitcoin would only be able to process 1 transaction every ten minutes. This is not the only example of the limitations of the UTxO model, which creates inefficiency and serves as a unique attack vector to any chain that employs it.
+**Protected Assets - 0% Completed**\
+Protected Assets are a type of asset with the addition that a ‘Master’ owner retains the right to revoke access to the asset. This essentially allows the asset creator to have permanent access to an asset, which is necessary for securities, collateralized loans (DeFi), non-transferable assets (Tickets, Educational/Professional Awards and Certificates, Certificates of Insurance, Licenses etc.). They are also useful for protecting the asset from being transferred to unqualified parties, or in other words, parties that do not fulfill the requirements set out by asset creator.
 
-[50% of Litecoin’s UTXO is unspendable](https://www.reddit.com/r/litecoin/comments/9ncqse/what\_should\_we\_do\_about\_the\_50\_of\_litecoins\_utxo/)
+**LLD Global File System — 20% Completed**\
+The LLD global file system will support secondary files that record assets to be stored and retrieved through network operations, providing a seamless interface for managing assets and data.
 
-A Signature Chain is named as such due to it being a chain of signatures and public keys, all linked together through the next hash and previous transaction hash. Since this is a consistent chain of events that cannot be altered, it provides additional scaling benefits by requiring only two signatures to verify an entire Sigchain: the first and last transaction. This means that all the signatures in between can be discarded along with the public keys, saving a large amount of storage space without sacrificing security. This is because a Sigchain is an immutable chain of transactions A valid signature at the head transaction of the chain proves that the entire chain is valid, as it locks the entire Sigchain from modification.
+**Contract Domain Specific Languages — 20% Completed**\
+Contract-specific programming languages will be provided that will include internal safety mechanisms such as catching overflows to allow more complex contract development, while remaining less prone to error.
 
-Usually, this signature is the largest part of the transaction, therefore removing the need to save it on disk improves the scalability of the Nexus Blockchain. In Bitcoin, the average input size is 186 bytes, with the signature consuming 146 of these bytes, resulting in 77% of the Bitcion blockchain being comprised of signatures stored on disk. As you can see, signature chaining has a huge impact on combating blockchain bloat.
+**pBFT + Reputation Channels (L1) - 0% Completed**\
+This new architectural component will process transactions in parallel, using reputation as an additional weight to provide higher security. The transaction speed of L1 channels will vary based on the risk that a merchant wishes to assume, ranging from sub-second speeds to 5 seconds. For higher value transactions, it will be recommended that they receive additional weight from validation on the next consensus layer: L2, reducing transaction speed to 15 seconds plus.
 
-An End Point Identifier (EID) is similar to an Internet Protocol (IP) address, and is a form of identity on the network layer. Through the use of [LISP](broken-reference), the EID becomes the identifier, while the RLOC (Routing Locator) becomes the location. This decoupling enables a device to freely roam between networks as only the RLOC changes, not the EID. This is contrary to how the Internet currently functions, where both the identifier and location are bound together in a single IP address.
+**pBFT + PoS Trust Network (L2) — 0% Completed**\
+As an extension to the existing Proof of Stake system, L2 will form the second layer of consensus above the L1. The L2 layer ensures safety and liveness, cross-shard communication, and resolves conflicts from the L1 layer. It represents the horizontal chaining of the L1 channels, and is a major step towards a truly decentralized and scalable ledger.
 
-An EID is a critical security feature, as it can be linked to a Sigchain which makes the network identifier cryptographically associated with the Ledger. EIDs, Sigchains and the use of reputation combined create an elevated layer of trust to the Internet, as one can verify with certainty that the other party is who they claim to be without the need for third party services like Certificate Authorities (CA). A reduction in fraud, hacking, fake accounts, and identity theft for both consumers and service providers is envisioned as a result of this technology.
+**Network Data Sharding — 0% Completed**\
+Data sharding is an essential facet of our ledger design in order to achieve long-term scalability. Amine will provide the opportunity for nodes to run in “shard” mode, which will lower their disk and memory usage, even when the network is under high load.
 
-Sigchains increase resistance to attack by both classical and theoretical quantum computers. This is achieved by decoupling the identity of the account from the cryptography associated with it, similar to how [LISP](broken-reference) decouples the identifier and the location. This enables the architectural advantage of changing the key pair that is used to access the Sigchain with every transaction, and hiding the public key until it is used. When an individual creates a transaction on the network, they claim ownership by revealing the public key of the NextHash (the hash of the public key) by producing a valid signature from the one time use private key. This significantly reduces the time window for an attack to take place, naturally increasing the required computing power to successfully hijack a signature chain with MITM (Man in the Middle) attacks. Please see [Quantum Resistance](broken-reference) for more information.
+**LISP Multicast Links for (L1) and (L2) — 20% Completed**\
+Using LISP, the L1 and L2 layers will have their own Multicast links, therefore packets and transactions will route in constant time no matter how many nodes are part of the system.
 
-Since the account identity is decoupled from the cryptography, a Sigchain supports multiple signature schemes such as FALCON (Fast Fourier Lattice-Based Compact Signatures Over NTRU) or Brainpool. Due to FALCON being still under study and assessment by NIST (National Institute of Standards and Technology), it is generally recommended that it is only used in production in what is termed a ‘hybrid signature scheme’, meaning you don’t rely solely on the security of FALCON for the security of the system. In our implementation, a Sigchain acts like a hybrid signature scheme, making use of FALCON safe for our production environment.
+**Application Store — 20% Completed**\
+Here applications and modules will be able to be shared and sold in a decentralized marketplace. Modules will provide developers the building blocks to create applications.
+
+**Extended Network Data Sharding — 0% Completed**\
+Data sharding in Obsidian will extend to critical network functions, resulting in nodes being required to store only a portion of the overall chain. Note, this is **data** sharding, not computational sharding, which means once data has been processed, it can be partitioned and stored between nodes. The result will be an increase of data storage as more nodes join the network.
+
+**Decentralized Mining & Merkle Share Pool (L3) — 0% Completed**\
+This component will use Proof of Work based mining shares computed from the work performed by the nodes of L2. Consensus will be determined by the largest value of shares + trust, in order to reach the final agreement on the most valid 3D block.
+
+**DAO: L1 Voting Group (Implement)— 0% Completed**\
+The L1 voting group will provide voting rights to validators who are new to the network, and therefore do not have enough resources to participate in the L2 consensus. Voting weight is based on reputation.
+
+**DAO: L2 Voting Group (Extend)— 0% Completed**\
+The L2 voting group will extend Tritium’s “Ambassador DAO” and provide voting rights to validators who have reached a reputation threshold. Voting weight is based on reputation multiplied by stake.
+
+**DAO: L3 Voting Group — 20% Completed**\
+The L3 voting group will provide voting rights to miners. Voting weight is based on mining power (average weight of mined shares over time) multiplied by reputation.
+
+**LISP Multicast Links for L3 - 0% Completed**\
+Shares on L3 will use LISP Multicast links allowing the efficient broadcasting of mined shares, and the acceptance of L2 hashes for computation by L3 nodes.
+
+**Click here to view the roadmap progress bars.**
+
+**Updated December 2021**

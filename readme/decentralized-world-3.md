@@ -1,82 +1,58 @@
 # Decentralized World
 
-### Roadmap
+### Quantum Resistance
 
-**Trust System - (Released 09/16/2018)**\
-This milestone marks the introduction of the new trust key decay rate, with trust decreasing 3 times faster than it accrues. Replacing the hard 24-hour time limit in September 2018, the new decay rate gives staking wallets greater ability to retain trust and more accurately reflects the effort invested in securing the blockchain.
+With the rise in the power of classical computers and the emergence of quantum computers, public keys are becoming increasingly vulnerable. Most cryptocurrency addresses are created by hashing or obscuring the public key. Though, when a user makes a transaction the public key is revealed on the blockchain. In the realm of classical computing there is little risk with this method. However, a quantum computer running Shor’s algorithm could break most public key cryptography in little to no time, resulting in funds being stolen. Though most conjectures range from five to ten years before security could begin to break, Nexus has prepared by integrating a number of cryptographic innovations that support increased levels of quantum resistance.
 
-**Legacy Mode - (Released 06/26/2019)**\
-Full update to Nexus Core software supporting Legacy blockchain operation. This mode features fast sync times, instant loading, and a small memory and disk footprint.
+We have developed an architecture called [Signature Chains](broken-reference) that enhance the security of existing DSA (Digital Signature Algorithm), by hashing the public key until it is used while changing the key pair with every transaction. We have also integrated the following cryptographic functions: FALCON (a second round contender for the NIST Post-Quantum cryptography competition), Argon2 (winner of the password hashing competition, and a superior alternative to S-Crypt or B-Crypt), and Keccak (winner of the SHA3 competition).
 
-**API / SDK - (Released 11/05/2019)**\
-Our API gives developers access to a wide set of features available through a simple HTTP interface. This provides easy access to smart contracts that can be embedded directly into web applications and existing login systems.
+Classical computing uses an array of transistors. These transistors form the heart of your computer (the CPU). Each transistor is capable of being either on or off, and these states are used to represent the numerical values 1 and 0. Binary digits’ (bits) number of states depends on the number of transistors available, according to the formula (2^n) + 1, with n being the number of transistors. Classical computers can only be in one of these states at any one time, so the speed of your computer is limited to how fast it can change state.
 
-**LISP - (Released 01/31/2019)**\
-The Locator/ID Separation Protocol is an important network protocol that allows one to control their IP addressing, without relying on ISPs for allocation.
+Quantum computers on the other hand, use what are termed quantum bits or ‘qubits’ which are represented by the quantum spin of electrons or photons. These particles are placed into a state called superposition, allowing the qubit to assume a value of 1 and 0 simultaneously, generally resulting in an exponential increase in computational power over their classical counterparts.
 
-**Interface / Wallet - (Released 06/26/2019)**\
-The Nexus interface supports full wallet function. Modular functionality allows custom themes and addon modules such as Binance trading, multi-coin storage, a block explorer, Tritium features, and anything module developers might dream up.
+Nexus is accessible through technology we designed called Signature Chains, a decentralized blockchain account that allows you to login from any computer with a username, password, and pin. They are comparable to a personal blockchain that allows decentralized access through a login system, removing the need to store a private key. Sigchains deterministically create a mathematical ‘lock’ that only your login credentials can unlock.
 
-**Mobile Wallet - 95% Completed**\
-Our official mobile wallet will be developed using most of the software that runs the desktop wallet, with changes to the interface to be more mobile friendly, and daemon packages that incrementally will be improved over time to enable more contract functionality and staking. The Mobile Wallet will still have the modular design of the Nexus Wallet, so that developers can extend it with their DApps by simply deploying new modules to the Wallet.
+Fundamentally, a Sigchain decouples the private key from the user account, therefore one is unbound by the possession or security of a single private key. When one creates a transaction on the network, they claim ownership by revealing the public key of the NextHash (the hash of your public key) and produce a signature from the one time use private key. The private key becomes obsolete when the next transaction is generated, producing higher levels of security compared to the continual reuse of a private key, as is the case with other blockchain technologies. The future use of biometric username generation will strengthen your credentials and Signature Chain access.
 
-**Pooled Staking - 90% Completed**\
-As more people continue to join the staking process, the network becomes more secure through the increase in the Trust channel difficulty. Though this provides benefits to the network as a whole, it constantly drives up the required amount of coins to maintain a Trust key. Pooled Staking solves this by giving smaller balances the ability to collaborate with peers, ultimately resulting in increased staking access to the regular user, and higher network security. This approach does not require a central service, since it will work as a sub network inside Nexus, that itself comes to consensus on the Trust keys to be included. This is a pure, decentralized, staking protocol that will benefit the entire network as a whole.
+Signature Chains decouple keys from the user account, meaning that at any time, you are able to change the type of key that your account uses. This gives users the option to use Post-Quantum cryptography such as FALCON, or the option to use more time-tested Brainpool curves. If any flaws were to be found in either of these cryptographic schemes, your account would be safe using a signature chain. These safeguards are important in order to protect systems over time, as ongoing crypto-analysis are always finding vulnerabilities and attack vectors that will begin to break once secure cryptographic standards (eg. SHA1).
 
-**The P2P Market API - 80% Completed**\
-The Decentralized Exchange will sit mainly in the Logical / Interface layers, with the exchange itself being facilitated by a conditional contract on the Operations layer. The DEX will be able to be used to trade tokens and assets listed on Nexus, promoting the development of decentralized marketplaces where any type of asset can be traded in a truly free, peer to peer manner without a need for a custodian service. There is no authority that designates the process of listing, and there are no other parties involved in the exchange other than the buyer and the seller.
+[Large Bitcoin Collider Finds Another Bitcoin Private Key](https://bitcoinwhoswho.com/blog/2017/09/13/are-your-bitcoins-safe-large-bitcoin-collider-finds-another-private-key/)
 
-**Augmented Contracts - 30% Completed**\
-Augmented Contracts are the second type of contracts that will be available in the Tritium Protocol. These types of contracts extend the Conditional VM (Virtual Machine that processes Conditional Statements) to provide additional benefits including, but not limited to, methods, functions, operation overloading, and encapsulation. Augmented contracts add a layer of complexity and processing, so will carry a higher fee to execute. This will require more on-chain processing, but overall makes our Contract Engine much more powerful.
+Complemented with this is the use of FALCON (Fast-Fourier Lattice-Based Compact-Signatures Over NTRU) as an optional setting, that uses Lattice Based cryptography to ensure the security of accounts in the post-quantum age. The computational requirements are at least 1/40th of Elliptic Curve Digital Signature Algorithm (ECDSA), which means you can verify signatures much faster than ECDSA. However, the downside is that it requires about 1.5kb for both the public key and signature. Though Falcon is based on aged and proven mathematics (NTRU lattices), it has not undergone as much crypto-analysis as Elliptic Curve Cryptography (ECC) or Rivest Shamir Adleman (RSA).
 
-**Hybrid Mode - 90% Completed**\
-An important feature, hybrid mode is capable of forming an individual network out of the box, making it a highly useful tool for businesses that wish to utilize our blockchain technology, while retaining high levels of privacy.
+Is an open source password hashing function we have integrated for key and username generation. Argon2 is a memory-hard password hashing algorithm with variable complexity which means it can control how many seconds it takes to generate a key or username. This drastically increases the time and resources it takes an offline hacker to brute-force a Signature Chain. Because the time to generate an Argon2 hash is bound by memory latency, a specialized ‘password cracking’ device has no advantage over a general purpose CPU.
 
-**Object Modeling - 80% Completed**\
-Object Modeling is a new feature that will extend the API layer allowing developers to model their Object Registers in languages such as XML (EXtensible Markup Language). This will also contain modeling languages that will make it possible for advanced developers to work with lower level object operations. These could include using specific data types and specifiers, developing more complex object behavior through Augmented Contracts, or creating extra conditions that regulate the object’s overall behavior.
+Our default Argon2 settings requires at least 0.3 – 0.5 seconds to generate a new key, meaning one is only able to try two to three passwords per second. Combining this with a minimum requirement of at least 8 alphanumeric \[a-Z, 0-9] characters per password, even if the username and PIN were known by the attacker, the time required to crack the password would be in the order of 5 million years.
 
-**Protected Assets - 0% Completed**\
-Protected Assets are a type of asset with the addition that a ‘Master’ owner retains the right to revoke access to the asset. This essentially allows the asset creator to have permanent access to an asset, which is necessary for securities, collateralized loans (DeFi), non-transferable assets (Tickets, Educational/Professional Awards and Certificates, Certificates of Insurance, Licenses etc.). They are also useful for protecting the asset from being transferred to unqualified parties, or in other words, parties that do not fulfill the requirements set out by asset creator.
+Due to the recommendation from NIST (National Institute for Standards in Technology), the bit requirement for symmetric encryption schemes and hash functions must be at least twice the size for equivalent quantum resistance (eg. 512 vs 256). This recommendation inspires our standard hash: 256-bits for registers, 512-bit for transactions, and 1024-bit for blocks for equivalent 128-bit, 256-bit, and 512-bit quantum resistance respectively.
 
-**LLD Global File System — 20% Completed**\
-The LLD global file system will support secondary files that record assets to be stored and retrieved through network operations, providing a seamless interface for managing assets and data.
+We do not rely on the security of only one cryptographic function for the security of the entire system, and treat every public key as disposable once used. This means our security uses many different layers of redundancy to provide protection, in the event that one of them becomes vulnerable. Relying on a single private key for security is a ticking time bomb, though this approach is largely used by most blockchain applications.
 
-**Contract Domain Specific Languages — 20% Completed**\
-Contract-specific programming languages will be provided that will include internal safety mechanisms such as catching overflows to allow more complex contract development, while remaining less prone to error.
+[Cryptographic Flaws found in IOTA](https://medium.com/@neha/cryptographic-vulnerabilities-in-iota-9a6a9ddc4367)
 
-**pBFT + Reputation Channels (L1) - 0% Completed**\
-This new architectural component will process transactions in parallel, using reputation as an additional weight to provide higher security. The transaction speed of L1 channels will vary based on the risk that a merchant wishes to assume, ranging from sub-second speeds to 5 seconds. For higher value transactions, it will be recommended that they receive additional weight from validation on the next consensus layer: L2, reducing transaction speed to 15 seconds plus.
+The copy/paste mentality of source code used to create many cryptocurrency projects today has led to the pervasion of many security flaws. Below is one such example that created a pandemonium for hundreds of projects that inherited a flaw from Zcoin.
 
-**pBFT + PoS Trust Network (L2) — 0% Completed**\
-As an extension to the existing Proof of Stake system, L2 will form the second layer of consensus above the L1. The L2 layer ensures safety and liveness, cross-shard communication, and resolves conflicts from the L1 layer. It represents the horizontal chaining of the L1 channels, and is a major step towards a truly decentralized and scalable ledger.
+[Fatal Flaws may be embedded in all Privacy Coins](https://micky.com.au/expert-warning-fatal-flaw-embedded-in-all-privacy-coins/)
 
-**Network Data Sharding — 0% Completed**\
-Data sharding is an essential facet of our ledger design in order to achieve long-term scalability. Amine will provide the opportunity for nodes to run in “shard” mode, which will lower their disk and memory usage, even when the network is under high load.
+Nexus offers post quantum cryptography as an optional feature to users, as at the moment ECC is still considered safe. Our optional safeguards provide adequate levels of resistance against attacks using a quantum computer. The following will describe a MITM (Main-In-The-Middle) attack, which is the only known attack able to penetrate a signature chain if the user has not opted in to use FALCON (post quantum cryptography).
 
-**LISP Multicast Links for (L1) and (L2) — 20% Completed**\
-Using LISP, the L1 and L2 layers will have their own Multicast links, therefore packets and transactions will route in constant time no matter how many nodes are part of the system.
+A MITM attack can be described as someone eavesdropping on node communication, and at the same time, relaying information to other nodes, masquerading as the sender. In order for this type of attack to take place, an attacker would need to control the sigchain of every single node that the user is connected to (i.e to compromise the private keys of all connected nodes). This is because Nexus records a hash in a sigchain’s crypto object register, that is a hash of the certificate being used for SSL/TLS (Secure Socket Layer / Transport Layer Security). This means that the attacker has further difficulty pretending to be a remote node, because the blockchain acts as a certificate authority (CA).
 
-**Application Store — 20% Completed**\
-Here applications and modules will be able to be shared and sold in a decentralized marketplace. Modules will provide developers the building blocks to create applications.
+On top of verifying certificates, nodes require additional authentication before the network will accept their transactions. The authentication message is signed by another key in the crypto object register, which can be facilitated by FALCON or Brainpool. In order to successfully authenticate a connection as a MITM attacker, the attacker would need to gain access to all the remote node’s authentication keys.
 
-**Extended Network Data Sharding — 0% Completed**\
-Data sharding in Obsidian will extend to critical network functions, resulting in nodes being required to store only a portion of the overall chain. Note, this is **data** sharding, not computational sharding, which means once data has been processed, it can be partitioned and stored between nodes. The result will be an increase of data storage as more nodes join the network.
+_Note: \* It is important to note that a replay attack would not work in this case, due to the authentication message containing a random session Nonce and timestamp that even if intercepted cannot be used to fake authentication._
 
-**Decentralized Mining & Merkle Share Pool (L3) — 0% Completed**\
-This component will use Proof of Work based mining shares computed from the work performed by the nodes of L2. Consensus will be determined by the largest value of shares + trust, in order to reach the final agreement on the most valid 3D block.
+Now, we will detail the steps of an attempted attack, assuming the user has not configured their account to use FALCON, and that the attacker is using a 3,800 qubit quantum computer.
 
-**DAO: L1 Voting Group (Implement)— 0% Completed**\
-The L1 voting group will provide voting rights to validators who are new to the network, and therefore do not have enough resources to participate in the L2 consensus. Voting weight is based on reputation.
+1. The MITM attacker needs to first: brute force a user's certificate key or wait until the user's node sends it out in a key exchange. They cannot create their own self-signed certificate as in a normal MITM attack, since the blockchain acts as a certificate authority (CA).
+2. The attacker now needs to brute force the user's authentication hash or again wait for an authentication message, and attempt to break the authentication key. Breaking this key would enable the attacker to forge authentication messages, and thus pretend to be a node that the user is connected to and trusts.
+3. The attacker would then need to break the remote node's authentication key (assuming they can forge signatures on every open connection which is 16+ nodes, and that the remote node is not already using FALCON).
+4. The attacker would then need to wait for the user to create a transaction, i.e for them to reveal their public key, and in less than 200ms, break this public key in order to forge transactions.
 
-**DAO: L2 Voting Group (Extend)— 0% Completed**\
-The L2 voting group will extend Tritium’s “Ambassador DAO” and provide voting rights to validators who have reached a reputation threshold. Voting weight is based on reputation multiplied by stake.
+This is a requirement, because to successfully hijack a user’s account, the attacker would need to capture the transaction before it was broadcast, brute force the sender’s public key to obtain its private key, and then broadcast a forged transaction to take over this user’s account, all in less than 200ms.
 
-**DAO: L3 Voting Group — 20% Completed**\
-The L3 voting group will provide voting rights to miners. Voting weight is based on mining power (average weight of mined shares over time) multiplied by reputation.
+**Why is the attack window only 200ms?**
 
-**LISP Multicast Links for L3 - 0% Completed**\
-Shares on L3 will use LISP Multicast links allowing the efficient broadcasting of mined shares, and the acceptance of L2 hashes for computation by L3 nodes.
+The network considers the most valid transaction the one that nodes receive first. With the internet round trip time taking roughly 200ms, this is your upper bound of packet propagation time. Therefore, in order to create a conflicting transaction that could hijack a user’s signature chain, the attacker would need their ‘attack’ transaction to propagate over the network before the user’s transaction. The window is only 200ms as the users transaction begins to propagate at the time that the users public key is revealed, making it highly improbable that any computer, including a quantum computer, could ever break a user’s public key.
 
-**Click here to view the roadmap progress bars.**
-
-**Updated December 2021**
+We believe that even when ECC is being used instead of FALCON, the likelihood of a successful attack even by a quantum computer is very unlikely. However, users that wish to move away from ECC and switch to FALCON can do so with a click of a button, and with little risk to their previous transactions. This is because the keys that have already been used in our Signature Chain architecture, no longer have any use, and therefore can not be attacked.

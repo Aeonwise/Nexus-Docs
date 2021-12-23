@@ -1,76 +1,72 @@
 # Decentralized World
 
-Sending NXS or other tokens
+**What is a Token?**
 
-0
+In the broader sense, tokens can be thought of as virtual currencies that exist on a blockchain.
 
-Receiving NXS or other tokens
+**What can Tokens be used for?**
 
-0
+They can be used for a variety of uses such as:
 
-If the debit being credited has contract conditions, a fee may apply for executing those conditions depending on their complexity. A fee-free threshold for conditions means that simple contract conditions such as adding an expiry to a debit will mean crediting them will be free
+1. Representing ownership in an [asset](broken-reference) such as a company, preperty or land title, rights to a piece of art, or patents.
+2. Utilities
+3. Loyalty programs
+4. Gaming tokens
+5. DAO voting rights
 
-Transferring assets (NFTs) and other registers
+**How does a Token created on the Nexus blockchain differ to tokens created on Ethereum, Waves, NEO, NEM, Stellar, etc?**
 
-0
+The primary difference is simplicity. To create a token on Ethereum, or most other token platforms, users must write a smart contract - code written in a specific programming language - to define the token and how it will be used/distributed. This requires the user to have programming skills and the task can often be quite complicated. Nexus has taken a different approach by simplifying the process, allowing users to create a token in one short console command / API request. The wallet interface goes a step further providing a simple interface to guide users through the process.
 
-Claiming ownership of assets or other registers
+**How do I create a token?**
 
-0
+Tokens can easily be created through the Nexus Wallet or the console/CLI. The user defines a new token so that it can be distributed, traded, or used to tokenize an asset.
 
-If the register being claimed is a named register, i.e. there exists a local name for it in the previous owners signature chain, then a corresponding local name is created for it when claiming. This name creation attracts a 1 NXS fee.
+To create a new Token, go to the User module in the Wallet, and please follow the below instructions:
 
-If the transfer being claimed has contract conditions, a fee may apply for executing those conditions depending on their complexity. A fee-free threshold for conditions means that simple contract conditions such as adding an expiry to a transfer will mean claiming them will be free
+1. Click on Tokens.
+2. Click Create new Token.
+3. Choose a Token Name.
+4. Choose the total number of Tokens to be created.
+5. Choose the amount of significant digits the Token will have.
+6. At the top of the box, the fee will be displayed in NXS for creating your supply of tokens.
+7. Click Create Token.
+8. Pay Fees.
 
-Creating a NXS or token account
+To achieve the same using the console use the following command:
 
-0
+`tokens/create/token name=My Token supply=100 decimals=2`
 
-If the account is given a name, there is a 1 NXS fee applied for the creation of the name register.
+The tradeoff for simplicity is flexibility. A token created from a traditional smart contract allows developers to define any rules they wish for the distribution and use of a token, which are encoded in the token definition contract. This flexibility is certainly useful, but is overly complex for people without programming skills.
 
-Creating an asset or other register
+Nexus decouples the contract rules from the token definition allowing the token creation to be far simpler, though provides further steps if more complex rules are needed. For those use cases that require more complex token utility, Nexus users can add contract rules as conditions to token debit transactions.
 
-1+
+If the rules are too complex to be supported by a transaction condition, developers can write these rules into their application layer.
 
-The fee is calculated based on the size of data stored in the register at 0.001 NXS per byte. However there is a minimum fee of 1 NXS and (at the time of writing) a maximum register size of 1Kb, meaning the fee will vary between 1 an 1.024 NXS.
+When you first create a token you must specify the supply (the maximum number of whole tokens that will be available) and decimals (the number of decimal places that a token amount can have).
 
-Updating an asset or other register
+The combination of these two values gives the number of token divisible units that will be available (the equivalent of Bitcoin’s Satoshi’s property). For example a decimals value of 3 means that each token can be divided into 10^3 (1,000) parts. Therefore a token created with a supply of 1,000,000 and decimals of 3 would result in 1,000,000,000 (1,000,000 x 1,000) token divisible units. This is important, as this figure is what is used to calculate the fee applied when creating the token.
 
-0
+Once created, the token has three important properties:
 
-Creating a local name
+* maxsupply - the maximum number of tokens that will exist
+* currentsupply - the number of circulating tokens that have been distributed to token accounts
+* balance - the number of tokens that have not yet been distributed (maxsupply - currentsupply)
 
-1
+The fee is based on the number of token divisible units you define (the combination of supply and decimals). There is a minimum fee of 1 NXS and the calculation is linear thereafter, so that each additional significant digit costs an additional 100 NXS. E.g.
 
-Creating a global name
+100 units = 1 NXS
 
-2000
+1000 units = 100 NXS
 
-Creating a namespace
+1000000 units = 400 NXS
 
-1000
+10000000000 units = 800 NXS
 
-Creating a token
+Initially all of the token supply is held in the balance of the token. Distributing your token to other users is then very similar to how you send NXS. The first step is that the receiving users must create a new account for your token type and then provide you with the account name/address. Then you can use the wallet interface to send them just like you would send NXS, choosing the token from the Send From list. Alternatively, you can use the console with the following command:
 
-1+
+`tokens/debit/token name=My Token name_to=paul:tokenaccount amount=1000`
 
-The fee calculation for creating a token is based on the number of total supply of token divisible units, which in turn is calculated from the token supply and the number of decimals in the token definition. For example, a token with supply 1,000,000 and 2 decimals has a total of 100,000,000 divisible units. The actual fee calculation is a logarithmic scale based on this number, using the formula:
+At the time of writing, no the maximum supply cannot be changed once the token has been created. However, this ability is planned for a future release. How do I use a token to represent partial ownership of a digital or real-world asset?
 
-Fee = (log10(divisible units) – 2) \* 100
-
-A minimum fee of 1 NXS always applies. This yields the following fees based on number of divisible units
-
-100 = 1 NXS\
-1,000 = 100 NXS\
-100,000 = 300 NXS\
-1,000,000 = 400 NXS\
-1,000,000,000 = 700 NXS\
-1,000,000,000,000 = 1000 NXS
-
-Transaction Fee
-
-0-1 NXS
-
-A transaction fee is applied whenever a transaction is created within 10 seconds of the last transaction within a signature chain. The fee is calculated based on the number of contracts within the transaction at a rate of 0.01 NXS per contract, of which there can be a maximum of 100 (at the time of writing). Therefore the transaction fee will be between 0 and 1 NXS.
-
-The transaction fee is applied in addition to any of the other fees described in this table.
+One of the most significant use cases for tokens is the ability to tokenize an asset. Tokenized Assets provide the ability for shared revenue to be automatically distributed in the form of NXS payments to the partial owners of the Asset, based on the percentage of tokens held. This is useful for use cases such as the automatic payment of dividends for Security Token Offerings (STO’s), and for the distribution of royalties from revenue earned from an Asset such as a music album.

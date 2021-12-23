@@ -1,65 +1,47 @@
 # Decentralized World
 
-### Invoice Module Guide
+**What is an Asset (NFT)?**
 
-**What is the Invoice Module?**
+Assets are non-fungible tokens (NFTs), meaning they are non-divisible. In its simplest form, an Asset is nothing more than arbitrary data stored on the Nexus blockchain in a state register. You as the user can decide what data is stored in that Asset, and depending on the way the Asset is created, whether or not the data in the Asset can ever be changed (is mutable / immutable). Think of it like writing on a piece of paper. You can choose to write what you want on that piece of paper. If you write it in ink then it is permanent. If you write some of it in pencil, then you can erase it and change it to something else.
 
-The Invoice DApp module is an initial and essential step in the evolution of decentralized finance (DeFi), supply chains and similar blockchain use cases being built on Nexus. We envision the Nexus invoice system to not only streamline payments and reduce the costs of administration within an organization, but across businesses and between industries.
+**What is a State Register?**
 
-This module is a downloadable add-on for the Nexus wallet. All invoices are recorded on the blockchain and only transferred to the debtor once settled, providing a transparent record for auditing or legal purposes. A time expiration for the invoice contract can also be specified if required.
+The Nexus architecture uses state registers for storing many different types of data including Accounts, Tokens, Names, and Assets. A state register sounds fancy, but it is really just a space where information can be stored. With the Nexus API, you can make special kinds of transactions to create these registers or update / append to the data in them. When the data in a register changes, it is said that the register is 'changing state' from what it was previously to what you are now changing it to - hence the name state register. Every register on the Nexus blockchain has two main properties: An address (referred to as a register address) which is used to determine the location of the data in the register database, and an owner, which is the genesis hash of the Signature Chain that currently owns the register.
 
-**How do I get it?**
+**How do I create an Asset?**
 
-This guide provides details on how to install the Nexus Invoice System module, create a new invoice, and pay an invoice. Screenshots from the current Nexus wallet along with descriptions provide users with the knowledge required to use this fairly simple module for accounting tasks on the Nexus network.
+The Nexus API provides a straightforward and intuitive interface for users to create, update, and transfer Assets. To create a basic Asset you can use the Wallet console or Nexus command line interface (CLI) and issue a simple command:
 
-Please start by downloading the Nexus Invoice Module from Github [here](https://github.com/Nexusoft/Nexus-Interface-Invoice-Module/releases). Either the tar.gz file or the zipped folder for the most recent release.
+`assets/create/asset name=myfirstasset data=this_is_some_data`
 
-The Module section of the Nexus wallet is accessible via the top _Settings_ menu or gears icon on the bottom. Choose the _Modules_ section within the _Settings_ screen. The following screenshot shows the _Modules_ section without any modules installed.
+The create/asset API method allows the Asset to be defined in several different formats. Shown above is the basic format, which is the default. In the basic format the data is supplied in key=value pairs, all data is treated internally as a string (a series of alphanumeric characters), and all data is immutable (cannot be changed). The create/asset API alternatively allows complex Assets to be defined using JSON format.
 
-As the instructions on the screen indicate, installing a module is as simple as dragging a module's archive file (e.g., _tar.gz_ archive file) into the field on the screen. Instead of the archive file, you can also download the zip file, extract it, and drag it into the same field on the screen.
+The following example shows how an Asset might be used to store the title deeds to a property:
 
-Upon dragging the invoicing module’s archive file onto the screen depicted above, the following prompt is displayed. If everything is as expected (e.g., the module hash matches that listed on the github repository), click the _Install Module_ button to begin installation.
+`assets/create/asset`
 
-The following prompt is presented to indicate that the module has been successfully installed. Upon dismissing this prompt, the wallet will be restarted.
+`name=deed1A`\
+`address=1640 Riversdale Drive, CA`\
+`deed-id=494563494`\
+`certificate-url=http://www.property.com/deeds/494563494.pdf`\
+`certificate-md5-hash=67ac5a9362efdef5a52e5438c4ad7bda`
 
-Now, as a result of installing the invoicing module, it is included in the list of installed modules, and the toggle button indicates that the module is active.
+**How do I transfer an Asset?**
 
-Note also that a new icon has been added to the bottom of the wallet for the Nexus Invoice System.
+You can transfer ownership of an Asset to another Signature Chain with a simple API command specifying the name/address of the Asset you own, and the username/genesis of the recipient:
 
-Running the Nexus Invoice System is as simple as clicking on the icon at the bottom of the wallet screen which was added when the module was installed. The first time the module is run, the Nexus Invoice System is displayed with an empty list of invoices. On subsequent review after creating invoices, this is where they will be listed.
+`assets/transfer/asset name=myasset username=bob`
 
-Before getting into the creation of invoices, it is worth noting that the _More options_ dropdown displayed above reveals additional fields with which invoices can be searched, as shown in the screenshot below. These fields include _Description_, the _Payable_ account, the _Recipient_ identifier (e.g., the username for a SigChain), and a toggle to cause only past due invoices to be displayed.
+Allowing users to store arbitrary data in a blockchain is not a new concept - we've been able to do that since the early days of Bitcoin. What's unique about Nexus' register-based blockchain is that all changes to a register - including changes to the data and to the ownership of it - are captured in the transactions recorded on the blockchain. Not only does this allow us to validate data changes via consensus rules, but it also allows us to view the entire history of changes to the data in a register and its ownership.
 
-To create a new invoice, click the +_New Invoice_ button shown in the above screenshot. The following screen is displayed where details comprising this invoice are entered. These details include _Description_, _Reference_ (typically used to tie an invoice and payment to an accounting ledger item), _Number_ (used to help identify particular invoices), and _Due Date_.
+It becomes an audit log for data, allowing users to see what that data looked like and who owned it at any point in time. That's a hugely powerful concept and opens the door to many use cases where a history of the data is required, e.g. supply chains, postal tracking, land/real estate deeds, certificates of authenticity, art watermarking, wills, etc. Each Asset is owned by a Signature Chain, which is great for situations where there is one single owner of an Asset.
 
-In the _From_ group of fields, the _Account Payable_ information for this invoice is specified, which is used to indicate which account within the sender’s SigChain will receive the funds once paid. In addition, the _Sender Details_ for this invoice can be specified, for instance, to include the human-readable name of the person being paid in this invoice.
+However, what about those use cases where partial ownership is required, for example where a piece of real estate is owned by two or more investors and they want to prove their ownership via a public blockchain? Nexus solves this by allowing an Asset to be tokenized, which means that the ownership of an Asset is transferred to a token rather than a Signature Chain. Once tokenized, any users that hold the tokens in their Signature Chain become partial owners of the Asset, much like owning shares in a company.
 
-The following screenshot shows the dropdown in the _From_ section which lists the accounts to where the funds for this invoice could be paid. Choose one from the list.
+Furthermore, tokenized Assets provide the ability for shared revenue to be automatically distributed in the form of NXS payments to the partial owners of the Asset, based on the percentage of tokens held. This is useful for use cases such as the automatic payment of dividends for Security Token Offerings (STO's), and for the distribution of royalties from revenue earned from an Asset such as a music album.
 
-The next screenshot shows in the _To_ section, the _Recipient_ field is filled out. This field takes the username or hash of the SigChain that will be paying this invoice. Below that, in the _To_ section, _Recipient Details_ could be included such as the human-readable name associated with the paying SigChain (if the hash is being used to identify the SigChain).
+The fee charged for creating Assets depends on the amount of data you are storing. The charge is 0.01 NXS ber byte, with a minimum fee of 1 NXS. This means that the cost of an Asset will be between 1 and 10 NXS depending on how much data it contains.
 
-Further down on the invoice screen, the _Items_ section holds the specific elements being invoiced. In the example shown below, the recipient is being invoiced for laptop upgrade items: memory, an SSD, and labor. For each item, the unit cost in NXS is provided, as is the number of units being invoiced. The module multiplies these to get the _Total_ for each item. It also totals all items to show the _Total_ for this invoice at the bottom right. The total is listed in NXS and the currency configured to be shown in the wallet (in this case USD).
+Currently all registers are limited to a maximum of 1Kb, which is about 1000 characters of text.
 
-Note that the invoice screen has two buttons at the bottom of it: _Submit_ and _Save As Draft_. Next to the _Submit_ button the fee in NXS for submitting the form is displayed.
-
-The following screenshot shows the invoice saved as a draft. Note that at this point, the _Reference_ does not display. However, draft invoices can be displayed by selecting _DRAFT_ from the _Status_ dropdown at the top of the invoice module.
-
-Upon clicking the _Submit_ button to send an invoice to the recipient, the following prompt is presented to enter the PIN for the SigChain from which the invoice is being sent.
-
-After submitting an invoice, it displays in the list of invoices with a _Status_ of OUTSTANDING. Note that this is how the invoice will be displayed to both the sender and receiver.
-
-If the sender wants to cancel the invoice, they should open the invoice and click the _Cancel_ button. A prompt to enter the sender’s SigChain PIN will be presented, and after entering the PIN, the invoice will be marked CANCELLED.
-
-To pay the invoice, the receiver clicks on the invoice in the list of invoices (as displayed above). The following prompt will be displayed.
-
-Clicking the _Pay_ button presents a prompt allowing the payer to choose an account from their SigChain from which the invoice will be paid. The dropdown on this prompt lists all available accounts from which the payer can choose.
-
-After selecting the payment account, the payer clicks the _Pay with this Account_ button to indicate their designation. A confirmation prompt, shown below, is presented to validate the payer’s intention to fulfill this invoice.
-
-As a final confirmation and authentication, when the payer clicks the Yes button (above) to indicate their confirmed intention to fulfill the invoice, they are presented with a prompt to enter their SigChain’s PIN.
-
-Finally, the invoice is marked PAID. The screenshot below depicts what displays in both the sender’s and receiver’s list of invoices in the invoice module.
-
-The following screenshot shows from the receiver’s perspective the transaction resulting from paying the invoice. The screenshot was taken before any blockchain confirmations of the transaction had been applied.
-
-The ensuing screenshot shows both the invoice creation transaction (the lower one with the FEE deducted) and the transaction in which the sender has been paid.
+In order to update data in an Asset, you have to initially create them using a JSON format, as opposed to the basic format shown above. Using the JSON format allows you to specify field type, length, mutability, and an initial value for each data field in the Asset.

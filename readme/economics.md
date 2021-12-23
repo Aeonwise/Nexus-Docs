@@ -1,4 +1,4 @@
-# Decentralized World
+# Economics
 
 ### Economics
 

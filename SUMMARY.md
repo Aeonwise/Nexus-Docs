@@ -3,6 +3,7 @@
 * [Nexus-Docs](README.md)
   * [NEXUS.IO](readme/nexus.io.md)
   * [Decentralized World](readme/decentralized-world.md)
+  * [Signature Chains](readme/signature-chains.md)
   * [Decentralized World](readme/decentralized-world-1.md)
   * [Decentralized World](readme/decentralized-world-2.md)
   * [Decentralized World](readme/decentralized-world-3.md)
@@ -19,6 +20,21 @@
   * [Decentralized World](readme/decentralized-world-14.md)
   * [Decentralized World](readme/decentralized-world-15.md)
   * [Decentralized World](readme/decentralized-world-16.md)
-  * [Decentralized World](readme/decentralized-world-17.md)
-  * [Decentralized World](readme/decentralized-world-18.md)
-  * [Decentralized World](readme/decentralized-world-19.md)
+  * [Economics](readme/economics.md)
+
+## Technology
+
+* [Page 1](technology/page-1.md)
+* [Software Stack](technology/software-stack.md)
+
+## Economics
+
+* [Page 2](economics/page-2.md)
+
+## Guides
+
+* [Page 3](guides/page-3.md)
+
+## Group 1
+
+* [Page 4](group-1/page-4.md)
