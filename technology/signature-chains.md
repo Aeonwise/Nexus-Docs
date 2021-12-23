@@ -4,8 +4,6 @@ description: User Accounts on Nexus
 
 # Signature Chains
 
-### Signature Chains
-
 A major benefit of using cryptocurrencies is the security gained through the use of public key cryptography. Though this is a vast improvement to centralized login systems, this benefit comes with the drawback of key management. In order to manage keys, most cryptocurrency wallets use a database storage file called a ‘wallet.dat’ that keeps a record of all the keys that have been / will be used to access coins.
 
 We believe that the adoption of cryptocurrency and blockchain technology will always be limited if relying on such a model, due to the inconvenience of having to make regular wallet backups, loss or theft of hard drives, and the risk of sending funds to unspendable addresses. These systems are susceptible to human error, boding for the need for complex hardware designed specifically to store private keys securely. Though these devices are a step towards user friendliness, they are still at risk of being lost or stolen, and therefore are not a reliable replacement for authorization systems.

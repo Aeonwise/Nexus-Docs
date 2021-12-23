@@ -1,12 +1,18 @@
-# Decentralized World
+---
+description: Proof-of-stake based on TRUST (Reputation)
+---
 
-### Trust
+# TRUST
 
-A public blockchain is often described as ‘trustless’ as it does not require a ‘trusted’ third party. Ironically, trust is still a factor in trustless systems, with trust derived not from a central system but from decentralized consensus. The cost to attack a decentralized consensus mechanism is directly related to its security. To increase security, Nexus implements reputation as a cost, which is related to how much consistent time a staker contributes resources. A mechanism called ‘Trust’ records past work to create a reputation system, which adds another weighting to the security of the Nexus protocol, and is currently implemented on the Nexus Proof-of-Stake (nPoS) channel, and will be used on each of the layers of the [3DC](broken-reference).
+A public blockchain is often described as ‘trustless’ as it does not require a ‘trusted’ third party. Ironically, trust is still a factor in trustless systems, with trust derived not from a central system but from decentralized consensus.
+
+The cost to attack a decentralized consensus mechanism is directly related to its security. To increase security, Nexus implements reputation as a cost, which is related to how much consistent time a staker contributes resources. A mechanism called ‘Trust’ records past work to create a reputation system, which adds another weighting to the security of the Nexus protocol, and is currently implemented on the Nexus Proof-of-Stake (nPoS) channel, and will be used on each of the layers of the [3DC](broken-reference).
 
 The key to a good reputation system lies in the effort required in gaining a reputation versus the comparative ease of losing it. By coupling an economic incentive with greater Trust, such as higher returns on verification, there is a non-trivial cost incurred by loss of reputation.
 
 A Trust score is defined as the total time a specific user has contributed weight or realtime resources to the network. A Trust score is gradually built over time as one consistently operates a node in an honest, trustworthy, and timely manner to validate transaction data by running a Nexus Wallet on a computer with continuous internet connection (24 hours a day, 7 days a week). In some circumstances, such as when a node goes offline for a significant period of time, the node’s Trust Score will be reduced. Therefore, one has the incentive to operate a node continually and consistently providing security to the Nexus network.
+
+### Nexus Proof-of-Stake
 
 Nexus currently implements a reputation or Trust-based nPOS protocol that maintains random selection inherent in pure Nakamoto consensus, but also overlays a reputation to each validating node. The reputation of a node combined with their stake produces a weight that determines their probability of finding the next block. In order to provide the proper incentives for validators to gain Trust, the rate of return ranges from 0.5% to 3.0%. Trust in our implementation is gained by consistent block production within a three day moving window. If this time is exceeded, the value of Trust decays at a rate of 3x, which means if a node misses one day of staking, it receives a penalty of three days worth of lost Trust. This mechanism forms a basic foundation for the discernment of the quality of nodes.
 
