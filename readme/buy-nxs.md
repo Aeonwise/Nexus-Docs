@@ -1,4 +1,4 @@
-# Decentralized World
+# Buy NXS
 
 ### Buy NXS
 

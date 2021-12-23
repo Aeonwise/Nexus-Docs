@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Nexus-Docs](README.md)
+  * [Nexus Website](https://nexus.io)
   * [NEXUS.IO](readme/nexus.io.md)
   * [Decentralized World](readme/decentralized-world.md)
   * [Signature Chains](readme/signature-chains.md)
@@ -11,13 +12,10 @@
   * [Decentralized World](readme/decentralized-world-5.md)
   * [Decentralized World](readme/decentralized-world-6.md)
   * [Decentralized World](readme/decentralized-world-7.md)
-  * [Decentralized World](readme/decentralized-world-8.md)
-  * [Decentralized World](readme/decentralized-world-9.md)
-  * [Desktop Wallet](readme/desktop-wallet.md)
+  * [DAO](readme/dao.md)
+  * [Buy NXS](readme/buy-nxs.md)
   * [Staking](readme/staking.md)
-  * [Invoice Module Guide](readme/invoice-module-guide.md)
-  * [Decentralized World](readme/decentralized-world-10.md)
-  * [Assets](readme/assets.md)
+  * [Decentralized World](readme/decentralized-world-8.md)
 
 ## Technology
 
@@ -29,10 +27,17 @@
 * [Economics](economics/economics.md)
 * [Page 2](economics/page-2.md)
 
+## GUIDES
+
+* [Page 5](guides/page-5/README.md)
+  * [Desktop Wallet](guides/page-5/desktop-wallet.md)
+  * [Invoice Module Guide](guides/page-5/invoice-module-guide.md)
+
 ## USE-CASES
 
 * [Tokenizing Assets](use-cases/tokenizing-assets.md)
 * [Tokens](use-cases/tokens.md)
+* [Assets](use-cases/assets.md)
 * [Page 3](use-cases/page-3.md)
 
 ## FAQ
