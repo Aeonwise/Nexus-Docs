@@ -1,4 +1,4 @@
-# Decentralized World
+# Tokenizing Assets
 
 ### Tokenizing Assets
 

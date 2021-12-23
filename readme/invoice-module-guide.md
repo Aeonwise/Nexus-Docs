@@ -1,4 +1,4 @@
-# Decentralized World
+# Invoice Module Guide
 
 ### Invoice Module Guide
 

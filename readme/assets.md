@@ -1,4 +1,4 @@
-# Decentralized World
+# Assets
 
 **What is an Asset (NFT)?**
 

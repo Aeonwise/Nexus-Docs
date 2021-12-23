@@ -13,14 +13,11 @@
   * [Decentralized World](readme/decentralized-world-7.md)
   * [Decentralized World](readme/decentralized-world-8.md)
   * [Decentralized World](readme/decentralized-world-9.md)
+  * [Desktop Wallet](readme/desktop-wallet.md)
+  * [Staking](readme/staking.md)
+  * [Invoice Module Guide](readme/invoice-module-guide.md)
   * [Decentralized World](readme/decentralized-world-10.md)
-  * [Decentralized World](readme/decentralized-world-11.md)
-  * [Decentralized World](readme/decentralized-world-12.md)
-  * [Decentralized World](readme/decentralized-world-13.md)
-  * [Decentralized World](readme/decentralized-world-14.md)
-  * [Decentralized World](readme/decentralized-world-15.md)
-  * [Decentralized World](readme/decentralized-world-16.md)
-  * [Economics](readme/economics.md)
+  * [Assets](readme/assets.md)
 
 ## Technology
 
@@ -29,12 +26,15 @@
 
 ## Economics
 
+* [Economics](economics/economics.md)
 * [Page 2](economics/page-2.md)
 
-## Guides
+## USE-CASES
 
-* [Page 3](guides/page-3.md)
+* [Tokenizing Assets](use-cases/tokenizing-assets.md)
+* [Tokens](use-cases/tokens.md)
+* [Page 3](use-cases/page-3.md)
 
-## Group 1
+## FAQ
 
-* [Page 4](group-1/page-4.md)
+* [Page 4](faq/page-4.md)

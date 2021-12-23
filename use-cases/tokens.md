@@ -1,4 +1,4 @@
-# Decentralized World
+# Tokens
 
 **What is a Token?**
 
