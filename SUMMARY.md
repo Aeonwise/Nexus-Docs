@@ -3,24 +3,23 @@
 * [Nexus-Docs](README.md)
   * [Nexus Website](https://nexus.io)
   * [NEXUS.IO](readme/nexus.io.md)
+  * [FAQ](readme/faq.md)
+  * [Roadmap](readme/roadmap.md)
   * [Decentralized World](readme/decentralized-world.md)
-  * [Signature Chains](readme/signature-chains.md)
-  * [Decentralized World](readme/decentralized-world-1.md)
-  * [Decentralized World](readme/decentralized-world-2.md)
-  * [Decentralized World](readme/decentralized-world-3.md)
-  * [Decentralized World](readme/decentralized-world-4.md)
-  * [Decentralized World](readme/decentralized-world-5.md)
-  * [Decentralized World](readme/decentralized-world-6.md)
-  * [Decentralized World](readme/decentralized-world-7.md)
-  * [DAO](readme/dao.md)
   * [Buy NXS](readme/buy-nxs.md)
-  * [Staking](readme/staking.md)
-  * [Decentralized World](readme/decentralized-world-8.md)
+  * [Fees](readme/fees.md)
 
 ## Technology
 
 * [Page 1](technology/page-1.md)
 * [Software Stack](technology/software-stack.md)
+* [Signature Chains](technology/signature-chains.md)
+* [Quantum Resistance](technology/quantum-resistance.md)
+* [TRUST](technology/trust.md)
+* [3 Dimensional Chain](technology/3-dimensional-chain.md)
+* [DAO](technology/dao.md)
+* [LISP](technology/lisp.md)
+* [LX-OS](technology/lx-os.md)
 
 ## Economics
 
@@ -29,6 +28,7 @@
 
 ## GUIDES
 
+* [Staking](guides/staking.md)
 * [Page 5](guides/page-5/README.md)
   * [Desktop Wallet](guides/page-5/desktop-wallet.md)
   * [Invoice Module Guide](guides/page-5/invoice-module-guide.md)
