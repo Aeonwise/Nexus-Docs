@@ -1,13 +1,12 @@
 # Table of contents
 
-* [Nexus-Docs](README.md)
-  * [Nexus Website](https://nexus.io)
+* [Welcome to Nexus Documentation](README.md)
   * [NEXUS.IO](readme/nexus.io.md)
-  * [FAQ](readme/faq.md)
   * [Roadmap](readme/roadmap.md)
   * [Decentralized World](readme/decentralized-world.md)
   * [Buy NXS](readme/buy-nxs.md)
   * [Fees](readme/fees.md)
+* [Nexus Website](https://nexus.io)
 
 ## Technology
 
@@ -42,4 +41,5 @@
 
 ## FAQ
 
+* [FAQ](faq/faq.md)
 * [Page 4](faq/page-4.md)
