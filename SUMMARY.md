@@ -14,10 +14,11 @@
   * [Signature Chains](technology/innovative-technology/signature-chains.md)
   * [Quantum Resistance](technology/innovative-technology/quantum-resistance.md)
   * [TRUST](technology/innovative-technology/trust.md)
-  * [3 Dimensional Chain](technology/innovative-technology/3-dimensional-chain.md)
+  * [3 Dimensional Chain (Future)](technology/innovative-technology/3-dimensional-chain-future.md)
   * [DAO](technology/innovative-technology/dao.md)
   * [LISP](technology/innovative-technology/lisp.md)
-  * [LX-OS](technology/innovative-technology/lx-os.md)
+  * [LX-OS (Future)](technology/innovative-technology/lx-os-future.md)
+  * [Nexus Protocol (Future)](technology/innovative-technology/nexus-protocol-future.md)
 
 ## Economics
 

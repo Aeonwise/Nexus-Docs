@@ -1,6 +1,8 @@
-# 3 Dimensional Chain
+---
+description: 3DC scaling solution for Nexus
+---
 
-### 3 Dimensional Chain
+# 3 Dimensional Chain (Future)
 
 The Three-Dimensional Chain (3DC) is designed to solve the 'Blockchain Trilemma'. It will transform the ledger into a multi-layered processing system, in order to scale securely and with a high degree of decentralization. The Blockchain Trilemma is an opinion that only two of the three qualities, Security, Decentralization and Scalability, are achievable concurrently.
 
