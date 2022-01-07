@@ -1,8 +1,6 @@
 # Invoice Module Guide
 
-### Invoice Module Guide
-
-**What is the Invoice Module?**
+## **What is the Invoice Module?**
 
 The Invoice DApp module is an initial and essential step in the evolution of decentralized finance (DeFi), supply chains and similar blockchain use cases being built on Nexus. We envision the Nexus invoice system to not only streamline payments and reduce the costs of administration within an organization, but across businesses and between industries.
 

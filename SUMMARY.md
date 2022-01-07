@@ -1,12 +1,12 @@
 # Table of contents
 
 * [Welcome to Nexus Documentation](README.md)
+  * [Nexus Website](https://nexus.io)
   * [NEXUS.IO](readme/nexus.io.md)
   * [Roadmap](readme/roadmap.md)
   * [Decentralized World](readme/decentralized-world.md)
   * [Buy NXS](readme/buy-nxs.md)
   * [Fees](readme/fees.md)
-* [Nexus Website](https://nexus.io)
 
 ## Technology
 
@@ -28,9 +28,9 @@
 ## GUIDES
 
 * [Staking](guides/staking.md)
-* [Page 5](guides/page-5/README.md)
-  * [Desktop Wallet](guides/page-5/desktop-wallet.md)
-  * [Invoice Module Guide](guides/page-5/invoice-module-guide.md)
+* [Untitled](guides/untitled/README.md)
+  * [Desktop Wallet](guides/untitled/desktop-wallet.md)
+  * [Invoice Module Guide](guides/untitled/invoice-module-guide.md)
 
 ## USE-CASES
 
@@ -43,3 +43,7 @@
 
 * [FAQ](faq/faq.md)
 * [Page 4](faq/page-4.md)
+
+## Mining
+
+* [Mining on Nexus](mining/mining-on-nexus.md)
