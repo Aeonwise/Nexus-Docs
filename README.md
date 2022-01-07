@@ -15,3 +15,13 @@ Nexus is a community-driven project with the common vision of a world inspired b
 ### Nexus Mission
 
 Our technology is designed to **simplify lives, empower communities, and streamline business**, while embodying the founding principles of Satoshi Nakamoto, the creator of Bitcoin.
+
+### Join Us:
+
+Join our telegram community channel to better understand Nexus, link below:
+
+{% embed url="https://t.me/NexusOfficial" %}
+
+{% hint style="warning" %}
+This is a living document, still a work in progress and after completion will be updated
+{% endhint %}

@@ -1,4 +1,4 @@
-# Decentralized World
+# LX-OS
 
 ### LX-OS
 
@@ -14,13 +14,13 @@ LX-OS is built on the seL4 micro-kernel, which when combined with Nexus, can res
 
 **Monolithic Kernel**
 
-![](../.gitbook/assets/monolithic)
+![](../../.gitbook/assets/monolithic)
 
 Many types of kernels exist, but most consumer operating systems tend toward what is called monolithic kernels. Monolithics use the kernel for all system operations such as memory handling, file operations, drivers, and thread scheduling. This monolithic structure keeps operations quick by not requiring IPC (Inter-Process Communication), however it has limitations such as poor fault tolerance (if a driver crashes, your kernel and thus computer will crash too). The historic _Windows Blue Screen of Death_, experienced in early versions of Windows, highlights the sensitivity of monolithic kernels, as one minor mistake can cause full system failure.
 
 **Microkernel**
 
-![](../.gitbook/assets/microkernel)
+![](../../.gitbook/assets/microkernel)
 
 Microkernels embody a modular design focusing on fault tolerance and footprint minimization. Since a primary goal of kernels is to shield the hardware space, microkernels avoid running unnecessary code in the privileged space when it could be offloaded to the user mode (unprivileged). The increased fault tolerance and modularity can come at the cost of latency, especially in interactions with non-kernel components, but the security and code simplicity helps make up for the loss.
 

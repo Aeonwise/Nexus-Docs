@@ -2,7 +2,7 @@
 
 The Nexus architecture is designed as a seven-layered software stack that includes a 64-bit register-based process virtual machine. Each layer is designated to carry out a specialized process independently of one another, providing additional functionality to the existing Internet stack, the OSI model.
 
-![7 Layer Software Stack](<../.gitbook/assets/stack (1)>)
+![7 Layer Software Stack](<../../.gitbook/assets/stack (1)>)
 
 ## Interface
 
