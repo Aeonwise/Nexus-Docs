@@ -33,7 +33,18 @@ Solo means single or individual mining. It requires the miner to be connected to
 
 Pool mining is like group mining. The miner has to be connected to a third party pool miner, there are open pools also. The miner is directly connect to the pool and the mining rewards are paid to miners depending on the percentage of individual hash rate. There are fees to mine on a pool ans that is deducted from the mining payouts/&#x20;
 
-### Mining Pools For Nexus:&#x20;
+## Mining Pools For Nexus:&#x20;
+
+Prime Pool:
+
+This pool is an open pool run by the Nexus mining developer team. To use this pool copy the below lines in the config
+
+```
+    "wallet_ip" : "154.16.159.126",
+    "port" : 50000,
+```
+
+
 
 As of today you can mine only on two pools for hash mining. The pools are:
 
@@ -63,6 +74,8 @@ Download the windows miner executable file from the link below (Not an installer
 {% embed url="https://github.com/Nexusoft/NexusMiner" %}
 
 Create or copy the miner.conf and place it in the same folder as the NexusMiner executable
+
+{% embed url="https://github.com/Nexusoft/NexusMiner/tree/master/example_configs" %}
 
 {% tabs %}
 {% tab title="Prime Solo" %}
