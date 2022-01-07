@@ -28,6 +28,7 @@
 
 * [Staking](guides/staking/README.md)
   * [Page 1](guides/staking/page-1.md)
+  * [How to Unstake](guides/staking/how-to-unstake.md)
 * [Desktop Wallet](guides/desktop-wallet/README.md)
   * [Introduction](guides/desktop-wallet/introduction.md)
   * [System Requirements](guides/desktop-wallet/system-requirements.md)
