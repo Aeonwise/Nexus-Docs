@@ -35,7 +35,7 @@ Pool mining is like group mining. The miner has to be connected to a third party
 
 ## Mining Pools For Nexus:&#x20;
 
-Prime Pool:
+### Prime Pool:
 
 This pool is an open pool run by the Nexus mining developer team. To use this pool copy the below lines in the config
 
@@ -44,7 +44,7 @@ This pool is an open pool run by the Nexus mining developer team. To use this po
     "port" : 50000,
 ```
 
-
+### Hash Pool:
 
 As of today you can mine only on two pools for hash mining. The pools are:
 
@@ -59,21 +59,19 @@ Nexus miner can use only nvidia graphics cards or FPGA's.  Before you proceed ma
 Do not install the Nvidia content creator drivers, the miner will not work properly
 {% endhint %}
 
-## Miner Configuration:&#x20;
-
-The miner configuration is the most critical part and uses JSON. This guide will provide a few miner configs which you can download and configure to suit your system. Each GPU will be configured as a separate worker. Each core on the CPU will be configured as a worker.
-
-Links to sample config files: Solo prime miner with CPU Solo prime Miner with GPU Solo prime Miner with CPU+GPU Solo hash Miner with CPU - for testnet only Solo hash Miner with GPU/FPGA Pool hash Miner with GPU/FPGA
-
-Solo MIning Prime or Hash:
-
-## Setup the Miner:
+## Download the Miner:
 
 Download the windows miner executable file from the link below (Not an installer)
 
 {% embed url="https://github.com/Nexusoft/NexusMiner" %}
 
 Create or copy the miner.conf and place it in the same folder as the NexusMiner executable
+
+## Miner Configuration:&#x20;
+
+The miner configuration is the most critical part and uses JSON.&#x20;
+
+This guide will provide a few miner configs which you can download and configure to suit your system. Each GPU will be configured as a separate worker. Each core on the CPU will be configured as a worker.
 
 {% embed url="https://github.com/Nexusoft/NexusMiner/tree/master/example_configs" %}
 
@@ -107,7 +105,7 @@ Create or copy the miner.conf and place it in the same folder as the NexusMiner 
 
 ### Nexus Interface:
 
-Download and install the wallet.
+Download and install the Nexus Interface wallet.
 
 Start the wallet.&#x20;
 
