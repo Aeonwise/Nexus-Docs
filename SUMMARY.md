@@ -27,7 +27,10 @@
 ## GUIDES
 
 * [Staking](guides/staking/README.md)
+  * [Staking Attributes](guides/staking/staking-attributes.md)
   * [Page 1](guides/staking/page-1.md)
+  * [Minimum Staking Amount](guides/staking/minimum-staking-amount.md)
+  * [Staking Settings](guides/staking/staking-settings.md)
   * [How to Unstake](guides/staking/how-to-unstake.md)
 * [Desktop Wallet](guides/desktop-wallet/README.md)
   * [Introduction](guides/desktop-wallet/introduction.md)

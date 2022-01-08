@@ -1,8 +1,6 @@
 # Staking
 
-### Staking
-
-**Before You Consider Staking on Nexus**
+## **Before You Consider Staking on Nexus**
 
 * Staking on Nexus requires commitment to adequately secure the network and receive the highest possible incentive percentage. Your wallet must remain online 365/24/7.
 * Staking on Nexus is based on incentivization and if the node becomes unavailable to the network, the incentives halt immediately. Stake rate and trust also decay with time at a 3:1 ratio (A year of trust decays fully in 4 months, however trust is accumulated beyond 100% so decay timeline can be extended).
@@ -12,7 +10,11 @@
 * The Staking computation requirements may change with time as adoption accelerates.
 * The Nexus wallets, infrastructure and frameworks will be continuously evolving so maintaining updated software is crucial, especially during hard forks. Please join our social media channels to keep abreast of ongoing developments.
 
-**Additional Staking Resources**
+{% hint style="info" %}
+Staking on Nexus is similar to running a full node
+{% endhint %}
+
+### **Additional Staking Resources**
 
 In addition to the thorough guide below, we encourage readers to take a look in the video tutorials folder below and at the following links:
 
