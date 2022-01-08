@@ -1,6 +1,10 @@
+---
+description: Follow these steps to unstake NXS
+---
+
 # How to Unstake
 
-## How to Unstake Properly
+### How to Unstake Properly:
 
 {% hint style="danger" %}
 **Note:** _Stop Staking_ is not the same as unstaking NXS. Staked coins are locked in a trust account and will not be available until properly unstaked.
