@@ -1,14 +1,14 @@
 # Assets
 
-**What is an Asset (NFT)?**
+### **What is an Asset (NFT)?**
 
 Assets are non-fungible tokens (NFTs), meaning they are non-divisible. In its simplest form, an Asset is nothing more than arbitrary data stored on the Nexus blockchain in a state register. You as the user can decide what data is stored in that Asset, and depending on the way the Asset is created, whether or not the data in the Asset can ever be changed (is mutable / immutable). Think of it like writing on a piece of paper. You can choose to write what you want on that piece of paper. If you write it in ink then it is permanent. If you write some of it in pencil, then you can erase it and change it to something else.
 
-**What is a State Register?**
+### **What is a State Register?**
 
 The Nexus architecture uses state registers for storing many different types of data including Accounts, Tokens, Names, and Assets. A state register sounds fancy, but it is really just a space where information can be stored. With the Nexus API, you can make special kinds of transactions to create these registers or update / append to the data in them. When the data in a register changes, it is said that the register is 'changing state' from what it was previously to what you are now changing it to - hence the name state register. Every register on the Nexus blockchain has two main properties: An address (referred to as a register address) which is used to determine the location of the data in the register database, and an owner, which is the genesis hash of the Signature Chain that currently owns the register.
 
-**How do I create an Asset?**
+### **How do I create an Asset?**
 
 The Nexus API provides a straightforward and intuitive interface for users to create, update, and transfer Assets. To create a basic Asset you can use the Wallet console or Nexus command line interface (CLI) and issue a simple command:
 
@@ -26,7 +26,7 @@ The following example shows how an Asset might be used to store the title deeds 
 `certificate-url=http://www.property.com/deeds/494563494.pdf`\
 `certificate-md5-hash=67ac5a9362efdef5a52e5438c4ad7bda`
 
-**How do I transfer an Asset?**
+### **How do I transfer an Asset?**
 
 You can transfer ownership of an Asset to another Signature Chain with a simple API command specifying the name/address of the Asset you own, and the username/genesis of the recipient:
 
