@@ -27,8 +27,8 @@
 ## GUIDES
 
 * [Staking](guides/staking/README.md)
-  * [Staking Requirements](guides/staking/staking-requirements.md)
-  * [🛑 Understand Nexus Staking](guides/staking/understand-nexus-staking.md)
+  * [🛑 Staking Disclaimer](guides/staking/staking-disclaimer.md)
+  * [Staking Requirements](guides/staking/page-1.md)
   * [Minimum Staking Amount](guides/staking/minimum-staking-amount.md)
   * [Staking Attributes](guides/staking/staking-attributes.md)
   * [Staking Settings](guides/staking/staking-settings.md)

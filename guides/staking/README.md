@@ -1,21 +1,16 @@
+---
+description: nPoS - Staking Based on TRUST and Reputation
+---
+
 # Staking
 
-## ****
+## Disclaimer
 
-{% hint style="info" %}
-Staking on Nexus is similar to running a full node
-{% endhint %}
+Before we start to understand staking on Nexus, Please go through the disclaimer first and do not skip this.
 
-### **Additional Staking Resources**
-
-In addition to the thorough guide below, we encourage readers to take a look in the video tutorials folder below and at the following links:
-
-* The Staking section of our FAQs.
-* The Glossary to learn more about staking specific terms.
-
-The videos below are brought to you by [The Digital Future!](https://www.youtube.com/channel/UC1lMk6jKYv4lg6gs1oS\_OYw)
-
-An introduction to Nexus Staking:
+{% content-ref url="staking-disclaimer.md" %}
+[staking-disclaimer.md](staking-disclaimer.md)
+{% endcontent-ref %}
 
 This guide is intended to demystify trust-based staking and provide clarification on Nexus’ specific centralization safeguards. The significance of this consensus power shift to staking cannot be overemphasized, especially considering the vulnerable state of governance with emerging decentralized ecosystems.
 
@@ -32,3 +27,19 @@ Nexus has a total of 78 million native coins and these will be mined fully in 20
 Nexus provides desktop wallets for windows, mac and Linux. The mobile wallet (lite node only) is currently in public beta and will be released in Q1 of 2021. As of today, Nexus only supports full-node staking, although the next major upgrade will also include pooled staking using a lite node with a minimum balance of 1 NXS.
 
 Nexus staked holdings will also be valuable for voting in the upcoming DAO, where trust will be an crucial factor. Voting will supply weight/age values to trust and amount of staked NXS, providing considerable resistance against manipulation and bad actor influences.. Note: In the previous election conducted for Nexus embassy allocation, the amount of nxs for each vote was capped at 10K nxs + trust weight. This is currently not hard coded, but will be implemented in the upcoming DAO release. The threshold variables can be changed as per the requirement and also can be voted on by the community.
+
+{% hint style="info" %}
+Staking on Nexus is similar to running a full node
+{% endhint %}
+
+### **Additional Staking Resources**
+
+In addition to the thorough guide below, we encourage readers to take a look in the video tutorials:
+
+* The Staking section of our FAQs.
+* The Glossary to learn more about staking specific terms.
+
+The videos below are brought to you by [The Digital Future!](https://www.youtube.com/channel/UC1lMk6jKYv4lg6gs1oS\_OYw)
+
+An introduction to Nexus Staking:
+
