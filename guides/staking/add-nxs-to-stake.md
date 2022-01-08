@@ -1,8 +1,8 @@
 ---
-description: How to add more NXS for staking
+description: How to add NXS for staking
 ---
 
-# Add More NXS to Stake
+# Add NXS to Stake
 
 To add more NXS to stake, send the additional NXS to the trust account.
 

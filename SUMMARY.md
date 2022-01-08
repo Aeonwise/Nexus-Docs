@@ -33,7 +33,7 @@
   * [Staking Attributes](guides/staking/staking-attributes.md)
   * [Staking Settings](guides/staking/staking-settings.md)
   * [Start Staking](guides/staking/start-staking.md)
-  * [Add More NXS to Stake](guides/staking/add-more-nxs-to-stake.md)
+  * [Add NXS to Stake](guides/staking/add-nxs-to-stake.md)
   * [How to Unstake](guides/staking/how-to-unstake.md)
 * [Desktop Wallet](guides/desktop-wallet/README.md)
   * [Introduction](guides/desktop-wallet/introduction.md)

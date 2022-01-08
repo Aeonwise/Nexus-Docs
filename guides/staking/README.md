@@ -4,13 +4,7 @@ description: nPoS - Staking Based on TRUST and Reputation
 
 # Staking
 
-## Disclaimer
-
-Before we start to understand staking on Nexus, Please go through the disclaimer first and do not skip this.
-
-{% content-ref url="staking-disclaimer.md" %}
-[staking-disclaimer.md](staking-disclaimer.md)
-{% endcontent-ref %}
+## **Introduction to Staking**
 
 This guide is intended to demystify trust-based staking and provide clarification on Nexus’ specific centralization safeguards. The significance of this consensus power shift to staking cannot be overemphasized, especially considering the vulnerable state of governance with emerging decentralized ecosystems.
 
@@ -31,6 +25,14 @@ Nexus staked holdings will also be valuable for voting in the upcoming DAO, wher
 {% hint style="info" %}
 Staking on Nexus is similar to running a full node
 {% endhint %}
+
+## Disclaimer
+
+Before we start to understand staking on Nexus, Please go through the disclaimer first and do not skip this.
+
+{% content-ref url="staking-disclaimer.md" %}
+[staking-disclaimer.md](staking-disclaimer.md)
+{% endcontent-ref %}
 
 ### **Additional Staking Resources**
 
