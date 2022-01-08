@@ -40,7 +40,10 @@
   * [Licence](guides/desktop-wallet/licence.md)
   * [System Requirements](guides/desktop-wallet/system-requirements.md)
   * [Verify Installer](guides/desktop-wallet/verify-installer.md)
-* [Page 1](guides/page-1.md)
+  * [Bootstrap](guides/desktop-wallet/bootstrap.md)
+* [Wallet Modules](guides/wallet-modules/README.md)
+  * [Page 1](guides/wallet-modules/page-1.md)
+  * [User](guides/wallet-modules/user.md)
 * [Invoice Module Guide](guides/invoice-module-guide.md)
 * [Mobile Wallet](guides/mobile-wallet.md)
 
