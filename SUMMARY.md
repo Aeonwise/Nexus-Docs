@@ -54,8 +54,9 @@
   * [Set Recovery Phrase](guides/wallet-functions/set-recovery-phrase.md)
   * [Receive NXS](guides/wallet-functions/receive-nxs.md)
   * [Receive Tokens](guides/wallet-functions/receive-tokens.md)
-  * [Page 1](guides/wallet-functions/page-1.md)
-  * [Page 2](guides/wallet-functions/page-2.md)
+  * [Tokens](guides/wallet-functions/tokens.md)
+  * [Create an Account](guides/wallet-functions/create-an-account.md)
+  * [Staking](guides/wallet-functions/staking.md)
 * [Invoice Module Guide](guides/invoice-module-guide.md)
 * [Mobile Wallet](guides/mobile-wallet.md)
 
