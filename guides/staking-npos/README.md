@@ -2,7 +2,7 @@
 description: nPoS - Staking Based on TRUST and Reputation
 ---
 
-# Staking
+# Staking (nPoS)
 
 ## **Introduction to Staking**
 
@@ -28,20 +28,9 @@ Staking on Nexus is similar to running a full node
 
 ## Disclaimer
 
-Before we start to understand staking on Nexus, Please go through the disclaimer first and do not skip this.
+Before we proceed further, Please go through the disclaimer first and do not skip this.
 
 {% content-ref url="staking-disclaimer.md" %}
 [staking-disclaimer.md](staking-disclaimer.md)
 {% endcontent-ref %}
-
-### **Additional Staking Resources**
-
-In addition to the thorough guide below, we encourage readers to take a look in the video tutorials:
-
-* The Staking section of our FAQs.
-* The Glossary to learn more about staking specific terms.
-
-The videos below are brought to you by [The Digital Future!](https://www.youtube.com/channel/UC1lMk6jKYv4lg6gs1oS\_OYw)
-
-An introduction to Nexus Staking:
 
