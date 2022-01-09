@@ -1,3 +1,8 @@
 # Staking
 
-To learn about staking, please view our [Staking guide](https://nexus.io/ResourceHub/staking-guide).
+To learn about staking, please view our staking guide linked below
+
+{% content-ref url="staking.md" %}
+[staking.md](staking.md)
+{% endcontent-ref %}
+
