@@ -10,3 +10,8 @@ The minimum threshold varies every few minutes as staking difficulty changes. Th
 * When the node starts staking, trust is minimal. For example, 20K NXS is sent to a trust account, after the coin matures for 72 hours, it takes a few days to generate a genesis which is your first stake transaction that locks your NXS in the trust account.
 * The node may not be able to stake the next block before 72 hours (Block Weight = 100%). Don’t be alarmed, continue staking and over time the duration between new stake blocks decreases, and a block may be found within the 72 hour deadline.
 * Remain persistent, continue staking at least for 3 months, before you decide to quit (if you wait longer your chances increase). In the meantime the stake amount can be increased.
+
+{% hint style="warning" %}
+If planning to stake all the NXS balance, understand that when unstaking a part of NXS from stake there will be a penalty on trust and stake rate. \
+If a user is staking 50,000 NXS, after a year he reaches 3% stake rate and he unstakes 50% ie 25,000 NXS the stake rate will drop to 1.5% immediately as the stake adjustment is confirmed.
+{% endhint %}
