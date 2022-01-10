@@ -79,3 +79,7 @@
 * [Consensus on Nexus](mining/consensus-on-nexus.md)
 * [Mining on Windows](mining/mining-on-windows.md)
 * [Mining on Linux](mining/mining-on-linux.md)
+
+## TERMINOLOGY
+
+* [Page 1](terminology/page-1.md)
