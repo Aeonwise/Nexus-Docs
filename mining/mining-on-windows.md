@@ -33,7 +33,7 @@ Pool mining is like group mining. The miner has to be connected to a third party
 
 ### Prime Pool:
 
-This pool is an open pool run by the Nexus mining developer team. To use this pool copy the below lines in the config
+Only one prime pool available, an open pool run by the Nexus mining developer team. To use this pool copy the below lines in the config
 
 ```
     "wallet_ip" : "154.16.159.126",
@@ -42,7 +42,7 @@ This pool is an open pool run by the Nexus mining developer team. To use this po
 
 ### Hash Pool:
 
-As of today you can mine only on two pools for hash mining. The pools are:
+For hash mining use the third party pools listed below:
 
 * https://hashpool.com/&#x20;
 * https://pool.blackminer.com/
@@ -53,17 +53,17 @@ Nexus miner can use only nvidia graphics cards or FPGA's.  Before you proceed ma
 
 ## Mining Hardware:
 
-The NexusMiner can use CPU, GPU and FPGA for mining, CPU mining is not recommended as it will not be efficient. Please refer to the&#x20;
+The NexusMiner can use CPU, GPU for Prime and FPGA for Hash mining. CPU mining is not recommended as it is not efficient.
 
 Mining Calculator:
 
 To get a better understanding of the mining efficiencies of different hardware, use the mining calculator linked below:
 
 {% embed url="http://154.16.159.126/mining_calc" %}
+**Nexus Mining Calculator**
+{% endembed %}
 
-&#x20;
-
-### GPU:
+&#x20;GPU:
 
 If using GPU mining, then the only choice today is CUDA cores from Nvidia and to get the best out of the graphics cores we highly recommend to use the latest graphics drivers and MSI afterburner.&#x20;
 
@@ -71,7 +71,9 @@ If using GPU mining, then the only choice today is CUDA cores from Nvidia and to
 Do not install the Nvidia content creator drivers, the miner will not work properly
 {% endhint %}
 
-### FPGA
+### FPGA:
+
+FPGA miners for Nexus are only available from Blackminer
 
 ## Download the Miner:
 
@@ -89,32 +91,160 @@ Create or copy the miner.conf and place it in the same folder as the NexusMiner 
 
 The miner configuration is the most critical part and uses JSON.&#x20;
 
-This guide will provide a few miner configs which you can download and configure to suit your system. Each GPU will be configured as a separate worker. Each core on the CPU will be configured as a worker.
+This guide will provide a few miner configs which you can download and configure to suit your system. Each GPU will be configured as a separate worker. (Each core on the CPU will be configured as a worker - Used for solo mining on testnet)
 
 {% embed url="https://github.com/Nexusoft/NexusMiner/tree/master/example_configs" %}
 
-{% tabs %}
-{% tab title="Prime Solo" %}
-```
-// Some code
-```
-{% endtab %}
+Find below the JSON config files. Copy, paste and change the settings as per setup. Remember that each GPU or FPGA has to be configured as a unique worker. Also make sure the "_wallet\_ip"  "port", "local\_ip", "mining\_mode" and "pool" details are correct._
 
+{% tabs %}
 {% tab title="Prime Pool" %}
 ```
-// Some code
+{
+    "version" : 1,
+    "wallet_ip" : "154.16.159.126",
+    "port" : 50000,
+    "local_ip" : "auto",
+    "mining_mode" : "PRIME",
+    "pool" :
+    {
+        "username" : "<INSERT_HERE NXS ADDRESS>",
+        "display_name" : "<INSERT HERE>"
+    },
+    "stats_printers" :
+    [
+        {
+            "stats_printer" :
+            {
+                "mode" : "console"
+            }
+        }
+    ],
+    "workers" : 
+    [
+        {
+            "worker" :
+            {
+                "id" : "myWorker0",
+                "mode" : 
+                {
+                    "hardware" : "gpu",
+					"device" : 0
+                }
+            }
+        }
+    ]
+}
 ```
 {% endtab %}
 
 {% tab title="Hash Solo" %}
 ```
-// Some code
+{
+    "version" : 1,
+    "wallet_ip" : "127.0.0.1",
+    "port" : 9325,
+    "local_ip" : "127.0.0.1",
+    "mining_mode" : "HASH",
+    "connection_retry_interval" : 5,
+    "get_height_interval" : 2,
+    "ping_interval" : 10,
+    "log_level" : 2,
+    "logfile" : "miner.log",
+    "stats_printers" :
+    [
+        {
+            "stats_printer" :
+            {
+                "mode" : "console"
+            }
+        },
+        {
+            "stats_printer" :
+            {
+                "mode" : "file",
+                "filename" : "stats.log"
+            }
+        }
+    ],
+    "print_statistics_interval" : 10,
+    "workers" : 
+    [
+        {
+            "worker" :
+            {
+                "id" : "myWorker0",
+                "mode" : 
+                {
+                    "hardware" : "gpu",
+                    "device" : 0
+                }
+            }
+        },
+        {
+            "worker" :
+            {
+                "id" : "myWorker1",
+                "mode" : 
+                {
+                    "hardware" : "gpu",
+                    "device" : 1
+                }
+            }
+        },
+        {
+            "worker" :
+            {
+                "id" : "myWorker2",
+                "mode" : 
+                {
+                    "hardware" : "gpu",
+                    "device" : 2
+                }
+            }
+        } 
+    ]
+}
 ```
 {% endtab %}
 
 {% tab title="Hash Pool" %}
 ```
-// Some code
+{
+    "version" : 1,
+    "wallet_ip" : "nxs.pool.blackminer.com",
+    "port" : 9012,
+    "local_ip" : "auto",
+    "mining_mode" : "HASH",
+    "pool" :
+    {
+        "username" : "<INSERT_HERE NXS ADDRESS>",
+        "use_deprecated" : true
+    },
+    "stats_printers" :
+    [
+        {
+            "stats_printer" :
+            {
+                "mode" : "console"
+            }
+        }
+    ],
+    "workers" : 
+    [
+        {
+            "worker" :
+            {
+                "id" : "myWorker0",
+                "mode" : 
+                {
+                    "hardware" : "fpga",
+					"serial_port" : "<INSERT HERE>"
+                }
+            }
+        }
+    ]
+}
 ```
 {% endtab %}
 {% endtabs %}
@@ -123,15 +253,17 @@ This guide will provide a few miner configs which you can download and configure
 
 ### Nexus Interface:
 
-Download and install the Nexus Interface wallet.
+Download and install the Nexus Interface wallet or setup the running the CLI core.&#x20;
 
 Start the wallet.&#x20;
+
+### Nexus Interface:
 
 Go to settings > Core > Enable mining by clicking on the toggle button next to it.&#x20;
 
 Now you see an additional field below Mining IP Whitelist. Enter the  `<ipaddress:port>` of the miner. If mining on the same computer then enter `127.0.0.1:9325`,  if the miner is running on another computer or FPGA then enter the particular `ipaddress:9325`. If there are more than one miner then use ‘; ’to separate the IP addresses. Wildcards ‘_’ are supported for IP addresses only ex:192.168._.\*:9325.
 
-### Wallet Daemon or CLI
+### Wallet Daemon or CLI:
 
 If using the wallet core then add a line `llpallowip=<ipaddress:port>` in the nexus.config for each miner. Use 127.0.0.1:9325 for mining on the same computer or the ipaddress:9325 for a separate miner.
 
