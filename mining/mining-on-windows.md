@@ -27,7 +27,7 @@ Solo means single or individual mining. It requires the miner to be connected to
 
 ### Pool Mining
 
-Pool mining is like group mining. The miner has to be connected to a third party pool miner, there are open pools also. The miner is directly connect to the pool and the mining rewards are paid to miners depending on the percentage of individual hash rate. There are fees to mine on a pool ans that is deducted from the mining payouts/&#x20;
+Pool mining is similar to group mining. The miner has to be connected to a mining pool. The miner is directly connect to the pool and the mining rewards are paid to miners depending on the percentage of individual hash rate. There are fees to mine on a pool and that is deducted from the mining payouts.&#x20;
 
 ## Mining Pools For Nexus:&#x20;
 
@@ -91,7 +91,7 @@ Create or copy the miner.conf and place it in the same folder as the NexusMiner 
 
 The miner configuration is the most critical part and uses JSON.&#x20;
 
-This guide will provide a few miner configs which you can download and configure to suit your system. Each GPU will be configured as a separate worker. (Each core on the CPU will be configured as a worker - Used for solo mining on testnet)
+We provide a few standard mining configs, download and configure to suit the setup. Each GPU or FPGA will be configured as a separate worker. (Each core on the CPU will be configured as a worker - Used for solo mining on testnet). Download the configs from the links below
 
 {% embed url="https://github.com/Nexusoft/NexusMiner/tree/master/example_configs" %}
 
@@ -253,9 +253,13 @@ Find below the JSON config files. Copy, paste and change the settings as per set
 
 ### Nexus Interface:
 
-Download and install the Nexus Interface wallet or setup the running the CLI core.&#x20;
+Download and install the Nexus Interface wallet or setup the CLI core.&#x20;
 
-Start the wallet.&#x20;
+Start the wallet, create the user, login and unlock the wallet for mining and notifications.
+
+{% hint style="info" %}
+For the miner to work the user has to be logged in and unlocked for mining
+{% endhint %}
 
 ### Nexus Interface:
 
