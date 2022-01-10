@@ -63,7 +63,7 @@ To get a better understanding of the mining efficiencies of different hardware, 
 **Nexus Mining Calculator**
 {% endembed %}
 
-&#x20;GPU:
+### &#x20;GPU:
 
 If using GPU mining, then the only choice today is CUDA cores from Nvidia and to get the best out of the graphics cores we highly recommend to use the latest graphics drivers and MSI afterburner.&#x20;
 
@@ -89,13 +89,19 @@ Create or copy the miner.conf and place it in the same folder as the NexusMiner 
 
 ## Miner Configuration:&#x20;
 
-The miner configuration is the most critical part and uses JSON.&#x20;
+The miner configuration is the most critical part and uses the JSON format.&#x20;
+
+{% hint style="info" %}
+**NOTE:** Make sure the NexusMiner executable and the miner config are in the same folder
+{% endhint %}
 
 We provide a few standard mining configs, download and configure to suit the setup. Each GPU or FPGA will be configured as a separate worker. (Each core on the CPU will be configured as a worker - Used for solo mining on testnet). Download the configs from the links below
 
 {% embed url="https://github.com/Nexusoft/NexusMiner/tree/master/example_configs" %}
 
 Find below the JSON config files. Copy, paste and change the settings as per setup. Remember that each GPU or FPGA has to be configured as a unique worker. Also make sure the "_wallet\_ip"  "port", "local\_ip", "mining\_mode" and "pool" details are correct._
+
+For pool mining the _N_exus payout address will be the identifier to the pool and the block reward payout will be done to the same address. Most pool's have a minimum reward amount to be collected before payout.
 
 {% tabs %}
 {% tab title="Prime Pool" %}
@@ -257,10 +263,6 @@ Download and install the Nexus Interface wallet or setup the CLI core.&#x20;
 
 Start the wallet, create the user, login and unlock the wallet for mining and notifications.
 
-{% hint style="info" %}
-For the miner to work the user has to be logged in and unlocked for mining
-{% endhint %}
-
 ### Nexus Interface:
 
 Go to settings > Core > Enable mining by clicking on the toggle button next to it.&#x20;
@@ -277,35 +279,9 @@ In the wallet log in to the user account used for mining.
 
 Go to the folder where the NexusMiner executable and miner.conf are located, double click on the NexusMiner executable. A confirmation window will pop up, click run and the miner will start in a terminal.
 
-Pool MIning Hash:
+{% hint style="info" %}
+**NOTE:** For the miner to work the user has to be logged in and unlocked for mining and notifications
+{% endhint %}
 
-Download the windows miner from the link below (Not an installer)
 
-https://github.com/Nexusoft/NexusMiner
 
-Create the miner.conf and place it in the same folder as the NexusMiner executable
-
-Copy the below code in the miner.conf file and change the required fields to suit your configuration. In the configuration “wallet\_ip” is the pool DNS, port is the pool port and “local\_ip” is the local IP address and not the public IP address of the miner. Make sure to enter your Nexus wallet address to receive pool payouts in the pool username field. Save the file and if using notepad make sure it does not suffix it with the .txt extension.
-
-{ "wallet\_ip" : "nxs.stratum.hashpool.com", "port" : 9012, "local\_ip" : "192.168.1.118", "mining\_mode" : "HASH", "connection\_retry\_interval" : 5, "get\_height\_interval" : 2, "use\_pool" : true, "pool" : { "username" : "Nexus address to receive payouts" }, "logfile" : "miner.log", "stats\_printers" : \[ { "stats\_printer" : { "mode" : "console" } }, { "stats\_printer" : { "mode" : "file", "filename" : "stats.log" } } ], "print\_statistics\_interval" : 10, "workers" : \[
-
-```
-    {
-        "worker" :
-        {
-            "id" : "hash1",
-            "mode" : 
-            {
-                "hardware" : "gpu",
-				"device" : 0
-            }
-        }
-    }
-]
-```
-
-} This is a sample config file
-
-The nexus payout address will be the identifier to the pool and the block reward payout will be done to the same address. Most pool's have a minimum reward amount to be collected before payout.
-
-Go to the folder where the NexusMiner executable and miner.conf are located, double click on the NexusMiner executable. A confirmation window will pop up, click run and the miner will start in a terminal.
