@@ -1,8 +1,8 @@
 ---
-description: Introduction to the Desktop Wallet
+description: Introduction to the Desktop Interface
 ---
 
-# Desktop Wallet
+# Desktop Interface
 
 ## **Introduction**
 
