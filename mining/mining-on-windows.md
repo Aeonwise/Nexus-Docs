@@ -4,11 +4,7 @@ description: Guide to setup mining on windows
 
 # Mining on Windows
 
-This guide will help to set up mining on Windows. The new nexus miner makes it very easy to mine on Windows. Nexus does not have its one mining pool as of now and developers are working on building an open pool.
-
-{% hint style="warning" %}
-The miner cannot run prime and hash at the same time on a single computer
-{% endhint %}
+This guide will help to set up mining on Windows. The new NexusMiner makes it very easy to mine on Windows. Nexus has its own open prime mining pool and the developers are working on furthur decentralizing mining.
 
 ### Mining Support:
 
@@ -55,13 +51,35 @@ As of today you can mine only on two pools for hash mining. The pools are:
 
 Nexus miner can use only nvidia graphics cards or FPGA's.  Before you proceed make sure to update the graphics card driver to the latest nvidia gaming drivers. (Do not install the content creator drivers)
 
+## Mining Hardware:
+
+The NexusMiner can use CPU, GPU and FPGA for mining, CPU mining is not recommended as it will not be efficient. Please refer to the&#x20;
+
+Mining Calculator:
+
+To get a better understanding of the mining efficiencies of different hardware, use the mining calculator linked below:
+
+{% embed url="http://154.16.159.126/mining_calc" %}
+
+&#x20;
+
+### GPU:
+
+If using GPU mining, then the only choice today is CUDA cores from Nvidia and to get the best out of the graphics cores we highly recommend to use the latest graphics drivers and MSI afterburner.&#x20;
+
 {% hint style="warning" %}
 Do not install the Nvidia content creator drivers, the miner will not work properly
 {% endhint %}
 
+### FPGA
+
 ## Download the Miner:
 
 Download the windows miner executable file from the link below (Not an installer)
+
+{% hint style="warning" %}
+The miner cannot run prime and hash at the same time on a single computer
+{% endhint %}
 
 {% embed url="https://github.com/Nexusoft/NexusMiner" %}
 
