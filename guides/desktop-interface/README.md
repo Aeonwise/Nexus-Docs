@@ -6,7 +6,7 @@ description: Introduction to the Desktop Interface
 
 ## **Introduction**
 
-Nexus Tritium wallet is the official desktop wallet to store and transact NXS coins and tokens on the Nexus blockchain. NXS is not compatible with any other third-party wallet or hardware wallets due to the disparate architecture that manages keys and assets on-chain, resembling cloud services, along with increased security standards compared to other blockchains (512 bit keys compared to 256 bit keys).
+Nexus Interface is the official desktop wallet to store and transact NXS coins and tokens on the Nexus blockchain. NXS is not compatible with any other third-party wallet or hardware wallets due to the disparate architecture that manages keys and assets on-chain, resembling cloud services, along with increased security standards compared to other blockchains (512 bit keys compared to 256 bit keys).
 
 The Tritium wallet has been designed to be modular. It consists of the core and the interface. For normal users Interface and core are embedded for ease of use. Advanced users can run the core as a daemon on servers or headless machines and can be accessed using a remote interface or via API’s. The wallet empowers the holder to carry out a lot of functions and additional features can be enabled by the use of modules / dapps in a safe sandboxed environment.
 
