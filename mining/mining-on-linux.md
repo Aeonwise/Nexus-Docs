@@ -1,12 +1,10 @@
 # Mining on Linux
 
+Mining on Linux is not straightforward like windows and the user has to compile the NexusMiner from source. This guide will help you setup mining on Linux. This guide is tailored for Ubuntu
 
-
-Compile the Miner:&#x20;
+## Compile the Miner:&#x20;
 
 Install the dependencies (Only required if installing miner on a separate computer)
-
-
 
 ```
 sudo apt install build-essential libboost-all-dev libdb-dev libdb++-dev libssl-dev libminiupnpc-dev libgmp-dev -y 
@@ -60,8 +58,6 @@ Change into the folder where the file is downloaded
 cd Downloads
 ```
 
-
-
 Run the installer
 
 &#x20;./\<cmakefilename.sh>
@@ -82,53 +78,39 @@ Run cmake. is the path to the NexusMiner folder and is the path to NexusMiner/bu
 ./cmake -S <pathtosource> -B <pathtobuildfolder> -DCMAKE_BUILD_TYPE=Release
 ```
 
-cmake building the prebuilt make binaries To change into the prebuilt binaries folder cd \~/NexusMiner/build To compile use: make
-
-NexusMiner compiling This will create the NexusMiner executable. 5. Configuring the Miner: For the proper functioning of the miner, it needs to be configured; create a configuration file named miner.conf in the same folder as the executable. cd NexusMiner/build Create the miner.conf file nano miner.conf Copy the miner configuration given below to the file, it uses the JSON format. Change the settings as per needs. Testnet mining will use the port 8325 as default. This config uses four workers, for a testnet just one worker can get the job done. { "wallet\_ip" : "127.0.0.1", "port" : 8325, "local\_ip" : "127.0.0.1", "mining\_mode" : "HASH", "connection\_retry\_interval" : 5, "get\_height\_interval" : 2, "use\_pool" : false, "pool" : { "username" : "Nexus\_payout\_address\_for\_pool\_mining\_only" }, "logfile" : "miner.log", "stats\_printers" : \[ { "stats\_printer" : { "mode" : "console" } }, { "stats\_printer" : { "mode" : "file", "filename" : "stats.log" } } ], "print\_statistics\_interval" : 10, "workers" : \[
+cmake building the prebuilt make binaries To change into the prebuilt binaries folder&#x20;
 
 ```
-    {
-        "worker1" :
-        {
-            "id" : "cpu1",
-            "mode" : 
-            {
-                "hardware" : "cpu"
-            }
-        },
-		"worker2" :
-        {
-            "id" : "cpu2",
-            "mode" : 
-            {
-                "hardware" : "cpu"
-            }
-        },
-		"worker3" :
-        {
-            "id" : "cpu3",
-            "mode" : 
-            {
-                "hardware" : "cpu"
-            }
-        },
-		"worker4" :
-        {
-            "id" : "cpu4",
-            "mode" : 
-            {
-                "hardware" : "cpu"
-            }
-        }
-    }
-]
+cd ~/NexusMiner/build 
 ```
 
-}
+To compile use:&#x20;
+
+```
+make
+```
+
+
+
+NexusMiner compiling This will create the NexusMiner executable.&#x20;
+
+
+
+## Configuring the Miner:&#x20;
+
+For the proper functioning of the miner, it needs to be configured; create a configuration file named miner.conf in the same folder as the executable.&#x20;
+
+cd NexusMiner/build Create the miner.conf file&#x20;
+
+nano miner.conf&#x20;
+
+Copy the miner configuration given below to the file, it uses the JSON format. Change the settings as per needs. The mainnet will use the port 9325 as default. This config uses four workers, for a testnet just one worker can get the job done.
 
 To save the config file Ctrl+s & Ctrl+x
 
-This is a sample miner.config with one worker 6. Run the Miner: For the miner to mine blocks, a user account is to be created, logged in and unlocked for mining, this also works to bootstrap a new network. Create two separate user accounts for the two nodes. Start the wallet. Wait for a few min for the wallet to be loaded: cd LLL-TAO ./nexus If a user account is not configured, auto create and auto login in the wallet configuration, then create an user account, login and unlock for mining. To create a new user account: ./nexus users/create/user username= password= pin= Login to the user account: ./nexus users/login/user username= password= pin= Unlock the user account for mining: ./nexus users/unlock/user pin= mining=1 notifications=1
+This is a sample miner.config with one worker&#x20;
+
+Run the Miner: For the miner to mine blocks, a user account is to be created, logged in and unlocked for mining, this also works to bootstrap a new network. Create two separate user accounts for the two nodes. Start the wallet. Wait for a few min for the wallet to be loaded: cd LLL-TAO ./nexus If a user account is not configured, auto create and auto login in the wallet configuration, then create an user account, login and unlock for mining. To create a new user account: ./nexus users/create/user username= password= pin= Login to the user account: ./nexus users/login/user username= password= pin= Unlock the user account for mining: ./nexus users/unlock/user pin= mining=1 notifications=1
 
 Wallet started, create a user account , login and unlock for mining Start the miner: cd NexusMiner ./NexusMiner
 
