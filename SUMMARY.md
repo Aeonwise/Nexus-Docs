@@ -77,3 +77,4 @@
 
 * [Consensus on Nexus](mining/consensus-on-nexus.md)
 * [Mining on Windows](mining/mining-on-windows.md)
+* [Mining on Linux](mining/mining-on-linux.md)

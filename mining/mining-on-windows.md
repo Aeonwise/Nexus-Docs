@@ -265,15 +265,16 @@ Start the wallet, create the user, login and unlock the wallet for mining and no
 
 ### Nexus Interface:
 
-Go to settings > Core > Enable mining by clicking on the toggle button next to it.&#x20;
+1. Go to settings > Core > Enable mining by clicking on the toggle button next to it.&#x20;
+2. A new field below will pop out below:  Mining IP Whitelist. enter the  `<ipaddress:port>` of the miner. If mining on the same computer then enter `127.0.0.1:9325`,  if the miner is running on another computer or FPGA then enter the particular `ipaddress:9325`. If there are more than one miner then use ‘; ’to separate the IP addresses. Wildcards ‘_’ are supported for IP addresses only ex:192.168._.\*:9325.
 
-Now you see an additional field below Mining IP Whitelist. Enter the  `<ipaddress:port>` of the miner. If mining on the same computer then enter `127.0.0.1:9325`,  if the miner is running on another computer or FPGA then enter the particular `ipaddress:9325`. If there are more than one miner then use ‘; ’to separate the IP addresses. Wildcards ‘_’ are supported for IP addresses only ex:192.168._.\*:9325.
+![](<../.gitbook/assets/Screenshot 2022-01-10 at 6.03.56 PM.png>)
 
 ### Wallet Daemon or CLI:
 
 If using the wallet core then add a line `llpallowip=<ipaddress:port>` in the nexus.config for each miner. Use 127.0.0.1:9325 for mining on the same computer or the ipaddress:9325 for a separate miner.
 
-In the wallet log in to the user account used for mining.
+Restart the core for the changes to take effect
 
 ## Run the Miner
 
