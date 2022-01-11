@@ -1,0 +1,7 @@
+# DAO
+
+Nexus is building DAO (Decentralized Autonomous Organization) technology based on mathematical regulation to improve the overall network governance model. The technology will enable groups that share similar knowledge and interests to vote together on subject matters that they have expertise in. By encapsulating values that are alike into groups that determine a smaller part of the entire decision itself, we can improve the overall reflection of value in a system as a whole. This concept can be observed in the human body: the lungs value certain resources over the stomach, heart, kidneys, liver, although they all work together as components of a decentralized system to form the basis of a healthy body.
+
+_”The dilemma is not that people have conflicting value systems, but rather that they are usually required to decide together in one group. We believe the best way to enforce the keys is by a public vote on their issuance.”_
+
+This is an important step towards the longer term sustainability of our Ecosystem, and the creation of direct accountability of those who are paid to complete work on behalf of the community. In order to fully maintain an active contract, Ambassadors or Developers will be required to uphold the utmost transparency, accountability, and performance necessary for continued support. Mathematically enforced management of the funds will prevent the mismanagement of funds, corruption, coercion, and complacency that can arise in growing organizations.

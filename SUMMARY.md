@@ -5,10 +5,12 @@
 
 ## FUNDAMENTALS
 
-* [🌎 Intro to Nexus](fundamentals/intro-to-nexus.md)
+* [🌎 Intro to Nexus](readme/intro-to-nexus.md)
 * [💵 Intro to NXS](fundamentals/intro-to-nxs.md)
 * [Intro to Dapps](fundamentals/intro-to-dapps.md)
 * [Web 3.0](fundamentals/web-3.0.md)
+* [Safenet](fundamentals/safenet.md)
+* [DAO](fundamentals/dao.md)
 
 ## Technology
 
@@ -26,10 +28,10 @@
 ## Economics
 
 * [Economics](economics/economics.md)
-* [Roadmap](economics/roadmap.md)
-* [Buy NXS](economics/buy-nxs.md)
-* [Decentralized World](economics/decentralized-world.md)
-* [Fees](economics/fees.md)
+* [Roadmap](readme/roadmap.md)
+* [Buy NXS](readme/buy-nxs.md)
+* [Decentralized World](readme/decentralized-world.md)
+* [Fees](readme/fees.md)
 
 ## GUIDES
 
