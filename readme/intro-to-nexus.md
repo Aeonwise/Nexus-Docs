@@ -2,7 +2,7 @@
 
 ## WHAT IS NEXUS?
 
-In the Nexus universe, there is a single, canonical computer (called the Nexus Virtual Machine, or NVM) whose state everyone on the Nexus network agrees on. Everyone who participates in the Nexus network (every Nexus node) keeps a copy of the state of this computer. Additionally, any participant can broadcast a request for this computer to perform arbitrary computation. Whenever such a request is broadcast, other participants on the network verify, validate, and carry out ("execute") the computation. This execution causes a state change in the NVM, which is committed and propagated throughout the entire network.
+In the Nexus cosmos, there is a single, canonical supercomputer (called the Nexus Virtual Machine, or NVM) whose state everyone on the Nexus network agrees on. Everyone who participates in the Nexus network (every Nexus node) keeps a copy of the state of this computer. Additionally, any participant can broadcast a request for this computer to perform arbitrary computation. Whenever such a request is broadcast, other participants on the network verify, validate, and carry out ("execute") the computation. This execution causes a state change in the NVM, which is committed and propagated throughout the entire network.
 
 Requests for computation are called transaction requests; the record of all transactions and the NVM's present state gets stored on the blockchain, which in turn is stored and agreed upon by all nodes.
 
@@ -18,6 +18,23 @@ Any participant who broadcasts a contract execution request must also offer some
 
 ### WHAT ARE ADVANCED  CONTRACTS? <a href="#what-are-smart-contracts" id="what-are-smart-contracts"></a>
 
+The 7 layered software stack architecture plays the crucial role; with its operations and register layer which command and controls the NVM.&#x20;
+
+Register layer is the data storage system that maintain an immutable record and history, including current and previous states, therefore they can be used to record the state of applications. The register layer is the data layer which mimics the CPU cache memory which is the fastest memory on a computer.&#x20;
+
+Operation layer contains instructions or actions that give registers context, and define more complex contract logic. A contract is an object containing: a register pre-state (the register that is being operated on that was passed upwards from the Register Layer), a primitive operation (only one primitive operation per contract), and a set of conditions (any amount of conditional operations)
+
+Advanced contracts, empower developers to build and deploy arbitrarily complex user-facing apps and services such as: P2P marketplaces,  decentralized financial instruments, games, etc.
+
+\
+
+
+
+
+<mark style="color:green;"></mark>
+
+<mark style="color:green;"></mark>
+
 <mark style="color:green;">In practice, participants don't write new code every time they want to request a computation on the EVM. Rather, application developers upload programs (reusable snippets of code) into EVM storage, and users make requests to execute these code snippets with varying parameters. We call the programs uploaded to and executed by the network smart contracts.</mark>
 
 <mark style="color:green;">At a very basic level, you can think of a smart contract like a sort of vending machine: a script that, when called with certain parameters, performs some actions or computation if certain conditions are satisfied. For example, a simple vendor smart contract could create and assign ownership of a digital asset if the caller sends ether to a specific recipient.</mark>
@@ -25,9 +42,5 @@ Any participant who broadcasts a contract execution request must also offer some
 <mark style="color:green;">Any developer can create a smart contract and make it public to the network, using the blockchain as its data layer, for a fee paid to the network. Any user can then call the smart contract to execute its code, again for a fee paid to the network.</mark>
 
 <mark style="color:green;">Thus, with smart contracts, developers can build and deploy arbitrarily complex user-facing apps and services such as: marketplaces, financial instruments, games, etc.</mark>
-
-### TERMINOLOGY <a href="#terminology" id="terminology"></a>
-
-### &#x20;<a href="#blockchain" id="blockchain"></a>
 
 \
