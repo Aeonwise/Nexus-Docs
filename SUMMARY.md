@@ -1,12 +1,14 @@
 # Table of contents
 
 * [Welcome to Nexus Documentation](README.md)
-  * [Intro to Nexus](readme/intro-to-nexus.md)
-  * [Roadmap](readme/roadmap.md)
-  * [Decentralized World](readme/decentralized-world.md)
-  * [Buy NXS](readme/buy-nxs.md)
-  * [Fees](readme/fees.md)
   * [Nexus Website](https://nexus.io)
+
+## FUNDAMENTALS
+
+* [🌎 Intro to Nexus](fundamentals/intro-to-nexus.md)
+* [💵 Intro to NXS](fundamentals/intro-to-nxs.md)
+* [Intro to Dapps](fundamentals/intro-to-dapps.md)
+* [Web 3.0](fundamentals/web-3.0.md)
 
 ## Technology
 
@@ -24,6 +26,10 @@
 ## Economics
 
 * [Economics](economics/economics.md)
+* [Roadmap](economics/roadmap.md)
+* [Buy NXS](economics/buy-nxs.md)
+* [Decentralized World](economics/decentralized-world.md)
+* [Fees](economics/fees.md)
 
 ## GUIDES
 
@@ -69,16 +75,16 @@
 * [Assets](use-cases/assets.md)
 * [Page 3](use-cases/page-3.md)
 
-## FAQ
-
-* [FAQ](faq/faq.md)
-* [Page 4](faq/page-4.md)
-
 ## Mining
 
 * [Consensus on Nexus](mining/consensus-on-nexus.md)
 * [Mining on Windows](mining/mining-on-windows.md)
 * [Mining on Linux](mining/mining-on-linux.md)
+
+## FAQ
+
+* [FAQ](faq/faq.md)
+* [Page 4](faq/page-4.md)
 
 ## TERMINOLOGY
 

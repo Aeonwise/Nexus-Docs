@@ -2,23 +2,27 @@
 
 ### Blockchain <a href="#blockchain" id="blockchain"></a>
 
-The sequence of all blocks that have been committed to the Nexus network in the history of the network. So-named because each block contains a reference to the previous block, which helps us maintain an ordering over all blocks (and thus over the precise history).
+On the Nexus network transactions are verified and written in batches of approximately 50sec. This creates a sequence of all blocks that have been committed to the Nexus network in the history of the network and each block contains a reference to the previous block to maintain an ordering over all blocks. This looks like blocks chained together and thus the name _Blockchain_
+
+Blockchain is a common name used to refer distributed ledger systems
 
 ### NXS <a href="#eth" id="eth"></a>
 
-The native cryptocurrency of Nexus. Users pay NXS to other users to have their contract execution requests fulfilled.
+The native cryptocurrency of the Nexus cosmos, used to pay for various operations on the network, like contract execution, creating tokens, assets etc. This is the only accepted form of payment on the network.&#x20;
+
+### CORE <a href="#evm" id="evm"></a>
+
+Core is the software implementation which powers the Nexus network and protocols. Community members run the core on the computer and the software detects peers and runs like a single entity communicating via the intenet which is the backbone of the Nexus network&#x20;
 
 ### NVM <a href="#evm" id="evm"></a>
 
 The Nexus Virtual Machine (NVM) is the global virtual computer whose state every participant node on the Nexus network stores and agrees on. Any participant can request the execution of contracts on the NVM; contract execution changes the state of the NVM.
 
-### Nodes <a href="#nodes" id="nodes"></a>
+### NODE <a href="#nodes" id="nodes"></a>
 
-The computers which are storing the NVM state. Nodes communicate with each other to propagate information about the NVM state and new state changes. Any user can also request the execution of transactions by broadcasting a contract execution request from a node. The Nexus network itself is the aggregate of all Nexus nodes and their communications.
+Node is a computer which run the Nexus core, is connected to other computers running the Nexus core via the internet to form the Nexus network. Nodes store the NVM state, communicate with each other and propagate information about the NVM state and new state changes. Any participant can request the execution of transactions by broadcasting request from a node
 
-[More on nodes](https://ethereum.org/en/developers/docs/nodes-and-clients/)
-
-### User account or Signature chain <a href="#accounts" id="accounts"></a>
+### SIGNATURE CHAINS / USER ACCOUNTS <a href="#accounts" id="accounts"></a>
 
 A unique user space for users on the Nexus network; records the account balances, assets and state. User's access their user account using username, password and PIN similar to email. The user account also serves as a native secure digital identity.&#x20;
 

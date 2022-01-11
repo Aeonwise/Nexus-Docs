@@ -1,4 +1,8 @@
-# Intro to Nexus
+---
+description: An introduction to the Nexus
+---
+
+# 🌎 Intro to Nexus
 
 ## WHAT IS NEXUS?
 
@@ -10,11 +14,13 @@ Cryptographic mechanisms ensure that once transactions are verified as valid and
 
 ### WHAT IS NXS? <a href="#what-is-ether" id="what-is-ether"></a>
 
-**Nexus (NXS)** is the native cryptocurrency of Nexus. The purpose of NXS is to allow for a market for computation. Such a market provides an economic incentive for participants to verify and execute transaction requests and provide computational resources to the network.
+**Nexus (NXS)** is the native cryptocurrency of Nexus cosmos. The purpose of NXS is to allow for a market for computation. Such a market provides an economic incentive for participants to verify and execute transaction requests and provide computational resources to the network.
 
 Any participant who broadcasts a contract execution request must also offer some amount of NXS to the network as a bounty. This bounty will be awarded to whoever eventually does the work of verifying the transaction, executing it, committing it to the blockchain, and broadcasting it to the network.
 
 <mark style="color:green;">The amount of NXS paid corresponds to the time required to do the computation. These bounties also prevent malicious participants from intentionally clogging the network by requesting the execution of infinite computation or other resource-intensive scripts, as these participants must pay for computation time.</mark>
+
+{% embed url="https://nexus.io/roadmap" %}
 
 ### WHAT ARE ADVANCED  CONTRACTS? <a href="#what-are-smart-contracts" id="what-are-smart-contracts"></a>
 
