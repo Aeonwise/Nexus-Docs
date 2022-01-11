@@ -13,6 +13,7 @@
 * [Nexus Virtual Machine](fundamentals/nexus-virtual-machine/README.md)
   * [Page 2](fundamentals/nexus-virtual-machine/page-2.md)
 * [DAO](fundamentals/dao.md)
+* [Nodes](fundamentals/nodes.md)
 
 ## Technology
 
