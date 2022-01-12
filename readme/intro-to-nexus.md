@@ -6,15 +6,17 @@ description: An introduction to the Nexus
 
 ## WHAT IS NEXUS?
 
-In the Nexus cosmos, there is a single, canonical supercomputer (called the Nexus Virtual Machine, or NVM) whose state everyone on the Nexus network agrees on. Everyone who participates in the Nexus network (every Nexus node) keeps a copy of the state of this computer. Additionally, any participant can broadcast a request for this computer to perform arbitrary computation. Whenever such a request is broadcast, other participants on the network verify, validate, and carry out ("execute") the computation. This execution causes a state change in the NVM, which is committed and propagated throughout the entire network.
 
-Requests for computation are called transaction requests; the record of all transactions and the NVM's present state gets stored on the blockchain, which in turn is stored and agreed upon by all nodes.
+
+Nexus is a network of computers which run the core (a software implementation of Nexus protocols) and communicate via the internet to form a single _`authorised`_ supercomputer called the Nexus Virtual Machine (NVM). The NVM is a _`state machine`_ and all the participants agree and keep a copy of the state. Any user can request for a transaction on the network and when such a  request is broadcast, other participants on the network verify, validate and carry out (`execute")` the request. This execution causes a state change in the NVM, which is then committed and propagated throughout the entire network.
+
+Requests for contracts are called transaction requests; the record of all transactions and the NVM's present state gets stored on the blockchain (`Ledger`), which in turn is stored and agreed upon by all nodes.
 
 Cryptographic mechanisms ensure that once transactions are verified as valid and added to the blockchain, they can't be tampered with later. The same mechanisms also ensure that all transactions are signed and executed with appropriate "permissions" (no one should be able to send digital assets from John's account, except for John).
 
 ### WHAT IS NXS? <a href="#what-is-ether" id="what-is-ether"></a>
 
-**Nexus (NXS)** is the native cryptocurrency of Nexus cosmos. The purpose of NXS is to allow for a market for computation. Such a market provides an economic incentive for participants to verify and execute transaction requests and provide computational resources to the network.
+**Nexus (NXS)** is the native cryptocurrency of Nexus cosmos. The purpose of NXS is to allow for proper gamification of the network. To ensure that the active participants are compensated for the work done and prevent malicious participants from intentionally clogging the network by requesting infinite micro transaction (spamming) and name squatting. Such a market provides an economic incentive for participants to verify and execute transaction requests and provide computational resources to the network.
 
 Any participant who broadcasts a contract execution request must also offer some amount of NXS to the network as a bounty. This bounty will be awarded to whoever eventually does the work of verifying the transaction, executing it, committing it to the blockchain, and broadcasting it to the network.
 
