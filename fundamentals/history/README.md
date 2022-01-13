@@ -1,5 +1,11 @@
 # History
 
+## A Brief History of Bitcoin and Nexus
+
+![](../../.gitbook/assets/NXS-BTC.png)
+
+_**“I’ve been working on a new electronic cash system that’s fully peer-to-peer, with no trusted third party.”  - Satoshi Nakamoto**_
+
 ### The Beginning of Blockchain
 
 All Hallows’ Eve 2008.
@@ -12,8 +18,7 @@ Presented as the solution to the 2007-2008 financial crisis, one of the main inn
 
 You may have heard stories about Satoshi; that he was a laid off programmer fed up with a corrupt system or an idealist who wanted to eliminate fractional reserve banking. There are also rumors that Satoshi Nakamoto was actually a group of cypherpunks. Regardless, his innovation of a trusted, secure, and peer-to-peer distributed ledger is the pinnacle of transparency and accountability in our digital age.
 
-\
-The Beginning of Nexus
+### The Beginning of Nexus
 
 Nexus was born from a deep desire to build a better world, where Satoshi’s vision of a true decentralized, distributed, global peer-to-peer network could give humanity a better and easier way to transfer financial and informational value. Colin Cantrell, the chief architect and founder of Nexus, sat back in 2013 and watched the evolution of the crypto industry. He saw the strength of on-chain transactions through Proof-of-Work (PoW) and the weaknesses in the Peercoin Proof-of-Stake (PoS) system. He witnessed the benefits and limitations of the original blockchain engineering and took the opportunity to rewrite the code from scratch, including the most secure and efficient protocols for scalability and mass adoption.
 
