@@ -14,7 +14,7 @@ Cryptographic mechanisms ensure that once transactions are verified as valid and
 
 ### WHAT IS NXS? <a href="#what-is-ether" id="what-is-ether"></a>
 
-**Nexus (NXS)** is the native cryptocurrency of Nexus cosmos. The purpose of NXS is to allow for proper gamification of the network. To ensure that the active participants are compensated for the work done and prevent malicious participants from intentionally clogging the network by requesting infinite micro transaction (spamming) and name squatting. Such a market provides an economic incentive for participants to verify and execute transaction requests and provide computational resources to the network.
+**Nexus (NXS)** is the native cryptocurrency of Nexus cosmos. Nexus has free simple transactions. The purpose of NXS is to allow for proper gamification of the network. To ensure that the active participants are compensated for the work done and prevent malicious participants from intentionally clogging the network by requesting infinite micro transaction (spamming) and name squatting. Such a market provides an economic incentive for participants to verify and execute transaction requests and provide computational resources to the network.
 
 Any participant who broadcasts a contract execution request must also offer some amount of NXS to the network as a bounty. This bounty will be awarded to whoever eventually does the work of verifying the transaction, executing it, committing it to the blockchain, and broadcasting it to the network.
 
