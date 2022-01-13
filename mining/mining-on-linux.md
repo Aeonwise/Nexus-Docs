@@ -60,7 +60,9 @@ cd Downloads
 
 Run the installer
 
-&#x20;./\<cmakefilename.sh>
+```
+./<cmakefilename.sh>
+```
 
 cmake install
 
@@ -102,15 +104,21 @@ For the proper functioning of the miner, it needs to be configured; create a con
 
 cd NexusMiner/build Create the miner.conf file&#x20;
 
-nano miner.conf&#x20;
+```
+nano miner.conf 
+```
 
 Copy the miner configuration given below to the file, it uses the JSON format. Change the settings as per needs. The mainnet will use the port 9325 as default. This config uses four workers, for a testnet just one worker can get the job done.
+
+
 
 To save the config file Ctrl+s & Ctrl+x
 
 This is a sample miner.config with one worker&#x20;
 
-Run the Miner: For the miner to mine blocks, a user account is to be created, logged in and unlocked for mining, this also works to bootstrap a new network. Create two separate user accounts for the two nodes. Start the wallet. Wait for a few min for the wallet to be loaded: cd LLL-TAO ./nexus If a user account is not configured, auto create and auto login in the wallet configuration, then create an user account, login and unlock for mining. To create a new user account: ./nexus users/create/user username= password= pin= Login to the user account: ./nexus users/login/user username= password= pin= Unlock the user account for mining: ./nexus users/unlock/user pin= mining=1 notifications=1
+## Run the Miner:
+
+For the miner to mine blocks, a user account is to be created, logged in and unlocked for mining, this also works to bootstrap a new network. Create two separate user accounts for the two nodes. Start the wallet. Wait for a few min for the wallet to be loaded: cd LLL-TAO ./nexus If a user account is not configured, auto create and auto login in the wallet configuration, then create an user account, login and unlock for mining. To create a new user account: ./nexus users/create/user username= password= pin= Login to the user account: ./nexus users/login/user username= password= pin= Unlock the user account for mining: ./nexus users/unlock/user pin= mining=1 notifications=1
 
 Wallet started, create a user account , login and unlock for mining Start the miner: cd NexusMiner ./NexusMiner
 
