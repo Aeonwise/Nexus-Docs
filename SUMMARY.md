@@ -19,16 +19,16 @@
 
 ## Technology
 
-* [Innovative Technology](technology/innovative-technology/README.md)
-  * [Software Stack](technology/innovative-technology/software-stack.md)
-  * [Signature Chains](technology/innovative-technology/signature-chains.md)
-  * [Quantum Resistance](technology/innovative-technology/quantum-resistance.md)
-  * [TRUST](technology/innovative-technology/trust.md)
-  * [3 Dimensional Chain (Future)](technology/innovative-technology/3-dimensional-chain-future.md)
-  * [DAO](technology/innovative-technology/dao.md)
-  * [LISP](technology/innovative-technology/lisp.md)
-  * [LX-OS (Future)](technology/innovative-technology/lx-os-future.md)
-  * [Nexus Protocol (Future)](technology/innovative-technology/nexus-protocol-future.md)
+* [Innovations](technology/innovations/README.md)
+  * [Software Stack](technology/innovations/software-stack.md)
+  * [Signature Chains](technology/innovations/signature-chains.md)
+  * [Quantum Resistance](technology/innovations/quantum-resistance.md)
+  * [TRUST](technology/innovations/trust.md)
+  * [3 Dimensional Chain (Future)](technology/innovations/3-dimensional-chain-future.md)
+  * [DAO](technology/innovations/dao.md)
+  * [LISP](technology/innovations/lisp.md)
+  * [LX-OS (Future)](technology/innovations/lx-os-future.md)
+  * [Nexus Protocol (Future)](technology/innovations/nexus-protocol-future.md)
 
 ## Economics
 

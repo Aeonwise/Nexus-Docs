@@ -2,7 +2,7 @@
 description: Introduction to the native cryptocurrency NXS
 ---
 
-# 💵 Intro to NXS
+# Intro to NXS
 
 ### WHAT IS A CRYPTOCURRENCY? <a href="#what-is-a-cryptocurrency" id="what-is-a-cryptocurrency"></a>
 
