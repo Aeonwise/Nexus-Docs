@@ -10,11 +10,11 @@ It is a network of computers which run the core (a software implementation of Ne
 
 Requests for contract execution is called transaction requests; the record of all transactions and the NVM's present state gets stored on the blockchain (`ledger`), which in turn is stored and agreed upon by all nodes.
 
-Cryptographic mechanisms ensure that once transactions are verified as valid and added to the blockchain, they can't be tampered with later. The same mechanisms also ensure that all transactions are signed and executed with appropriate "permissions" (no one should be able to send digital assets from John's account, except for John).
+Cryptographic mechanisms ensure that once transactions are verified as valid and added to the blockchain, they can't be tampered with later. The same mechanisms also ensure that all transactions are signed and executed with appropriate "permissions" (no one should be able to log into John's account, except for John, who has the signature chain credentials).
 
 ### WHAT IS NEXUS? <a href="#what-is-ether" id="what-is-ether"></a>
 
-**Nexus (NXS)** is the native cryptocurrency of Nexus cosmos. Nexus has free simple transactions due to its design. The purpose of NXS is to allow for proper gamification of the network. To ensure that the active participants are compensated for the work done and prevent malicious participants from intentionally clogging the network by requesting infinite micro transactions (spamming) and name squatting. NXS is the ticker symbol of Nexus.
+**Nexus (NXS)** is the native cryptocurrency of Nexus cosmos. Nexus has been designed for free simple transactions. The purpose of NXS is to allow for proper gamification of the network. To ensure that the active participants are compensated for the work done and prevent malicious participants from intentionally clogging the network by requesting infinite micro transactions (spamming) and name squatting. NXS is the ticker symbol of Nexus.
 
 ### WHAT ARE ADVANCED  CONTRACTS? <a href="#what-are-smart-contracts" id="what-are-smart-contracts"></a>
 

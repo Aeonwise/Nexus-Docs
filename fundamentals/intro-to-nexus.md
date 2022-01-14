@@ -2,7 +2,7 @@
 description: Introduction to the native cryptocurrency NXS
 ---
 
-# Intro to NXS
+# Intro to Nexus
 
 ### WHAT IS A CRYPTOCURRENCY? <a href="#what-is-a-cryptocurrency" id="what-is-a-cryptocurrency"></a>
 
@@ -20,7 +20,7 @@ NXS is created by the protocol as compensation for miners and stakers for provid
 
 Any participant who broadcasts a contract execution request must also offer some amount of NXS to the network as a fee. This fee will be awarded to whoever eventually does the work of verifying the transaction, executing it, committing it to the blockchain, and broadcasting it to the network.
 
-Developers can build decentralised applications(dapps) using the REST API. NXS allows the developers pay for the various operation on the network to make
+Developers can build decentralised applications(dapps) using the REST API. NXS allows the users to use the network for a lot of things like creating tokens, assets, tokenising assets, namespaces&#x20;
 
 ### MINTING NXS <a href="#minting-ether" id="minting-ether"></a>
 

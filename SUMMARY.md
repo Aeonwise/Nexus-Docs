@@ -15,6 +15,7 @@
   * [Architecture](fundamentals/web-3.0/architecture.md)
 * [Nexus Virtual Machine](fundamentals/nexus-virtual-machine/README.md)
   * [Page 2](fundamentals/nexus-virtual-machine/page-2.md)
+* [TAO Naming System](fundamentals/tao-naming-system.md)
 * [DAO](fundamentals/dao.md)
 * [Nodes](fundamentals/nodes.md)
 
