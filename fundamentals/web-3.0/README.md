@@ -1,8 +1,8 @@
 # Web 3.0
 
-Web3(Also known as Web 3.0) is the next iteration of the world wide web. which incorporates concepts including decentralization and token-based economics.&#x20;
+Web 3.0(Also known as Web3) is the next iteration of the world wide web. which incorporates concepts including decentralization and token-based economics.&#x20;
 
-&#x20;Web 2.0, wherein the data and content are centralized in a small group of companies sometimes referred to as "Big Tech". The term was coined in 2014 by Ethereum co-founder Gavin Wood, and the idea gained interest in 2021 from cryptocurrency enthusiasts, large technology companies, and venture capital firms.
+
 
 ### BACKGROUND
 
@@ -50,13 +50,19 @@ The secondary innovation is that these networks allow value or money to be trans
 
 The birth of the web was hailed as democratise and empower people and make knowledge readily and freely available, but somehow the internet has turned into a fully centralised network, controlled by a few entities and due to the vast power they wield on lives of people.
 
-Web 2.0 was driven by the advent of mobile, social media and cloud. It has given rise to new type of business opportunities like the sharing economy
+Web 2.0 was driven by the advent of mobile, social media, cloud, E-commerce and sharing economy. It has given rise to new type of business opportunities.
 
 Although Web 2 has brought the world amazing free services, a lot of people have grown tired of the new “walled gardens” these huge tech companies have created and want to have more control over their data and content.
 
 Concerns with web 2.0
 
-Net neutrality:
+* Net neutrality:
+* Privacy
+* Big tech censorship and data mining
+* Gated Internet totally controlled by govt
+*
+
+&#x20;Web 2.0, wherein the data and content are centralized in a small group of companies sometimes referred to as "Big Tech". The term was coined in 2014 by Ethereum co-founder Gavin Wood, and the idea gained interest in 2021 from cryptocurrency enthusiasts, large technology companies, and venture capital firms.
 
 
 
