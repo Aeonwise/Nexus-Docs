@@ -54,6 +54,19 @@ Web 2.0 was driven by the advent of mobile, social media and cloud. It has given
 
 Although Web 2 has brought the world amazing free services, a lot of people have grown tired of the new “walled gardens” these huge tech companies have created and want to have more control over their data and content.
 
+Concerns with web 2.0
+
+Net neutrality:
+
+
+
+Cons of Social Media
+
+* Information overload. Too much information is daily posted by many people with different thoughts. This creates confusion for the readers and the quality of the content is not reliable.
+* Freedom to post views and comments provides good opportunities for competitors and rivals to post negative comments about other companies.
+* Too many fake ids and spammers.
+* Forgeries and hackers commit crimes.
+
 &#x20;
 
 
