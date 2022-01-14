@@ -6,7 +6,7 @@
 ## FUNDAMENTALS
 
 * [Intro to Nexus Network](fundamentals/intro-to-nexus-network.md)
-* [Intro to NXS](fundamentals/intro-to-nxs.md)
+* [Intro to Nexus](fundamentals/intro-to-nexus.md)
 * [Intro to Dapps](fundamentals/intro-to-dapps.md)
 * [History](fundamentals/history/README.md)
   * [Legacy and Tritium](fundamentals/history/legacy-and-tritium.md)

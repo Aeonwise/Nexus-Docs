@@ -12,9 +12,9 @@ Requests for contract execution is called transaction requests; the record of al
 
 Cryptographic mechanisms ensure that once transactions are verified as valid and added to the blockchain, they can't be tampered with later. The same mechanisms also ensure that all transactions are signed and executed with appropriate "permissions" (no one should be able to send digital assets from John's account, except for John).
 
-### WHAT IS NXS? <a href="#what-is-ether" id="what-is-ether"></a>
+### WHAT IS NEXUS? <a href="#what-is-ether" id="what-is-ether"></a>
 
-**Nexus (NXS)** is the native cryptocurrency of Nexus cosmos. Nexus has free simple transactions due to its design. The purpose of NXS is to allow for proper gamification of the network. To ensure that the active participants are compensated for the work done and prevent malicious participants from intentionally clogging the network by requesting infinite micro transactions (spamming) and name squatting.
+**Nexus (NXS)** is the native cryptocurrency of Nexus cosmos. Nexus has free simple transactions due to its design. The purpose of NXS is to allow for proper gamification of the network. To ensure that the active participants are compensated for the work done and prevent malicious participants from intentionally clogging the network by requesting infinite micro transactions (spamming) and name squatting. NXS is the ticker symbol of Nexus.
 
 ### WHAT ARE ADVANCED  CONTRACTS? <a href="#what-are-smart-contracts" id="what-are-smart-contracts"></a>
 

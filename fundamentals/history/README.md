@@ -1,3 +1,7 @@
+---
+description: Brief History of Nexus
+---
+
 # History
 
 ## A Brief History of Bitcoin and Nexus
