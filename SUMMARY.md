@@ -6,10 +6,10 @@
 ## FUNDAMENTALS
 
 * [Intro to Nexus](readme/intro-to-nexus.md)
-* [History](fundamentals/history/README.md)
-  * [Legacy and Tritium](fundamentals/history/legacy-and-tritium.md)
 * [Intro to NXS](fundamentals/intro-to-nxs.md)
 * [Intro to Dapps](fundamentals/intro-to-dapps.md)
+* [History](fundamentals/history/README.md)
+  * [Legacy and Tritium](fundamentals/history/legacy-and-tritium.md)
 * [Web 3.0](fundamentals/web-3.0/README.md)
   * [Safenet](fundamentals/web-3.0/safenet.md)
   * [Architecture](fundamentals/web-3.0/architecture.md)

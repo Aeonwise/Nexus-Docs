@@ -20,16 +20,6 @@ Developers can build decentralised applications(dapps) using the REST API. NXS a
 
 NXS is also use to compensate miners and stakers who secure the network and provide computing resources
 
-**Ether (ETH)** is the cryptocurrency used for many things on the Ethereum network. Fundamentally, it is the only acceptable form of payment for transaction fees, and after [the merge](https://ethereum.org/en/eth2/merge) is also required in order to validate and propose blocks on Mainnet. Ether is also used as a primary form of collateral in the [DeFi](https://ethereum.org/en/defi) lending markets, as a unit of account in NFT marketplaces, as payment earned for performing services or selling real-world goods, and more.
-
-Ethereum allows developers to create [**decentralized applications (dapps)**](https://ethereum.org/en/developers/docs/dapps), which all share a pool of computing power. This shared pool is finite, so Ethereum needs a mechanism to determine who gets to use it. Otherwise, a dapp could accidentally or maliciously consume all network resources, which would block others from accessing it.
-
-The ether cryptocurrency supports a pricing mechanism for Ethereum's computing power. When users want to make a transaction, they must pay ether to have their transaction recognized on the blockchain. These usage costs are known as [gas fees](https://ethereum.org/en/developers/docs/gas/), and the gas fee depends on the amount of computing power required to execute the transaction and the network-wide demand for computing power at the time.
-
-Therefore, even if a malicious dapp submitted an infinite loop, the transaction would eventually run out of ether and terminate, allowing the network to return to normal.
-
-It is [common](https://www.reuters.com/article/us-crypto-currencies-lending-insight-idUSKBN25M0GP#:\~:text=price%20of%20ethereum) [to](https://abcnews.go.com/Business/bitcoin-slumps-week-low-amid-renewed-worries-chinese/story?id=78399845#:\~:text=cryptocurrencies%20including%20ethereum) [conflate](https://www.cnn.com/2021/03/14/tech/nft-art-buying/index.html#:\~:text=price%20of%20ethereum) Ethereum and ether — when people reference the "price of Ethereum," they are describing the price of ether.
-
 ### MINTING NXS <a href="#minting-ether" id="minting-ether"></a>
 
 Minting is the process in which new NXS gets created on the Nexus ledger. The underlying Nexus protocol can only create the new NXS
@@ -40,7 +30,7 @@ NXS is minted when a miner or staker creates a block on the Nexus blockchain. As
 
 Since many transactions on Nexus are small, NXS has several denominations which may be referenced for smaller amounts. Of these denominations, Wei and gwei are particularly important.
 
-Nexus has colin is the smallest possible amount of NXS. &#x20;
+Nexus has colin as the smallest possible amount of NXS. &#x20;
 
 
 

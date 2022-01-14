@@ -6,7 +6,11 @@ On the Nexus network transactions are verified and written in batches of approxi
 
 Blockchain is a common name used to refer distributed ledger systems
 
-### NXS <a href="#eth" id="eth"></a>
+### Nexus Network
+
+It is the network of computers which run the Nexus core implementation and communicate via the internet to form the network which power the Nexus ecosystem. All computers on this network store the distributed ledger
+
+### Nexus (NXS) <a href="#eth" id="eth"></a>
 
 The native cryptocurrency of the Nexus cosmos, used to pay for various operations on the network, like contract execution, creating tokens, assets etc. This is the only accepted form of payment on the network.&#x20;
 
@@ -37,8 +41,8 @@ Where NXS and tokens is stored. Users can initialize accounts, deposit NXS into 
 A "transaction request" is the formal term for a request for contract execution on the NVM, and a "transaction" is a fulfilled transaction request and the associated change in the NVM state. Any user can broadcast a transaction request to the network from a node. For the transaction request to affect the agreed-upon NVM state, it must be validated, executed, and "committed to the network" by another node. Execution of any code causes a state change in the NVM; upon commitment, this state change is broadcast to all nodes in the network. Some examples of transactions:
 
 * Send 10 NXS from my account to John's account.
-* <mark style="color:green;">Publish some smart contract code into EVM memory.</mark>
-* <mark style="color:green;">Execute the code of the smart contract at address X in the EVM, with arguments Y.</mark>
+* Create an Asset and tokenize it.
+* Create an invoice.
 
 [More on transactions](https://ethereum.org/en/developers/docs/transactions/)
 
