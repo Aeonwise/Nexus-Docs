@@ -12,7 +12,7 @@
 * [Intro to Dapps](fundamentals/intro-to-dapps.md)
 * [Web 3.0](fundamentals/web-3.0/README.md)
   * [Safenet](fundamentals/web-3.0/safenet.md)
-  * [Architecture of Nexus 3.0](fundamentals/web-3.0/architecture-of-nexus-3.0.md)
+  * [Architecture](fundamentals/web-3.0/architecture.md)
 * [Nexus Virtual Machine](fundamentals/nexus-virtual-machine/README.md)
   * [Page 2](fundamentals/nexus-virtual-machine/page-2.md)
 * [DAO](fundamentals/dao.md)
