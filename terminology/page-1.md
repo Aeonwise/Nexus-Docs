@@ -38,8 +38,6 @@ A unique user space for users on the Nexus network; records the account balances
 
 Where NXS and tokens is stored. Users can initialize accounts, deposit NXS into the accounts, and transfer NXS from their accounts to other users. Accounts and account balances are stored in the register layer in the NVM; they are a part of the overall NVM state.
 
-[More on accounts](https://ethereum.org/en/developers/docs/accounts/)
-
 ### Transactions <a href="#transactions" id="transactions"></a>
 
 A "transaction request" is the formal term for a request for contract execution on the NVM, and a "transaction" is a fulfilled transaction request and the associated change in the NVM state. Any user can broadcast a transaction request to the network from a node. For the transaction request to affect the agreed-upon NVM state, it must be validated, executed, and "committed to the network" by another node. Execution of any code causes a state change in the NVM; upon commitment, this state change is broadcast to all nodes in the network. Some examples of transactions:
@@ -48,16 +46,14 @@ A "transaction request" is the formal term for a request for contract execution 
 * Create an Asset and tokenize it.
 * Create an invoice.
 
-[More on transactions](https://ethereum.org/en/developers/docs/transactions/)
-
 ### Blocks <a href="#blocks" id="blocks"></a>
 
 The volume of transactions is very high, so transactions are "committed" in batches, or blocks. Blocks generally contain dozens to hundreds of transactions.
 
-[More on blocks](https://ethereum.org/en/developers/docs/blocks/)
-
 ### Smart contracts <a href="#smart-contracts" id="smart-contracts"></a>
 
-A reusable snippet of code (a program) which a developer publishes into EVM memory. Anyone can request that the smart contract code be executed by making a transaction request. Because developers can write arbitrary executable applications into the EVM (games, marketplaces, financial instruments, etc.) by publishing smart contracts, these are often also called [dapps, or Decentralized Apps](https://ethereum.org/en/developers/docs/dapps/).
+Any user  can request a contract execution by making a transaction request. Because developers can write arbitrary executable applications into the NVM (games, marketplaces, financial instruments, etc.) by publishing smart contracts, these are often also called dapps or Decentralized Apps
 
-[More on smart contracts](https://ethereum.org/en/developers/docs/smart-contracts/)
+### TAO NAMING SYSTEM (TNS)
+
+TNS is the native naming or domain name available on Nexus network
