@@ -23,6 +23,12 @@ The Nexus core can be configured to run as different types of nodes that consume
 
 ## CORE <a href="#evm" id="evm"></a>
 
-Core is the software implementation of the Nexus protocols which power the Nexus network. Network participants run the core on the computer which connects and communicates to other computers running the core via the intenet to form a single entity which is the Nexus network&#x20;
+Core is the software implementation of the Nexus protocols which power the Nexus network. Network participants run the core on the computer which connects and communicates to other computers running the core via the intenet to form a single entity which is the Nexus network
+
+The core is made up of the&#x20;
+
+Lower Level Library (LLL) which is a series of templates for developing Crypto, Database, or Protocol. Base templates for the TAO framework, which will inherit these templates and create higher level functionality.
+
+TAO The core base upgrades utilizing the LLL as base templates for Tritium, Amine, and Obsidian feature sets.&#x20;
 
 \
