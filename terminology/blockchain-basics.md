@@ -1,8 +1,6 @@
-# Decentralized World
+# Blockchain Basics
 
-### Blockchain 101
-
-**How does a Blockchain work?**
+### **How does a Blockchain work?**
 
 People, known as miners, are given a monetary incentive to verify transactions. Miners use computers or specialized mining equipment to verify that the people spending cryptocurrency, indeed have the coins to spend. A record of transactions are then immutably chained together and recorded as a block, and appended to the chain. This record is stored on the computers of many different miners, creating a decentralized network.
 
@@ -10,7 +8,7 @@ Many blockchains use a mechanism called Proof-of-Work (PoW) exclusively that req
 
 ![](../.gitbook/assets/hash)
 
-**What are the steps?**
+### **What are the steps?**
 
 1. A person sends a transaction from a wallet on their computer to the network (this transaction can be any piece of data).
 2. Miners verify whether this transaction contains a valid digital signature and has no conflicts with others (double-spends). If the consensus agrees that the transaction is valid, then it is accepted into a memory pool to await confirmation.
@@ -19,7 +17,7 @@ Many blockchains use a mechanism called Proof-of-Work (PoW) exclusively that req
 5. Since the work required to change a previous block grows exponentially for every new block produced, at a certain depth (usually six blocks), it becomes computationally infeasible to rewrite, therefore the blockchain is considered immutable.
 6. The chain with the most work from the first or ‘genesis’ block is considered the valid history of events and is known as the ‘main chain’. This is how a blockchain maintains consensus.
 
-**What is Decentralization?**
+### **What is Decentralization?**
 
 ![](<../.gitbook/assets/topologies (1)>)
 

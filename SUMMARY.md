@@ -18,6 +18,7 @@
 * [TAO Naming System](fundamentals/tao-naming-system.md)
 * [DAO](fundamentals/dao.md)
 * [Nodes](fundamentals/nodes.md)
+* [Roadmap](fundamentals/roadmap.md)
 
 ## Technology
 
@@ -26,18 +27,17 @@
   * [Signature Chains](technology/innovations/signature-chains.md)
   * [Quantum Resistance](technology/innovations/quantum-resistance.md)
   * [TRUST](technology/innovations/trust.md)
-  * [3 Dimensional Chain (Future)](technology/innovations/3-dimensional-chain-future.md)
   * [DAO](technology/innovations/dao.md)
   * [LISP](technology/innovations/lisp.md)
-  * [LX-OS (Future)](technology/innovations/lx-os-future.md)
+  * [3 Dimensional Chain (Future)](technology/innovations/3-dimensional-chain-future.md)
   * [Nexus Protocol (Future)](technology/innovations/nexus-protocol-future.md)
+  * [LX-OS (Future)](technology/innovations/lx-os-future.md)
+  * [ONE Stack](technology/innovations/one-stack.md)
 
 ## Economics
 
 * [Economics](economics/economics.md)
-* [Roadmap](readme/roadmap.md)
 * [Buy NXS](readme/buy-nxs.md)
-* [Decentralized World](readme/decentralized-world.md)
 * [Fees](readme/fees.md)
 
 ## GUIDES
@@ -79,22 +79,22 @@
 
 ## USE-CASES
 
-* [Tokenizing Assets](use-cases/tokenizing-assets.md)
-* [Tokens](use-cases/tokens.md)
-* [Assets](use-cases/assets.md)
-* [Page 3](use-cases/page-3.md)
+* [Page 3](use-cases/page-3/README.md)
+  * [Tokenizing Assets](use-cases/page-3/tokenizing-assets.md)
+  * [Tokens](use-cases/page-3/tokens.md)
+  * [Assets](use-cases/page-3/assets.md)
 
 ## Mining
 
-* [Consensus on Nexus](mining/consensus-on-nexus.md)
-* [Mining on Windows](mining/mining-on-windows.md)
-* [Mining on Linux](mining/mining-on-linux.md)
+* [Consensus on Nexus](mining/consensus-on-nexus/README.md)
+  * [Mining on Windows](mining/consensus-on-nexus/mining-on-windows.md)
+  * [Mining on Linux](mining/consensus-on-nexus/mining-on-linux.md)
 
 ## FAQ
 
 * [FAQ](faq/faq.md)
-* [Page 4](faq/page-4.md)
 
 ## TERMINOLOGY
 
 * [Page 1](terminology/page-1.md)
+* [Blockchain Basics](terminology/blockchain-basics.md)
