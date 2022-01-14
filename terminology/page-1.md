@@ -10,9 +10,13 @@ Blockchain is a common name used to refer distributed ledger systems
 
 It is the network of computers which run the Nexus core implementation and communicate via the internet to form the network which power the Nexus ecosystem. All computers on this network store the distributed ledger
 
-### Nexus (NXS) <a href="#eth" id="eth"></a>
+### Nexus <a href="#eth" id="eth"></a>
 
-The native cryptocurrency of the Nexus cosmos, used to pay for various operations on the network, like contract execution, creating tokens, assets etc. This is the only accepted form of payment on the network.&#x20;
+The native cryptocurrency of the Nexus cosmos, used to pay for various operations on the network, like contract execution, creating tokens, assets etc. This is the only accepted form of payment on the network.
+
+### NXS
+
+The ticker symbol for the Nexus cryptocurrency.&#x20;
 
 ### CORE <a href="#evm" id="evm"></a>
 
