@@ -20,7 +20,7 @@ The ticker symbol for the Nexus cryptocurrency.&#x20;
 
 ### CORE <a href="#evm" id="evm"></a>
 
-Core is the software implementation which powers the Nexus network and protocols. Community members run the core on the computer and the software detects peers and runs like a single entity communicating via the intenet which is the backbone of the Nexus network&#x20;
+Core is the software implementation of protocols, which powers the Nexus network and protocols. Community members run the core on the computer and the software detects peers and runs like a single entity communicating via the intenet which is the backbone of the Nexus network&#x20;
 
 ### NVM <a href="#evm" id="evm"></a>
 
