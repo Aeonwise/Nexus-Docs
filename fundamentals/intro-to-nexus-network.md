@@ -2,11 +2,11 @@
 description: Introduction to Nexus
 ---
 
-# Intro to Nexus
+# Intro to Nexus Network
 
-## WHAT IS NEXUS?
+## WHAT IS NEXUS NETWORK?
 
-Nexus is a network of computers which run the core (a software implementation of Nexus blockchain protocols) and communicates via the internet to form a single _**`canonical`**_ supercomputer called the Nexus Virtual Machine (NVM). The NVM is a _**`state machine`**_ and all the participants agree and keep a copy of the state. Any user can request for a transaction on the network and when such a  request is broadcast, other participants on the network verify, validate and carry out (**`execute`**`)` the request. This execution causes a state change in the NVM, which is then committed and propagated throughout the entire network.
+It is a network of computers which run the core (a software implementation of Nexus blockchain protocols) and communicates via the internet to form a single _**`canonical`**_ supercomputer called the Nexus Virtual Machine (NVM). The NVM is a _**`state machine`**_ and all the participants agree and keep a copy of the state. Any user can request for a transaction on the network and when such a  request is broadcast, other participants on the network verify, validate and carry out _(**`execute)`**_ the request. This execution causes a state change in the NVM, which is then committed and propagated throughout the entire network.
 
 Requests for contract execution is called transaction requests; the record of all transactions and the NVM's present state gets stored on the blockchain (`ledger`), which in turn is stored and agreed upon by all nodes.
 
