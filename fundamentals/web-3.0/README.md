@@ -50,13 +50,17 @@ The secondary innovation is that these networks allow value or money to be trans
 
 The birth of the web was hailed as democratise and empower people and make knowledge readily and freely available, but somehow the internet has turned into a fully centralised network, controlled by a few entities and due to the vast power they wield on lives of people.
 
-Sharing economy&#x20;
+Web 2.0 was driven by the advent of mobile, social media and cloud. It has given rise to new type of business opportunities like the sharing economy
+
+Although Web 2 has brought the world amazing free services, a lot of people have grown tired of the new “walled gardens” these huge tech companies have created and want to have more control over their data and content.
+
+&#x20;
 
 
 
 ## What is Web 3.0?
 
-There are a few fundamental differences between web2 and web3, but decentralization is at its core.
+Web 3 can be understood as the “read/write/own” phase of the Internet. There are a few fundamental differences between web2 and web3, but decentralization is at its core.
 
 \
 
