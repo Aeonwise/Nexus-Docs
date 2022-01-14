@@ -16,7 +16,7 @@ Namespaces allow users to provide user-friendly names for their object registers
 
 #### `Namespaced:`
 
-Names are those created within the context of a namespace are called as Namespaced, which itself is a globally unique keyword. To use a namespaced name you must prefix the name with the namespace separated by a double colon, e.g. `bobscoffeeshop::payments`. In this example bob would have first registered the namespace `bobscoffeeshop` and created an account to receive payments to (which could be called anything). He then creates a Name with a `name=payments`, `namespace=bobscoffeeshop` and `address=(register address of the account)`. From then on, anyone can use the name `bobscoffeeshop::payments` and it will resolve to the register address of the account.
+Names that are created within the context of a namespace are called as Namespaced, which itself is a globally unique keyword. To use a namespaced name you must prefix the name with the namespace separated by a double colon, e.g. `bobscoffeeshop::payments`. In this example bob would have first registered the namespace `bobscoffeeshop` and created an account to receive payments to (which could be called anything). He then creates a Name with a `name=payments`, `namespace=bobscoffeeshop` and `address=(register address of the account)`. From then on, anyone can use the name `bobscoffeeshop::payments` and it will resolve to the register address of the account.
 
 ### GLOBAL NAMES:
 
