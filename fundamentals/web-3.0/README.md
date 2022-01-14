@@ -56,11 +56,17 @@ Although Web 2 has brought the world amazing free services, a lot of people have
 
 Concerns with web 2.0
 
-* Net neutrality:
+#### Net neutrality:&#x20;
+
+It is the principle that Internet service providers (ISPs) must treat all Internet communications equally, and not discriminate or charge differently based on user, content, website, platform, application, type of equipment, source address, destination address, or method of communication.
+
+With net neutrality, ISPs may not intentionally block, slow down, or charge money for specific online content. Without net neutrality, ISPs may prioritize certain types of traffic, meter others, or potentially block traffic from specific services, while charging consumers for various tiers of service.
+
 * Privacy
 * Big tech censorship and data mining
 * Gated Internet totally controlled by govt
-*
+* Internet cyber attacks
+* Internet routing issues
 
 &#x20;Web 2.0, wherein the data and content are centralized in a small group of companies sometimes referred to as "Big Tech". The term was coined in 2014 by Ethereum co-founder Gavin Wood, and the idea gained interest in 2021 from cryptocurrency enthusiasts, large technology companies, and venture capital firms.
 
