@@ -2,7 +2,7 @@
 
 Web 3.0(Also known as Web3) is the next iteration of the world wide web. which incorporates concepts including decentralization and token-based economics.&#x20;
 
-
+Web 3.0 will fundamentally expand the scale & scope of both human and machine interactions far beyond what we can imagine today. These interactions, ranging from seamless payments to richer information flows, to trusted data transfers, will become possible with a vastly increased range of potential counterparties. Web 3.0 will enable us to interact with any individual or machine in the world, without having to pass through fee-charging middlemen. This shift will enable a whole new wave of previously unimaginable businesses and business models: from global co-operatives to decentralised autonomous organisations and self-sovereign data marketplaces.
 
 ### BACKGROUND
 
@@ -70,16 +70,7 @@ With net neutrality, ISPs may not intentionally block, slow down, or charge mone
 
 &#x20;Web 2.0, wherein the data and content are centralized in a small group of companies sometimes referred to as "Big Tech". The term was coined in 2014 by Ethereum co-founder Gavin Wood, and the idea gained interest in 2021 from cryptocurrency enthusiasts, large technology companies, and venture capital firms.
 
-
-
-Cons of Social Media
-
-* Information overload. Too much information is daily posted by many people with different thoughts. This creates confusion for the readers and the quality of the content is not reliable.
-* Freedom to post views and comments provides good opportunities for competitors and rivals to post negative comments about other companies.
-* Too many fake ids and spammers.
-* Forgeries and hackers commit crimes.
-
-&#x20;
+**Web 2.0** radically shrunk the latency and cost at which people & businesses could trade  information & work with geographically distributed counterparties they didn’t necessarily know, via trusted intermediaries. Truly global businesses started to form, as the reach of counterparties expanded by a few orders of magnitude. At its heart, today’s internet allows global coordination via a set of intermediaries, providing a digital social trust layer for strangers to interact: from Facebook, to eBay & AirBnB. Unfortunately we’ve become overly dependent on these platforms, and when they move from “attract” to “extract”, their users (whether individuals or businesses) suffer via higher fees or platform risk (i.e. the platform has the power to destroy your business running on it). While today’s interactions might magically and reliably take place on a global scale, it is predominantly the $200Bn digital advertising business, with ‘we the users’ as the product, which fuels this machine. It is now also broadly understood that these platforms of the ‘post truth’ world have created echo-chambers within which unfiltered and unashamedly populist or indeed fallacious claims reverberate and reinforce — sometimes with chaotic consequences.&#x20;
 
 
 
@@ -111,3 +102,16 @@ Stateful
 Native built-in payments
 
 Where Web 2.0 was driven by the advent of mobile, social and cloud, Web 3.0 is built largely on four new layers of technological innovations: **decentralized protocol blockchains**, **edge computing**, **decentralized data networks** and **artificial intelligence**.\
+
+
+Web 3 will only be feasible with the evolution of blockchains, with their decentralised, scalable and trustless properties will be the foundation for coordination at a global scale. web3 will not only enable human to human but also human to machine and machine to machine interactions which will enable them to trade data and value.
+
+Web 3.0 will fundamentally expand the scale & scope of both human and machine interactions far beyond what we can imagine today. Web 3.0 will enable us to interact with any individual or machine in the world, without having to pass through fee-charging middlemen. This shift will enable a whole new wave of previously unimaginable businesses and business models: from global co-operatives to decentralised autonomous organisations and self-sovereign data marketplaces
+
+DAO will play a great role in the governance of the web3 landscape and this will help to upgrade the advancement of the web3 ecosystem&#x20;
+
+
+
+With **Web 3.0**, **** women, men, machines & businesses will be able to trade value, information & work with global counterparties they don’t know or yet explicitly trust, without an intermediary. The most important evolution enabled by Web3.0 is the minimisation of the trust required for coordination on a global scale. **This marks a move towards trusting all constituents of a network **_**implicitly**_** rather than needing to trust each individual **_**explicitly**_** and/or seeking to achieve trust **_**extrinsically**_**.**
+
+Web 3.0 will fundamentally expand the scale & scope of both human and machine interactions far beyond what we can imagine today. These interactions, ranging from seamless payments to richer information flows, to trusted data transfers, will become possible with a vastly increased range of potential counterparties. Web 3.0 will enable us to interact with any individual or machine in the world, without having to pass through fee-charging middlemen. This shift will enable a whole new wave of previously unimaginable businesses and business models: from global co-operatives to decentralised autonomous organisations and self-sovereign data marketplaces.
