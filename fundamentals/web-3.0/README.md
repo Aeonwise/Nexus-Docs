@@ -76,42 +76,30 @@ With net neutrality, ISPs may not intentionally block, slow down, or charge mone
 
 ## What is Web 3.0?
 
-Web 3 can be understood as the “read/write/own” phase of the Internet. There are a few fundamental differences between web2 and web3, but decentralization is at its core.
+Web 3 can be understood as the “read/write/own” phase of the Internet. There are a few fundamental differences between web2 and web3, but decentralization is at its core. Web3 will enable ownership; In the context of web3, "_Decentralization_ is the dispersion or distribution of ownership, functions and powers. Theoretically, this could remove the power of platform owners over individual users.&#x20;
 
-Web3 Enables Ownership
+Web3 enhances the internet as we know it today with a few other added characteristics. Web3 is:
 
-One of the driving forces and the one that resonates with most people (and me) is that Web3 enables ownership.
+* Verifiable
+* Trustless
+* Self-governing
+* Permissionless
+* Distributed and robust
+* Stateful
+* Native built-in payments
 
-\
+If you see the characteristics, its only achievable with a decentralized trust-less blockchain protocol at its heart. Where Web 2.0 was driven by the advent of mobile, social and cloud; web3  will be built largely on these six new layers of technological innovations: **decentralized protocol blockchains**, **decentralized internet**, **decentralized data networks, edge computing, artificial intelligence and augmented / virtual reality**
 
-
-Web3 enhances the internet as we know it today with a few other added characteristics. web3 is:
-
-Verifiable
-
-Trustless
-
-Self-governing
-
-Permissionless
-
-Distributed and robust
-
-Stateful
-
-Native built-in payments
-
-Where Web 2.0 was driven by the advent of mobile, social and cloud, Web 3.0 is built largely on four new layers of technological innovations: **decentralized protocol blockchains**, **edge computing**, **decentralized data networks** and **artificial intelligence**.\
-
-
-Web 3 will only be feasible with the evolution of blockchains, with their decentralised, scalable and trustless properties will be the foundation for coordination at a global scale. web3 will not only enable human to human but also human to machine and machine to machine interactions which will enable them to trade data and value.
+Web 3 will only be feasible with the evolution of blockchains, which can scale to a global audience. Web 3.0 with the Semantic Web, which centers on the capability of machines to read and interact with content in a manner more akin to humans. This will not only enable human to human but also human to machine and machine to machine interactions.&#x20;
 
 Web 3.0 will fundamentally expand the scale & scope of both human and machine interactions far beyond what we can imagine today. Web 3.0 will enable us to interact with any individual or machine in the world, without having to pass through fee-charging middlemen. This shift will enable a whole new wave of previously unimaginable businesses and business models: from global co-operatives to decentralised autonomous organisations and self-sovereign data marketplaces
 
-DAO will play a great role in the governance of the web3 landscape and this will help to upgrade the advancement of the web3 ecosystem&#x20;
+DAO's will play a crucial role in the governance of the web3 landscape and this will help with the advancement of the web3 ecosystem at a rapid pace. DAO will be on-chain and all decisions will be voted on by the participants.&#x20;
+
+AR/VR will give rise to the spatial web and users will be interacting and consuming media not by swiping on their mobile devices but in full 3D. This development has started with facebook launching Meta and a lot of crypto projects launching the metaverse theme.
 
 
 
-With **Web 3.0**, **** women, men, machines & businesses will be able to trade value, information & work with global counterparties they don’t know or yet explicitly trust, without an intermediary. The most important evolution enabled by Web3.0 is the minimisation of the trust required for coordination on a global scale. **This marks a move towards trusting all constituents of a network **_**implicitly**_** rather than needing to trust each individual **_**explicitly**_** and/or seeking to achieve trust **_**extrinsically**_**.**
+<mark style="color:green;">With</mark> <mark style="color:green;"></mark><mark style="color:green;">**Web 3.0**</mark><mark style="color:green;">,</mark> <mark style="color:green;"></mark><mark style="color:green;">****</mark> <mark style="color:green;"></mark><mark style="color:green;">women, men, machines & businesses will be able to trade value, information & work with global counterparties they don’t know or yet explicitly trust, without an intermediary. The most important evolution enabled by Web3.0 is the minimisation of the trust required for coordination on a global scale.</mark> <mark style="color:green;"></mark><mark style="color:green;">**This marks a move towards trusting all constituents of a network**</mark><mark style="color:green;">** **</mark>_<mark style="color:green;">**implicitly**</mark>_<mark style="color:green;">** **</mark><mark style="color:green;">**rather than needing to trust each individual**</mark><mark style="color:green;">** **</mark>_<mark style="color:green;">**explicitly**</mark>_<mark style="color:green;">** **</mark><mark style="color:green;">**and/or seeking to achieve trust**</mark><mark style="color:green;">** **</mark>_<mark style="color:green;">**extrinsically**</mark>_<mark style="color:green;">**.**</mark>
 
-Web 3.0 will fundamentally expand the scale & scope of both human and machine interactions far beyond what we can imagine today. These interactions, ranging from seamless payments to richer information flows, to trusted data transfers, will become possible with a vastly increased range of potential counterparties. Web 3.0 will enable us to interact with any individual or machine in the world, without having to pass through fee-charging middlemen. This shift will enable a whole new wave of previously unimaginable businesses and business models: from global co-operatives to decentralised autonomous organisations and self-sovereign data marketplaces.
+<mark style="color:green;">Web 3.0 will fundamentally expand the scale & scope of both human and machine interactions far beyond what we can imagine today. These interactions, ranging from seamless payments to richer information flows, to trusted data transfers, will become possible with a vastly increased range of potential counterparties. Web 3.0 will enable us to interact with any individual or machine in the world, without having to pass through fee-charging middlemen. This shift will enable a whole new wave of previously unimaginable businesses and business models: from global co-operatives to decentralised autonomous organisations and self-sovereign data marketplaces.</mark>
