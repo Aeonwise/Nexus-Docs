@@ -14,31 +14,33 @@ The first cryptocurrency was Bitcoin, created by Satoshi Nakamoto. Since Bitcoin
 
 ### WHAT IS NEXUS? <a href="#what-is-ether" id="what-is-ether"></a>
 
-Nexus (NXS) is the cryptocurrency powering the Nexus network and is the only acceptable form of payment. NXS has been mined into existance wit he 3 channel consensus. Nexus has designed the network to work with free simple transactions, but there are various operation and anti spam features which require the use of NXS.&#x20;
+**Nexus (NXS)** is the native cryptocurrency of Nexus cosmos. Nexus has free simple transactions due to its design. The purpose of NXS is to allow for appropriate gamification of the network, which  ensures that the active participants are compensated for the stake amount and time spent securing the network. Fees in NXS for various operations also prevent malicious participants from intentionally clogging the network by requesting infinite micro transactions (spamming / DDOS) and name squatting.&#x20;
+
+NXS is created by the protocol as compensation for miners and stakers for providing computational resources and securing the network. Thus the gamification ensures the network participants verify and execute transaction requests and provide computational resources to the network and upgrade these when nece.
+
+Any participant who broadcasts a contract execution request must also offer some amount of NXS to the network as a fee. This fee will be awarded to whoever eventually does the work of verifying the transaction, executing it, committing it to the blockchain, and broadcasting it to the network.
 
 Developers can build decentralised applications(dapps) using the REST API. NXS allows the developers pay for the various operation on the network to make
 
-NXS is also use to compensate miners and stakers who secure the network and provide computing resources
-
 ### MINTING NXS <a href="#minting-ether" id="minting-ether"></a>
 
-Minting is the process in which new NXS gets created on the Nexus ledger. The underlying Nexus protocol can only create the new NXS
+Minting is the process in which new NXS gets created on the ledger. The underlying protocol can only create the new NXS. The protocol was designed with a max of 78 million NXS for 10 years and after that there will be tail end emission of a max 3.67%
 
-NXS is minted when a miner or staker creates a block on the Nexus blockchain. As an incentive to miners or stakers, the protocol grants a reward in each block, incrementing the balance of an address set by the block's miner. The block reward has changed over time &#x20;
+**Nexus was mined into existence similar to Bitcoin and there was no premine or ICO**.
 
-### DENOMINATIONS OF NXS <a href="#denominations" id="denominations"></a>
+NXS is minted when a miner or staker creates a block on the Nexus blockchain. As an incentive to miners or stakers, the protocol grants a reward in each block created by them, incrementing the balance of an address set by the block's miner. The block reward reduces gradually over time as per the emission logarithmic scale programmed in the protocol.
 
-Since many transactions on Nexus are small, NXS has several denominations which may be referenced for smaller amounts. Of these denominations, Wei and gwei are particularly important.
+### DENOMINATIONS OF NEXUS  <a href="#denominations" id="denominations"></a>
+
+Since many transactions on Nexus are small, Each Nexus has 1 million units or 6 decimal places. A cantrell is the smallest denomination of Nexus
 
 Nexus has colin as the smallest possible amount of NXS. &#x20;
 
-
-
 ### TRANSACTING NXS <a href="#transferring-ether" id="transferring-ether"></a>
 
-Users can send and receive NXS or tokens using the username:account, namespace::account formats or the register address. Free simple transactions make it really easy.&#x20;
+Users can send and receive NXS or tokens using the username:account, namespace::account formats or the account. Free simple transactions make it really easy.&#x20;
 
-If there is a transaction done within 10 sec of the first transaction then there is a anti-spam fee of 0.1 NXS to prevent spamming the network.
+If there is a transaction done within 10 sec of the first transaction then there is an anti-spam fee of 0.1 NXS to prevent spamming the network.
 
 ### QUERYING NXS <a href="#querying-ether" id="querying-ether"></a>
 
