@@ -87,6 +87,10 @@ Cons of Social Media
 
 Web 3 can be understood as the “read/write/own” phase of the Internet. There are a few fundamental differences between web2 and web3, but decentralization is at its core.
 
+Web3 Enables Ownership
+
+One of the driving forces and the one that resonates with most people (and me) is that Web3 enables ownership.
+
 \
 
 
