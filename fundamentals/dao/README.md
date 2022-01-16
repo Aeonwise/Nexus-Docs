@@ -1,6 +1,10 @@
 # DAO
 
-Any organisation or network need some type of governance to survive, update and thrive and without a proper governance.&#x20;
+Every society, organisation or network need some type of governance to survive and thrive. History has seen the experimentation of different type of governance models, which ultimately have failed and today the democratic governance systems we live in breaking down. The crypto universe has introduced to the DAO concept, has been hailed as the holy grail which will redeem humanity, but havent seen any good models.
+
+Nexus has designed a new type of organisation structure which resembles the starfish; decentralized network, No head, major organs are replicated throughout each arm. Cut it in half and you get two starfish. The DAO is based on the social stack; which is a new concept in social structure of the future. The goal of the social stack was to build a new type of governance structure which not only suits the Nexus network but also can be used to benefit people&#x20;
+
+A new social structure has to be vetted, tested in its natural hibitat&#x20;
 
 Starting an organization with someone that involves funding and money requires a lot of trust in the people you're working with. But it’s hard to trust someone you’ve only ever interacted with on the internet. With DAOs you don’t need to trust anyone else in the group, just the DAO’s code, which is 100% transparent and verifiable by anyone.
 
