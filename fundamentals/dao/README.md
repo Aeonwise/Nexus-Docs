@@ -1,3 +1,7 @@
+---
+description: Decentralised Autonomous Organisation - The future of Governance
+---
+
 # DAO
 
 What is Governance?
@@ -6,19 +10,21 @@ Governance can be defined as: “The system by which entities, networks are dire
 
 ### Why do we need Governance?
 
-Every society, organisation or network need some type of governance to survive and thrive. History has seen the experimentation of different type of governance models, which ultimately have failed and as we are all well aware today the democratic governance systems we live in are breaking down. The disparity between the rich and the poor is very huge and its creating a lot of economic unrest.&#x20;
+Every society, organisation or network need some type of governance to survive and thrive. History has seen the experimentation of different type of centralised governance models, which ultimately have failed and as we are all well aware today the democratic governance systems we live in are breaking down. The disparity between the rich and the poor is very huge and its creating a lot of economic unrest. It basically comes down to the fact that centralised systems have proved to fail miserably, will never work in the future and decentralised systems are the need of the hour.
 
-The crypto universe has introduced to the DAO concept, has been hailed as the holy grail which will redeem humanity, but havent seen any good models.
+The crypto universe with its smart-contract technology has introduced the DAO concept, has been hailed as the holy grail which will redeem humanity, but this has not resulted in a workable model.
 
 ### What is a DAO?
 
-Starting an organization with someone that involves funding and money requires a lot of trust in the people you're working with. But it’s hard to trust someone you’ve only ever interacted with on the internet. With DAOs you don’t need to trust anyone else in the group, just the DAO’s code, which is 100% transparent and verifiable by anyone.
+A DAO, or “Decentralized Autonomous Organization,” is a community-led entity with no central authority. It is fully autonomous and transparent: even the very code itself can be publicly audited. Decisions get made from the bottom-up, governed by a community organized around a specific set of rules enforced by contracts on a blockchain
 
-A way of organizing with other people around the world, without knowing each other and establishing your own rules, and making your own decisions autonomously all encoded on a Blockchain? Well, DAOs are making this real.
+Ultimately, a DAO is governed entirely by its individual members who collectively make critical decisions about the future of the project, such as technical upgrades and treasury allocations.
+
+Generally speaking, community members create proposals about the future operations of the protocol and then come together to vote on each proposal. Proposals that achieve some predefined level of consensus are then accepted and enforced by the rules instantiated within the smart contract.
 
 ### Social Stack and Starfish:
 
-The Nexus DAO is based on the social stack; which is a new concept in social structure of the future. The goal of the social stack was to build a new type of governance structure which not only suits the Nexus network, but also to be used in real world for any decentralized organisation, society or network to empower people.&#x20;
+The Nexus DAO is based on the social stack;  a new social structure concept for the future. The goal of the social stack is to build a new type of governance structure which not only suits the Nexus network, but also to be utilised in real world for any organisation, society or network.&#x20;
 
 Nexus has designed the DAO organisation structure to resemble the starfish; decentralized network, No head, major organs are replicated throughout each arm. Cut it in half and you get two starfish.
 
