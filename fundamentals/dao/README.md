@@ -18,9 +18,9 @@ The crypto universe with its smart-contract technology has introduced the DAO co
 
 A DAO, or “Decentralized Autonomous Organization,” is a community-led entity with no central authority. It is fully autonomous and transparent: even the very code itself can be publicly audited. Decisions get made from the bottom-up, governed by a community organized around a specific set of rules enforced by contracts on a blockchain
 
-Ultimately, a DAO is governed entirely by its individual members who collectively make critical decisions about the future of the project, such as technical upgrades and treasury allocations.
+DAOs are internet-native organizations collectively owned and managed by their members. Ultimately, a DAO is governed entirely by its individual members who collectively make critical decisions about the future of the project, such as technical upgrades and treasury allocations. They have built-in treasuries that are only accessible with the approval of their members. Decisions are made via proposals the group votes on during a specified period.
 
-Generally speaking, community members create proposals about the future operations of the protocol and then come together to vote on each proposal. Proposals that achieve some predefined level of consensus are then accepted and enforced by the rules instantiated within the smart contract.
+Community members create proposals about the future operations of the protocol and then come together to vote on each proposal. Proposals that achieve some predefined level of consensus are then accepted and enforced by the rules instantiated within the smart contract.
 
 ### Social Stack and Starfish:
 
@@ -30,13 +30,7 @@ Nexus has designed the DAO organisation structure to resemble the starfish; dece
 
 A new social structure has to be vetted, tested in its natural habitat and we have launched the organisation as a group of people, testing every functionality and fine tuning it before programming it mathematically into the Nexus protocols. The onchain DAO is scheduled for release with the 7.0 update.
 
-
-
-###
-
-
-
-Nexus is building DAO (Decentralized Autonomous Organization) technology based on mathematical regulation to improve the overall network governance model. The technology will enable groups that share similar knowledge and interests to vote together on subject matters that they have expertise in. By encapsulating values that are alike into groups that determine a smaller part of the entire decision itself, we can improve the overall reflection of value in a system as a whole. This concept can be observed in the human body: the lungs value certain resources over the stomach, heart, kidneys, liver, although they all work together as components of a decentralized system to form the basis of a healthy body.
+Nexus DAO technology is based on mathematical regulation to improve the overall network governance model. The technology will enable groups that share similar knowledge and interests to vote together on subject matters that they have expertise in. By encapsulating values that are alike into groups that determine a smaller part of the entire decision itself, we can improve the overall reflection of value in a system as a whole. This concept can be observed in the human body: the lungs value certain resources over the stomach, heart, kidneys, liver, although they all work together as components of a decentralized system to form the basis of a healthy body.
 
 _”The dilemma is not that people have conflicting value systems, but rather that they are usually required to decide together in one group. We believe the best way to enforce the keys is by a public vote on their issuance.”_
 
