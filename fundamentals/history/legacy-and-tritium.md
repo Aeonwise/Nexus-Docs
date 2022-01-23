@@ -2,7 +2,7 @@
 
 ## Legacy
 
-Nexus was born as Coinshield (CSD) on 23rd September,2019 with the peercoin codebase and started as a cryptocurrency project. The crypto market was innovating by leaps and bounds and Ethereum, brought smart-contract ability to blockchain. Nexus has a few innovations of its, but waited to see how things will unfurl.
+Nexus was born as Coinshield (CSD) on 23rd September, 2019 with the peercoin codebase and started as a cryptocurrency project. The crypto market was innovating by leaps and bounds and Ethereum, brought smart-contract ability to blockchain. Nexus has a few innovations of its, but waited to see how things will unfurl.
 
 In 2016 CSD was renamed to Nexus (NXS) and then the team laid the research initiative for a major upgrade to Nexus.&#x20;
 
