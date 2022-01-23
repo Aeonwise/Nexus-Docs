@@ -14,8 +14,8 @@ If you have any kind of support related to mining, please do visit our telegram 
 
 ## Mining Channels:
 
-* **Prime Mining:** GPU  -Supports both Solo & Pool &#x20;
-* **Hash Mining:** GPU or FPGA’s - Supports both Solo & Pool&#x20;
+* **Prime Mining:** GPU  -Supports both Solo & Pool.
+* **Hash Mining:** GPU or FPGA’s - Supports both Solo & Pool.
 
 {% hint style="info" %}
 **Good to Know:** Dont recommend CPU Prime or Hash mining as it is not profitable and only used for testnet mining
@@ -59,9 +59,7 @@ Mining Calculator:
 
 To get a better understanding of the mining efficiencies of different hardware, use the mining calculator linked below:
 
-{% embed url="http://154.16.159.126/mining_calc" %}
-**Nexus Mining Calculator**
-{% endembed %}
+{% embed url="https://primepool.nexus.io/mining_calc" %}
 
 ### &#x20;GPU:
 
