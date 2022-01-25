@@ -26,6 +26,4 @@ Operation layer contains instructions or actions that give registers context, an
 
 At a more basic level, Advanced Contracts are comparable to real world contracts, written on paper and enforced by a court of law. It's highly advanced as its enforced by code, its binding and it makes the trusted third parties redundant.
 
-Advanced contracts, empower developers to build and deploy arbitrarily complex user-facing apps and services such as: P2P marketplaces,  decentralized financial instruments, games, etc.
-
-\
+Advanced contracts, empower developers to build and deploy arbitrarily complex user-facing apps and services such as: P2P marketplaces, decentralized financial instruments, games, etc.
