@@ -1,7 +1,7 @@
 # Minimum Staking Amount
 
 {% hint style="info" %}
-Approximately 25-30K NXS (For full node only at the time of writing).
+Approximately 25-30K NXS (For full node at the time of writing).
 {% endhint %}
 
 The minimum threshold varies every few minutes as staking difficulty changes. The only way to know for sure is to start staking. If no blocks are found within a reasonable time, add more NXS to trust balance and adjust the staking amount. This is the equivalent of adding more Graphics Processing Units (GPUs) to a PoW mining rig. The minimum amount is an estimation, a ballpark approximation depending on community participation and ecosystem adoption. Additional clarification is provided below:
