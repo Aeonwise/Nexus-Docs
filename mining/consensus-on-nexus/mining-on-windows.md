@@ -18,7 +18,7 @@ If you have any kind of support related to mining, please do visit our telegram 
 * **Hash Mining:** GPU or FPGA’s - Supports both Solo & Pool.
 
 {% hint style="info" %}
-**Good to Know:** Don't recommend CPU Prime or Hash mining as it is not profitable and only used for testnet mining
+**Good to Know:** We don't recommend CPU Prime or Hash mining as it is not profitable and only used for testnet mining
 {% endhint %}
 
 #### Solo Mining&#x20;
