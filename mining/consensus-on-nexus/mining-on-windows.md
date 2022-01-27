@@ -286,6 +286,6 @@ Go to the folder where the NexusMiner executable and miner.conf are located, dou
 
 ![miner.conf for prime pool with 1 GPU](../../.gitbook/assets/Miner31.png)
 
-![NexusMiner v1.4 Prime Pool mining](../../.gitbook/assets/Miner1.png)
+![NexusMiner v1.4 Prime Pool mining with single GPU](../../.gitbook/assets/Miner1.png)
 
-![](../../.gitbook/assets/Miner2.png)
+![NexusMiner v1.4 Prime Pool mining with single GPU](../../.gitbook/assets/Miner2.png)
