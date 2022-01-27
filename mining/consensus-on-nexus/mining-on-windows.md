@@ -12,13 +12,15 @@ If you have any kind of support related to mining, please do visit our telegram 
 
 {% embed url="https://t.me/NexusMiners" %}
 
+{% embed url="https://primepool.nexus.io" %}
+
 ## Mining Channels:
 
 * **Prime Mining:** GPU  -Supports both Solo & Pool.
 * **Hash Mining:** GPU or FPGA’s - Supports both Solo & Pool.
 
 {% hint style="info" %}
-**Good to Know:** Dont recommend CPU Prime or Hash mining as it is not profitable and only used for testnet mining
+**Good to Know:** Don't recommend CPU Prime or Hash mining as it is not profitable and only used for testnet mining
 {% endhint %}
 
 ### Solo Mining&#x20;
@@ -279,8 +281,11 @@ Restart the core for the changes to take effect
 Go to the folder where the NexusMiner executable and miner.conf are located, double click on the NexusMiner executable. A confirmation window will pop up, click run and the miner will start in a terminal.
 
 {% hint style="info" %}
-**NOTE:** For the miner to work the user has to be logged in and unlocked for mining and notifications
+**NOTE:** For Solo mining to work the user has to be logged in and unlocked for mining and notifications
 {% endhint %}
 
+![miner.conf for prime pool with 1 GPU](../../.gitbook/assets/Miner31.png)
 
+![NexusMiner v1.4 Prime Pool mining](../../.gitbook/assets/Miner1.png)
 
+![](../../.gitbook/assets/Miner2.png)
