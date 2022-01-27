@@ -4,7 +4,7 @@ description: Guide to setup mining on windows
 
 # Mining on Windows
 
-This guide will help to set up mining on Windows. The new NexusMiner makes it very easy to mine on Windows. Nexus has its own open prime mining pool and the developers are working on furthur decentralizing mining.
+This guide will help to set up mining on Windows. The new NexusMiner makes it very easy to mine on Windows. Nexus has its own open prime mining pool and the developers are working on further decentralizing mining.
 
 ### Mining Support:
 
