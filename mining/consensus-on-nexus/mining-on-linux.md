@@ -6,7 +6,7 @@ This guide is in the works and not completed.
 
 Mining on Linux is not straightforward like windows and the user has to compile the NexusMiner from source. This guide will help you setup mining on Linux. This guide is tailored for Ubuntu
 
-## Compile the Miner:&#x20;
+## Prepare Ubuntu for Miner:&#x20;
 
 Install the dependencies
 
@@ -18,7 +18,45 @@ Ubuntu does not have the latest version of boost and libgmp-dev.&#x20;
 
 {% embed url="https://onethinglab.com/2019/01/30/how-to-install-latest-boost-library-on-ubuntu" %}
 
+{% embed url="https://www.boost.org/users/download#live" %}
 
+Download the latest version of boost:
+
+```
+wget https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz
+```
+
+extract boost&#x20;
+
+```
+tar xzvf boost_1_69_0.tar.gz -C~/Boost
+```
+
+Install boost
+
+```
+./bootstrap.sh --prefix=/usr/
+```
+
+Compile boost from source.
+
+```
+./b2
+```
+
+Copy the compiled files to the location specified with **–prefix** command line option.
+
+```
+sudo ./b2 install
+```
+
+To verify boost version:
+
+```
+./get_boost_version
+```
+
+### Download and Compile NexusMiner
 
 Clone the NexusMiner repository&#x20;
 
@@ -74,43 +112,53 @@ Run the installer
 ./<cmakefilename.sh>
 ```
 
-cmake install
-
-cmake install complete&#x20;
-
 First will be the licence, use “Enter” to scroll down or “spacebar” to scroll to the end, accept licence and then accept the location to extract, which will install the cmake binary. Change into the cmake/bin folder. Change the cmake folder name accordingly
 
 ```
 cd cmake-3.21.2-linux-x86_64/bin/
 ```
 
-Run cmake. is the path to the NexusMiner folder and is the path to NexusMiner/build&#x20;
+Run cmake. is the path to the NexusMiner folder and is the path to NexusMiner/build. Use the option `"-DWITH_PRIME=On"` to compile for prime mining.
 
 ```
 ./cmake -S <pathtosource> -B <pathtobuildfolder> -DCMAKE_BUILD_TYPE=Release -DWITH_PRIME=On
 ```
 
-cmake building the prebuilt make binaries To change into the prebuilt binaries folder&#x20;
+Cmake will build the prebuilt make binaries and keep them in prebuilt binaries folder "/build". Change into build folder.
 
 ```
 cd ~/NexusMiner/build 
 ```
 
-To compile use:&#x20;
+To compile use:
 
 ```
 make
 ```
 
+This will compile and create the NexusMiner executable.&#x20;
 
+Create a folder for the NexusMiner.
 
-NexusMiner compiling This will create the NexusMiner executable.&#x20;
+```
+mkdir ~/Miner
+```
+
+Copy the NexusMiner to the _`"Miner`  f_older
+
+```
+cp NexusMiner ~/Miner
+```
 
 ## Configuring the Miner:&#x20;
 
 For the proper functioning of the miner, it needs to be configured; create a configuration file named miner.conf in the same folder as the executable.&#x20;
 
 cd NexusMiner/build Create the miner.conf file&#x20;
+
+```
+// Some code
+```
 
 ```
 nano miner.conf 
