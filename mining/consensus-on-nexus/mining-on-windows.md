@@ -42,7 +42,12 @@ Pool mining is similar to group mining. The miner has to be connected to a minin
 Only one prime pool available, an open pool run by the Nexus mining developer team. To use this pool copy the below lines in the config
 
 ```
-    "wallet_ip" : "154.16.159.126",
+    "wallet_ip" : "154.16.159.126", 
+    "port" : 50000,
+```
+
+```
+    "wallet_ip" : "https://primepool.nexus.io/", 
     "port" : 50000,
 ```
 
@@ -285,6 +290,10 @@ Go to the folder where the NexusMiner executable and miner.conf are located, dou
 {% hint style="info" %}
 **NOTE:** For Solo mining to work the user has to be logged in and unlocked for mining and notifications
 {% endhint %}
+
+## Stop the Miner
+
+To stop the miner close the NexusMiner terminal window.
 
 ![miner.conf for prime pool with 1 GPU](../../.gitbook/assets/Miner31.png)
 
