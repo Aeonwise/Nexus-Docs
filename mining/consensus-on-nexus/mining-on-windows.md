@@ -21,7 +21,7 @@ If you have any kind of support related to mining, please do visit our telegram 
 **Good to Know:** Don't recommend CPU Prime or Hash mining as it is not profitable and only used for testnet mining
 {% endhint %}
 
-### Solo Mining&#x20;
+#### Solo Mining&#x20;
 
 Solo means single or individual mining. It requires the miner to be connected to the Nexus wallet. The wallet and miner can be run on the same or a separate computer especially when mining with FPGA’s.&#x20;
 
@@ -29,7 +29,7 @@ Solo means single or individual mining. It requires the miner to be connected to
 **Good to Know:** Solo mining is not profitable for prime and hash, unless you have a very big mining setup.
 {% endhint %}
 
-### Pool Mining
+#### Pool Mining
 
 Pool mining is similar to group mining. The miner has to be connected to a mining pool. The miner is directly connect to the pool and the mining rewards are paid to miners depending on the percentage of individual hash rate. There are fees to mine on a pool and that is deducted from the mining payouts.&#x20;
 
@@ -57,23 +57,11 @@ For hash mining use the third party pools listed below:
 
 ## Compatible Mining Hardware
 
-Nexus miner can use only nvidia graphics cards or Blackminer FPGA's.  Before you proceed make sure to update the graphics card driver to the latest nvidia gaming drivers. (Do not install the content creator drivers)
-
-### Mining Hardware:
-
 The NexusMiner can use CPU, GPU for Prime and FPGA for Hash mining. CPU mining is not recommended as it is not efficient.
-
-Mining Calculator:
-
-To get a better understanding of the mining efficiencies of different hardware, use the mining calculator linked below:
-
-{% embed url="https://primepool.nexus.io/mining_calc" %}
-**Prime Pool Mining Calculator**
-{% endembed %}
 
 ### &#x20;GPU:
 
-If using GPU mining, then the only choice today is CUDA cores from Nvidia and to get the best out of the graphics cores we highly recommend to use the latest graphics drivers and MSI afterburner.&#x20;
+If using GPU mining, then the only choice today is CUDA cores from Nvidia and to get the best out of the graphics cores we highly recommend to use the latest graphics drivers and [MSI Afterburner](https://www.msi.com/Landing/afterburner/vga).&#x20;
 
 {% hint style="warning" %}
 Do not install the Nvidia content creator drivers, the miner will not work properly
@@ -82,6 +70,14 @@ Do not install the Nvidia content creator drivers, the miner will not work prope
 ### FPGA:
 
 FPGA miners for Nexus are only available from [Blackminer](https://www.hashaltcoin.com/en/miners). These miners can only be used for Hash mining.
+
+### Mining Calculator:
+
+To get a better understanding of the mining efficiencies of different hardware, use the mining calculator linked below:
+
+{% embed url="https://primepool.nexus.io/mining_calc" %}
+**Prime Pool Mining Calculator**
+{% endembed %}
 
 ## Download the Miner:
 
@@ -92,8 +88,6 @@ The miner cannot run prime and hash at the same time on a single computer
 {% endhint %}
 
 {% embed url="https://github.com/Nexusoft/NexusMiner" %}
-
-Create or copy the miner.conf and place it in the same folder as the NexusMiner executable
 
 ## Miner Configuration:&#x20;
 
@@ -295,6 +289,10 @@ Go to the folder where the NexusMiner executable and miner.conf are located, dou
 ![](../../.gitbook/assets/Miner61.png)
 
 To check if everything is working, go to the mining pool page link below, on the header right side, paste the Nexus address entered in the miner.conf file in the search box and click on search. This will open a page like below, where you can see the details of your miner.&#x20;
+
+{% embed url="https://primepool.nexus.io/overview" %}
+**Prime Pool Miner Website**
+{% endembed %}
 
 ![Mining Details for Each Miner](../../.gitbook/assets/Miner7.png)
 
