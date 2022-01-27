@@ -12,8 +12,6 @@ If you have any kind of support related to mining, please do visit our telegram 
 
 {% embed url="https://t.me/NexusMiners" %}
 
-{% embed url="https://primepool.nexus.io" %}
-
 ## Mining Channels:
 
 * **Prime Mining:** GPU  -Supports both Solo & Pool.
@@ -46,10 +44,9 @@ Only one prime pool available, an open pool run by the Nexus mining developer te
     "port" : 50000,
 ```
 
-```
-    "wallet_ip" : "https://primepool.nexus.io/", 
-    "port" : 50000,
-```
+{% embed url="https://primepool.nexus.io" %}
+**Prime Mining Pool Details**
+{% endembed %}
 
 ### Hash Pool:
 
@@ -58,11 +55,11 @@ For hash mining use the third party pools listed below:
 * https://hashpool.com/&#x20;
 * https://pool.blackminer.com/
 
-### Compatible Mining Hardware
+## Compatible Mining Hardware
 
-Nexus miner can use only nvidia graphics cards or FPGA's.  Before you proceed make sure to update the graphics card driver to the latest nvidia gaming drivers. (Do not install the content creator drivers)
+Nexus miner can use only nvidia graphics cards or Blackminer FPGA's.  Before you proceed make sure to update the graphics card driver to the latest nvidia gaming drivers. (Do not install the content creator drivers)
 
-## Mining Hardware:
+### Mining Hardware:
 
 The NexusMiner can use CPU, GPU for Prime and FPGA for Hash mining. CPU mining is not recommended as it is not efficient.
 
@@ -71,6 +68,8 @@ Mining Calculator:
 To get a better understanding of the mining efficiencies of different hardware, use the mining calculator linked below:
 
 {% embed url="https://primepool.nexus.io/mining_calc" %}
+**Prime Pool Mining Calculator**
+{% endembed %}
 
 ### &#x20;GPU:
 
@@ -82,7 +81,7 @@ Do not install the Nvidia content creator drivers, the miner will not work prope
 
 ### FPGA:
 
-FPGA miners for Nexus are only available from Blackminer
+FPGA miners for Nexus are only available from [Blackminer](https://www.hashaltcoin.com/en/miners). These miners can only be used for Hash mining.
 
 ## Download the Miner:
 
@@ -266,13 +265,15 @@ For pool mining the _N_exus payout address will be the identifier to the pool an
 
 ## Nexus Desktop Wallet:
 
+<mark style="color:red;">This is only for solo miners. Pool miners can skip this step</mark>&#x20;
+
 ### Nexus Interface:
 
 Download and install the Nexus Interface or setup the CLI core.&#x20;
 
 Start the wallet, create the user, login and unlock the wallet for mining and notifications.
 
-### Nexus Interface:
+#### Mining Settings on Interface:
 
 1. Go to settings > Core > Enable mining by clicking on the toggle button next to it.&#x20;
 2. A new field below will pop out below:  Mining IP Whitelist. enter the  `<ipaddress:port>` of the miner. If mining on the same computer then enter `127.0.0.1:9325`,  if the miner is running on another computer or FPGA then enter the particular "`ipaddress:9325`. If there are more than one miner then use ‘; ’to separate the IP addresses. Wildcards ‘_**\*’** are supported for IP addresses only ex: 192.168.10.\*:9325_
@@ -285,10 +286,12 @@ Restart the core for the changes to take effect
 
 ## Run the Miner
 
-Go to the folder where the NexusMiner executable and miner.conf are located, double click on the NexusMiner executable. A confirmation window will pop up, click run and the miner will start in a terminal.
+Go to the folder where the NexusMiner executable and miner.conf are located, double click on the NexusMiner executable. A security warning window will pop up (shown in image below), click run and the miner will start in a terminal.
+
+![](../../.gitbook/assets/Miner61.png)
 
 {% hint style="info" %}
-**NOTE:** For Solo mining to work the user has to be logged in and unlocked for mining and notifications
+**Good to Know:** For Solo mining to work the user has to be logged in and unlocked for mining and notifications
 {% endhint %}
 
 ## Stop the Miner
