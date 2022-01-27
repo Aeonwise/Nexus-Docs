@@ -18,7 +18,7 @@ If you have any kind of support related to mining, please do visit our telegram 
 * **Hash Mining:** GPU or FPGA’s - Supports both Solo & Pool.
 
 {% hint style="info" %}
-**Good to Know:** We don't recommend CPU Prime or Hash mining as it is not profitable and only used for testnet mining
+**Good to Know:** We don't recommend CPU Prime or Hash mining as it is not profitable and only used for testnet mining.
 {% endhint %}
 
 #### Solo Mining&#x20;
@@ -54,6 +54,10 @@ For hash mining use the third party pools listed below:
 
 * https://hashpool.com/&#x20;
 * https://pool.blackminer.com/
+
+{% hint style="info" %}
+**Good to Know:** Nexus mining devs are working on an open hash pool and it's under testing.
+{% endhint %}
 
 ## Compatible Mining Hardware
 
