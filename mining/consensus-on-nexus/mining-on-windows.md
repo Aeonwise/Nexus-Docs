@@ -40,7 +40,7 @@ Pool mining is similar to group mining and the miner has to be connected to a mi
 Only one prime pool is available, an open pool run by the Nexus mining developer team. To use this pool copy the below lines in the config
 
 ```
-    "wallet_ip" : "154.16.159.126", 
+    "wallet_ip" : "primepool.nexus.io", 
     "port" : 50000,
 ```
 
@@ -75,9 +75,7 @@ FPGA miners for Nexus are only available from [Blackminer](https://www.hashaltco
 
 To get a better understanding of the mining efficiencies of different hardware, use the mining calculator linked below:
 
-{% embed url="https://primepool.nexus.io/mining_calc" %}
-**Prime Pool Mining Calculator**
-{% endembed %}
+[Mining Calculator Link](https://primepool.nexus.io/mining\_calc/)
 
 ## Download the Miner:
 
