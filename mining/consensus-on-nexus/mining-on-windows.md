@@ -286,7 +286,7 @@ Restart the core for the changes to take effect
 
 ## Run the Miner
 
-Go to the folder where the NexusMiner executable and miner.conf are located, double click on the NexusMiner executable. A security warning window will pop up (shown in image below), click run and the miner will start in a terminal.
+Go to the folder where the NexusMiner executable and miner.conf are located, double click on the NexusMiner executable. A security warning window will pop up (shown in image below), click run and the miner will start in a terminal. The miner will run and start mining which you can see from the messages on the miner terminal window. There is no user interaction required.&#x20;
 
 ![](../../.gitbook/assets/Miner61.png)
 
@@ -294,9 +294,15 @@ Go to the folder where the NexusMiner executable and miner.conf are located, dou
 **Good to Know:** For Solo mining to work the user has to be logged in and unlocked for mining and notifications
 {% endhint %}
 
+To check if everything is working, go to the mining pool page link below, on the header right side, paste the Nexus address entered in the miner.conf file in the search box and click on search. This will open a page like below, where you can see the details of your miner.&#x20;
+
+![Mining Details for Each Miner](../../.gitbook/assets/Miner7.png)
+
 ## Stop the Miner
 
 To stop the miner close the NexusMiner terminal window.
+
+### Screenshots
 
 ![miner.conf for prime pool with 1 GPU](../../.gitbook/assets/Miner31.png)
 
