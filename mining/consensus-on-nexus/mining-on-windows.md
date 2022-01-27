@@ -31,7 +31,7 @@ Solo means single or individual mining. It requires the miner to be connected to
 
 #### Pool Mining
 
-Pool mining is similar to group mining. The miner has to be connected to a mining pool. The miner is directly connect to the pool and the mining rewards are paid to miners depending on the percentage of individual hash rate. There are fees to mine on a pool and that is deducted from the mining payouts.&#x20;
+Pool mining is similar to group mining and the miner has to be connected to a mining pool. The miner is directly connected to the pool and the mining rewards are paid to miners depending on the percentage of individual hash rate. There are fees to mine on a pool and that is deducted from the mining payouts.&#x20;
 
 ## Mining Pools For Nexus:&#x20;
 
