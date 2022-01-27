@@ -1,14 +1,24 @@
 # Mining on Linux
 
+{% hint style="danger" %}
+This guide is in the works and not completed.
+{% endhint %}
+
 Mining on Linux is not straightforward like windows and the user has to compile the NexusMiner from source. This guide will help you setup mining on Linux. This guide is tailored for Ubuntu
 
 ## Compile the Miner:&#x20;
 
-Install the dependencies (Only required if installing miner on a separate computer)
+Install the dependencies
 
 ```
 sudo apt install build-essential libboost-all-dev libdb-dev libdb++-dev libssl-dev libminiupnpc-dev libgmp-dev -y 
 ```
+
+Ubuntu does not have the latest version of boost and libgmp-dev.&#x20;
+
+{% embed url="https://onethinglab.com/2019/01/30/how-to-install-latest-boost-library-on-ubuntu" %}
+
+
 
 Clone the NexusMiner repository&#x20;
 
@@ -77,7 +87,7 @@ cd cmake-3.21.2-linux-x86_64/bin/
 Run cmake. is the path to the NexusMiner folder and is the path to NexusMiner/build&#x20;
 
 ```
-./cmake -S <pathtosource> -B <pathtobuildfolder> -DCMAKE_BUILD_TYPE=Release
+./cmake -S <pathtosource> -B <pathtobuildfolder> -DCMAKE_BUILD_TYPE=Release -DWITH_PRIME=On
 ```
 
 cmake building the prebuilt make binaries To change into the prebuilt binaries folder&#x20;
@@ -95,8 +105,6 @@ make
 
 
 NexusMiner compiling This will create the NexusMiner executable.&#x20;
-
-
 
 ## Configuring the Miner:&#x20;
 
