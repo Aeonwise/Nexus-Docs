@@ -27,6 +27,10 @@ If you have any kind of support related to mining, please do visit our telegram 
 
 Solo means single or individual mining. It requires the miner to be connected to the Nexus wallet. The wallet and miner can be run on the same or a separate computer especially when mining with FPGA’s.&#x20;
 
+{% hint style="info" %}
+**Good to Know:** Solo mining is not profitable for prime and hash, unless you have a very big mining setup.
+{% endhint %}
+
 ### Pool Mining
 
 Pool mining is similar to group mining. The miner has to be connected to a mining pool. The miner is directly connect to the pool and the mining rewards are paid to miners depending on the percentage of individual hash rate. There are fees to mine on a pool and that is deducted from the mining payouts.&#x20;
