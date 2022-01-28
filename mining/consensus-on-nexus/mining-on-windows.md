@@ -8,13 +8,13 @@ This guide will help to set up mining on Windows. The new NexusMiner makes it ve
 
 ### Mining Support:
 
-If you have any kind of support related to mining, please do visit our telegram channel linked below:
+If you have any kind of support related to mining, please do visit our Telegram channel linked below:
 
 {% embed url="https://t.me/NexusMiners" %}
 
 ## Mining Channels:
 
-* **Prime Mining:** GPU  -Supports both Solo & Pool.
+* **Prime Mining:** GPU - Supports both Solo & Pool.
 * **Hash Mining:** GPU or FPGA’s - Supports both Solo & Pool.
 
 {% hint style="info" %}
@@ -31,7 +31,7 @@ Solo means single or individual mining. It requires the miner to be connected to
 
 #### Pool Mining
 
-Pool mining is similar to group mining and the miner has to be connected to a mining pool. The miner is directly connected to the pool and the mining rewards are paid to miners depending on the percentage of individual hash rate. There are fees to mine on a pool and that is deducted from the mining payouts.&#x20;
+Pool mining is similar to group mining, and the miner has to be connected to a mining pool. The miner is directly connected to the pool, and the mining rewards are paid to miners depending on the percentage of individual hash rate. There are fees to mine on a pool and that is deducted from the mining payouts.&#x20;
 
 ## Mining Pools For Nexus:&#x20;
 
