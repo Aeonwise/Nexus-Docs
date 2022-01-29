@@ -14,19 +14,19 @@ Install the dependencies
 sudo apt install build-essential libboost-all-dev libdb-dev libdb++-dev libssl-dev libminiupnpc-dev libgmp-dev -y 
 ```
 
-Ubuntu does not have the latest version of boost and libgmp-dev.&#x20;
+Ubuntu does not have the latest version of boost and libgmp-dev. The install will be a manual process listed below:
 
-{% embed url="https://onethinglab.com/2019/01/30/how-to-install-latest-boost-library-on-ubuntu" %}
+This below is a direct link to the boost website:
 
 {% embed url="https://www.boost.org/users/download#live" %}
 
-Download the latest version of boost:
+Download the latest version of boost. At the time of writing the latest version boost is 1.78.0:
 
 ```
 wget https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78_0.tar.gz
 ```
 
-extract boost&#x20;
+Extract boost installer to a new directory named Boost.
 
 ```
 tar xzvf boost_1_69_0.tar.gz -C~/Boost
@@ -44,7 +44,7 @@ Compile boost from source.
 ./b2
 ```
 
-Copy the compiled files to the location specified with **–prefix** command line option.
+Copy the compiled files to the location specified with "_**–prefix**_ command line option.
 
 ```
 sudo ./b2 install
@@ -55,6 +55,28 @@ To verify boost version:
 ```
 ./get_boost_version
 ```
+
+### Install Cmake:
+
+Nexus miner uses the latest version of cmake. Ubuntu does not have the latest version of cmake. If  the distro has cmake version lower than 3.19, then follow the steps below to install latest version of cmake manually.
+
+Go to the cmake downloads page (link below) and download the linux cmake script files with .sh extension
+
+{% embed url="https://cmake.org/download" %}
+
+Change into the folder where the file is downloaded
+
+```
+cd Downloads
+```
+
+Run the installer
+
+```
+./<cmakefilename.sh>
+```
+
+First will be the licence, use “Enter” to scroll down or “spacebar” to scroll to the end, accept licence and then accept the location to extract, which will install the cmake binary. Change into the cmake/bin folder. Change the cmake folder name accordingly
 
 ### Download and Compile NexusMiner
 
@@ -74,51 +96,13 @@ Change into the source code folder&#x20;
 cd NexusMiner 
 ```
 
-To precompile the source code use cmake. (cmake version 3.19 or higher only) \<pathtosource> is the path to the NexusMiner folder and \<pathtobuildfolder> is the path to NexusMiner/build
-
-```
-cmake -S <pathtosource> -B <pathtobuildfolder> -DCMAKE_BUILD_TYPE=Release
-```
-
-To change into the prebuilt binaries folder
-
-```
-cd build
-```
-
-&#x20;To compile use:&#x20;
-
-```
-make 
-```
-
-This will create the NexusMiner executable.&#x20;
-
-## Cmake Problems&#x20;
-
-Nexus miner uses the latest version of cmake, if the system has a version lower than 3.19, then do the following Go to the cmake downloads page (link below) and download the linux cmake script files with .sh extension
-
-{% embed url="https://cmake.org/download" %}
-
-Change into the folder where the file is downloaded
-
-```
-cd Downloads
-```
-
-Run the installer
-
-```
-./<cmakefilename.sh>
-```
-
-First will be the licence, use “Enter” to scroll down or “spacebar” to scroll to the end, accept licence and then accept the location to extract, which will install the cmake binary. Change into the cmake/bin folder. Change the cmake folder name accordingly
+Change into the cmake/bin folder
 
 ```
 cd cmake-3.21.2-linux-x86_64/bin/
 ```
 
-Run cmake. is the path to the NexusMiner folder and is the path to NexusMiner/build. Use the option `"-DWITH_PRIME=On"` to compile for prime mining.
+Run cmake to build the NexusMiner executable. \<pathtosource> is the path to the NexusMiner folder and \<pathtobuildfolder> is the path to NexusMiner/build. Use the option `"-DWITH_PRIME=On"` to include for prime mining support during compile.
 
 ```
 ./cmake -S <pathtosource> -B <pathtobuildfolder> -DCMAKE_BUILD_TYPE=Release -DWITH_PRIME=On
@@ -138,7 +122,9 @@ make
 
 This will compile and create the NexusMiner executable.&#x20;
 
-Create a folder for the NexusMiner.
+
+
+Create a folder for the NexusMiner.&#x20;
 
 ```
 mkdir ~/Miner
@@ -157,7 +143,7 @@ For the proper functioning of the miner, it needs to be configured; create a con
 cd NexusMiner/build Create the miner.conf file&#x20;
 
 ```
-// Some code
+cd ~/Miner
 ```
 
 ```
@@ -166,22 +152,17 @@ nano miner.conf
 
 Copy the miner configuration given below to the file, it uses the JSON format. Change the settings as per needs. The mainnet will use the port 9325 as default. This config uses four workers, for a testnet just one worker can get the job done.
 
-
+```
+"wallet_ip" : "primepool.nexus.io", 
+"port" : 50000,
+```
 
 To save the config file Ctrl+s & Ctrl+x
 
-This is a sample miner.config with one worker&#x20;
-
 ## Run the Miner:
 
-For the miner to mine blocks, a user account is to be created, logged in and unlocked for mining, this also works to bootstrap a new network. Create two separate user accounts for the two nodes. Start the wallet. Wait for a few min for the wallet to be loaded: cd LLL-TAO ./nexus If a user account is not configured, auto create and auto login in the wallet configuration, then create an user account, login and unlock for mining. To create a new user account: ./nexus users/create/user username= password= pin= Login to the user account: ./nexus users/login/user username= password= pin= Unlock the user account for mining: ./nexus users/unlock/user pin= mining=1 notifications=1
+To run the miner change into the miner directory
 
-Wallet started, create a user account , login and unlock for mining Start the miner: cd NexusMiner ./NexusMiner
 
-Miner started with one worker - Blocks Accepted Check the messages the miner prints out, every 10 secs there is a miner statistics printed on the screen (Time set in miner.config). Check for the “Submitting Block ...” and “Block Accepted By Nexus Network”
 
-Warning- Block Rejected By Nexus Network In the image above check the “Submitting Block ...” and “Block Rejected By Nexus Network” Stop the miner: Ctrl+c
-
-Wallet- Check the mining info To check the mining information on the wallet: ./nexus ledger/get/info - 5.1.0-rc1 and above ./nexus ledger/get/mininginfo - Below 5.1.0-rc1 To check the total wallet balance of the logged in user account: ./nexus finance/get/balances To check the account details of the logged in user account: ./nexus finance.list/accounts In account details the newly minted testnet coins are shown in the balance. These can be transferred similar to main net coins to other users for testing purposes.
-
-This is the two wallets and miners running side by side Hope you enjoyed the guide!!
+Hope you enjoyed the guide!!
