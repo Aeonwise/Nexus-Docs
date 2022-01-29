@@ -144,9 +144,9 @@ cp NexusMiner ~/Miner
 
 ## Configuring the Miner:&#x20;
 
-For the proper functioning of the miner, it needs to be configured; create a configuration file named miner.conf in the same folder as the executable.&#x20;
+For the proper functioning of the miner, it needs to be configured properly; create a configuration file named miner.conf in the same folder as the executable.&#x20;
 
-cd NexusMiner/build Create the miner.conf file&#x20;
+Change into the directory where the miner is located.
 
 ```
 cd ~/Miner
