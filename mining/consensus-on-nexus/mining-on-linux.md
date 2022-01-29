@@ -78,6 +78,8 @@ Run the installer
 
 First will be the licence, use “Enter” to scroll down or “spacebar” to scroll to the end, accept licence and then accept the location to extract, which will install the cmake binary. Change into the cmake/bin folder. Change the cmake folder name accordingly
 
+Cmake is installed and ready for the next step.
+
 ### Download and Compile NexusMiner
 
 Clone the NexusMiner repository&#x20;
@@ -96,16 +98,20 @@ Change into the source code folder&#x20;
 cd NexusMiner 
 ```
 
-Change into the cmake/bin folder
+Change into the cmake/bin folder installed in the step above. At time of writing the cmake version is 3.21.2, change the name accordingly.&#x20;
 
 ```
-cd cmake-3.21.2-linux-x86_64/bin/
+cd /Downloads/cmake-3.21.2-linux-x86_64/bin/
 ```
 
 Run cmake to build the NexusMiner executable. \<pathtosource> is the path to the NexusMiner folder and \<pathtobuildfolder> is the path to NexusMiner/build. Use the option `"-DWITH_PRIME=On"` to include for prime mining support during compile.
 
 ```
 ./cmake -S <pathtosource> -B <pathtobuildfolder> -DCMAKE_BUILD_TYPE=Release -DWITH_PRIME=On
+```
+
+```
+./cmake -S ~/NexusMiner -B ~/NexusMiner/build -DCMAKE_BUILD_TYPE=Release -DWITH_PRIME=On
 ```
 
 Cmake will build the prebuilt make binaries and keep them in prebuilt binaries folder "/build". Change into build folder.
