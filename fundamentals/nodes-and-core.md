@@ -1,10 +1,14 @@
-# Nodes
+---
+description: WHAT ARE NODES AND CORE?
+---
+
+# Nodes & Core
+
+## NODE
 
 Nexus is a distributed network of computers running the software(known as nodes) that can verify blocks and transaction data. Participants need a software application, known as core, on the computer to "run" a node.
 
-## WHAT ARE NODES AND CORE?
-
-## NODE TYPES
+### NODE TYPES
 
 The Nexus core can be configured to run as different types of nodes that consume data differently. The Nexus core can run two different types of nodes - full and light.&#x20;
 
@@ -21,14 +25,16 @@ The Nexus core can be configured to run as different types of nodes that consume
 * Can verify the validity of the data against the state roots in the block headers.
 * Useful for low capacity devices, such as embedded devices, IoT and mobile phones, which can't afford to store gigabytes of blockchain data.
 
+
+
 ## CORE <a href="#evm" id="evm"></a>
 
 Core is the software implementation of the Nexus protocols which power the Nexus network. Network participants run the core on the computer which connects and communicates to other computers running the core via the intenet to form a single entity which is the Nexus network
 
 The core is made up of the&#x20;
 
-Lower Level Library (LLL) which is a series of templates for developing Crypto, Database, or Protocol. Base templates for the TAO framework, which will inherit these templates and create higher level functionality.
+Lower Level Library (LLL) which is a series of templates for crypto, database and protocol. Base templates for the TAO framework, which will inherit these templates and create higher level functionality.
 
-TAO The core base upgrades utilizing the LLL as base templates for Tritium, Amine, and Obsidian feature sets.&#x20;
+Tritium Amine Obsidian (TAO) - The core base upgrades utilizing the LLL as base templates for Tritium, Amine, and Obsidian feature sets.&#x20;
 
 \
