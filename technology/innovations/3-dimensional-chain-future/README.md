@@ -60,7 +60,7 @@ In order to have the highest degree of security, decisions cannot be concentrate
 
 Four organizations control more than 51% of Bitcoin’s hashrate, meaning, that the entire security of Bitcoin is reliant on them and the decisions that they make. This situation is an example of centralization resulting from resource domination, which has lead to proposed solutions such as UASF (User Activated Soft Fork) and multiple Bitcoin forks such as Bitcoin Cash, Bitcoin SV, Bitcoin Gold, etc.
 
-![graph](../../.gitbook/assets/3dcgraph)
+![graph](../../../.gitbook/assets/3dcgraph)
 
 Though promising, UASF was unable to reach a level where it could be effective, as the required percentage of miner’s consent was too high.
 
