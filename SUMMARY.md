@@ -89,13 +89,16 @@
 
 * [Consensus on Nexus](mining/consensus-on-nexus/README.md)
   * [Mining on Windows](mining/consensus-on-nexus/mining-on-windows.md)
-  * [Mining on Linux](mining/consensus-on-nexus/mining-on-linux.md)
 
 ## FAQ
-
-* [FAQ](faq/faq.md)
 
 ## TERMINOLOGY
 
 * [Page 1](terminology/page-1.md)
 * [Blockchain Basics](terminology/blockchain-basics.md)
+
+## CONSTRUCTION
+
+* [Under Construction Pages](construction/under-construction-pages/README.md)
+  * [FAQ](construction/under-construction-pages/faq.md)
+  * [Mining on Linux](construction/under-construction-pages/mining-on-linux.md)
