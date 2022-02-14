@@ -10,7 +10,7 @@ Web 1.0 was the first iteration of the web. Most participants were consumers of 
 
 Web 1.0 consisted of sites serving static content instead of dynamic HTML. Data and content were served from a static file system rather than a database, and sites didn't have much interactivity at all.
 
-You can think of Web 1.0 as the read-only web.
+Think of Web 1.0 as the read-only web.
 
 ### **What is Web 2.0?** <a href="#what-is-web-2-0" id="what-is-web-2-0"></a>
 
@@ -24,35 +24,17 @@ Web2 is simple, really, and because of its simplicity more and more people aroun
 
 The web in its current form is really great in many ways, but there are some areas where we can do a lot better.
 
-You can think of Web 2.0 as the read- write web.
+Think of Web 2.0 as the read- write web.
 
 
 
 ## **Problems with web 2**
 
-The birth of the web was hailed as the power to democratise and empower people and make knowledge readily and freely available, but somehow the internet has turned into a fully centralised network, controlled by a few entities and due to the vast power they wield on lives of people.
+**Web 2.0** radically shrunk the latency and cost at which people & businesses could trade  information & work with geographically distributed counterparties they didn’t necessarily know, via trusted intermediaries. Truly global businesses started to form, as the reach of counterparties expanded by a few orders of magnitude. At its heart, today’s internet allows global coordination via a set of intermediaries, providing a digital social trust layer for strangers to interact: from Facebook, whatsapp, Uber, eBay & AirBnB. Unfortunately we’ve become overly dependent on these platforms, and when they move from “attract” to “extract”, their users (whether individuals or businesses) suffer via higher fees or platform risk (i.e. the platform has the power to destroy your business running on it). While today’s interactions might magically and reliably take place on a global scale, it is predominantly the $200Bn digital advertising business, with ‘we the users’ as the product, which fuels this machine. It is now also broadly understood that these platforms of the ‘post truth’ world have created echo-chambers within which unfiltered and unashamedly populist or indeed fallacious claims reverberate and reinforce — sometimes with chaotic consequences.&#x20;
 
-Web 2.0 was driven by the advent of mobile, social media, cloud, E-commerce and sharing economy. It has given rise to new type of business opportunities.
 
-Although Web 2 has brought the world amazing free services, a lot of people have grown tired of the new “walled gardens” these huge tech companies have created and want to have more control over their data and content.
 
-Concerns with web 2.0
-
-#### Net neutrality:&#x20;
-
-It is the principle that Internet service providers (ISPs) must treat all Internet communications equally, and not discriminate or charge differently based on user, content, website, platform, application, type of equipment, source address, destination address, or method of communication.
-
-With net neutrality, ISPs may not intentionally block, slow down, or charge money for specific online content. Without net neutrality, ISPs may prioritize certain types of traffic, meter others, or potentially block traffic from specific services, while charging consumers for various tiers of service.
-
-* Privacy
-* Big tech censorship and data mining
-* Gated Internet totally controlled by govt
-* Internet cyber attacks
-* Internet routing issues
-
-&#x20;Web 2.0, wherein the data and content are centralized in a small group of companies sometimes referred to as "Big Tech". and the idea gained interest in 2021 from cryptocurrency enthusiasts, large technology companies, and venture capital firms.
-
-**Web 2.0** radically shrunk the latency and cost at which people & businesses could trade  information & work with geographically distributed counterparties they didn’t necessarily know, via trusted intermediaries. Truly global businesses started to form, as the reach of counterparties expanded by a few orders of magnitude. At its heart, today’s internet allows global coordination via a set of intermediaries, providing a digital social trust layer for strangers to interact: from Facebook, to eBay & AirBnB. Unfortunately we’ve become overly dependent on these platforms, and when they move from “attract” to “extract”, their users (whether individuals or businesses) suffer via higher fees or platform risk (i.e. the platform has the power to destroy your business running on it). While today’s interactions might magically and reliably take place on a global scale, it is predominantly the $200Bn digital advertising business, with ‘we the users’ as the product, which fuels this machine. It is now also broadly understood that these platforms of the ‘post truth’ world have created echo-chambers within which unfiltered and unashamedly populist or indeed fallacious claims reverberate and reinforce — sometimes with chaotic consequences.&#x20;
+****
 
 ## What is Web 3.0?
 
