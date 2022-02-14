@@ -30,6 +30,10 @@ Think of Web 2.0 as the read- write web.
 
 ## **Problems with web 2**
 
+Web 2 also called the participatory web or social web refers to websites that emphasize user-generated content, ease of use, participatory culture and interoperability (i.e., compatibility with other products, systems, and devices) for end users.
+
+Today’s internet allows global coordination via a set of intermediaries, providing a digital social trust layer for strangers to interact: from Facebook, whatsapp, Uber, eBay & AirBnB. Today these entities are the kingmakers of the digital world.
+
 **Web 2.0** radically shrunk the latency and cost at which people & businesses could trade  information & work with geographically distributed counterparties they didn’t necessarily know, via trusted intermediaries. Truly global businesses started to form, as the reach of counterparties expanded by a few orders of magnitude. At its heart, today’s internet allows global coordination via a set of intermediaries, providing a digital social trust layer for strangers to interact: from Facebook, whatsapp, Uber, eBay & AirBnB. Unfortunately we’ve become overly dependent on these platforms, and when they move from “attract” to “extract”, their users (whether individuals or businesses) suffer via higher fees or platform risk (i.e. the platform has the power to destroy your business running on it). While today’s interactions might magically and reliably take place on a global scale, it is predominantly the $200Bn digital advertising business, with ‘we the users’ as the product, which fuels this machine. It is now also broadly understood that these platforms of the ‘post truth’ world have created echo-chambers within which unfiltered and unashamedly populist or indeed fallacious claims reverberate and reinforce — sometimes with chaotic consequences.&#x20;
 
 
