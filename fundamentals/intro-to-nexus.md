@@ -26,13 +26,15 @@ Developers can build decentralised applications(dapps) using the REST API, Augme
 
 Minting is the process in which new NXS gets created on the ledger. The underlying protocol can only create the new NXS. The protocol was designed with a max of 78 million NXS for 10 years and after that there will be tail end emission of a max 3.67%
 
+{% hint style="info" %}
 **Nexus was mined into existence similar to Bitcoin and there was no premine or ICO**.
+{% endhint %}
 
 NXS is minted when a miner or staker creates a block on the Nexus blockchain. As an incentive to miners or stakers, the protocol grants a reward in each block created by them, incrementing the balance of an address set by the block's miner. The block reward reduces gradually over time as per the emission logarithmic scale programmed in the protocol.
 
 ### DENOMINATIONS OF NEXUS  <a href="#denominations" id="denominations"></a>
 
-Since many transactions on Nexus are small, Each Nexus has 1 million units or 6 decimal places. The smallest denomination of Nexus has still not been named.
+Since many transactions on Nexus are small, Nexus has 1 million units or 6 decimal places. The smallest denomination of Nexus does not have a unique name.
 
 ### TRANSACTING NXS <a href="#transferring-ether" id="transferring-ether"></a>
 
