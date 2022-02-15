@@ -2,6 +2,7 @@
 
 * [Welcome to Nexus Documentation](README.md)
   * [Nexus Website](https://nexus.io)
+  * [Page 5](readme/page-5.md)
 
 ## FUNDAMENTALS
 
