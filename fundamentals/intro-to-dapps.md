@@ -4,7 +4,11 @@ description: Decentralized Applications the future of web 3.0
 
 # Intro to Dapps
 
+### What are Dapps?
+
 Decentralized applications (dApps) are applications or programs that use blockchain or peer-to-peer (P2P) network of computers as the backend. DApps (also called "dapps") are outside the purview and control of a single authority. DApps—which are often built on the protocol platforms—can be developed for a variety of purposes including gaming, finance, and social media.
+
+It has to be noted that not all blockchains are created equal and here we are taking about chains which are fully decentralized in terms of authority and physical topology. Many blockchains maybe distributed in the network topology, but may have certain centralized segments, like most mobile wallets or centralised services to power dapps like Infura.
 
 ### What are the benefits of dapps?
 
