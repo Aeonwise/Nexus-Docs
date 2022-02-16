@@ -97,6 +97,7 @@
 ## CONSTRUCTION
 
 * [Under Construction Pages](construction/under-construction-pages/README.md)
+  * [Decentralization and Nexus](construction/under-construction-pages/decentralization-and-nexus.md)
   * [FAQ](construction/under-construction-pages/faq.md)
   * [Mining on Linux](construction/under-construction-pages/mining-on-linux.md)
   * [Mobile Wallet](construction/under-construction-pages/mobile-wallet.md)
