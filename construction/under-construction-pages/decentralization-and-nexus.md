@@ -20,7 +20,7 @@ Most people believe that everything in crypto world is decentralised, but the re
 * Distributed physical network topology.
 * DAO based On-chain community governance.
 * On-chain treasury to fund the project.
-* Tokenomics and Gamification (Compensation to Network actors)
+* Justifiable tokenomics, inflation and gamification (Compensation to Network actors)
 * Transactions should be Peer-to-Peer (P2P).&#x20;
 * No ICO or Premine.
 * No Venture Capital (VC) direct funding.
@@ -32,7 +32,11 @@ Most people believe that everything in crypto world is decentralised, but the re
 
 ### Nexus and Decentralization:
 
-Nexus has been driven by the concept of&#x20;
+Nexus has been driven by emphasis for connections between people and inspired by the ethos of Satoshi. It is this vision which drives our innovations and solutions to adhere to the decentralized authority and P2P values. We have made sure that every innovation and solution we provide confirm to concepts of decentralization and distribution.&#x20;
+
+Nexus was mined into existance similar to Bitcoin and there was no ICO or premine. It has three channel consensus which consists of two mining channels Prime and Hash and one staking nPOS. This helps to balance mining monopoly with ASIC mining on Bitcoin. Staking on Nexus is based on Trust and the time spent securing the network is calculated with a trust score and its the product of the no of NXS and the trust score which determines the 3% max stake rate (compensation) and  if the user stops staking, the trust score decays in a ratio 3:1.&#x20;
+
+Nexus does not believe in offchain or Layer -2 transactions and has designed 3DC as a scaling solution. The Nexus mobile wallet is an extension of the network using the lite node and no middlemen. Nexus governance is driven by the community and has recently bootstrapped a starfish based DAO powered by the social stack and after rigorous testing will be mathematically encoded into the blockchain with the 7.0 update later this year. Nexus has a on-chain treasury and that is used to fund the various development activities on Nexus. The funding and expenses are transparent to the community.
 
 
 
