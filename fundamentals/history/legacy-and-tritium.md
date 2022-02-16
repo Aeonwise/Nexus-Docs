@@ -10,4 +10,6 @@ The legacy chain will see a demise at a later stage.
 
 ## Tritium
 
-In Nov 2019, the Nexus network was upgraded to a ground breaking update called Tritium. This changed a cryptocurreny chain to the most innovative protocol platform and the first tritium block was mined on November, 2019. The legacy code was completely rewritten from scratch to be compatible with Tritium. Tritium was written from the ground up as the code is all new, and this is very evident by the disparate architecture. Tritium is designed as a seven layer software stack which interoperates with the OSI stack.
+In Nov 2019, the Nexus network was upgraded to a ground breaking update called Tritium. This changed a cryptocurreny chain to the most innovative protocol platform and the first tritium block was mined on November, 2019. The legacy code was completely rewritten from scratch to be compatible with Tritium. Tritium was written from the ground up as the code is all new, and this is very evident by the disparate architecture.&#x20;
+
+The upgrade to the Nexus network will be carries out in 3 phases Tritium, Amine & Obsidian (TAO). Tritium is complete and then some of the features and some additional features were bundled together as Tritium++ which will be done in three phases. Amine and Obsidian will make the Nexus blockchain into a 3 dimensional chain which will solve scalability. Imagine Tritium being the fast lane, Amine and obsidian will create multiple parallel Tritium lanes in 3 dimension.&#x20;
