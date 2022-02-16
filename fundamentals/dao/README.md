@@ -4,15 +4,15 @@ description: Decentralised Autonomous Organisation - The future of Governance
 
 # DAO
 
-What is Governance?
+### What is Governance?
 
 Governance can be defined as: “The system by which entities, networks are directed and controlled. It is concerned with structure and processes for decision making, accountability, control and behaviour at the top of an entity. Governance influences how an organisation’s objectives are set and achieved, how risk is monitored and addressed and how performance is optimised”. Governance is a system and process, not a single activity and therefore successful implementation of a good governance strategy requires a systematic approach that incorporates strategic planning, risk management and performance management. Like culture, it is a core component of the unique characteristics of a successful organisation.
 
 ### Why do we need Governance?
 
-Every society, organisation or network need some type of governance to survive and thrive. History has seen the experimentation of different type of centralised governance models, which ultimately have failed and as we are all well aware today the democratic governance systems we live in are breaking down. The disparity between the rich and the poor is very huge and its creating a lot of economic unrest. It basically comes down to the fact that centralised systems have proved to fail miserably, will never work in the future and decentralised systems are the need of the hour.
+Every society, organisation or network need some type of governance to survive and thrive. History has seen the experimentation of different type of centralised governance models, which ultimately have failed and as we are all well aware today the democratic governance systems we live in are breaking down. The disparity between the rich and the poor is ever growing and creating  economic unrest. It basically comes down to the fact that centralised systems have failed miserably, and as we move into deeper into the digital realm, centralized systems become more of an enslaving tool and hinder our freedom. Decentralised systems based on blockchain technology are the need of the hour.
 
-The crypto universe with its smart-contract technology has introduced the DAO concept, has been hailed as the holy grail which will redeem humanity, but this has not resulted in a workable model.
+The crypto universe with its smart-contract technology has introduced the DAO (Decentralized Autonomous Organization) concept, which has been hailed as the holy grail which will redeem humanity, but this has not resulted in a perfected workable model.
 
 ### What is a DAO?
 
