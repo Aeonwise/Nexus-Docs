@@ -1,6 +1,6 @@
 # Decentralization and Nexus
 
-_Decentralisation_ is often used as a general term for describing network architectures that more precisely span from decentralised to distributed. Nevertheless, the distinctions are technically significant: the topology of networks (their nodes and their interconnections) determines their properties. One widely referenced classification of network topologies distinguishes between _centralised_, _decentralised_, and _distributed_ networks&#x20;
+_Decentralisation_ is often used as a general term in crypto for describing trust-less, permission-less and immutable blockchains. The words _Decentralisation_ and _Web3_ are used ambiguously __ in every blockchain. Nevertheless, the distinctions are technically significant: the consensus and topology of networks determines their properties. This article will help you decipher the difference.&#x20;
 
 ![](../../.gitbook/assets/CDD.png)
 
@@ -19,12 +19,22 @@ Most people believe that everything in crypto world is decentralised, but the re
 * Decentralized consensus.
 * Distributed physical network topology.
 * DAO based On-chain community governance.
+* On-chain treasury to fund the project.
+* Tokenomics and Gamification (Compensation to Network actors)
 * Transactions should be Peer-to-Peer (P2P).&#x20;
 * No ICO or Premine.
 * No Venture Capital (VC) direct funding.
 * No single point of centralization in the P2P chain.
-* In-built monopolistic safeguards
-*
+* In-built monopolistic safeguards.
+* No off-chain or Layer-2 Transactions.
+* Interoperability with Chains which don't adhere to decentralization.
+* Normal users should be able to access blockchain solutions directly and should be abstracted from the complexity.
+
+### Nexus and Decentralization:
+
+Nexus has been driven by the concept of&#x20;
+
+
 
 
 
