@@ -14,11 +14,11 @@ Likewise, challenges faced by the original blockchain protocol have also led to 
 
 ### How to check if a project is truly decentralized
 
-Most people believe that everything in crypto world is decentralised, but the reality is completly different, Crypto world is filled with buzzwords and marketing which gives&#x20;
+Most people believe that everything in crypto world is decentralised, but the reality is completly different, Crypto world is filled with buzzwords and marketing which creates a lot of confusion. If you are looking at a project which is decentralized then we need to look at some characteristics&#x20;
 
 * Decentralized consensus.
 * Distributed physical network topology.
-* DAO based On-chain community governance.
+* DAO based on-chain community governance.
 * On-chain treasury to fund the project.
 * Justifiable tokenomics, inflation and gamification (Compensation to Network actors)
 * Transactions should be Peer-to-Peer (P2P).&#x20;
