@@ -12,9 +12,9 @@ Many blockchains market themselves as decentralized technology. However, ICOs, S
 
 Likewise, challenges faced by the original blockchain protocol have also led to cryptocurrencies creating ‘off chain solutions’ that require central nodes or servers. This essentially gives control back to a third-party. Similarly, blockchains that have developed ‘Delegated Proof-of-Stake’ (DPoS) consensus mechanisms have also become more centralized.
 
-### How to check if a project is truly decentralized
+### Attributes of a Truly Decentralized Protocol Chain
 
-Most people believe that everything in crypto world is decentralised, but the reality is completly different, Crypto world is filled with buzzwords and marketing which creates a lot of confusion. If you are looking at a project which is decentralized then we need to look at some characteristics&#x20;
+Most people believe that everything in crypto world is decentralised, but the reality is completely different. Crypto world is filled with buzzwords and marketing which creates a lot of confusion. If you are looking at a project which is truly decentralized then we need to look at some of the attributes.&#x20;
 
 * Decentralized consensus.
 * Distributed physical network topology.
@@ -38,7 +38,7 @@ Nexus was mined into existance similar to Bitcoin and there was no ICO or premin
 
 Nexus does not believe in offchain or Layer -2 transactions and has designed 3DC as a scaling solution. The Nexus mobile wallet is an extension of the network using the lite node and no middlemen. Nexus governance is driven by the community and has recently bootstrapped a starfish based DAO powered by the social stack and after rigorous testing will be mathematically encoded into the blockchain with the 7.0 update later this year. Nexus has a on-chain treasury and that is used to fund the various development activities on Nexus. The funding and expenses are transparent to the community. Nexus does not accept direct external funding and is working with a very small but effective team.
 
-Nexus will not be interoperable with other chains and is a conscious design decision from the team.
+Nexus will not be interoperable with other chains and this was a conscious design decision from the team. The wallet which is also known as _**Interface**_ can run the full node or as a lite node. Users can use the Interface to easily create transactions with inbuilt QR code scanner. Users can also issue tokens, assets, tokenize assets, namespaces, global names and also use the template contracts to run some standard contracts. This abstracts the user from the complexity of blockchain.
 
 
 
