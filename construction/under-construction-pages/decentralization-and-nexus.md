@@ -21,7 +21,7 @@ Most people believe that everything in crypto world is decentralised, but the re
 * DAO based on-chain community governance.
 * On-chain treasury to fund the project.
 * Justifiable tokenomics, inflation and gamification (Compensation to Network actors)
-* Transactions should be Peer-to-Peer (P2P).&#x20;
+* Transactions should only be Peer-to-Peer (P2P).&#x20;
 * No ICO or Premine.
 * No Venture Capital (VC) direct funding.
 * No single point of centralization in the P2P chain.
