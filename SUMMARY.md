@@ -2,7 +2,7 @@
 
 * [Welcome to Nexus Documentation](README.md)
   * [Nexus Website](https://nexus.io)
-  * [Page 5](readme/page-5.md)
+  * [History of Nexus](readme/history-of-nexus.md)
 
 ## FUNDAMENTALS
 
@@ -15,8 +15,7 @@
 * [TAO Naming System](fundamentals/tao-naming-system.md)
 * [DAO](fundamentals/dao/README.md)
   * [The Social Stack](fundamentals/dao/the-social-stack.md)
-* [History](fundamentals/history/README.md)
-  * [Legacy and Tritium](fundamentals/history/legacy-and-tritium.md)
+* [Legacy and Tritium](fundamentals/legacy-and-tritium.md)
 
 ## Technology
 
