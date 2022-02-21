@@ -1,10 +1,12 @@
-# Page 4
+---
+description: Nexus scaling 3DC simplified
+---
 
-## The Nexus Three Dimensional Chain Simplified <a href="#c968" id="c968"></a>
+# 3DC - Simplified
+
+## Nexus Three Dimensional Chain Simplified <a href="#c968" id="c968"></a>
 
 The Three Dimensional Chain (3DC) was introduced by Colin Cantrell at the 2017 Nexus Crypto Currency Conference in Aspen, Colorado. The chain has also been referred to as the Multi-Dimensional Chain, or MDC, to reflect future plans to continue evolving the design to include additional dimensions. This new technology has been built from the ground up to improve the basic features offered by Bitcoin, which almost all other digital currencies are based upon. The Nexus 3DC will inherently provide increased security, decentralization, and resource utilization over other traditional blockchains.
-
-
 
 I want to briefly explain some of the issues the 3DC addresses before I go into more detail below. First, many contributors, using three different mining methods, are working and being rewarded for each block, increasing decentralization. Second, since many people are able to contribute, only small amounts of data need to be provided, removing the need to own expensive mining machines or large farms of processors to contribute and receive rewards. Third, Nexus was already the most Quantum Resistant currency, and the 3DC makes the security even stronger by reducing the amount of input any one system has in the process.
 

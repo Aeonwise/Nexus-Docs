@@ -30,7 +30,7 @@
   * [DAO](technology/innovations/dao.md)
   * [LISP](technology/innovations/lisp.md)
   * [3 Dimensional Chain (Future)](technology/innovations/3-dimensional-chain-future/README.md)
-    * [Page 4](technology/innovations/3-dimensional-chain-future/page-4.md)
+    * [3DC - Simplified](technology/innovations/3-dimensional-chain-future/3dc-simplified.md)
   * [Nexus Protocol (Future)](technology/innovations/nexus-protocol-future.md)
   * [LX-OS (Future)](technology/innovations/lx-os-future.md)
   * [ONE Stack](technology/innovations/one-stack.md)
