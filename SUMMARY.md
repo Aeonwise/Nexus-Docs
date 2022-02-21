@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to Nexus Documentation](README.md)
+* [Nexus Documentation](README.md)
   * [Nexus Website](https://nexus.io)
   * [History of Nexus](readme/history-of-nexus.md)
 
@@ -13,9 +13,12 @@
 * [Nexus Virtual Machine](fundamentals/nexus-virtual-machine/README.md)
   * [Page 2](fundamentals/nexus-virtual-machine/page-2.md)
 * [TAO Naming System](fundamentals/tao-naming-system.md)
+* [Consensus on Nexus](fundamentals/consensus-on-nexus/README.md)
+  * [nPoS - TRUST](fundamentals/consensus-on-nexus/npos-trust.md)
 * [DAO](fundamentals/dao/README.md)
   * [The Social Stack](fundamentals/dao/the-social-stack.md)
 * [Legacy and Tritium](fundamentals/legacy-and-tritium.md)
+* [Scaling - 3DC](fundamentals/scaling-3dc.md)
 
 ## Technology
 
@@ -83,8 +86,7 @@
 
 ## Mining
 
-* [Consensus on Nexus](mining/consensus-on-nexus/README.md)
-  * [Mining on Windows](mining/consensus-on-nexus/mining-on-windows.md)
+* [Mining on Windows](mining/mining-on-windows.md)
 
 ## FAQ
 
