@@ -1,4 +1,4 @@
-# LX-OS
+# LX-OS (Future)
 
 ### LX-OS
 
@@ -41,3 +41,5 @@ LX-OS uses [Signature Chains](broken-reference) to authenticate the runtime memo
 **Internet of Things (IoT):** IoT is going to be a major use case. Using deterministic hardware identifications for device-level authentications (e.g. International Mobile Equipment Identity — IMEI) with a cryptographic identity based on Signature Chains, is an innovative security control mechanism for the IoT industry. At first the LX-OS will only target IoT use cases, but a consumer version for desktops, tablets and mobile devices will eventually follow, along with a hypervisor, which allows the visualization of another OS (Windows, Mac, Linux etc).
 
 To learn more, please read the Nexus Protocol Whitepaper.
+
+{% embed url="https://nexus.io/files/nexus_protocol/Nexus_Protocol_1.0.0.pdf" %}

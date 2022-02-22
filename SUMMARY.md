@@ -33,7 +33,7 @@
     * [3DC - Simplified](technology/innovations/3-dimensional-chain-future/3dc-simplified.md)
   * [Nexus Protocol (Future)](technology/innovations/nexus-protocol-future.md)
   * [LX-OS (Future)](technology/innovations/lx-os-future.md)
-  * [ONE Stack](technology/innovations/one-stack.md)
+  * [ONE Stack (Future)](technology/innovations/one-stack-future.md)
 
 ## Economics
 
