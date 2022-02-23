@@ -31,7 +31,8 @@
   * [LISP](technology/innovations/lisp.md)
   * [3 Dimensional Chain (Future)](technology/innovations/3-dimensional-chain-future/README.md)
     * [3DC - Simplified](technology/innovations/3-dimensional-chain-future/3dc-simplified.md)
-  * [Nexus Protocol (Future)](technology/innovations/nexus-protocol-future.md)
+  * [Nexus Protocol (Future)](technology/innovations/nexus-protocol-future/README.md)
+    * [Whitepaper](technology/innovations/nexus-protocol-future/whitepaper.md)
   * [LX-OS (Future)](technology/innovations/lx-os-future.md)
   * [ONE Stack (Future)](technology/innovations/one-stack-future.md)
 
