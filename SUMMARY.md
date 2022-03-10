@@ -6,22 +6,21 @@
 
 ## FUNDAMENTALS
 
-* [Nexus Fundamentals](fundamentals/nexus-fundamentals/README.md)
-  * [Intro to Nexus Network](fundamentals/nexus-fundamentals/intro-to-nexus-network.md)
-  * [Intro to Nexus](fundamentals/nexus-fundamentals/intro-to-nexus.md)
-  * [Intro to Dapps](fundamentals/nexus-fundamentals/intro-to-dapps.md)
-  * [Nodes & Core](fundamentals/nexus-fundamentals/nodes-and-core.md)
-  * [Nexus Virtual Machine](fundamentals/nexus-fundamentals/nexus-virtual-machine/README.md)
-    * [Page 2](fundamentals/nexus-fundamentals/nexus-virtual-machine/page-2.md)
-  * [TAO Framework](fundamentals/nexus-fundamentals/tao-framework.md)
-  * [TAO Naming System](fundamentals/nexus-fundamentals/tao-naming-system.md)
-  * [Consensus on Nexus](fundamentals/nexus-fundamentals/consensus-on-nexus/README.md)
-    * [nPoS - TRUST](fundamentals/nexus-fundamentals/consensus-on-nexus/npos-trust.md)
-  * [Lower Level Library (LLL)](fundamentals/nexus-fundamentals/lower-level-library-lll.md)
-  * [DAO](fundamentals/nexus-fundamentals/dao/README.md)
-    * [The Social Stack](fundamentals/nexus-fundamentals/dao/the-social-stack.md)
-  * [Legacy and Tritium](fundamentals/nexus-fundamentals/legacy-and-tritium.md)
-  * [Scaling - 3DC](fundamentals/nexus-fundamentals/scaling-3dc.md)
+* [Nexus Explained](fundamentals/nexus-explained/README.md)
+  * [Intro to Nexus Network](fundamentals/nexus-explained/intro-to-nexus-network.md)
+  * [Intro to Nexus](fundamentals/nexus-explained/intro-to-nexus.md)
+  * [Intro to Dapps](fundamentals/nexus-explained/intro-to-dapps.md)
+  * [Nodes & Core](fundamentals/nexus-explained/nodes-and-core.md)
+  * [Nexus Virtual Machine](fundamentals/nexus-explained/nexus-virtual-machine.md)
+  * [TAO Framework](fundamentals/nexus-explained/tao-framework.md)
+  * [TAO Naming System](fundamentals/nexus-explained/tao-naming-system.md)
+  * [Consensus on Nexus](fundamentals/nexus-explained/consensus-on-nexus/README.md)
+    * [nPoS - TRUST](fundamentals/nexus-explained/consensus-on-nexus/npos-trust.md)
+  * [Lower Level Library (LLL)](fundamentals/nexus-explained/lower-level-library-lll.md)
+  * [DAO](fundamentals/nexus-explained/dao/README.md)
+    * [The Social Stack](fundamentals/nexus-explained/dao/the-social-stack.md)
+  * [Legacy and Tritium](fundamentals/nexus-explained/legacy-and-tritium.md)
+  * [Scaling - 3DC](fundamentals/nexus-explained/scaling-3dc.md)
 
 ## Technology
 
