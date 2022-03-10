@@ -26,9 +26,9 @@ Community members create proposals about the future operations of the protocol a
 
 The Nexus DAO is based on the social stack;  a new social structure concept for the future. The goal of the social stack is to build a new type of governance structure which not only suits the Nexus network, but also to be utilised in real world for any organisation, society or network.&#x20;
 
-Nexus has designed the DAO organisation structure to resemble the starfish; decentralized network, No head, major organs are replicated throughout each arm. Cut it in half and you get two starfish. This organisation structure can withstand around 42% malicious actors or two arms going corrupt.
+Nexus has designed the DAO organisation structure to resemble the starfish; decentralized network, no head, major organs are replicated throughout each arm. Cut it in half and you get two starfish. This organisation structure can withstand around 42% malicious actors or two arms going corrupt.
 
-A new social structure has to be vetted, tested in its natural habitat and we have launched the organisation as a group of people, testing every functionality and fine tuning it before programming it mathematically into the Nexus protocols. The onchain DAO is scheduled for release with the 7.0 update.
+A new social structure has to be vetted, tested in its natural habitat and we have launched the organisation as a group of people, testing every functionality and fine tuning it before programming it mathematically into the Nexus protocols. The on-chain DAO is scheduled for release with the 7.0 update.
 
 ### Nexus DAO
 
