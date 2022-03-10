@@ -26,7 +26,11 @@ While the first quantum computer was built in 1997, the field became an arms rac
 
 IBM unveiled the first quantum computer for scientific and commercial use — IBM Q System One — in January 2019. In October of the same year, Google made history by announcing they’d achieved quantum supremacy. Their quantum computer had solved a mathematical problem it would take a traditional machine 10,000 years to solve.
 
-Researchers at the University of Singapore have said that Bitcoin’s cryptographic algorithm could be under threat by quantum computers as soon as 2027.
+Most blockchains like Bitcoin, Ethereum use Elliptic Curve Digital Signature Algorithm (ECDSA) for public key cryptography. Using a quantum computer, Shor’s algorithm can be used to break ECDSA.&#x20;
+
+With Bitcoin, a private key, picked at random, is run through these algorithms to generate a public key. And the Bitcoin protocol uses the hash value of this to create a public Bitcoin address. A quantum computer could reverse this process and derive the private key from a public one. And voila! Bitcoin’s claim of inviolability and unhackability is gone. Two major quantum algorithms that threaten the current state of cryptography have already been developed: Grover's and Shor's algorithms.
+
+Researchers at the University of Singapore have said that Bitcoin’s cryptographic algorithm could be under threat by quantum computers as soon as 2027.&#x20;
 
 
 
