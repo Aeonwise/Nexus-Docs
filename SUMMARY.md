@@ -6,21 +6,21 @@
 
 ## FUNDAMENTALS
 
-* [Nexus Explained](fundamentals/nexus-explained/README.md)
-  * [Intro to Nexus Network](fundamentals/nexus-explained/intro-to-nexus-network.md)
-  * [Intro to Nexus](fundamentals/nexus-explained/intro-to-nexus.md)
-  * [Intro to Dapps](fundamentals/nexus-explained/intro-to-dapps.md)
-  * [Nodes & Core](fundamentals/nexus-explained/nodes-and-core.md)
-  * [Nexus Virtual Machine](fundamentals/nexus-explained/nexus-virtual-machine.md)
-  * [TAO Framework](fundamentals/nexus-explained/tao-framework.md)
-  * [TAO Naming System](fundamentals/nexus-explained/tao-naming-system.md)
-  * [Consensus on Nexus](fundamentals/nexus-explained/consensus-on-nexus/README.md)
-    * [nPoS - TRUST](fundamentals/nexus-explained/consensus-on-nexus/npos-trust.md)
-  * [Lower Level Library (LLL)](fundamentals/nexus-explained/lower-level-library-lll.md)
-  * [DAO](fundamentals/nexus-explained/dao/README.md)
-    * [The Social Stack](fundamentals/nexus-explained/dao/the-social-stack.md)
-  * [Legacy and Tritium](fundamentals/nexus-explained/legacy-and-tritium.md)
-  * [Scaling - 3DC](fundamentals/nexus-explained/scaling-3dc.md)
+* [Nexus Divulged](fundamentals/nexus-divulged/README.md)
+  * [Intro to Nexus Network](fundamentals/nexus-divulged/intro-to-nexus-network.md)
+  * [Intro to Nexus](fundamentals/nexus-divulged/intro-to-nexus.md)
+  * [Intro to Dapps](fundamentals/nexus-divulged/intro-to-dapps.md)
+  * [Nodes & Core](fundamentals/nexus-divulged/nodes-and-core.md)
+  * [Nexus Virtual Machine](fundamentals/nexus-divulged/nexus-virtual-machine.md)
+  * [TAO Framework](fundamentals/nexus-divulged/tao-framework.md)
+  * [TAO Naming System](fundamentals/nexus-divulged/tao-naming-system.md)
+  * [Consensus on Nexus](fundamentals/nexus-divulged/consensus-on-nexus.md)
+  * [Lower Level Library (LLL)](fundamentals/nexus-divulged/lower-level-library-lll.md)
+  * [DAO](fundamentals/nexus-divulged/dao/README.md)
+    * [The Social Stack](fundamentals/nexus-divulged/dao/the-social-stack.md)
+  * [Legacy and Tritium](fundamentals/nexus-divulged/legacy-and-tritium.md)
+  * [Scaling - 3DC](fundamentals/nexus-divulged/scaling-3dc.md)
+  * [Quantum Resistance](fundamentals/nexus-divulged/quantum-resistance.md)
 
 ## Technology
 
@@ -81,12 +81,12 @@
       * [Staking](guides/guides/nexus-interface/wallet-functions/staking.md)
   * [Invoice Module Guide](guides/guides/invoice-module-guide.md)
 
-## USE-CASES
+## How To
 
-* [Page 3](use-cases/page-3/README.md)
-  * [Tokenizing Assets](use-cases/page-3/tokenizing-assets.md)
-  * [Tokens](use-cases/page-3/tokens.md)
-  * [Assets](use-cases/page-3/assets.md)
+* [Page 3](how-to/page-3/README.md)
+  * [Tokenizing Assets](how-to/page-3/tokenizing-assets.md)
+  * [Tokens](how-to/page-3/tokens.md)
+  * [Assets](how-to/page-3/assets.md)
 
 ## Mining
 
@@ -109,3 +109,4 @@
   * [Web 3.0](construction/under-construction-pages/web-3.0/README.md)
     * [Safenet](construction/under-construction-pages/web-3.0/safenet.md)
     * [Architecture](construction/under-construction-pages/web-3.0/architecture.md)
+  * [nPoS - TRUST](construction/under-construction-pages/npos-trust.md)
