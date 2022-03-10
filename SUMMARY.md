@@ -19,24 +19,23 @@
   * [DAO](fundamentals/nexus-divulged/dao/README.md)
     * [The Social Stack](fundamentals/nexus-divulged/dao/the-social-stack.md)
   * [Legacy and Tritium](fundamentals/nexus-divulged/legacy-and-tritium.md)
-  * [Scaling - 3DC](fundamentals/nexus-divulged/scaling-3dc.md)
   * [Quantum Resistance](fundamentals/nexus-divulged/quantum-resistance.md)
 
 ## Technology
 
-* [Innovations](technology/innovations/README.md)
-  * [Software Stack](technology/innovations/software-stack.md)
-  * [Signature Chains](technology/innovations/signature-chains.md)
-  * [Quantum Resistance](technology/innovations/quantum-resistance.md)
-  * [TRUST](technology/innovations/trust.md)
-  * [DAO](technology/innovations/dao.md)
-  * [LISP](technology/innovations/lisp.md)
-  * [3 Dimensional Chain (Future)](technology/innovations/3-dimensional-chain-future/README.md)
-    * [3DC - Simplified](technology/innovations/3-dimensional-chain-future/3dc-simplified.md)
-  * [Nexus Protocol (Future)](technology/innovations/nexus-protocol-future/README.md)
-    * [Whitepaper](technology/innovations/nexus-protocol-future/whitepaper.md)
-  * [LX-OS (Future)](technology/innovations/lx-os-future.md)
-  * [ONE Stack (Future)](technology/innovations/one-stack-future.md)
+* [Nexus Innovations](technology/nexus-innovations/README.md)
+  * [Software Stack](technology/nexus-innovations/software-stack.md)
+  * [Signature Chains](technology/nexus-innovations/signature-chains.md)
+  * [Quantum Resistance](technology/nexus-innovations/quantum-resistance.md)
+  * [TRUST](technology/nexus-innovations/trust.md)
+  * [DAO](technology/nexus-innovations/dao.md)
+  * [LISP](technology/nexus-innovations/lisp.md)
+  * [3 Dimensional Chain (Future)](technology/nexus-innovations/3-dimensional-chain-future/README.md)
+    * [3DC - Simplified](technology/nexus-innovations/3-dimensional-chain-future/3dc-simplified.md)
+  * [Nexus Protocol (Future)](technology/nexus-innovations/nexus-protocol-future/README.md)
+    * [Whitepaper](technology/nexus-innovations/nexus-protocol-future/whitepaper.md)
+  * [LX-OS (Future)](technology/nexus-innovations/lx-os-future.md)
+  * [ONE Stack (Future)](technology/nexus-innovations/one-stack-future.md)
 
 ## Economics
 
@@ -83,10 +82,11 @@
 
 ## How To
 
-* [Page 3](how-to/page-3/README.md)
-  * [Tokenizing Assets](how-to/page-3/tokenizing-assets.md)
-  * [Tokens](how-to/page-3/tokens.md)
-  * [Assets](how-to/page-3/assets.md)
+* [Create on Nexus](how-to/create-on-nexus/README.md)
+  * [Tokenizing Assets](how-to/create-on-nexus/tokenizing-assets.md)
+  * [Tokens](how-to/create-on-nexus/tokens.md)
+  * [Assets](how-to/create-on-nexus/assets/README.md)
+    * [Asset Using Interface](how-to/create-on-nexus/assets/asset-using-interface.md)
 
 ## Mining
 
@@ -110,3 +110,4 @@
     * [Safenet](construction/under-construction-pages/web-3.0/safenet.md)
     * [Architecture](construction/under-construction-pages/web-3.0/architecture.md)
   * [nPoS - TRUST](construction/under-construction-pages/npos-trust.md)
+  * [Scaling - 3DC](construction/under-construction-pages/scaling-3dc.md)

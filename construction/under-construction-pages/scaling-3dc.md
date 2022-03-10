@@ -6,6 +6,6 @@ The 3DC chains together cryptographic primitives into a three dimensional immuta
 
 To read more click below:
 
-{% content-ref url="../../technology/innovations/3-dimensional-chain-future/" %}
-[3-dimensional-chain-future](../../technology/innovations/3-dimensional-chain-future/)
+{% content-ref url="../../technology/nexus-innovations/3-dimensional-chain-future/" %}
+[3-dimensional-chain-future](../../technology/nexus-innovations/3-dimensional-chain-future/)
 {% endcontent-ref %}
