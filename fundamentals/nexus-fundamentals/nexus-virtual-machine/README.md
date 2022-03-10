@@ -1,3 +1,7 @@
+---
+description: All about the NVM
+---
+
 # Nexus Virtual Machine
 
 The Nexus Virtual Machine (NVM) is a **`state machine`** and exists as one single entity maintained by hundreds of connected Nexus nodes.

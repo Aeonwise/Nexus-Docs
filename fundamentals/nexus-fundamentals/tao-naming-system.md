@@ -1,3 +1,7 @@
+---
+description: All information on the TAO Naming System
+---
+
 # TAO Naming System
 
 ## Names and Namespaces
@@ -21,8 +25,6 @@ Names that are created within the context of a namespace are called as Namespace
 ### GLOBAL NAMES:
 
 Global Names require no username or namespace prefix, and are therefore globally unique. These will be likely reserved for use cases where a succinct, unique, name is necessary, for example a token ticker symbol. To avoid needless name-squatting, global names attract a high fee (`2000 NXS`).
-
-
 
 The Names API allows callers to access and manage both Names and Namespaces. Names can be created to "point" to any register address you wish, whether the caller owns the register or not. This is useful, for example, if somebody gives you the register address of a NXS account to receive payments and you wish to add a friendly Name for it for future use.
 
