@@ -40,4 +40,10 @@ This section is for the asset data or metadata. The information provided here he
 
 Ex: If creating an Asset of a digital art, which basically is an image file, provide a md5 hash of the original image for anyone to check the authenticity of that particular file. If all the details are provided without the file hash, the asset will not be of any use due to the fact that no one will be able to confirm the authenticity of the file which represents the asset
 
+{% hint style="info" %}
+Asset data has a limit of 1KB and this is binding. An asset can contain around 990 - 995 characters including spaces.
+{% endhint %}
+
+In the image the Asset Data is entered in fields which represent a single line. First field is the name of the field and next is the value.&#x20;
+
 &#x20;
