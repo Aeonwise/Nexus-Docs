@@ -34,9 +34,7 @@ The max supply of the token cannot be increased once the token is generated.
 
 ### DECIMAL
 
-This is the no of decimal places for the token, increasing the decimal places also increases the fee.
-
-Once all the token parameters are provided and ready to generate the token, click on the "Create token" button on the bottom of the page.
+This is the no of decimal places for the token, increasing the decimal places also increases the fee.&#x20;
 
 ## Token Accounts:
 
