@@ -84,6 +84,7 @@
 
 * [Create on Nexus](how-to/create-on-nexus/README.md)
   * [Asset Using Interface](how-to/create-on-nexus/asset-using-interface.md)
+  * [Token Using Interface](how-to/create-on-nexus/token-using-interface.md)
 
 ## Mining
 
