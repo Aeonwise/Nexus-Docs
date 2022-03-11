@@ -16,7 +16,7 @@ Local Names are those created within the context of a signature chain. To use a 
 
 ### NAMESPACE:
 
-Namespaces allow users to provide user-friendly names for their object registers without needing to disclose their username. This is useful for privacy, but also to allow names to be related to a business or some other meaningful context. To avoid name-squatting registering a namespace name attracts a high fee (`1000 NXS`). However once registered, creating Names within that namespace costs only `1 NXS`
+Namespaces allow users to provide user-friendly names for their object registers without needing to disclose their username. This is useful for privacy, but also to allow names to be related to a business or some other meaningful context. To avoid name-squatting registering a namespace  attracts a high fee (`1000 NXS`). However once registered, creating Names within that namespace costs only `1 NXS`
 
 #### `Namespaced:`
 
