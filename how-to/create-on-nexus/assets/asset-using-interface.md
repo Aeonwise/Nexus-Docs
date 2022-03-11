@@ -43,20 +43,36 @@ Naming Convention:\
 This section is for the asset data or metadata. The information provided here helps to give validity to the Asset and its value. The asset data has to be precise, complete and should enable anyone to check authenticity of the asset its backing. The data provided will depend on the digital or physical asset which is being backed as a blockchain Asset. &#x20;
 
 {% hint style="info" %}
-Asset data has a limit of 1KB and this is binding. An asset can hold approximately 990 - 995 characters including spaces. This excludes the Asset Name.
+Asset Data has a limit of 1KB and this is binding. An asset can hold approximately 990 - 995 characters including spaces. This excludes the Asset Name.
 {% endhint %}
 
 {% hint style="warning" %}
 **Note:** If creating an Asset of a digital art, which basically is an image file, provide a md5 hash of the original image for anyone to check the authenticity of that particular file. If all the details are provided without the file hash, the asset will not be of any use, due to the fact that no one will be able to confirm the authenticity of the file which represents the asset.&#x20;
 {% endhint %}
 
-Asset Data is entered in fields which represent a single line in the image above. First column is the  field name and next is the value. Next is the mutable radio button, next is the Type drop down and the last is the max length which is enabled only for a mutable string to limit the size which has to be capped with the 1 KB size.
+Asset Data is entered in fields which represent a single line in the image above.&#x20;
 
-#### Data Type
+#### Name:&#x20;
+
+The first column is the field name, which is the name for the data you are going to add like Description, Owner, Artist, Hash etc.
+
+#### Value:&#x20;
+
+The second column is the value of the field, like the owner's name
+
+#### Mutable:
+
+Third is the radio button to enable mutable field (default is disabled). Mutable fields can be changed anytime by the sigchain owner of the asset. This is very helpful in case you have a house minted as an Asset and once you sell the house, transfer the asset to the new owner and he can change the "Owner" field to his name.
+
+{% hint style="info" %}
+Only make the fields mutable which really need. Ex When creating a asset which refers to a house, The "Owner" field needs to be mutable, this is due to the  where as Location, Name, Registration No&#x20;
+{% endhint %}
+
+#### Type:
 
 String: It is a data type used to represent text. It is comprised of a set of characters that can also contain spaces and numbers. For example, the word "hamburger" and the phrase "I ate 3 hamburgers" are both strings. Even "12345" could be considered a string.&#x20;
 
-Date types uint8, uint16, uint32, uint64, uint128, uint256, uint512 and uint1024 represents an unsigned integer number stored with 8, 16, 32 or 64 bit.
+Date types uint8, uint16, uint32, uint64, uint128, uint256, uint512 and uint1024 represents an unsigned integer number stored with 8, 16, 32 or 64 bit.&#x20;
 
 |   Type   | Bytes | Min - Max Value                |
 | :------: | :---: | ------------------------------ |
@@ -68,4 +84,6 @@ Date types uint8, uint16, uint32, uint64, uint128, uint256, uint512 and uint1024
 |  uint512 |   32  | 0 - 2^512-1                    |
 | uint1024 |   64  | 0 - 2^1024-1                   |
 
-&#x20;
+Max Length:
+
+This field is enabled only if the field is selected as mutable and the type is selected as "string". This is important as this will allow to limit the length of the field when it's changed later and to contain the Asset Data within the 1 KB limit.
