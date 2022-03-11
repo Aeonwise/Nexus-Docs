@@ -50,17 +50,22 @@ Asset data has a limit of 1KB and this is binding. An asset can hold approximate
 **Note:** If creating an Asset of a digital art, which basically is an image file, provide a md5 hash of the original image for anyone to check the authenticity of that particular file. If all the details are provided without the file hash, the asset will not be of any use, due to the fact that no one will be able to confirm the authenticity of the file which represents the asset.&#x20;
 {% endhint %}
 
-Asset Data is entered in fields which represent a single line in the image above. First column is the  field name and next is the value. Next is the mutable radio button, next is the Type drop down and &#x20;
+Asset Data is entered in fields which represent a single line in the image above. First column is the  field name and next is the value. Next is the mutable radio button, next is the Type drop down and the last is the max length which is enabled only for a mutable string to limit the size which has to be capped with the 1 KB size.
 
-|          | Bytes | Min - Max Value |
-| -------- | :---: | --------------- |
-| uint8    |   1   | 0 - 255         |
-| unit16   |   2   | 0 - 65535       |
-| uint32   |   4   | 0 - 4294967295  |
-| unit64   |   8   | 0 -             |
-| unit256  |   16  |                 |
-| uint512  |   32  |                 |
-| uint1024 |   64  |                 |
-|          |       |                 |
+#### Data Type
+
+String: It is a data type used to represent text. It is comprised of a set of characters that can also contain spaces and numbers. For example, the word "hamburger" and the phrase "I ate 3 hamburgers" are both strings. Even "12345" could be considered a string.&#x20;
+
+Date types uint8, uint16, uint32, uint64, uint128, uint256, uint512 and uint1024 represents an unsigned integer number stored with 8, 16, 32 or 64 bit.
+
+|   Type   | Bytes | Min - Max Value                |
+| :------: | :---: | ------------------------------ |
+|   uint8  |   1   | 0 - 255                        |
+|  unit16  |   2   | 0 - 65535                      |
+|  uint32  |   4   | 0 - 4,294,967,295              |
+|  unit64  |   8   | 0 - 18,446,744,073,709,551,615 |
+|  unit256 |   16  | 0 - 2^256-1                    |
+|  uint512 |   32  | 0 - 2^512-1                    |
+| uint1024 |   64  | 0 - 2^1024-1                   |
 
 &#x20;
