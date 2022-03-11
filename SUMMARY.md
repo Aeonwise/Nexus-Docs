@@ -83,8 +83,8 @@
 ## How To
 
 * [Create on Nexus](how-to/create-on-nexus/README.md)
-  * [Asset Using Interface](how-to/create-on-nexus/asset-using-interface.md)
-  * [Token Using Interface](how-to/create-on-nexus/token-using-interface.md)
+  * [Create an Asset](how-to/create-on-nexus/create-an-asset.md)
+  * [Create a Token](how-to/create-on-nexus/create-a-token.md)
 
 ## Mining
 
