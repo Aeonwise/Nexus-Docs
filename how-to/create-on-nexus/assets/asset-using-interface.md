@@ -87,3 +87,12 @@ Date types uint8, uint16, uint32, uint64, uint128, uint256, uint512 and uint1024
 Max Length:
 
 This field is enabled only if the field is selected as mutable and the type is selected as "string". This is important as this will allow to limit the length of the field when it's changed later and to contain the Asset Data within the 1 KB limit.
+
+#### Add Another Field
+
+To add another field click on the "+ADD FIELD" button below the first field.
+
+#### Remove Field
+
+To remove a field hover the mouse pointer on that field, a "x" icon will appear on the left side of the field, click on it to remove the field.
+
