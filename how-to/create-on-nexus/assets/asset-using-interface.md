@@ -1,12 +1,12 @@
+---
+description: Create Asset using the Interface
+---
+
 # Asset Using Interface
 
 This guide will help users to create an Asset (NFT) using the Nexus Interface
 
-{% hint style="info" %}
-This asset will reside on the Nexus network and will be owned by the user account / sigchain which created it.
-{% endhint %}
-
-Open the Nexus Interface, make sure the wallet is fully synched. Log into the user account (sigchain).
+Open the Nexus Interface, make sure the wallet is fully synched. Log into the user account (Sigchain).
 
 In the Overview page, at the bottom click on the "_User"_ module. This opens the User page.
 
@@ -29,14 +29,17 @@ Asset Name has a separate fee of 1NXS. Users can opt not to create an Asset Name
 {% endhint %}
 
 {% hint style="info" %}
-Naming Convention:\
+Naming Convention:
 
+* Use a unique name if creating an asset. Short names are preferred, but if needed use long names.
+* Names can contain upper lower case letters, numbers and special characters.
+* If creating an asset of a real world assets like real estate, provide clear and precise information for the Asset Name&#x20;
+* If creating a bunch of Assets / NFT's, say from a single art collection, then suffix the collection name with a unique serial Number series Ex: "_Iron Maiden #0001"_
 {% endhint %}
 
 * Use a unique name if creating an asset. Short names are preferred, but if needed use long names.
 * If creating an asset of a real world assets like real estate, provide clear and precise information for the Asset Name&#x20;
 * If creating a bunch of NFT's say from a single art collection, then suffix the collection name with a unique serial Number series Ex: "_Iron Maiden #0001"_
-* __
 
 ### Asset Data
 
@@ -96,3 +99,18 @@ To add another field click on the "+ADD FIELD" button below the first field.
 
 To remove a field hover the mouse pointer on that field, a "x" icon will appear on the left side of the field, click on it to remove the field.
 
+### Create the Asset
+
+Once all the asset name and data is filled, at the bottom you can see the estimated cost to mint this asset.
+
+ON the bottom of the page click on "Create Asset" which will save mint the asset on the blockchain and dedect the fees
+
+{% hint style="info" %}
+The fees will be deducted automatically from the "default" account, make sure that you have NXS to cover the fees or it will fail to mint the asset.&#x20;
+{% endhint %}
+
+Once the asset is minted you will see a new entry in the "Assets" page.
+
+{% hint style="info" %}
+This asset will reside on the Nexus network and will be owned by the user account which created it.
+{% endhint %}
