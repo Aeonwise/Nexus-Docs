@@ -6,27 +6,22 @@ description: Create a Token Using Nexus Interface
 
 This guide will help users to create a Token using the Nexus Interface
 
-## Create a Token
-
-To create a token using the Interface follow the following steps
-
-* Open the Nexus Interface, make sure the wallet is fully synched and log into the user account (Sigchain).
-* In the Overview page, at the bottom click on the "_User"_ module. This opens the User page.
-* In the User page, on the left side click on the "_Tokens_" tab.
-* In the Assets page click on "_Create a new token_". This opens the "New Token" page.&#x20;
-* In this page the user has to provide three parameters which define the token. The parameters  and their details are given below:
-* Once the parameters are provided, click on the "Create token" button on the bottom of the page.
+Before we start to create a token, users need to be familiar with some of the concepts and parameters used with tokens.
 
 ## Token Parameters
 
+Token parameters are what define a token like token name, supply and decimals. Learn more about them below:
+
 ### TOKEN NAME
 
-This is a local name to identify the token. This name resides inside the Sigchain and is not valid outside it.&#x20;
-
-If there is a need for a unique global name then the user needs to create a Global Name
+This is a local name to identify the token. This name resides inside the user account (Sigchain) and is not valid outside it.&#x20;
 
 {% hint style="info" %}
-Token name has a separate fee of 1NXS. Users can opt not to create a token name and can use the register address to access or search the Asset. This is a local name and is not valid outside the user account.
+Token name has a separate fee of 1NXS. Users can opt not to create a token name and can use the register address to access or search the Asset. This is a local name and is not valid outside the Sigchain.
+{% endhint %}
+
+{% hint style="info" %}
+If there is a need for a unique global name for the token, then the issuer needs to create a Global name and link it to the token.
 {% endhint %}
 
 ### SUPPLY
@@ -42,8 +37,6 @@ The max supply of the token cannot be increased once the token is generated.
 This is the no of decimal places for the token, increasing the decimal places also increases the fee.
 
 Once all the token parameters are provided and ready to generate the token, click on the "Create token" button on the bottom of the page.
-
-### CREATE Token:
 
 ## Token Accounts:
 
@@ -68,3 +61,16 @@ Once created, the token has three important properties:
 * maxsupply - the maximum number of tokens that will exist
 * currentsupply - the number of circulating tokens that have been distributed to token accounts
 * balance - the number of tokens that have not yet been distributed (maxsupply - currentsupply)
+
+
+
+## Create a Token
+
+To create a token using the Interface follow the following steps
+
+* Open the Nexus Interface, make sure the wallet is fully synched and log into the user account (Sigchain).
+* In the Overview page, at the bottom click on the "_User"_ module. This opens the User page.
+* In the User page, on the left side click on the "_Tokens_" tab.
+* In the Assets page click on "_Create a new token_". This opens the "New Token" page.&#x20;
+* In this page the user has to provide three parameters which define the token. The parameters  and their details are given below:
+* Once the parameters are provided, click on the "Create token" button on the bottom of the page.
