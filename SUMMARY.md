@@ -84,6 +84,7 @@
 
 * [Create on Nexus](how-to/create-on-nexus/README.md)
   * [Create an Asset](how-to/create-on-nexus/create-an-asset.md)
+  * [Page 2](how-to/create-on-nexus/page-2.md)
   * [Create a Token](how-to/create-on-nexus/create-a-token.md)
 
 ## Mining

@@ -2,23 +2,21 @@
 description: Create Asset using the Interface
 ---
 
-# Asset Using Interface
+# Create an Asset
 
 This guide will help users to create an Asset (NFT) using the Nexus Interface
 
-Open the Nexus Interface, make sure the wallet is fully synched. Log into the user account (Sigchain).
+Before we start to create an asset, users need to be familiar with some of the concepts and parameters used with assets.
 
-In the Overview page, at the bottom click on the "_User"_ module. This opens the User page.
 
-&#x20;In the User page, on the left side click on the "_Assets_" tab.
-
-In the Assets page click on "Create a new asset". This opens the Create a new asset page.
 
 {% hint style="info" %}
 Creating an Asset has a fee of 1 NXS and "_Asset Name"_ has a fee of 1 NXS. Total cost of an Asset with Name will be 2 NXS
 {% endhint %}
 
 Here you have two main sections "Asset Name" and "Asset Data".
+
+## Asset Parameters
 
 ### Asset Name
 
@@ -36,10 +34,6 @@ Naming Convention:
 * If creating an asset of a real world assets like real estate, provide clear and precise information for the Asset Name&#x20;
 * If creating a bunch of Assets / NFT's, say from a single art collection, then suffix the collection name with a unique serial Number series Ex: "_Iron Maiden #0001"_
 {% endhint %}
-
-* Use a unique name if creating an asset. Short names are preferred, but if needed use long names.
-* If creating an asset of a real world assets like real estate, provide clear and precise information for the Asset Name&#x20;
-* If creating a bunch of NFT's say from a single art collection, then suffix the collection name with a unique serial Number series Ex: "_Iron Maiden #0001"_
 
 ### Asset Data
 
@@ -87,9 +81,22 @@ Date types uint8, uint16, uint32, uint64, uint128, uint256, uint512 and uint1024
 | uint512    |     32     | 0 - 2^512-1                    |
 | uint1024   |     64     | 0 - 2^1024-1                   |
 
-Max Length:
+**Max Length:**
 
 This field is enabled only if the field is selected as mutable and the type is selected as "string". This is important as this will allow to limit the length of the field when it's changed later and to contain the Asset Data within the 1 KB limit.
+
+## Create an Asset
+
+To create an asset using the Interface follow the following steps:
+
+* Open the Nexus Interface, make sure the wallet is fully synched. Log into the user account (Sigchain).
+* In the Overview page, at the bottom click on the "_User"_ module. This opens the User page.
+* In the User page, on the left side click on the "_Assets_" tab.
+* In the Assets page click on "Create a new asset". This opens the Create a new asset page.
+* In this page the user has to provide the name and data which define the asset.&#x20;
+  * To add another field click on the "+ADD FIELD" button below the first field.
+  * To remove a field hover the mouse pointer on that field, a "x" icon will appear on the left side of the field, click on it to remove the field.
+* Once the data is provided, double check to make sure everything is in order, click on the "CREATE ASSET" button on the bottom of the page.
 
 #### Add Another Field
 
@@ -98,8 +105,6 @@ To add another field click on the "+ADD FIELD" button below the first field.
 #### Remove Field
 
 To remove a field hover the mouse pointer on that field, a "x" icon will appear on the left side of the field, click on it to remove the field.
-
-### Create the Asset
 
 Once all the asset name and data is filled, at the bottom you can see the estimated cost to mint this asset.
 
@@ -114,3 +119,4 @@ Once the asset is minted you will see a new entry in the "Assets" page.
 {% hint style="info" %}
 This asset will reside on the Nexus network and will be owned by the user account which created it.
 {% endhint %}
+

@@ -68,7 +68,7 @@ Once created, the token has three important properties:
 
 ## Create a Token
 
-To create a token using the Interface follow the following steps
+To create a token using the Interface follow the following steps:
 
 * Open the Nexus Interface, make sure the wallet is fully synched and log into the user account (Sigchain).
 * In the Overview page, at the bottom click on the "_User"_ module. This opens the User page.
