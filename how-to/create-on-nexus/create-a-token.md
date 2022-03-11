@@ -46,11 +46,15 @@ The tokens which are in the generating address can be burnt to remove them perma
 
 ### Token Generation Register Address&#x20;
 
-This is the register address which generates that particular token and tokens in this address are out of circulation. Tokens when sent out to a token account come into circulation. Users can send tokens back to the generation address to remove them from circulation. Users can&#x20;
+This is the register address which generates that particular token and tokens in this address are out of circulation. Tokens when sent out to a token account come into circulation. Users can send tokens back to the generation address to remove them from circulation.
 
 ### Token account:&#x20;
 
-This is a normal account which can receive a particular token either from a generation address or another token account. Each token account is liked only to a particular token and cannot receive any other token. Every user has to create a token account to transact a particular token.
+This is a normal token account which can receive a particular token either from a generation address or another token account. Each token account is liked only to a particular token and cannot receive any other token. Every user has to create a token account to transact a particular token.
+
+{% hint style="warning" %}
+Token accounts can only receive the particular token they are linked to. They cannot accept NXS or any other token. The standard "default", "trust" or any NXS account cannot accept any tokens.&#x20;
+{% endhint %}
 
 
 
