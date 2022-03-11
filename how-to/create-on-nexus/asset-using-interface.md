@@ -43,7 +43,7 @@ Naming Convention:
 
 ### Asset Data
 
-This section is for the asset data or metadata. The information provided here helps to give validity to the Asset and its value. The asset data has to be precise, complete and should enable anyone to check authenticity of the asset its backing. The data provided will depend on the digital or physical asset which is being backed as a blockchain Asset. &#x20;
+This section is for the asset data or metadata. The information provided here helps to give validity to the asset and its value. The asset data has to be precise, complete and should enable anyone to check authenticity of the asset its backing. The data provided will depend on the digital or physical asset which is being backed as a blockchain Asset. &#x20;
 
 {% hint style="info" %}
 Asset Data has a limit of 1KB and this is binding. An asset can hold approximately 990 - 995 characters including spaces. This excludes the Asset Name.
@@ -77,15 +77,15 @@ String: It is a data type used to represent text. It is comprised of a set of ch
 
 Date types uint8, uint16, uint32, uint64, uint128, uint256, uint512 and uint1024 represents an unsigned integer number stored with 8, 16, 32 or 64 bit.&#x20;
 
-|   Type   | Bytes | Min - Max Value                |
-| :------: | :---: | ------------------------------ |
-|   uint8  |   1   | 0 - 255                        |
-|  unit16  |   2   | 0 - 65535                      |
-|  uint32  |   4   | 0 - 4,294,967,295              |
-|  unit64  |   8   | 0 - 18,446,744,073,709,551,615 |
-|  unit256 |   16  | 0 - 2^256-1                    |
-|  uint512 |   32  | 0 - 2^512-1                    |
-| uint1024 |   64  | 0 - 2^1024-1                   |
+|       Type | No of Bits | Min - Max Value                |
+| ---------- | :--------: | ------------------------------ |
+| uint8      |      1     | 0 - 255                        |
+| unit16     |      2     | 0 - 65535                      |
+| uint32     |      4     | 0 - 4,294,967,295              |
+| unit64     |      8     | 0 - 18,446,744,073,709,551,615 |
+| unit256    |     16     | 0 - 2^256-1                    |
+| uint512    |     32     | 0 - 2^512-1                    |
+| uint1024   |     64     | 0 - 2^1024-1                   |
 
 Max Length:
 

@@ -83,10 +83,7 @@
 ## How To
 
 * [Create on Nexus](how-to/create-on-nexus/README.md)
-  * [Tokenizing Assets](how-to/create-on-nexus/tokenizing-assets.md)
-  * [Tokens](how-to/create-on-nexus/tokens.md)
-  * [Assets](how-to/create-on-nexus/assets/README.md)
-    * [Asset Using Interface](how-to/create-on-nexus/assets/asset-using-interface.md)
+  * [Asset Using Interface](how-to/create-on-nexus/asset-using-interface.md)
 
 ## Mining
 
@@ -111,3 +108,6 @@
     * [Architecture](construction/under-construction-pages/web-3.0/architecture.md)
   * [nPoS - TRUST](construction/under-construction-pages/npos-trust.md)
   * [Scaling - 3DC](construction/under-construction-pages/scaling-3dc.md)
+  * [Assets](construction/under-construction-pages/assets.md)
+  * [Tokens](construction/under-construction-pages/tokens.md)
+  * [Tokenizing Assets](construction/under-construction-pages/tokenizing-assets.md)
