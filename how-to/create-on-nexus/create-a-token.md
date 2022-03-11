@@ -14,19 +14,19 @@ Token parameters are what define a token like token name, supply and decimals. L
 
 ### TOKEN NAME
 
-This is a local name to identify the token. This name resides inside the user account (Sigchain) and is not valid outside it.&#x20;
+This is a local name to identify the token and is optional. This name resides inside the user account (Sigchain) and is not valid outside it.
 
 {% hint style="info" %}
-Token name has a separate fee of 1NXS. Users can opt not to create a token name and can use the register address to access or search the Asset. This is a local name and is not valid outside the Sigchain.
+Token name has a separate fee of 1NXS. Issuer can opt not to create a token name and can use the register address to access or search the Asset. This is a local name and is not valid outside the Sigchain.
 {% endhint %}
 
 {% hint style="info" %}
-If there is a need for a unique global name for the token, then the issuer needs to create a Global name and link it to the token.
+If there is a need for a unique global name (ticker) for the token, then the issuer needs to create a Global name and link it to the token.
 {% endhint %}
 
 ### SUPPLY
 
-This is the total number of fungible tokens that needs to be generated. The fee increases with a higher supply.
+This is the total number of fungible tokens that needs to be generated. The fee increases with a higher supply. Check the fees [here](../../readme/fees.md).
 
 {% hint style="info" %}
 The max supply of the token cannot be increased once the token is generated.
