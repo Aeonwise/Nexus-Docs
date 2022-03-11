@@ -52,4 +52,15 @@ Asset data has a limit of 1KB and this is binding. An asset can hold approximate
 
 Asset Data is entered in fields which represent a single line in the image above. First column is the  field name and next is the value. Next is the mutable radio button, next is the Type drop down and &#x20;
 
+|          | Bytes | Min - Max Value |
+| -------- | :---: | --------------- |
+| uint8    |   1   | 0 - 255         |
+| unit16   |   2   | 0 - 65535       |
+| uint32   |   4   | 0 - 4294967295  |
+| unit64   |   8   | 0 -             |
+| unit256  |   16  |                 |
+| uint512  |   32  |                 |
+| uint1024 |   64  |                 |
+|          |       |                 |
+
 &#x20;
