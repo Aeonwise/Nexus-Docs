@@ -34,7 +34,7 @@ The max supply of the token cannot be increased once the token is generated.
 
 ### DECIMAL
 
-This is the no of decimal places for the token, increasing the decimal places also increases the fee.&#x20;
+This is the no of decimal places for the token, increasing the decimal places also increases the fee. Decimal units are required for micro transactions and is set depending upon the token usage and tokenomics.&#x20;
 
 ## Token Accounts:
 
