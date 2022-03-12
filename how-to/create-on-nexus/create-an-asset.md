@@ -96,6 +96,12 @@ To create an asset using the Interface follow the steps below:
   * **Remove Field:** To remove a field hover the mouse pointer on that field, a "x" icon will appear on the left side of the field, click on it to remove the field.
 * Once the data is provided, double check to make sure everything is in order. At the bottom you can see the estimated cost to mint this asset. Click on the "CREATE ASSET" button on the bottom of the page.
 
+{% hint style="info" %}
+The fees will be deducted automatically from the "default" account, make sure that you have NXS to cover the fees or it will fail to mint the asset.&#x20;
+{% endhint %}
+
+* Once the asset is minted you will see a new entry in the "Assets" page.
+
 ### Asset Details
 
 To check the asset details, click on the asset
@@ -114,20 +120,4 @@ The asset owner might sell the Asset and for that he needs to transfer ownership
 
 * In this page confirm the asset Name, asset address and in the "Transfer To" field enter the username or the userID of the buyer.
 * To confirm, on the bottom of the page click on "Transfer Asset" which will transfer the asset to the buyer.
-
-
-
-Once all the asset name and data is filled, at the bottom you can see the estimated cost to mint this asset.
-
-On the bottom of the page click on "Create Asset" which will save mint the asset on the blockchain and deduct the fees
-
-{% hint style="info" %}
-The fees will be deducted automatically from the "default" account, make sure that you have NXS to cover the fees or it will fail to mint the asset.&#x20;
-{% endhint %}
-
-Once the asset is minted you will see a new entry in the "Assets" page.
-
-{% hint style="info" %}
-This asset will reside on the Nexus network and will be owned by the user account which created it.
-{% endhint %}
 
