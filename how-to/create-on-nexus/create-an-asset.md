@@ -94,7 +94,7 @@ To create an asset using the Interface follow the steps below:
 * In this page the user has to provide the name and data which define the asset.&#x20;
   * **Add Another Field:** To add another field click on the "+ADD FIELD" button below the first field.
   * **Remove Field:** To remove a field hover the mouse pointer on that field, a "x" icon will appear on the left side of the field, click on it to remove the field.
-* Once the data is provided, double check to make sure everything is in order, click on the "CREATE ASSET" button on the bottom of the page.
+* Once the data is provided, double check to make sure everything is in order. At the bottom you can see the estimated cost to mint this asset. Click on the "CREATE ASSET" button on the bottom of the page.
 
 ### Asset Details
 
@@ -102,15 +102,20 @@ To check the asset details, click on the asset
 
 ### Transfer the Asset
 
-The user might sell the Asset and needs to transfer ownership to the asset
+The asset owner might sell the Asset and for that he needs to transfer ownership of the asset to the buyer.&#x20;
 
-#### Add Another Field
+* To transfer ownership of the asset click on that asset, which opens the "Asset Details" page.
 
-To add another field click on the "+ADD FIELD" button below the first field.
+![Asset Details Page](<../../.gitbook/assets/Asset Details.png>)
 
-#### Remove Field
+* At the bottom right of the page click on "Transfer Ownership". This will open the "Transfer asset" page.
 
-To remove a field hover the mouse pointer on that field, a "x" icon will appear on the left side of the field, click on it to remove the field.
+![Transfer asset page](<../../.gitbook/assets/Transfer Asset.png>)
+
+* In this page confirm the asset Name, asset address and in the "Transfer To" field enter the username or the userID of the buyer.
+* To confirm, on the bottom of the page click on "Transfer Asset" which will transfer the asset to the buyer.
+
+
 
 Once all the asset name and data is filled, at the bottom you can see the estimated cost to mint this asset.
 

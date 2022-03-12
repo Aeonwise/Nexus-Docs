@@ -6,20 +6,20 @@
 
 ## FUNDAMENTALS
 
-* [Nexus Divulged](fundamentals/nexus-divulged/README.md)
-  * [Intro to Nexus Network](fundamentals/nexus-divulged/intro-to-nexus-network.md)
-  * [Intro to Nexus](fundamentals/nexus-divulged/intro-to-nexus.md)
-  * [Intro to Dapps](fundamentals/nexus-divulged/intro-to-dapps.md)
-  * [Nodes & Core](fundamentals/nexus-divulged/nodes-and-core.md)
-  * [Nexus Virtual Machine](fundamentals/nexus-divulged/nexus-virtual-machine.md)
-  * [TAO Framework](fundamentals/nexus-divulged/tao-framework.md)
-  * [TAO Naming System](fundamentals/nexus-divulged/tao-naming-system.md)
-  * [Consensus on Nexus](fundamentals/nexus-divulged/consensus-on-nexus.md)
-  * [Lower Level Library (LLL)](fundamentals/nexus-divulged/lower-level-library-lll.md)
-  * [DAO](fundamentals/nexus-divulged/dao/README.md)
-    * [The Social Stack](fundamentals/nexus-divulged/dao/the-social-stack.md)
-  * [Legacy and Tritium](fundamentals/nexus-divulged/legacy-and-tritium.md)
-  * [Quantum Resistance](fundamentals/nexus-divulged/quantum-resistance.md)
+* [Nexus Explained](fundamentals/nexus-explained/README.md)
+  * [Intro to Nexus Network](fundamentals/nexus-explained/intro-to-nexus-network.md)
+  * [Intro to Nexus](fundamentals/nexus-explained/intro-to-nexus.md)
+  * [Intro to Dapps](fundamentals/nexus-explained/intro-to-dapps.md)
+  * [Nodes & Core](fundamentals/nexus-explained/nodes-and-core.md)
+  * [Nexus Virtual Machine](fundamentals/nexus-explained/nexus-virtual-machine.md)
+  * [TAO Framework](fundamentals/nexus-explained/tao-framework.md)
+  * [TAO Naming System](fundamentals/nexus-explained/tao-naming-system.md)
+  * [Consensus on Nexus](fundamentals/nexus-explained/consensus-on-nexus.md)
+  * [Lower Level Library (LLL)](fundamentals/nexus-explained/lower-level-library-lll.md)
+  * [DAO](fundamentals/nexus-explained/dao/README.md)
+    * [The Social Stack](fundamentals/nexus-explained/dao/the-social-stack.md)
+  * [Legacy and Tritium](fundamentals/nexus-explained/legacy-and-tritium.md)
+  * [Quantum Resistance](fundamentals/nexus-explained/quantum-resistance.md)
 
 ## Technology
 
