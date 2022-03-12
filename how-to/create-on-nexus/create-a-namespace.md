@@ -2,7 +2,7 @@
 
 This guide will help users to create a Namespace using the Nexus Interface
 
-Before we start to create a Namespace, users need to be familiar with the concept and usage usage and .
+Before we start to create a Namespace, users need to be familiar with the concept and usage.
 
 ### NAMESPACE:
 

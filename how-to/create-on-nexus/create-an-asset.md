@@ -87,7 +87,7 @@ This field is enabled only if the field is selected as mutable and the type is s
 
 ## Create an Asset
 
-To create an asset using the Interface follow the following steps:
+To create an asset using the Interface follow the steps below:
 
 * Open the Nexus Interface, make sure the wallet is fully synched. Log into the user account (Sigchain).
 * In the Overview page, at the bottom click on the "_User"_ module. This opens the User page.
