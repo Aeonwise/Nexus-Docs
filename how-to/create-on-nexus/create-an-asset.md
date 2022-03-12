@@ -4,11 +4,9 @@ description: Create Asset using the Interface
 
 # Create an Asset
 
-This guide will help users to create an Asset (NFT) using the Nexus Interface
+This guide will help users to create an Asset (NFT), check the asset details and transfer ownership  using the Nexus Interface
 
 Before we start to create an asset, users need to be familiar with some of the concepts and parameters used with assets.
-
-
 
 {% hint style="info" %}
 Creating an Asset has a fee of 1 NXS and "_Asset Name"_ has a fee of 1 NXS. Total cost of an Asset with Name will be 2 NXS
@@ -91,12 +89,20 @@ To create an asset using the Interface follow the steps below:
 
 * Open the Nexus Interface, make sure the wallet is fully synched. Log into the user account (Sigchain).
 * In the Overview page, at the bottom click on the "_User"_ module. This opens the User page.
-* In the User page, on the left side click on the "_Assets_" tab.
+* In the User page, on the left side click on the "_Assets_" tab. The Assets page will list the assets owned by the Sigchain.
 * In the Assets page click on "Create a new asset". This opens the Create a new asset page.
 * In this page the user has to provide the name and data which define the asset.&#x20;
-  * To add another field click on the "+ADD FIELD" button below the first field.
-  * To remove a field hover the mouse pointer on that field, a "x" icon will appear on the left side of the field, click on it to remove the field.
+  * **Add Another Field:** To add another field click on the "+ADD FIELD" button below the first field.
+  * **Remove Field:** To remove a field hover the mouse pointer on that field, a "x" icon will appear on the left side of the field, click on it to remove the field.
 * Once the data is provided, double check to make sure everything is in order, click on the "CREATE ASSET" button on the bottom of the page.
+
+### Asset Details
+
+To check the asset details, click on the asset
+
+### Transfer the Asset
+
+The user might sell the Asset and needs to transfer ownership to the asset
 
 #### Add Another Field
 
@@ -108,7 +114,7 @@ To remove a field hover the mouse pointer on that field, a "x" icon will appear 
 
 Once all the asset name and data is filled, at the bottom you can see the estimated cost to mint this asset.
 
-ON the bottom of the page click on "Create Asset" which will save mint the asset on the blockchain and dedect the fees
+On the bottom of the page click on "Create Asset" which will save mint the asset on the blockchain and deduct the fees
 
 {% hint style="info" %}
 The fees will be deducted automatically from the "default" account, make sure that you have NXS to cover the fees or it will fail to mint the asset.&#x20;
