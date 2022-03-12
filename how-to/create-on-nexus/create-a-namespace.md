@@ -14,6 +14,10 @@ To avoid name-squatting registering a namespace attracts a high fee (`1000 NXS`)
 **NOTE** : Namespaces can only contain lowercase letters, numbers, and periods **** (**.**).
 {% endhint %}
 
+{% hint style="warning" %}
+`Creating a Namespace will incur a fee of 1000 NXS`
+{% endhint %}
+
 ### `Uses of Namespace`
 
 `Namespaces can be used for a few things:`
