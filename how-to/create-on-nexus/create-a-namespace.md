@@ -12,7 +12,7 @@ To avoid name-squatting registering a namespace attracts a high fee (`1000 NXS`)
 
 
 
-This guide will help users to create a Namespace using the Nexus Interface
+This guide will help users to create a **Namespace** using the Nexus Interface
 
 Before we start to create a Namespace, users need to be familiar with the concept and usage.
 

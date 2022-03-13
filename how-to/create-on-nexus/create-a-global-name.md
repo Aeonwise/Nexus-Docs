@@ -10,7 +10,7 @@ Creating a Global name will incur a fee of 2000 NXS. The fees will be deducted f
 
 
 
-This guide will help users to create a Global Name using the Nexus Interface
+This guide will help users to create a **Global Name** using the Nexus Interface
 
 Before we start to create a Global Name, users need to be familiar with the concept and usage.
 

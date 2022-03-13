@@ -10,7 +10,7 @@ Names are those created within the context of a signature chain and are also kno
 
 
 
-This guide will help users to create a Local Name using the Nexus Interface
+This guide will help users to create a **Local Name** using the Nexus Interface
 
 Before we start to create a Name, users need to be familiar with the concept and usage.
 

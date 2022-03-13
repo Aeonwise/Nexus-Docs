@@ -4,7 +4,7 @@ description: Create a Token Using Nexus Interface
 
 # Create a Token
 
-This guide will help users to create a Token using the Nexus Interface
+This guide will help users to create a **Token** using the Nexus Interface
 
 Before we start to create a token, users need to be familiar with some of the concepts and parameters used with tokens.
 
