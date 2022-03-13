@@ -12,8 +12,6 @@ Before we start to create an asset, users need to be familiar with some of the c
 Creating an Asset has a fee of 1 NXS and "_Asset Name"_ has a fee of 1 NXS. Total cost of an Asset with Name will be 2 NXS
 {% endhint %}
 
-Here you have two main sections "Asset Name" and "Asset Data".
-
 ## Asset Parameters
 
 ### Asset Name
