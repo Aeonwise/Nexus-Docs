@@ -10,7 +10,7 @@ To avoid name-squatting registering a namespace attracts a high fee (`1000 NXS`)
 **NOTE** : Namespaces can only contain lowercase letters, numbers, and periods **** (**.**).
 {% endhint %}
 
-{% hint style="warning" %}
+{% hint style="info" %}
 `Creating a Namespace will incur a fee of 1000 NXS`
 {% endhint %}
 
@@ -29,3 +29,20 @@ Before we start to create a Namespace, users need to be familiar with the concep
 * `In the future it can be used as Domain Name for websites hosted on Nexus Cloud`
 
 ``
+
+## Create a Namespace
+
+To create a Namespace using the Interface follow the steps:
+
+* Open the Nexus Interface, make sure the wallet is fully synched and log into the user account (Sigchain).
+* In the Overview page, at the bottom click on the "_User"_ module. This opens the User page.
+* In the User page, on the left side click on the "Name_space_" tab.
+* In the Names page click on "_Create a new namespace_". This opens the "Create a new namespace" page.&#x20;
+* In this page the user has to provide the "Name" which will be the namespace .&#x20;
+* Once the name is provided, click on the "CREATE NAMESPACE" button on the bottom of the page.
+
+{% hint style="info" %}
+The fee of 1000 NXS will be deducted from the "default" account. Make sure the account  has NXS to cover the transaction.
+{% endhint %}
+
+* Once the namespace is registered on the blockchain, it will be listed in the "Namespace" page
