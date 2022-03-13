@@ -4,7 +4,7 @@ description: Create Asset using the Interface
 
 # Create an Asset
 
-This guide will help users to create an **Asset (NFT)**, check the asset details and transfer ownership  using the Nexus Interface
+This guide will help users to create an **Asset,** also popularly known as  **NFT's**, check the asset details and transfer ownership using the Nexus Interface
 
 Before we start to create an asset, users need to be familiar with some of the concepts and parameters used with assets.
 
