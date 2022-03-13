@@ -44,7 +44,7 @@ Once the token is created, the token generation address will be listed in the "T
 
 The tokens which are in the generating address can be burnt to remove them permanently out of circulation. This option is not available in the interface today.
 
-### Token Generation Register Address&#x20;
+### Token Generation Address&#x20;
 
 This is the register address which generates that particular token and tokens in this address are out of circulation. Tokens when sent out to a token account come into circulation. Users can send tokens back to the generation address to remove them from circulation.
 
