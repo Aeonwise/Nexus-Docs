@@ -39,3 +39,13 @@ To create a tokenised asset using the Interface follow the steps below:
 * At the bottom right of this page click on "Tokenize". This will open the "Tokenize" page.
 * In this window you can choose the Token to tokenize the asset with, the available tokens list can be accessed using the drop down arrow.&#x20;
 * Once the appropriate token is selected, click on the "Tokenize" button on the bottom of the page.
+
+
+
+Asset Payout
+
+The main idea behind tokenized assets is to enable fractional ownership of the asset and to share the profits with the token holders for that particular asset. To do the payout to the token holders send the equivalent amount of NXS to the Asset address and it will be automatically distributed as per the percentage token holdings of each user.
+
+{% hint style="warning" %}
+The payout is distributed taking the maxsupply as 100% of the tokens. If any tokens are still in the token generation address, the % of payout corresponding to the balance tokens will be returned to the sender.
+{% endhint %}
