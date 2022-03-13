@@ -106,18 +106,19 @@ The fees will be deducted automatically from the "default" account, make sure th
 
 A user can check the details of an asset, it includes all the asset data saved with that asset.  To check the asset details, on the Assets page, click on the asset which will open the Asset Details page&#x20;
 
+![](<../../.gitbook/assets/Asset Details.png>)
+
 ### Asset History
 
 A user can check the history of an asset, history includes creation, update, transfer, claim and tokenize. To check the asset history, on the Assets page, click on the "Asset" which will open the Asset Details. At the bottom left of this page click on "View history", this will open the history page which will list all the changes that happened with that asset.   &#x20;
+
+![](<../../.gitbook/assets/Asset History.png>)
 
 ### Transfer the Asset
 
 The asset owner might sell the Asset and for that he needs to transfer ownership of the asset to the buyer.&#x20;
 
 * To transfer ownership of the asset click on that asset, which opens the "Asset Details" page.
-
-![Asset Details Page](<../../.gitbook/assets/Asset Details.png>)
-
 * At the bottom right of the page click on "Transfer Ownership". This will open the "Transfer asset" page.
 
 ![Transfer asset page](<../../.gitbook/assets/Transfer Asset.png>)
