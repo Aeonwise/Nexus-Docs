@@ -10,8 +10,8 @@ Before we start to create an asset tokenization, users need to be familiar with 
 
 To tokenize an asset the user needs to create an asset and also create a token as per the guides linked below.
 
-{% content-ref url="create-a-token.md" %}
-[create-a-token.md](create-a-token.md)
+{% content-ref url="create-an-asset.md" %}
+[create-an-asset.md](create-an-asset.md)
 {% endcontent-ref %}
 
 {% content-ref url="create-a-token.md" %}
