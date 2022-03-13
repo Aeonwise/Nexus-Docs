@@ -1,16 +1,18 @@
 # Create a Local Name
 
-This guide will help users to create a Local Name using the Nexus Interface
-
-Before we start to create a Name, users need to be familiar with the concept and usage.
-
-### NAMES:
+### NAMES
 
 Names are those created within the context of a signature chain and are also known as local names. To use a local name you must prefix the name with the owners username separated by a single colon, e.g. `bob:savings`. This is equivalent to saying "look at all the Names registered in the sig chain `bob` and find one called `savings` and then see what object register it points to". There can only be one Name called `savings` in the sig chain `bob`, but another user `alice` can also create a local name called `savings`
 
 {% hint style="info" %}
 `Names are local or reside within the context of a Sigchain.`
 {% endhint %}
+
+
+
+This guide will help users to create a Local Name using the Nexus Interface
+
+Before we start to create a Name, users need to be familiar with the concept and usage.
 
 ### Name Parameters
 
