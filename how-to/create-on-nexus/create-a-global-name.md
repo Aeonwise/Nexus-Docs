@@ -1,5 +1,7 @@
 # Create a Global Name
 
+This guide will help users to create a **Global Name** using the Nexus Interface. Before we start to create a **Global Name**, users need to be familiar with the concept and usage.
+
 ### Global Name:
 
 Global Names require no username or namespace prefix, and are therefore globally unique. These will be likely reserved for use cases where a succinct, unique, name is necessary, for example a token ticker symbol. To avoid needless name-squatting, global names attract a high fee (`2000 NXS`).
@@ -8,11 +10,11 @@ Global Names require no username or namespace prefix, and are therefore globally
 Creating a Global name will incur a fee of 2000 NXS. The fees will be deducted from the default account.
 {% endhint %}
 
+## Uses of Global Name
 
+The best use-case of a  Global name will be as token tickers. With the P2P marketplace, this will be a very helpful to have a global ticker for the token, which will make it easy to list and also to be easily recognised by users.
 
-This guide will help users to create a **Global Name** using the Nexus Interface
-
-Before we start to create a Global Name, users need to be familiar with the concept and usage.
+Tokens can be traded without a global name, but they will be addressed by the register address which is not recommended, as it will not be easily distinguished by users.&#x20;
 
 ## Global Name Parameters
 

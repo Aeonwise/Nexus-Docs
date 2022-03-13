@@ -1,4 +1,6 @@
-# Create a Local Name
+# Create Names
+
+This guide will help users to create a **Names** using the Nexus Interface. Before we start to create a **Names**, users need to be familiar with the concept and usage.
 
 ### NAMES
 
@@ -10,9 +12,7 @@ Names are those created within the context of a signature chain and are also kno
 
 
 
-This guide will help users to create a **Local Name** using the Nexus Interface
 
-Before we start to create a Name, users need to be familiar with the concept and usage.
 
 ### Name Parameters
 
