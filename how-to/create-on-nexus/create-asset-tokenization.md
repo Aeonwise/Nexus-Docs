@@ -38,4 +38,4 @@ To create a tokenised asset using the Interface follow the steps below:
 
 * At the bottom right of this page click on "Tokenize". This will open the "Tokenize" page.
 * In this window you can choose the Token to tokenize the asset with, the available tokens list can be accessed using the drop down arrow.&#x20;
-* Once the toekn is seclected
+* Once the appropriate token is selected, click on the "Tokenize" button on the bottom of the page.
