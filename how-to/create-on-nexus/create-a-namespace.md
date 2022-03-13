@@ -7,10 +7,6 @@ Namespaces allow users to provide user-friendly names for their object registers
 To avoid name-squatting registering a namespace attracts a high fee (`1000 NXS`). However once registered, creating Names within that namespace costs only `1 NXS`
 
 {% hint style="info" %}
-**NOTE** : Namespaces can only contain lowercase letters, numbers, and periods **** (**.**).
-{% endhint %}
-
-{% hint style="info" %}
 `Creating a Namespace will incur a fee of 1000 NXS`
 {% endhint %}
 
@@ -20,7 +16,7 @@ This guide will help users to create a Namespace using the Nexus Interface
 
 Before we start to create a Namespace, users need to be familiar with the concept and usage.
 
-### `Uses of Namespace`
+## `Uses of Namespace`
 
 `Namespaces can be used for a few things:`
 
@@ -28,7 +24,15 @@ Before we start to create a Namespace, users need to be familiar with the concep
 * `It can provide privacy by hiding the username for the Sigchain`
 * `In the future it can be used as Domain Name for websites hosted on Nexus Cloud`
 
-``
+## Namespace Parameters
+
+### Name
+
+This is the name, the user wants to be registered as namespace.&#x20;
+
+{% hint style="info" %}
+**NOTE** : Namespaces can only contain lowercase letters, numbers, and periods **** (**.**).
+{% endhint %}
 
 ## Create a Namespace
 
@@ -38,7 +42,7 @@ To create a Namespace using the Interface follow the steps:
 * In the Overview page, at the bottom click on the "_User"_ module. This opens the User page.
 * In the User page, on the left side click on the "Name_space_" tab.
 * In the Names page click on "_Create a new namespace_". This opens the "Create a new namespace" page.&#x20;
-* In this page the user has to provide the "Name" which will be the namespace .&#x20;
+* In this page the user has to provide the ["Name"](create-a-namespace.md#name) parameter which will be the namespace .&#x20;
 * Once the name is provided, click on the "CREATE NAMESPACE" button on the bottom of the page.
 
 {% hint style="info" %}
