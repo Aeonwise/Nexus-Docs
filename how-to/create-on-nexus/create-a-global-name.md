@@ -14,13 +14,13 @@ This guide will help users to create a **Global Name** using the Nexus Interface
 
 Before we start to create a Global Name, users need to be familiar with the concept and usage.
 
-### Name Parameters
+## Global Name Parameters
 
-#### Name Field
+### Name Field
 
 In this field the user provides the global name to be created.
 
-#### Register Address
+### Register Address
 
 In this field the user provides the register address of the token that will be linked to the global name.&#x20;
 
