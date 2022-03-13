@@ -76,3 +76,5 @@ To create a token using the Interface follow the steps below:
 * In the Assets page click on "_Create a new token_". This opens the "New Token" page.&#x20;
 * In this page the user has to provide three parameters which define the token. The parameters  and their details are given below:
 * Once the parameters are provided, click on the "Create token" button on the bottom of the page.
+* Once the token is confirmed on the blockchain, it will be listed in the "Tokens" page.
+* To check the details of any token, click on the token address in the "Tokens" page and the token details page will open with the details.
