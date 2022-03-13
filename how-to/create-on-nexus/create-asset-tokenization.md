@@ -42,9 +42,9 @@ To create a tokenised asset using the Interface follow the steps below:
 
 
 
-Asset Payout
+## Asset Payout
 
-The main utility of tokenized assets is to enable fractional ownership and to share the profits with the token holders for that particular asset. To do the payout to the token holders send the equivalent amount of NXS to the asset address and it will be automatically distributed as per the percentage token holdings of each user.
+The main utility of tokenized assets is to enable fractional ownership and to share the revenue with the token holders. To send the payout to the token holders the user sends NXS equivalent in value to the revenue generated, to the asset address and it will be automatically be distributed as per the percentage token holdings of each holder.
 
 {% hint style="warning" %}
 The payout is distributed taking the maxsupply as 100% of the tokens. If any tokens are still in the token generation address, the percentage of payout corresponding to the balance tokens will be returned to the sender.
