@@ -102,9 +102,13 @@ The fees will be deducted automatically from the "default" account, make sure th
 
 * Once the asset is minted you will see a new entry in the "Assets" page.
 
-### Asset Details
+## Asset Details
 
-To check the asset details, click on the asset
+A user can check the details of an asset, it includes all the asset data saved with that asset.  To check the asset details, on the Assets page, click on the asset which will open the Asset Details page&#x20;
+
+### Asset History
+
+A user can check the history of an asset, history includes creation, update, transfer, claim and tokenize. To check the asset history, on the Assets page, click on the "Asset" which will open the Asset Details. At the bottom left of this page click on "View history", this will open the history page which will list all the changes that happened with that asset.   &#x20;
 
 ### Transfer the Asset
 
