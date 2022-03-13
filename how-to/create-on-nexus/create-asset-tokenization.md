@@ -1,12 +1,14 @@
 # Create Asset Tokenization
 
-This guide will help users to create an _**Asset Tokenization**_ using the Nexus Interface
-
-Before we start to create an asset tokenization, users need to be familiar with some of the concepts and parameters used.
-
 ### What is Asset Tokenization
 
 **Asset Tokenization** also referred as  "_Asset Backed Tokens"_ or "T_okenized Assets"_ is a new concept that uses digital tokens to fractionalize ownership of assets such as property, jewellery or fine art and uses contracts on blockchain to manage these ownership rights
+
+
+
+This guide will help users to  create a _**Tokenized Asset**_ using the Nexus Interface.
+
+Before we start to create an asset tokenization, users need to be familiar with some of the concepts and parameters used.
 
 To tokenize an asset the user needs to create an asset and also create a token as per the guides linked below.
 
