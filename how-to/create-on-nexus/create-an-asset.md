@@ -90,7 +90,7 @@ To create an asset using the Interface follow the steps below:
 * Open the Nexus Interface, make sure the wallet is fully synched. Log into the user account (Sigchain).
 * In the Overview page, at the bottom click on the "_User"_ module. This opens the User page.
 * In the User page, on the left side click on the "_Assets_" tab. The Assets page will list the assets owned by the Sigchain.
-* In the Assets page click on "Create a new asset". This opens the Create a new asset page.
+* In the Assets page click on "Create a new asset". This opens the _Create a new asset_ page.
 * In this page the user has to provide the name and data which define the asset.&#x20;
   * **Add Another Field:** To add another field click on the "+ADD FIELD" button below the first field.
   * **Remove Field:** To remove a field hover the mouse pointer on that field, a "x" icon will appear on the left side of the field, click on it to remove the field.

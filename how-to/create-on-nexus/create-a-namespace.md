@@ -37,8 +37,8 @@ To create a Namespace using the Interface follow the steps:
 * Open the Nexus Interface, make sure the wallet is fully synched and log into the user account (Sigchain).
 * In the Overview page, at the bottom click on the "_User"_ module. This opens the User page.
 * In the User page, on the left side click on the "Name_space_" tab.
-* In the Names page click on "_Create a new namespace_". This opens the "Create a new namespace" page.&#x20;
-* In this page the user has to provide the "[Name](create-a-namespace.md#namespace-parameters)" parameter which will be the namespace .&#x20;
+* In the Namespace page click on "_Create a new namespace_". This opens the _Create a new namespace_ page.&#x20;
+* In this page the user has to provide the "Name parameter which will be the namespace .&#x20;
 * Once the name is provided, click on the "CREATE NAMESPACE" button on the bottom of the page.
 
 {% hint style="info" %}

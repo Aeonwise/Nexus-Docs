@@ -31,9 +31,9 @@ Make sure that the Asset and Token are named appropriately so they represent the
 To create a tokenised asset using the Interface follow the steps below:
 
 * Open the Nexus Interface, make sure the wallet is fully synched. Log into the user account (Sigchain).
-* In the Overview page, at the bottom click on the "_User"_ module. This opens the User page.
+* In the Overview page, at the bottom click on the "_User"_ module. This opens the _User_ page.
 * In the User page, on the left side click on the "_Assets_" tab.
-* Under the Assets page, all the assets owned by the user account /Sigchain will be listed.
+* Under the Assets page, all the assets owned by the user account / Sigchain will be listed.
 * Click on the Asset which is to be tokenized, this opens the "Asset Details" page.
 
 ![Asset Details Page](<../../.gitbook/assets/Asset Details.png>)

@@ -73,7 +73,7 @@ To create a token using the Interface follow the steps below:
 * Open the Nexus Interface, make sure the wallet is fully synched and log into the user account (Sigchain).
 * In the Overview page, at the bottom click on the "_User"_ module. This opens the User page.
 * In the User page, on the left side click on the "_Tokens_" tab.
-* In the Assets page click on "_Create a new token_". This opens the "New Token" page.&#x20;
+* In the Assets page click on "_Create a new token_". This opens the _New Token_ page.&#x20;
 * In this page the user has to provide three parameters which define the token. The parameters  and their details are given below:
 * Once the parameters are provided, click on the "Create token" button on the bottom of the page.
 * Once the token is confirmed on the blockchain, it will be listed in the "Tokens" page.

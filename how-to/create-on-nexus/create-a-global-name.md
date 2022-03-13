@@ -33,7 +33,7 @@ To create a Name using the Interface follow the steps:
 * Open the Nexus Interface, make sure the wallet is fully synched and log into the user account (Sigchain).
 * In the Overview page, at the bottom click on the "_User"_ module. This opens the User page.
 * In the User page, on the left side click on the "Name_s_" tab.
-* In the Names page click on "_Create a new name_". This opens the "Create a new name" page.
+* In the Names page click on "_Create a new name_". This opens the _Create a new name_ page.
 * On top of the page make sure the "GLOBAL" button is highlighted, if not click on it.&#x20;
 * In this page the user has to provide the "Name" and the "register address" to which it points .&#x20;
 * Once the parameters are provided, click on the "CREATE NAME" button on the bottom of the page.
