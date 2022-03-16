@@ -39,6 +39,10 @@ This section is for the asset data or metadata. The information provided here he
 Asset Data has a limit of 1KB and this is binding. An asset can hold approximately 990 - 995 characters including spaces. This excludes the Asset Name.
 {% endhint %}
 
+To easily count the characters for the Asset data use the link below:
+
+{% embed url="https://wordcount.com" %}
+
 {% hint style="warning" %}
 **Note:** If creating an Asset of a digital art, which basically is an image file, provide a md5 hash of the original image for anyone to check the authenticity of that particular file. If all the details are provided without the file hash, the asset will not be of any use, due to the fact that no one will be able to confirm the authenticity of the file which represents the asset.&#x20;
 {% endhint %}
@@ -124,3 +128,6 @@ The asset owner might sell the Asset and for that he needs to transfer ownership
 * In this page confirm the asset Name, asset address and in the "Transfer To" field enter the username or the userID of the buyer.
 * To confirm, on the bottom of the page click on "Transfer Asset" which will transfer the asset to the buyer.
 
+{% hint style="info" %}
+The buyer will claim the Asset automatically via the Interface, There will be a fee of 1 NXS when he receives to create the local name of that asset on the receivers Sigchain.
+{% endhint %}
