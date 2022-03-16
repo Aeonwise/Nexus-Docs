@@ -129,5 +129,5 @@ The asset owner might sell the Asset and for that he needs to transfer ownership
 * To confirm, on the bottom of the page click on "Transfer Asset" which will transfer the asset to the buyer.
 
 {% hint style="info" %}
-The buyer will claim the Asset automatically via the Interface, There will be a fee of 1 NXS when he receives to create the local name of that asset on the receivers Sigchain.
+The buyer will claim the Asset automatically via the Interface, There will be a fee of 1 NXS to claim, this creates a local name of that asset on the receivers Sigchain.
 {% endhint %}
