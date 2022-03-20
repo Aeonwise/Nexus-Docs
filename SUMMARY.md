@@ -116,4 +116,7 @@
   * [Assets](construction/under-construction-pages/assets.md)
   * [Tokens](construction/under-construction-pages/tokens.md)
   * [Tokenizing Assets](construction/under-construction-pages/tokenizing-assets.md)
-  * [C-Send NXS or Tokens](construction/under-construction-pages/c-send-nxs-or-tokens.md)
+  * [Nexus Interface 3.1.0](construction/under-construction-pages/nexus-interface-3.1.0/README.md)
+    * [C-Send NXS or Tokens](construction/under-construction-pages/nexus-interface-3.1.0/c-send-nxs-or-tokens.md)
+    * [Bootstrap](construction/under-construction-pages/nexus-interface-3.1.0/bootstrap.md)
+    * [Lite Vs Full Node](construction/under-construction-pages/nexus-interface-3.1.0/lite-vs-full-node.md)

@@ -1,6 +1,10 @@
+---
+description: Nexus Interface
+---
+
 # Introduction
 
-### Desktop Wallet Guide
+## Interface Guide
 
 ****
 
@@ -16,13 +20,13 @@ Bootstrap and Synchronize:
 
 Creating a Recovery Phrase:
 
-**Disclaimer and Loss of Password**
+## **Disclaimer and Loss of Password**
 
 NXS is a peer-to-peer cryptocurrency that provides fast, low-cost, borderless, and secure transactions without the requirement of a bank or third-party intermediary. You personally own your NXS and Nexus Wallet, they are not owned or governed by a central authority. This is in direct contrast to a bank, in which the money held inside an account is legal property of the bank rather than the account holder. Nexus provides individuals with economic freedom, and with this freedom comes true responsibility for the safety of your own finances.
 
 The Nexus Wallet is the safest place to store NXS. If coins are stored on a centralized exchange or a mining pool, then that entity has full custody. Third party custody comes with a multitude of risks. To ensure you maintain ownership, we recommend that NXS is held in the new Tritium Wallet. Nexus is a decentralized organization and our software is licensed under an MIT/X11 open source license. You are the sole custodian of your coins, we can not help you if you lose or forget your username, password or PIN. The wallet also provides a recovery phrase in case of lost password and PIN. It is the users responsibility to create the recovery phrase and keep it safe as a backup. In case of compromised password, PIN or recovery phrase the wallet has the option to change these as per your convenience. **Please make sure to keep your username, password, PIN and recovery phrase extremely safe**.
 
-**Wallet Setup**
+**Interface Setup**
 
 Nexus provides installers for Mac, Windows and Linux. Installation is as simple as downloading and installing any desktop application. The minimum system requirements are as follows:
 

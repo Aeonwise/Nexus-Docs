@@ -6,7 +6,7 @@ description: How to send NXS or Tokens
 
 To send NXS or Tokens to another sigchain address, or to move between a sigchain's accounts, click on the _**`Send`**_ module icon located at the bottom of the overview page, and follow the below instructions:
 
-![The send Module](../../.gitbook/assets/Send1.png)
+![The send Module](../../../.gitbook/assets/Send1.png)
 
 ### _**SEND FROM:**_
 
@@ -26,7 +26,7 @@ Enter the NXS or token quantity to send. This amount is in NXS.
 
 At the top of the "_`Send From"`_ field there is an **`Advanced Options`** toggle button. When the user enables this two more options are visible:&#x20;
 
-![Advanced Options enabled](../../.gitbook/assets/Send2.png)
+![Advanced Options enabled](../../../.gitbook/assets/Send2.png)
 
 ### _**REFERENCE:**_&#x20;
 
@@ -40,7 +40,7 @@ The user is provided an option to set an expiry option for the send transaction,
 
 To send NXS or tokens to more than one recipient in a single transaction, find the **`+Add Recipient`** button below the reference field.
 
-![Add Recipient](../../.gitbook/assets/Send3.png)
+![Add Recipient](../../../.gitbook/assets/Send3.png)
 
 If the user has to send more than one transaction from the same "_`Send From`_" account, then click on the _**`Add Recipient`**_ button which adds another "_`Send To`_" field.
 
