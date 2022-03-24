@@ -10,7 +10,9 @@ This module is a downloadable add-on for the Nexus wallet. All invoices are reco
 
 This guide provides details on how to install the Nexus Invoice System module, create a new invoice, and pay an invoice. Screenshots from the current Nexus wallet along with descriptions provide users with the knowledge required to use this fairly simple module for accounting tasks on the Nexus network.
 
-Please start by downloading the Nexus Invoice Module from Github [here](https://github.com/Nexusoft/Nexus-Interface-Invoice-Module/releases). Either the tar.gz file or the zipped folder for the most recent release.
+Download the Nexus Invoice Module tar.gz from the Github link below.&#x20;
+
+{% embed url="https://github.com/Nexusoft/Nexus-Interface-Invoice-Module/releases" %}
 
 The Module section of the Nexus wallet is accessible via the top _Settings_ menu or gears icon on the bottom. Choose the _Modules_ section within the _Settings_ screen. The following screenshot shows the _Modules_ section without any modules installed.
 
@@ -22,7 +24,13 @@ The following prompt is presented to indicate that the module has been successfu
 
 Now, as a result of installing the invoicing module, it is included in the list of installed modules, and the toggle button indicates that the module is active.
 
-Note also that a new icon has been added to the bottom of the wallet for the Nexus Invoice System.
+{% hint style="info" %}
+Note: The invoice module adds a new icon to the extreme right of the module icons located  at bottom of the wallet.
+{% endhint %}
+
+![](../../.gitbook/assets/Invoice.png)
+
+
 
 Running the Nexus Invoice System is as simple as clicking on the icon at the bottom of the wallet screen which was added when the module was installed. The first time the module is run, the Nexus Invoice System is displayed with an empty list of invoices. On subsequent review after creating invoices, this is where they will be listed.
 
