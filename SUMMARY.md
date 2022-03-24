@@ -120,3 +120,4 @@
     * [C-Send NXS or Tokens](construction/under-construction-pages/nexus-interface-3.1.0/c-send-nxs-or-tokens.md)
     * [Bootstrap](construction/under-construction-pages/nexus-interface-3.1.0/bootstrap.md)
     * [Lite Vs Full Node](construction/under-construction-pages/nexus-interface-3.1.0/lite-vs-full-node.md)
+  * [System Requirements](construction/under-construction-pages/system-requirements.md)
