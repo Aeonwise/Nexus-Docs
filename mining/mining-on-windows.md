@@ -50,15 +50,10 @@ Only one prime pool is available, an open pool run by the Nexus mining developer
 
 ### Hash Pool:
 
-For hash mining use the third party pools listed below:
-
-* https://hashpool.com/&#x20;
-* https://pool.blackminer.com/
-
-The Nexus mining developer also testing a new hash pool, join w
+The Nexus mining developer team run a new hash pool.  To join the pool, use the below lines in the miner config.
 
 ```
-    "wallet_ip" : "http://154.16.159.55", 
+    "wallet_ip" : "154.16.159.55", 
     "port" : 50000,
 ```
 
