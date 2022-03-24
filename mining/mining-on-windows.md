@@ -37,7 +37,7 @@ Pool mining is similar to group mining, and the miner has to be connected to a m
 
 ### Prime Pool:
 
-Only one prime pool is available, an open pool run by the Nexus mining developer team. To use this pool copy the below lines in the config
+The Nexus mining team has made available an open prime pool. To use this pool copy the below lines in the miner config.
 
 ```
     "wallet_ip" : "primepool.nexus.io", 
