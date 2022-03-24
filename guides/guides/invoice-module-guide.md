@@ -36,7 +36,11 @@ Running the Nexus Invoice System is as simple as clicking on the icon at the bot
 
 Before getting into the creation of invoices, it is worth noting that the _More options_ dropdown displayed above reveals additional fields with which invoices can be searched, as shown in the screenshot below. These fields include _Description_, the _Payable_ account, the _Recipient_ identifier (e.g., the username for a SigChain), and a toggle to cause only past due invoices to be displayed.
 
+### Create New Invoice:
+
 To create a new invoice, click the +_New Invoice_ button shown in the above screenshot. The following screen is displayed where details comprising this invoice are entered. These details include _Description_, _Reference_ (typically used to tie an invoice and payment to an accounting ledger item), _Number_ (used to help identify particular invoices), and _Due Date_.
+
+![](<../../.gitbook/assets/New Invoice.png>)
 
 In the _From_ group of fields, the _Account Payable_ information for this invoice is specified, which is used to indicate which account within the sender’s SigChain will receive the funds once paid. In addition, the _Sender Details_ for this invoice can be specified, for instance, to include the human-readable name of the person being paid in this invoice.
 
@@ -48,13 +52,21 @@ Further down on the invoice screen, the _Items_ section holds the specific eleme
 
 Note that the invoice screen has two buttons at the bottom of it: _Submit_ and _Save As Draft_. Next to the _Submit_ button the fee in NXS for submitting the form is displayed.
 
+{% hint style="info" %}
+A invoice fee of 1 NXS is deducted from the "`default`"account on submit&#x20;
+{% endhint %}
+
 The following screenshot shows the invoice saved as a draft. Note that at this point, the _Reference_ does not display. However, draft invoices can be displayed by selecting _DRAFT_ from the _Status_ dropdown at the top of the invoice module.
 
 Upon clicking the _Submit_ button to send an invoice to the recipient, the following prompt is presented to enter the PIN for the SigChain from which the invoice is being sent.
 
 After submitting an invoice, it displays in the list of invoices with a _Status_ of OUTSTANDING. Note that this is how the invoice will be displayed to both the sender and receiver.
 
+### Cancel Invoice:
+
 If the sender wants to cancel the invoice, they should open the invoice and click the _Cancel_ button. A prompt to enter the sender’s SigChain PIN will be presented, and after entering the PIN, the invoice will be marked CANCELLED.
+
+### Pay Invoice:
 
 To pay the invoice, the receiver clicks on the invoice in the list of invoices (as displayed above). The following prompt will be displayed.
 
