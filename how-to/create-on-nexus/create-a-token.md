@@ -64,7 +64,17 @@ Once created, the token has three important properties:
 * currentsupply - the number of circulating tokens that have been distributed to token accounts
 * balance - the number of tokens that have not yet been distributed (maxsupply - currentsupply)
 
+### Token Minting Fees
 
+The fee is based on the number of token divisible units you define (the combination of supply and decimals). There is a minimum fee of 1 NXS and the calculation is linear thereafter, so that each additional significant digit costs an additional 100 NXS. E.g.
+
+100 units = 1 NXS
+
+1000 units = 100 NXS
+
+1000000 units = 400 NXS
+
+10000000000 units = 800 NXS
 
 ## Create a Token
 
