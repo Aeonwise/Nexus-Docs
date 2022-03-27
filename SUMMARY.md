@@ -19,7 +19,8 @@
   * [DAO](fundamentals/nexus-explained/dao/README.md)
     * [The Social Stack](fundamentals/nexus-explained/dao/the-social-stack.md)
   * [Legacy and Tritium](fundamentals/nexus-explained/legacy-and-tritium.md)
-  * [Quantum Resistance](fundamentals/nexus-explained/quantum-resistance.md)
+  * [Quantum Resistance](fundamentals/nexus-explained/quantum-resistance/README.md)
+    * [Security Consideration](fundamentals/nexus-explained/quantum-resistance/security-consideration.md)
 
 ## Technology
 

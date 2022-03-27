@@ -40,10 +40,12 @@ Two major quantum algorithms that threaten the current state of cryptography hav
 
 {% embed url="https://www.youtube.com/watch?t=1325s&v=xDddeq3VkIA" %}
 
-Nexus has been designed not only to be quantum resistant today, but also to adopt quickly to the fast changing innovation in quantum computers and post quantum algorithms. Quantum resistance is not only about choosing a post quantum algorithm and implementing but to maintain quantum resistance we have designed a multi pronged approach.&#x20;
+Nexus has been designed not only to be quantum resistant today, but also to adopt quickly to the new innovations in quantum computers and post quantum algorithms. Quantum resistance is not only about choosing a post quantum algorithm and implementing, but to maintain quantum resistance we have designed a multi pronged approach.&#x20;
 
-Nexus use various algorithms for the different applications which give it an advantage. We use Argon2 for generating the entropy for private key, ESDSA & FALCON for key generation, Keccak for block and transaction hashes, Saber for node key exchange.
+Nexus has designed a multi pronged approach for quantum resistance.  Sig chain is one of the innovations which abstracts the private / public key pair from the account, user and also enables  the use of one-time keys, generated before the transaction and discarded after the transaction is confirmed. As the keys are not reused this drastically reduces the attack window. We have the option to use FALCON as the key generation algorithm as an option. Int he future users will have multiple algorithms to choose for key generation.
 
-Nexus has prepared by integrating a number of cryptographic innovations that support increased levels of quantum resistance. We have developed an architecture called Signature Chains that enhances the security of existing DSA (Digital Signature Algorithm), by hashing the public key until it is used while changing the key pair with every transaction. We have also integrated the following cryptographic functions: FALCON (a second round contender for the NIST Post-Quantum cryptography competition), Argon2 (winner of the password hashing competition, and a superior alternative to S-Crypt or B-Crypt), and Keccak (winner of the SHA3 competition).
+The second is by using various algorithms for the different functions. We use Argon2 for generating the key and usernames, ECDSA & FALCON for public key generation, Keccak for register, transaction and block hashes, Saber for node key exchange. This reduces the danger where  a specific algorithm becomes vulnerable.
+
+The third is by adding more authentication in the network&#x20;
 
 \
