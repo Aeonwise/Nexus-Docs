@@ -40,6 +40,10 @@ Two major quantum algorithms that threaten the current state of cryptography hav
 
 {% embed url="https://www.youtube.com/watch?t=1325s&v=xDddeq3VkIA" %}
 
+Nexus has been designed not only to be quantum resistant today, but also to adopt quickly to the fast changing innovation in quantum computers and post quantum algorithms. Quantum resistance is not only about choosing a post quantum algorithm and implementing but to maintain quantum resistance we have designed a multi pronged approach.&#x20;
+
+Nexus use various algorithms for the different applications which give it an advantage. We use Argon2 for generating the entropy for private key, ESDSA & FALCON for key generation, Keccak for block and transaction hashes, Saber for node key exchange.
+
 Nexus has prepared by integrating a number of cryptographic innovations that support increased levels of quantum resistance. We have developed an architecture called Signature Chains that enhances the security of existing DSA (Digital Signature Algorithm), by hashing the public key until it is used while changing the key pair with every transaction. We have also integrated the following cryptographic functions: FALCON (a second round contender for the NIST Post-Quantum cryptography competition), Argon2 (winner of the password hashing competition, and a superior alternative to S-Crypt or B-Crypt), and Keccak (winner of the SHA3 competition).
 
 \
