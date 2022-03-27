@@ -38,6 +38,8 @@ Two major quantum algorithms that threaten the current state of cryptography hav
 
 ### Nexus - Quantum Resistance&#x20;
 
+{% embed url="https://www.youtube.com/watch?t=1325s&v=xDddeq3VkIA" %}
+
 Nexus has prepared by integrating a number of cryptographic innovations that support increased levels of quantum resistance. We have developed an architecture called Signature Chains that enhances the security of existing DSA (Digital Signature Algorithm), by hashing the public key until it is used while changing the key pair with every transaction. We have also integrated the following cryptographic functions: FALCON (a second round contender for the NIST Post-Quantum cryptography competition), Argon2 (winner of the password hashing competition, and a superior alternative to S-Crypt or B-Crypt), and Keccak (winner of the SHA3 competition).
 
 \
