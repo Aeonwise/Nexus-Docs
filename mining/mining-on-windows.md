@@ -53,7 +53,7 @@ The Nexus mining team has made available an open prime pool. To use this pool co
 The Nexus mining developer team run a new hash pool.  To join the pool, use the below lines in the miner config.
 
 ```
-    "wallet_ip" : "154.16.159.55", 
+    "wallet_ip" : "hashpool.nexus.io", 
     "port" : 50000,
 ```
 
