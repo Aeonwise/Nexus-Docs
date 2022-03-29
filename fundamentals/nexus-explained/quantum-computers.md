@@ -1,4 +1,8 @@
-# Quantum Resistance
+---
+description: Threat Posed by Quantum Computers to Blockchains
+---
+
+# Quantum Computers
 
 ### What is a Quantum Computer?
 
@@ -40,12 +44,12 @@ Two major quantum algorithms that threaten the current state of cryptography hav
 
 {% embed url="https://www.youtube.com/watch?t=1325s&v=xDddeq3VkIA" %}
 
-Nexus has been designed not only to be quantum resistant today, but also to adopt quickly to the new innovations in quantum computers and post quantum algorithms. Quantum resistance is not only about choosing a post quantum algorithm and implementation, there is a lot of though which has gone into designing Nexus for today and for the future.&#x20;
+Nexus has been designed not only to be quantum resistant today, but also to adopt quickly to  innovations in quantum computers and post quantum algorithms. Quantum resistance is not only about choosing a secure  post quantum algorithm and implementation, there is a lot of though which has gone into designing Nexus for today and for the future.&#x20;
 
 Nexus has designed a multi pronged approach for quantum resistance.  Sig chain is one of the innovations which abstracts the private / public key pair from the account, user and also enables  the use of one-time keys, generated before the transaction and discarded after the transaction is confirmed. As the keys are not reused this drastically reduces the attack window. We have the option to use FALCON as the key generation algorithm as an option. Int he future users will have multiple algorithms to choose for key generation.
 
-The second is by using various algorithms for the different functions. We use Argon2 for generating the key and usernames, ECDSA & FALCON for public key generation, Keccak for register, transaction and block hashes, Saber for node key exchange. This reduces the danger where  a specific algorithm becomes vulnerable.
+The second is by creating cryptographic redundancy using different algorithms for the various functions. We use Argon2 for generating the key and usernames, ECDSA & FALCON for public key generation, Keccak for register, transaction and block hashes, Saber for node key exchange. This reduces the danger where  a specific algorithm becomes vulnerable.
 
-The third is by adding more authentication in the network between nodes, which makes it impossible for any entity to carry out a man in the middle attack. All these features make it a real quantum resistant design not only for today but also for tomorrow.
+The third is additional authentication for node handshake, which makes it impossible for any entity to carry out a man in the middle attack. All these features make it a real quantum resistant design not only for today but also for tomorrow.
 
 \

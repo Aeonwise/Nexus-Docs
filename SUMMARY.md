@@ -19,15 +19,15 @@
   * [DAO](fundamentals/nexus-explained/dao/README.md)
     * [The Social Stack](fundamentals/nexus-explained/dao/the-social-stack.md)
   * [Legacy and Tritium](fundamentals/nexus-explained/legacy-and-tritium.md)
-  * [Quantum Resistance](fundamentals/nexus-explained/quantum-resistance/README.md)
-    * [Security Consideration](fundamentals/nexus-explained/quantum-resistance/security-consideration.md)
+  * [Quantum Computers](fundamentals/nexus-explained/quantum-computers.md)
 
 ## Technology
 
 * [Nexus Innovations](technology/nexus-innovations/README.md)
   * [Software Stack](technology/nexus-innovations/software-stack.md)
   * [Signature Chains](technology/nexus-innovations/signature-chains.md)
-  * [Quantum Resistance](technology/nexus-innovations/quantum-resistance.md)
+  * [Quantum Resistance](technology/nexus-innovations/quantum-resistance/README.md)
+    * [Security Consideration](technology/nexus-innovations/quantum-resistance/security-consideration.md)
   * [TRUST](technology/nexus-innovations/trust.md)
   * [DAO](technology/nexus-innovations/dao.md)
   * [LISP](technology/nexus-innovations/lisp.md)

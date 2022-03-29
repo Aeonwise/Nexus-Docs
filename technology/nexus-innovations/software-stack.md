@@ -1,12 +1,16 @@
+---
+description: Seven Layer Software Stack
+---
+
 # Software Stack
 
-The Nexus architecture is designed as a seven-layered software stack that includes a 64-bit register-based process virtual machine. Each layer is designated to carry out a specialized process independently of one another, providing additional functionality to the existing Internet stack, the OSI model.
+The Nexus architecture is designed as a seven-layered software stack that includes a 64-bit register-based process virtual machine. Each layer is designated to carry out a specialized process independently of one another, providing additional functionality to the existing Internet stack, the OSI model. This makes Nexus a modular system.
 
 ![7 Layer Software Stack](<../../.gitbook/assets/stack (1)>)
 
 ## Interface
 
-The interface is the user space, i.e the buttons used to interact with the Dapp. This layer can be accompanied by various technologies from AR/VR to mobile interfaces. Our official Interface Layer, provides a platform for developers to build modules and applications that embed directly into the Nexus Wallet.
+The interface is the user space, i.e the buttons used to interact with the dapp. This layer can be accompanied by various technologies from AR/VR to mobile interfaces. Our official Interface Layer, provides a platform for developers to build modules and applications that embed directly into the Nexus Wallet.
 
 ## Logical
 
