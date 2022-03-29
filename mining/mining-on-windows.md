@@ -69,7 +69,9 @@ The NexusMiner can use CPU, GPU for Prime and FPGA for Hash mining. CPU mining i
 
 ### &#x20;GPU:
 
-If using GPU mining, then the only choice today is CUDA cores from Nvidia and to get the best out of the graphics cores we highly recommend to use the latest graphics drivers and [MSI Afterburner](https://www.msi.com/Landing/afterburner/vga).&#x20;
+If using GPU mining, the NexusMIner V1.5 supports both nvidia and AMD GPU's. The CUDA cores from Nvidia are fully supported and work efficiently. AMD support has been enabled recently only on linux and will take some time to be fully efficient.&#x20;
+
+To get the best out of the nvidia graphics cards, we highly recommend to use the latest graphics drivers and [MSI Afterburner](https://www.msi.com/Landing/afterburner/vga).
 
 {% hint style="warning" %}
 Do not install the Nvidia content creator drivers, the miner will not work properly
