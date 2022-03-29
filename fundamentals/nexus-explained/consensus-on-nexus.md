@@ -46,4 +46,4 @@ Arguably more centralized again, PoA has predetermined block validators. New blo
 
 Nexus has 3 channel consensus. First two are mining channels Prime and Hash, third is the nPoS staking channel
 
-## Mining on Nexus:
+### Mining on Nexus:
