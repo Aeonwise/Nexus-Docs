@@ -18,13 +18,11 @@ Nexus currently implements a reputation or Trust-based nPOS protocol that mainta
 
 Trust adds a layer of protection against attacks that further increases the Nexus network’s Byzantine Fault Tolerance (BFT). Together with the other two Nexus mining channels, limitations on block frequency, ten-minute decentralized checkpoints, it is very unlikely for an attacker to perform a successful 51% attack, because it would take an enormous amount of resources and time to gain enough Trust from the network, in order to take control of all three channels. Not only does Trust increase the security of the protocol, it also increases its efficiency and therefore its potential to scale.
 
-### Reward Time along with Stake
-
 Trust supports the viewpoint that “not everyone has money, but everyone has time,” implying that anyone can build Trust if they have some time, as only a minimal amount of hardware and NXS is required to begin building a Trust score.
 
-Reputation is an important resource to take into consideration when discerning the mathematical truth of a decentralized consensus. With the knowledge we have gained through our current implementations, we plan on extending our current reputation systems into many more areas. Through our architecture named the ‘TAO’ (Tritium, Amine and Obsidian), we are deploying reputation into the primitives of the 3DC, as part of the immutability and authenticity.
+### Reputation
 
-### Reputation + Signature Chains
+Reputation is an important resource to take into consideration when discerning the mathematical truth of a decentralized consensus. With the knowledge we have gained through our current implementations, we plan on extending our current reputation systems into many more areas. Through our architecture named the ‘TAO’ (Tritium, Amine and Obsidian), we are deploying reputation into the primitives of the 3DC, as part of the immutability and authenticity.
 
 Reputation in Tritium extends beyond Trust Keys, by implementing [Signature Chains](broken-reference). Signature Chains are a hybrid signature scheme that use hash-linking, and asymmetric cryptography to form a primitive user-level blockchain. This chain contains all the actions of a user, without revealing their actual identity. The result is a transparent ledger of events associated with a given user’s Signature Chain, that can provide the dataset to form more complex reputation systems interpreted from this series of events. The enforcement of reputation on the Ledger Layer is through the 1:3 ratio for staking currently implemented, and the relationship system on the Network Layer.
 
@@ -36,7 +34,9 @@ Today, there are a handful of consensus mechanisms that have been designed to cr
 
 Although decentralized consensus mechanisms are resistant to manipulation, they become vulnerable when one party begins to control at least 33% of nodes for pBFT, or 51% of network computational power for PoW (Proof-of-Work). By studying these threats, we have found that including reputation as a part of the consensus process can improve the pBFT. Further reading on this topic can be found in the link below, which proposes a reputation protocol that claims a 20% increase in fault tolerance.
 
-### [Guru: Universal Reputation Module for Distributed Consensus Protocols](https://eprint.iacr.org/2017/671.pdf)
+[Guru: Universal Reputation Module for Distributed Consensus Protocols](https://eprint.iacr.org/2017/671.pdf)
+
+### Relationships
 
 The current Trust system tolerates byzantine faults through the distribution of validators and implementation of relationships between nodes. With Nexus, reputation is designed as a public indicator of a node’s history whereas relationships are a private indicator of a node’s relationships with other nodes. In this respect, it is easier to prevent a byzantine fault if the probability of an assumed fault is known. In simple terms, this means that a node can more easily discern the difference between a byzantine fault and an honest node based on previously experienced faults.
 

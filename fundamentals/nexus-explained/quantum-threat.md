@@ -2,7 +2,7 @@
 description: Threat Posed by Quantum Computers to Blockchains
 ---
 
-# Quantum Computers
+# Quantum Threat
 
 ### What is a Quantum Computer?
 
@@ -48,7 +48,7 @@ Nexus has been designed not only to be quantum resistant today, but also to adop
 
 Nexus has designed a multi pronged approach for quantum resistance.  Sig chain is one of the innovations which abstracts the private / public key pair from the account, user and also enables  the use of one-time keys, generated before the transaction and discarded after the transaction is confirmed. As the keys are not reused this drastically reduces the attack window. We have the option to use FALCON as the key generation algorithm as an option. Int he future users will have multiple algorithms to choose for key generation.
 
-The second is by creating cryptographic redundancy using different algorithms for the various functions. We use Argon2 for generating the key and usernames, ECDSA & FALCON for public key generation, Keccak for register, transaction and block hashes, Saber for node key exchange. This reduces the danger where  a specific algorithm becomes vulnerable.
+The second is by creating cryptographic redundancy using different algorithms for the various functions. We use Argon2 for generating the key and usernames, ECDSA & FALCON for public key generation, Keccak for register, transaction and block hashes, SABER for node key exchange. This reduces the danger where  a specific algorithm becomes vulnerable.
 
 The third is additional authentication for node handshake, which makes it impossible for any entity to carry out a man in the middle attack. All these features make it a real quantum resistant design not only for today but also for tomorrow.
 

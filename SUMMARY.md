@@ -9,17 +9,16 @@
 * [Nexus Explained](fundamentals/nexus-explained/README.md)
   * [Intro to Nexus Network](fundamentals/nexus-explained/intro-to-nexus-network.md)
   * [Intro to Nexus](fundamentals/nexus-explained/intro-to-nexus.md)
-  * [Intro to Dapps](fundamentals/nexus-explained/intro-to-dapps.md)
-  * [Nodes & Core](fundamentals/nexus-explained/nodes-and-core.md)
   * [Nexus Virtual Machine](fundamentals/nexus-explained/nexus-virtual-machine.md)
+  * [Nodes & Core](fundamentals/nexus-explained/nodes-and-core.md)
   * [TAO Framework](fundamentals/nexus-explained/tao-framework.md)
-  * [TAO Naming System](fundamentals/nexus-explained/tao-naming-system.md)
-  * [Consensus on Nexus](fundamentals/nexus-explained/consensus-on-nexus.md)
   * [Lower Level Library (LLL)](fundamentals/nexus-explained/lower-level-library-lll.md)
+  * [TAO Naming System](fundamentals/nexus-explained/tao-naming-system.md)
+  * [Quantum Threat](fundamentals/nexus-explained/quantum-threat.md)
+  * [Legacy and Tritium](fundamentals/nexus-explained/legacy-and-tritium.md)
+  * [Consensus on Nexus](fundamentals/nexus-explained/consensus-on-nexus.md)
   * [DAO](fundamentals/nexus-explained/dao/README.md)
     * [The Social Stack](fundamentals/nexus-explained/dao/the-social-stack.md)
-  * [Legacy and Tritium](fundamentals/nexus-explained/legacy-and-tritium.md)
-  * [Quantum Computers](fundamentals/nexus-explained/quantum-computers.md)
 
 ## Technology
 
@@ -123,3 +122,4 @@
     * [c-Lite Vs Full Node](construction/under-construction-pages/nexus-interface-3.1.0/c-lite-vs-full-node.md)
   * [Page 2](construction/under-construction-pages/page-2.md)
   * [Assets](construction/under-construction-pages/assets.md)
+  * [Intro to Dapps](construction/under-construction-pages/intro-to-dapps.md)
