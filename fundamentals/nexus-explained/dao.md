@@ -24,7 +24,7 @@ Community members create proposals about the future operations of the protocol a
 
 ### Social Stack and Starfish:
 
-The Nexus DAO is based on the [Social Stack](the-social-stack.md);  a new social structure concept for the future. The goal of the social stack is to build a new type of governance structure which not only suits the Nexus network, but also to be utilised in real world for any organisation, society or network.&#x20;
+The Nexus DAO is based on the [Social Stack](../../technology/nexus-innovations/dao/the-social-stack.md);  a new social structure concept for the future. The goal of the social stack is to build a new type of governance structure which not only suits the Nexus network, but also to be utilised in real world for any organisation, society or network.&#x20;
 
 Nexus has designed the DAO organisation structure to resemble the starfish; decentralized network, no head, major organs are replicated throughout each arm. Cut it in half and you get two starfish. This organisation structure can withstand around 42% malicious actors or two arms going corrupt.
 

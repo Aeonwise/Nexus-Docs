@@ -16,9 +16,8 @@
   * [TAO Naming System](fundamentals/nexus-explained/tao-naming-system.md)
   * [Quantum Threat](fundamentals/nexus-explained/quantum-threat.md)
   * [Legacy and Tritium](fundamentals/nexus-explained/legacy-and-tritium.md)
+  * [DAO](fundamentals/nexus-explained/dao.md)
   * [Consensus on Nexus](fundamentals/nexus-explained/consensus-on-nexus.md)
-  * [DAO](fundamentals/nexus-explained/dao/README.md)
-    * [The Social Stack](fundamentals/nexus-explained/dao/the-social-stack.md)
 
 ## Technology
 
@@ -28,7 +27,8 @@
   * [Quantum Resistance](technology/nexus-innovations/quantum-resistance/README.md)
     * [Security Consideration](technology/nexus-innovations/quantum-resistance/security-consideration.md)
   * [TRUST](technology/nexus-innovations/trust.md)
-  * [DAO](technology/nexus-innovations/dao.md)
+  * [DAO](technology/nexus-innovations/dao/README.md)
+    * [The Social Stack](technology/nexus-innovations/dao/the-social-stack.md)
   * [LISP](technology/nexus-innovations/lisp.md)
   * [3 Dimensional Chain (Future)](technology/nexus-innovations/3-dimensional-chain-future/README.md)
     * [3DC - Simplified](technology/nexus-innovations/3-dimensional-chain-future/3dc-simplified.md)
