@@ -35,6 +35,8 @@ Voting will be actioned in voting groups, where the values of people and the res
 * Ambassadors
 * Developers
 
+![](../../../.gitbook/assets/NXSDAO.png)
+
 ### **Voting:**
 
 You will be able to abstain, vote, or withdraw your support for a contract (the frequency of voting is yet to be decided). Votes will be weighted by Trust and Stake (algorithm yet to be decided). Therefore, your power to vote will be determined by your total NXS staked, combined with your Trust. This protects against gaming of the voting system by short term holders of NXS.
