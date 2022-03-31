@@ -14,7 +14,6 @@
   * [Mobile Wallet](fundamentals/nexus-explained/mobile-wallet.md)
   * [TAO Framework](fundamentals/nexus-explained/tao-framework.md)
   * [Lower Level Library (LLL)](fundamentals/nexus-explained/lower-level-library-lll.md)
-  * [Naming System](fundamentals/nexus-explained/naming-system.md)
   * [TAO Naming System](fundamentals/nexus-explained/tao-naming-system.md)
   * [Quantum Threat](fundamentals/nexus-explained/quantum-threat.md)
   * [Legacy and Tritium](fundamentals/nexus-explained/legacy-and-tritium.md)
@@ -38,6 +37,7 @@
     * [Whitepaper](technology/nexus-innovations/nexus-protocol-future/whitepaper.md)
   * [LX-OS (Future)](technology/nexus-innovations/lx-os-future.md)
   * [ONE Stack (Future)](technology/nexus-innovations/one-stack-future.md)
+  * [Naming System TAO](technology/nexus-innovations/naming-system-tao.md)
 
 ## Economics
 
