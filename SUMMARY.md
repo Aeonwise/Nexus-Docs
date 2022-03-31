@@ -14,6 +14,7 @@
   * [Mobile Wallet](fundamentals/nexus-explained/mobile-wallet.md)
   * [TAO Framework](fundamentals/nexus-explained/tao-framework.md)
   * [Lower Level Library (LLL)](fundamentals/nexus-explained/lower-level-library-lll.md)
+  * [Naming System](fundamentals/nexus-explained/naming-system.md)
   * [TAO Naming System](fundamentals/nexus-explained/tao-naming-system.md)
   * [Quantum Threat](fundamentals/nexus-explained/quantum-threat.md)
   * [Legacy and Tritium](fundamentals/nexus-explained/legacy-and-tritium.md)
