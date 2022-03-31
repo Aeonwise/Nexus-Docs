@@ -1,10 +1,22 @@
 # Mobile Wallet
 
-Most people using crypto have used mobile wallets, but most of the mobile wallets are custodial wallets or are centralised in certain ways. Metamask using Infura as the backend and this has resulted in censoring users from certain countries. Click on the link below:
+Among the people using crypto, only a very few use mobile wallets, this is due to the fact that most of the mobile wallets are custodial wallets, centralised in certain ways or the user experience sucks.&#x20;
+
+
+
+## Problem With Mobile Wallets
+
+Most protocol or application chain mobile wallets connect directly to proxy servers run by third parties or wallet developers to communicate with the blockchain network**.** The proxy server acts as a trusted party and is the sole provider of information regarding blockchain state.&#x20;
+
+Mobile wallets are mostly custodial or they are run through proxy servers and even though the blockchain itself is decentralised, the mobile wallet is not which can lead to problems like the one given below:
+
+Metamask using Infura as the backend and this has resulted in censoring users from certain countries. Click on the link below:
 
 {% embed url="https://www.theblockcrypto.com/linked/136256/venezuelan-users-of-crypto-wallet-metamask-say-they-can-no-longer-access-it" %}
 
-Most crypto mobile wallets connect directly to proxy servers run by third parties or wallet developers to communicate with the blockchain network**.** The proxy server acts as a trusted party and is the sole provider of information regarding blockchain state. The Nexus wallet, on the other hand, runs the same [Core](../../fundamentals/nexus-explained/nodes-and-core.md#evm) used in the desktop, operates as a lite node by downloading a list of peers from the network seed nodes and forming connections to several of its peers. This allows the wallet to broadcast transactions directly to the network and detect confirmations by checking for inclusion against block headers. The Nexus mobile wallet gains added security by being able to verify block headers provided by multiple peers instead of through one central node.
+## Nexus Mobile Wallet
+
+Decentralize the Decentralization being the motto, every aspect of Nexus is designed to be Peer-to-Peer (P2P). The mobile wallet, runs the same [Core](../../fundamentals/nexus-explained/nodes-and-core.md#evm) used in the desktop, operates as a lite node by downloading a list of peers from the network seed nodes and forming connections to several of its peers. This allows the wallet to broadcast transactions directly to the network and detect confirmations by checking for inclusion against block headers. The Nexus mobile wallet gains added security by being able to verify block headers provided by multiple peers instead of through  proxy servers.
 
 ### **A Next-Gen Mobile Wallet**
 
