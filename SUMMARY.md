@@ -19,7 +19,7 @@
   * [Legacy and Tritium](fundamentals/nexus-explained/legacy-and-tritium.md)
   * [DAO](fundamentals/nexus-explained/dao.md)
   * [Consensus on Nexus](fundamentals/nexus-explained/consensus-on-nexus.md)
-  * [Decentralised Identity](fundamentals/nexus-explained/decentralised-identity.md)
+  * [Decentralized Identity](fundamentals/nexus-explained/decentralized-identity.md)
 
 ## Technology
 

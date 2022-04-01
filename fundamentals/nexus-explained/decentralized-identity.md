@@ -1,4 +1,8 @@
-# Decentralised Identity
+---
+description: Decentralized Identity on Nexus
+---
+
+# Decentralized Identity
 
 Nexus provides a technologically adept foundation for the next generation of decentralized identity. This effectively enables greater control of information for individuals and organizations that value safety, security and sovereignty.
 

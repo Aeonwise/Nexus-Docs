@@ -1,3 +1,7 @@
+---
+description: Consensus on Nexus
+---
+
 # Consensus on Nexus
 
 ### What is consensus?
