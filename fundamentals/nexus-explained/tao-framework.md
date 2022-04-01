@@ -12,9 +12,9 @@ Nexus started out as a clone of peer coin and in 2016 embarked on an upgrade pat
 
 
 
-Tritum: It is the foundation of the TAO framework, and along the way a few things were added to the Tritium roadmap which was re-named as Tritium++.
+Tritum: It is the foundation of the TAO framework, and along the way a few things were added to the Tritium roadmap which was re-named as Tritium++. Tritium was launched on mainnet on November 2019.
 
-Tritium++: This will bring in the developer tools, mobile wallets and pooled staking and upon completion Tritium will be the fastest single chain.
+Tritium++: This will bring in the developer tools, mobile wallets and pooled staking and upon completion Tritium will be the fastest single chain. Tritium++ update will be done in phases and will have the developer tools and contracts to build on Nexus.
 
 Amine:&#x20;
 
