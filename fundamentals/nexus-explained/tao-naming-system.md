@@ -16,7 +16,7 @@ Local names cannot be transferred to other SigChains, nor can they point to addr
 
 Nexus stands open and accessible since anyone can access local names through their SigChain, but also offers namespaces and global names which cater to more ambitious organizational perspectives.
 
-![f103e2d4cd11d16e1530fe96aa08b57d1ce2f15ac3d2782d21a4ca766b1824b8.png](https://cdn.publish0x.com/prod/fs/cachedimages/4108742535-f103e2d4cd11d16e1530fe96aa08b57d1ce2f15ac3d2782d21a4ca766b1824b8.webp)
+![](../../.gitbook/assets/Name1.png)
 
 _Namespace object register. The History tab shows past ownership and events. Ownership can be transferred to any other genesis id or username._
 
@@ -26,7 +26,7 @@ Names created in a namespace are addressed as _namespace::name_ as opposed to th
 
 Namespaces, on the other hand, are designed for organizational or business purposes. **The primary difference between namespaces and local names stems from the ability to transfer ownership of the name and to point to any register address**. Since ownership of names created in a namespace can be transferred, namespace owners can create and then sell names just like owners can sell their blank.com DNS domains. Namespaces can be compared roughly to the .org, .com and .info top-level domains while the name acts like the specific domain address. Namespaces also require stricter character requirements than usernames, limiting possible options to lowercase letters, numbers, and periods.
 
-![0af36edf522efd6c70c283ebbf038454d0459edf4d868bb9e5a5707aec95ca66.png](https://cdn.publish0x.com/prod/fs/cachedimages/374433600-0af36edf522efd6c70c283ebbf038454d0459edf4d868bb9e5a5707aec95ca66.webp)
+![](../../.gitbook/assets/Name2.png)
 
 _Here are details from a name object register (name love) in the luna namespace. See the name gets its own address, while pointing  to another._
 
