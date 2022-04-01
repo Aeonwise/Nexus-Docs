@@ -127,3 +127,4 @@
   * [Internet of Things (IoT)](construction/under-construction-pages/internet-of-things-iot.md)
   * [LX-OS](construction/under-construction-pages/lx-os.md)
   * [Intro to Dapps](construction/under-construction-pages/intro-to-dapps.md)
+  * [Dec Identity](construction/under-construction-pages/dec-identity.md)
