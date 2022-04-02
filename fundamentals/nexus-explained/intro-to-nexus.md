@@ -34,7 +34,7 @@ NXS is minted when a miner or staker creates a block on the Nexus blockchain. As
 
 ### DENOMINATIONS OF NEXUS  <a href="#denominations" id="denominations"></a>
 
-Since many transactions on Nexus are small, Nexus has 1 million units or 6 decimal places. The smallest denomination of Nexus does not have a unique name.
+Since many transactions on Nexus are small, Nexus has 1 million units or 6 decimal places. The smallest denomination of Nexus is named as [**`viz`**](https://en.wikipedia.org/wiki/Viz.).
 
 ### TRANSACTING NXS <a href="#transferring-ether" id="transferring-ether"></a>
 
