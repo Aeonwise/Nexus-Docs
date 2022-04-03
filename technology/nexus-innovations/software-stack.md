@@ -1,10 +1,10 @@
 ---
-description: Seven Layer Software Stack
+description: 7 Layer Software Stack
 ---
 
 # Software Stack
 
-The Nexus architecture is designed as a seven-layered software stack that includes a 64-bit register-based process virtual machine. Each layer is designated to carry out a specialized process independently of one another, providing additional functionality to the existing Internet stack, the OSI model. This makes Nexus a modular system.
+The Nexus architecture is designed as a seven-layered software stack that includes a 64-bit register-based process virtual machine. Each layer is designated to carry out a specialized process independently of one another, providing additional functionality to the existing Internet stack, the OSI model. This makes Nexus a modular blockchain.
 
 ![7 Layer Software Stack](<../../.gitbook/assets/stack (1)>)
 
