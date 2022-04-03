@@ -6,7 +6,7 @@ description: Man In The Middle Attack
 
 Nexus offers post quantum cryptography as an optional feature to users, as at the moment ECC is still considered safe. Our optional safeguards provide adequate levels of resistance against attacks using a quantum computer. The following will describe a MITM (Man-In-The-Middle) attack, which is the only known attack able to penetrate a signature chain if the user has not opted in to use FALCON (post quantum cryptography).
 
-### Man-In-The-Middle Attack on Nexus
+## Man-In-The-Middle Attack on Nexus
 
 A MITM attack can be described as someone eavesdropping on node communication, and at the same time, relaying information to other nodes, masquerading as the sender. In order for this type of attack to take place, an attacker would need to control the sigchain of every single node that the user is connected to (i.e to compromise the private keys of all connected nodes). This is because Nexus records a hash in a sigchain’s crypto object register, that is a hash of the certificate being used for SSL/TLS (Secure Socket Layer / Transport Layer Security). This means that the attacker has further difficulty pretending to be a remote node, because the blockchain acts as a certificate authority (CA).
 
@@ -25,7 +25,7 @@ Now, we will detail the steps of an attempted attack, assuming the user has not 
 
 This is a requirement, because to successfully hijack a user’s account, the attacker would need to capture the transaction before it was broadcast, brute force the sender’s public key to obtain its private key, and then broadcast a forged transaction to take over this user’s account, all in less than 200ms.
 
-### **Why is the attack window only 500ms?**
+## **Why is the attack window only 500ms?**
 
 The network considers the most valid transaction the one that nodes receive first. With the internet round trip time taking roughly 200ms, this is your upper bound of packet propagation time. Therefore, in order to create a conflicting transaction that could hijack a user’s signature chain, the attacker would need their ‘attack’ transaction to propagate over the network before the user’s transaction. The window is only 200ms as the users transaction begins to propagate at the time that the users public key is revealed, making it highly improbable that any computer, including a quantum computer, could ever break a user’s public key.
 

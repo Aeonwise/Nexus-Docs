@@ -18,15 +18,15 @@ With the completion of the Tritium++ upgrade, votes will be recorded on the ledg
 
 Currently, we envision two types of contracts: Developers and Ambassadors Embassies:
 
-### **Developer Embassies:**
+## **Developer Embassies:**
 
 These are non-profit entities of at least three directors. These organisations are responsible for the technological development of the public network, and support the development of DApps being built on the public network. For profit development, private networks will not be funded by public funds.
 
-### **Ambassador Embassies:**
+## **Ambassador Embassies:**
 
 These are non-profit entities of at least three directors. These organisations are responsible for content writing, graphics, public relations, social media, event organisation, exchanges, and outreach to public DApps.
 
-### **Voting groups:**
+## **Voting groups:**
 
 Voting will be actioned in voting groups, where the values of people and the resources that they contribute to the network define the group. Developers and Ambassadors contracts obtain a voting weight based on the trust bestowed upon them by the voting groups. The voting groups have yet to be decided, though each of the individuals in these spheres will embody similar expertise and interests. Possible groups are:
 
@@ -37,7 +37,7 @@ Voting will be actioned in voting groups, where the values of people and the res
 
 ![](../../../.gitbook/assets/NXSDAO.png)
 
-### **Voting:**
+## **Voting:**
 
 You will be able to abstain, vote, or withdraw your support for a contract (the frequency of voting is yet to be decided). Votes will be weighted by Trust and Stake (algorithm yet to be decided). Therefore, your power to vote will be determined by your total NXS staked, combined with your Trust. This protects against gaming of the voting system by short term holders of NXS.
 
@@ -53,7 +53,7 @@ The design provides the tools for the formation of a ‘meritocracy’, meaning 
 
 When you apply layers to a meritocratic structure, you get a very different picture than when you apply it to an autocratic structure. The difference is a model where those of higher merit have no power over the people they serve, for they truly are ‘public servants’. Leading is but an act of serving, and when we apply this model now into a social system, where merit gains you more responsibility, not authority; then we end up with a model that might just have a chance of showing us that the autocratic model is severely outdated, and that now, it’s time for an upgrade.
 
-### **Scaling through Layers:**
+## **Scaling through Layers:**
 
 Our social stack concept utilizes Fibonacci number sequences for the expansion of the groups through each layer, and is designed to be extensible to accommodate varying organizational sizes. This stack is a ‘bottom up’ design, meaning that all contracts allocated are accountable to the most fundamental peer group: The Community.
 
