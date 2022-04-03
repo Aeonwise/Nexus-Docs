@@ -20,6 +20,7 @@
   * [DAO](fundamentals/nexus-explained/dao.md)
   * [Consensus on Nexus](fundamentals/nexus-explained/consensus-on-nexus.md)
   * [Decentralized Identity](fundamentals/nexus-explained/decentralized-identity.md)
+  * [Long Term Goals](fundamentals/nexus-explained/long-term-goals.md)
 
 ## Technology
 

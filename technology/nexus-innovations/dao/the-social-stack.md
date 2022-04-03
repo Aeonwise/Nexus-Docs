@@ -1,3 +1,7 @@
+---
+description: Social Stack which underpins the DAO
+---
+
 # The Social Stack
 
 We would like to introduce our ‘Social Stack’ concept, that provides the tools for the formation of a ‘meritocracy’, meaning that everyone has an equal opportunity to be voted into their level of capability, and reward is based on acceptance of responsibility across different roles. This technology will enable groups that share similar knowledge and interests to vote together on subject matters that they have expertise in. By encapsulating values that are alike into groups that determine a smaller part of the entire decision itself, we can improve the overall reflection of value in a system as a whole. Our social stack concept utilizes Fibonacci number sequences for the expansion of the groups through each layer, and is designed to be extensible to accommodate varying organizational sizes. This stack is a ‘bottom up’ design, meaning that all contracts allocated are accountable to the most fundamental peer group: The Community.
