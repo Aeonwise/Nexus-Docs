@@ -42,4 +42,6 @@ LX-OS uses [Signature Chains](broken-reference) to authenticate the runtime memo
 
 To learn more, please read the Nexus Protocol Whitepaper.
 
-{% embed url="https://nexus.io/files/nexus_protocol/Nexus_Protocol_1.0.0.pdf" %}
+{% content-ref url="nexus-protocol-future/" %}
+[nexus-protocol-future](nexus-protocol-future/)
+{% endcontent-ref %}

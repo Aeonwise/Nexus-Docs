@@ -1,16 +1,24 @@
+---
+description: ONE stack
+---
+
 # ONE Stack (Future)
 
 The ONE acronym stands for One Nexus Execution, a stack designed to replace the OSI (Open system Interconnect) reference model. It is a fundamental reference model for the Nexus Protocol. The ONE stack is made up of 7 layers, out of which two are from the current OSI.
 
+Watch the ONE stack presentation by Colin Cantrell, link below:
+
 {% embed url="https://www.youtube.com/watch?t=197s&v=BS3Cfo784z8" %}
+ONE Stack Presentation By Colin Cantrell.
+{% endembed %}
 
+## Layers of the ONE Stack
 
+The image below shows how the ONE stack interacts with the Nexus software stack and also the OSI stack.
 
-Session
+![ONE Stack interaction with the Nexus Software Stack](../../.gitbook/assets/ONE-Stack-Dark.png)
 
-Transport
-
-### Signal
+### SIGNAL
 
 The Signal layer refers to the communication between the satellites and ground stations. The signal layer is responsible the physical modulation of the carrier wave. it is connected wirelessly to phased ray antennas. It uses the unlicensed 5.8 GHz band for communication for open deployment of terrestrial and orbital infrastructure. It will follow MCS (Modulation and Coding scheme) up to MCS-11, using 1024-QAM.
 
@@ -25,8 +33,6 @@ The identifier layer is where packets are actually addressed to. It like a compu
 ### SESSION
 
 The Transport and Session layers are brought over from the OSI. Protocols like UDP and TCP will still be used in NP. Session layer security such as TLS will still be utilized.  There will still be the same socket interface, even when running LX-OS over IP, as you will always open TCP/NP/IP to their 128 bit identifier. This means a user can use IP or NP and it will be as if using one large internet.
-
-
 
 The session layer creates communication channels, called sessions, between devices. It is responsible for opening sessions, ensuring they remain open and functional while data is being transferred, and closing them when communication ends. The session layer can also set checkpoints during a data transfer—if the session is interrupted, devices can resume data transfer from the last checkpoint.
 
