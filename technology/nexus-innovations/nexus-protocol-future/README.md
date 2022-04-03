@@ -52,4 +52,6 @@ The Nexus Protocol integrates into the TAO framework, a seven layer software sta
 
 In keeping with true open source crypto values, to preserve the white paper as an open specification, it was time stamped and recorded on the Nexus blockchain under blockchain asset name US:NP-WP. The raw blockchain asset information is shown below and publicly available through the [Nexus API](http://api.nexus.io:8080/assets/get/asset/US:NP-WP).
 
+![](<../../../.gitbook/assets/Nexus Protocol.png>)
+
 \
