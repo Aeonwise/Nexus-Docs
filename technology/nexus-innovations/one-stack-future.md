@@ -32,13 +32,13 @@ The identifier layer is where packets are actually addressed to. It like a compu
 
 ### SESSION
 
-The Transport and Session layers are brought over from the OSI. Protocols like UDP and TCP will still be used in NP. Session layer security such as TLS will still be utilized.  There will still be the same socket interface, even when running LX-OS over IP, as you will always open TCP/NP/IP to their 128 bit identifier. This means a user can use IP or NP and it will be as if using one large internet.
+The Session layer is brought over from the OSI. Protocols like UDP and TCP will still be used in NP. Session layer security such as TLS will still be utilized.  There will still be the same socket interface, even when running LX-OS over IP, as you will always open TCP/NP/IP to their 128 bit identifier. This means a user can use IP or NP and it will be as if using one large internet.
 
 The session layer creates communication channels, called sessions, between devices. It is responsible for opening sessions, ensuring they remain open and functional while data is being transferred, and closing them when communication ends. The session layer can also set checkpoints during a data transfer—if the session is interrupted, devices can resume data transfer from the last checkpoint.
 
 ### TRANSPORT
 
-The transport layer takes data transferred in the session layer and breaks it into “segments” on the transmitting end. It is responsible for reassembling the segments on the receiving end, turning it back into data that can be used by the session layer. The transport layer carries out flow control, sending data at a rate that matches the connection speed of the receiving device, and error control, checking if data was received incorrectly and if not, requesting it again.
+The Transport layer is brought over from the OSI. The transport layer takes data transferred in the session layer and breaks it into “segments” on the transmitting end. It is responsible for reassembling the segments on the receiving end, turning it back into data that can be used by the session layer. The transport layer carries out flow control, sending data at a rate that matches the connection speed of the receiving device, and error control, checking if data was received incorrectly and if not, requesting it again.
 
 ### Consensus
 

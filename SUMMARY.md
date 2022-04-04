@@ -125,6 +125,7 @@
     * [c-Lite Vs Full Node](construction/under-construction-pages/nexus-interface-3.1.0/c-lite-vs-full-node.md)
   * [Assets](construction/under-construction-pages/assets.md)
   * [Page 2](construction/under-construction-pages/page-2.md)
+  * [Nexus Vision](construction/under-construction-pages/nexus-vision.md)
   * [Internet of Things (IoT)](construction/under-construction-pages/internet-of-things-iot.md)
   * [LX-OS](construction/under-construction-pages/lx-os.md)
   * [Intro to Dapps](construction/under-construction-pages/intro-to-dapps.md)
