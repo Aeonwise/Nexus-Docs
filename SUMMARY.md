@@ -3,6 +3,7 @@
 * [Nexus Documentation](README.md)
   * [Nexus Website](https://nexus.io)
   * [History of Nexus](readme/history-of-nexus.md)
+  * [Nexus Vision & Goals](readme/nexus-vision-and-goals.md)
 
 ## FUNDAMENTALS
 
@@ -32,13 +33,13 @@
   * [DAO](technology/nexus-innovations/dao/README.md)
     * [The Social Stack](technology/nexus-innovations/dao/the-social-stack.md)
   * [LISP](technology/nexus-innovations/lisp.md)
+  * [TAO Naming System](technology/nexus-innovations/tao-naming-system.md)
   * [3 Dimensional Chain (Future)](technology/nexus-innovations/3-dimensional-chain-future/README.md)
     * [3DC - Simplified](technology/nexus-innovations/3-dimensional-chain-future/3dc-simplified.md)
   * [Nexus Protocol (Future)](technology/nexus-innovations/nexus-protocol-future/README.md)
     * [Whitepaper](technology/nexus-innovations/nexus-protocol-future/whitepaper.md)
   * [LX-OS (Future)](technology/nexus-innovations/lx-os-future.md)
   * [ONE Stack (Future)](technology/nexus-innovations/one-stack-future.md)
-  * [Naming System TAO](technology/nexus-innovations/naming-system-tao.md)
 
 ## Economics
 
@@ -124,7 +125,6 @@
     * [c-Lite Vs Full Node](construction/under-construction-pages/nexus-interface-3.1.0/c-lite-vs-full-node.md)
   * [Assets](construction/under-construction-pages/assets.md)
   * [Page 2](construction/under-construction-pages/page-2.md)
-  * [Nexus Vision](construction/under-construction-pages/nexus-vision.md)
   * [Internet of Things (IoT)](construction/under-construction-pages/internet-of-things-iot.md)
   * [LX-OS](construction/under-construction-pages/lx-os.md)
   * [Intro to Dapps](construction/under-construction-pages/intro-to-dapps.md)
