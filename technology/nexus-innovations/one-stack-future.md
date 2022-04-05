@@ -40,11 +40,11 @@ The session layer creates communication channels, called sessions, between devic
 
 The Transport layer is brought over from the OSI. The transport layer takes data transferred in the session layer and breaks it into “segments” on the transmitting end. It is responsible for reassembling the segments on the receiving end, turning it back into data that can be used by the session layer. The transport layer carries out flow control, sending data at a rate that matches the connection speed of the receiving device, and error control, checking if data was received incorrectly and if not, requesting it again.
 
-### Consensus
+### CONSENSUS
 
 The consensus layer is responsible for the creating a layer of trust on both IP and NP. It is a common reference point of truth for managing root of trust such as security certificates. It is composed of the three layers from the Nexus Software Stack: Ledger, Register and Operations. This is where we get the One Nexus Execution.
 
-### Application
+### APPLICATION
 
 The application layer is the human-computer interaction layer where applications can access the network services, such as web browsers and email clients. It provides protocols that allow software to send and receive information and present meaningful data to users. A few examples of application layer protocols are the Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), Post Office Protocol (POP), Simple Mail Transfer Protocol (SMTP), and Domain Name System (DNS).
 
