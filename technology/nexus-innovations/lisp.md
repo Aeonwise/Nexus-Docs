@@ -16,9 +16,9 @@ Imagine if your phone number changed every time you changed location, this is ho
 
 This means that genuine peer-to-peer connectivity is possible, because you are always accessible at one address, and remain so even when mobile. LISP enables you to remotely access your staking node from anywhere, while your node is busy working at the original location. This greatly increases the usability of your Nexus Wallet.
 
-### EID's
+### Endpoint Identifier (EID)
 
-An EID is a form of identity on the network layer. This is critical to security, as an EID is linked to a [Signature Chain](broken-reference), that can be cryptographically associated with reputation on the ledger. This creates an elevated layer of trust and integrity to the Internet, as one can verify with certainty that their peer is who they claim to be.
+An EID is a form of identity on the network layer. This is critical to security, as an EID is linked to a Signature Chain, that can be cryptographically associated with reputation on the ledger. This creates an elevated layer of trust and integrity to the Internet, as one can verify with certainty that their peer is who they claim to be.
 
 EIDs replace your IP address that contains the identifier and the location in a standard network. With LISP, the EID becomes the identifier, while the RLOC (Routing Locator) becomes the location. This decoupling enables a device to freely roam between networks, as only the RLOC changes, not the EID.
 

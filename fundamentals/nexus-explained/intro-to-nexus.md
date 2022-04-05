@@ -36,6 +36,9 @@ NXS is minted when a miner or staker creates a block on the Nexus blockchain. As
 
 Since many transactions on Nexus are small, Nexus has 1 million units or 6 decimal places. The smallest denomination of Nexus is named as [**`viz`**](https://en.wikipedia.org/wiki/Viz.).
 
+* 1 Viz = 0.000001 NXS
+* 1 NXS = 1,000,000 Viz
+
 ## **Nexus (NXS) Utility:**
 
 The native NXS coin has two main utilities in terms of value proposition – network fees and peer-to-peer value transfer (currency):

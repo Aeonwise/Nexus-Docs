@@ -20,7 +20,6 @@
   * [DAO](fundamentals/nexus-explained/dao.md)
   * [Consensus on Nexus](fundamentals/nexus-explained/consensus-on-nexus.md)
   * [Decentralized Identity](fundamentals/nexus-explained/decentralized-identity.md)
-  * [Long Term Goals](fundamentals/nexus-explained/long-term-goals.md)
 
 ## Technology
 
@@ -130,3 +129,4 @@
   * [LX-OS](construction/under-construction-pages/lx-os.md)
   * [Intro to Dapps](construction/under-construction-pages/intro-to-dapps.md)
   * [Dec Identity](construction/under-construction-pages/dec-identity.md)
+  * [Long Term Goals](construction/under-construction-pages/long-term-goals.md)
