@@ -4,9 +4,9 @@ description: Nexus the bigger picture
 
 # Nexus Vision
 
-Unreasonably ambitious and over engineered stands as valid criticism of Nexus’s technical designs and goals. Nevertheless, that energy provides the necessary impetus to pursue an alternative future. Refusing to follow the trend and hype of Distributed Ledger Technologies (DLTs), Nexus paved its own path, every passing day affirming these decisions instead of rebuking them. Specifically, the attention to multiple consensus channels, layer one scalability, decentralized identity (DID), quantum resistance and simple Application Programming Interface (API) creates a unified foundation to expand upon.
+Unreasonably ambitious and over engineered stands as valid criticism of Nexus’s technical designs and goals. Nevertheless, that energy provides the necessary impetus to pursue an alternative future. Refusing to follow the trend and hype of Distributed Ledger Technologies (DLTs), Nexus paved its own path, every passing day affirming these decisions instead of rebuking them. Specifically, the attention to software stack, multiple consensus channels, layer one scalability, decentralized identity (DID), quantum resistance and Application Programming Interface (API) creates a unified foundation to expand upon.
 
-The culmination is the creation of a fully decentralised internet underpinned by the Nexus blockchain, owned and operated by the people. This internet is not only designed for today but over engineered to last for centuries.  &#x20;
+This culminates in the formation of a fully decentralised internet, secured by Nexus blockchain, owned and operated by the people. This over engineered design is meant to last for centuries.  &#x20;
 
 Nexus is establishing the foundation for a Decentralized Web (DWeb) by completely replacing the internet’s OSI Model and traditional conventions with [The Nexus Protocol.](https://medium.com/@NexusOfficial/a-new-internet-the-nexus-protocol-6ee1e7f533ad) It is driven by a blockchain-based operating system (LX-OS) currently under development, and will be connected by ground stations, distributed satellite constellations and terrestrial mesh networks.
 

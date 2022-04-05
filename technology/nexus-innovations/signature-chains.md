@@ -18,7 +18,7 @@ Signature Chains decouple the private key from the user account, therefore one i
 
 Signature Chains (Sigchains) are comparable to a 'personal Blockchain', and provide the foundation for DApps that manage all types of digital property. They integrate into existing application frameworks that already rely on authorization systems through username and password combinations, and thereby provide DApp developers the ability to integrate blockchain functionalities as an elevated layer into existing applications with minimal architectural modification. They can also be integrated with various security measures such as biometrics and hardware password managers.
 
-Additional benefits are the efficiency gained by reducing the requirement of storing a large amount of signatures on disk, and the ability to use a variety of key types such as FALCON for increased Quantum Resistance.
+Additional benefits are the efficiency gained by reducing the requirement of storing a large amount of signatures on disk, and the ability to use a variety of key types such as FALCON for quantum Resistance.
 
 ### Speed and Scalability
 
@@ -26,21 +26,9 @@ Sigchains use an account based model that replaces the clunky UTxO (Unspent Tran
 
 Along with Sigchains, Nexus transactions are decoupled from the block, which means that only a single hash or ‘proof’ per transaction is required in the block level data, rather than the entire transaction itself. This results in the accommodation of approximately 31,728 transactions per 2 MB block. Together, these innovations produce lightweight blocks and efficient transaction processing, without the requirement of off chain (Layer 2) scaling solutions.
 
-### UTxO
-
-UTxO is an architecture envisioned by Satoshi Nakamoto in the Bitcoin whitepaper under Section 9, ‘Splitting and Combining Value’ \[[Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf)]. In this architecture, outputs contain a given value, such as 0.5 BTC, which then become inputs to another. The following diagram illustrates this model:
-
-These outputs are then ‘split and combined’ into more outputs in the next transaction as shown in the example in the diagram above: 50 BTC is split into two outputs of 0.5 BTC and 49.5 BTC, respectively. Though this architecture provides the benefit of privacy, it does not scale very well due to the need for many exhaustive cryptographic operations to move even a small amount of coins. This is because the minimum transaction amount per input is 0.00000001, which could result in the requirement for thousands of inputs, each of which would require a signature verification, increasing the size of the transaction. A notable example of this is:
-
-[The largest Bitcoin transaction ever made](https://www.blockchain.com/btc/tx/bb41a757f405890fb0f5856228e23b715702d714d59bf2b1feb70d8b2b4e3e08)
-
-As you can see from the above link, this transaction consumed an entire Bitcoin block and was only moving 0.05569 BTC. If this were a common occurrence, Bitcoin would only be able to process 1 transaction every ten minutes. This is not the only example of the limitations of the UTxO model, which creates inefficiency and serves as a unique attack vector to any chain that employs it.
-
-[50% of Litecoin’s UTXO is unspendable](https://www.reddit.com/r/litecoin/comments/9ncqse/what\_should\_we\_do\_about\_the\_50\_of\_litecoins\_utxo/)
-
 ### Pruning
 
-A Signature Chain is named as such due to it being a chain of signatures and public keys, all linked together through the next hash and previous transaction hash. Since this is a consistent chain of events that cannot be altered, it provides additional scaling benefits by requiring only two signatures to verify an entire Sigchain: the first and last transaction. This means that all the signatures in between can be discarded along with the public keys, saving a large amount of storage space without sacrificing security. This is because a Sigchain is an immutable chain of transactions A valid signature at the head transaction of the chain proves that the entire chain is valid, as it locks the entire Sigchain from modification.
+A Signature Chain is named as such due to it being a chain of nexthashes, a hash of signature and public key. Since this is a consistent chain of events that cannot be altered, it provides additional scaling benefits by requiring only two signatures to verify an entire Sigchain: the first and last transaction. This means that all the signatures in between can be discarded along with the public keys, saving a large amount of storage space without sacrificing security. This is because a Sigchain is an immutable chain of transactions A valid signature at the head transaction of the chain proves that the entire chain is valid, as it locks the entire Sigchain from modification.
 
 Usually, this signature is the largest part of the transaction, therefore removing the need to save it on disk improves the scalability of the Nexus Blockchain. In Bitcoin, the average input size is 186 bytes, with the signature consuming 146 of these bytes, resulting in 77% of the Bitcion blockchain being comprised of signatures stored on disk. As you can see, signature chaining has a huge impact on combating blockchain bloat.
 

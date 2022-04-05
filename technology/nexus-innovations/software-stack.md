@@ -8,8 +8,6 @@ The Nexus architecture is designed as a seven-layered software stack that includ
 
 ![7 Layer Software Stack](<../../.gitbook/assets/stack (1)>)
 
-Let's delve into the workings of each of these layers individually:
-
 ## Interface
 
 The interface is the user space, i.e the buttons used to interact with the dapp. This layer can be accompanied by various technologies from AR/VR to mobile interfaces. Our official Interface Layer, provides a platform for developers to build modules and applications that embed directly into the Nexus Wallet.
