@@ -18,24 +18,30 @@ With the completion of the Tritium++ upgrade, votes will be recorded on the ledg
 
 Currently, we envision two types of contracts: Developers and Ambassadors Embassies:
 
-## **Developer Embassies:**
+## **Developer DAO:**
 
-These are non-profit entities of at least three directors. These organisations are responsible for the technological development of the public network, and support the development of DApps being built on the public network. For profit development, private networks will not be funded by public funds.
+These organisations are responsible for the technological development of the public network, and support the development of DApps being built on the public network. For profit development, private networks will not be funded by public funds.
 
-## **Ambassador Embassies:**
+## **Ambassador DAO:**
 
-These are non-profit entities of at least three directors. These organisations are responsible for content writing, graphics, public relations, social media, event organisation, exchanges, and outreach to public DApps.
+These organisations are responsible for content writing, graphics, public relations, social media, event organisation, exchanges, developer support, wallet support and outreach to public DApps.
 
 ## **Voting groups:**
 
-Voting will be actioned in voting groups, where the values of people and the resources that they contribute to the network define the group. Developers and Ambassadors contracts obtain a voting weight based on the trust bestowed upon them by the voting groups. The voting groups have yet to be decided, though each of the individuals in these spheres will embody similar expertise and interests. Possible groups are:
+Voting will be actioned in voting groups, where the values of people and the resources that they contribute to the network define the group. Developers and Ambassadors contracts obtain a voting weight based on the trust bestowed upon them by the voting groups. The voting groups have yet to be decided, though each of the individuals in these spheres will embody similar expertise and interests. Possible groups with Tritium are:
+
+* Stakers
+* Ambassadors
+* Developers
+
+![](../../../.gitbook/assets/NXSDAO.png)
+
+With Amine and beyond when the network will start the 3DC chain the voting groups will change to:
 
 * L2 (Trust) Validators
 * L3 Miners
 * Ambassadors
 * Developers
-
-![](../../../.gitbook/assets/NXSDAO.png)
 
 ## **Voting:**
 

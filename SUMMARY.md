@@ -29,7 +29,7 @@
   * [Signature Chains](technology/nexus-innovations/signature-chains.md)
   * [Quantum Resistance](technology/nexus-innovations/quantum-resistance/README.md)
     * [Security Consideration](technology/nexus-innovations/quantum-resistance/security-consideration.md)
-  * [TRUST](technology/nexus-innovations/trust.md)
+  * [TRUST -nPoS](technology/nexus-innovations/trust-npos.md)
   * [DAO](technology/nexus-innovations/dao/README.md)
     * [The Social Stack](technology/nexus-innovations/dao/the-social-stack.md)
   * [LISP](technology/nexus-innovations/lisp.md)

@@ -20,6 +20,8 @@ Upon completion of the TAO framework Nexus blockchain will be a 3 Dimensional ch
 
 **Obsidian:** Obsidian is the bow that wraps it all together by adding full L2/L3 validation as a full 3DC, rather than processing on shards that are referenced in the merkle root of a classical single dimensional block.
 
+To check the latest roadmap, click the link below:
 
+{% embed url="https://nexus.io/roadmap" %}
 
 \
