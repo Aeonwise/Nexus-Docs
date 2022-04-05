@@ -1,3 +1,7 @@
+---
+description: Locator Identifier Separation Protocol
+---
+
 # LISP
 
 ### Locator Identifier Separation Protocol (LISP)
@@ -9,6 +13,10 @@ Nexus runs on the Locator Identifier Separation Protocol (LISP) overlay, develop
 LISP increases the reliability and security of communication between nodes, and is responsible for network scaling through multicast, identification through a static EID (Endpoint Identifiers), and authentication by using these identifiers. It will be used to enable secure access schemes for hybrid networks.
 
 Through IPv6 addressing LISP provides ample capacity for the emerging IoT industry. It will also be used in a critical capacity with the release of Amine, which uses the Network (IP) layer to shard data and assign identifiers to data segments for management of the distributed database, without the loss of security or privacy. Some of the below features are fully integrated, and others are being deployed through the [TAO Framework](broken-reference).
+
+{% hint style="info" %}
+LISP is used by many organisations in their networks, But its implementation in blockchain was first done on Nexus. LISP will play a major role in the decentralised internet.built on top of Nexus. &#x20;
+{% endhint %}
 
 ### Ease of Use
 
