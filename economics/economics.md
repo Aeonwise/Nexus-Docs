@@ -4,8 +4,6 @@ description: Nexus Coinomics
 
 # Economics
 
-### Economics
-
 * Current Supply: 73 mil (1st April, 2022)
 * Target Supply @ 2024: 78 mil
 * Inflation Post 2024 Target: once the 78 mil target is reached, both PoW channels will contribute 0.67% inflation per year, while the growth from the PoS channel will be capped at 3% (in reality this will be much lower as this requires all available NXS to be staked and 3% rate accumulated). The inflation model has been designed to mimic the growth rate of gold to ensure sustainable growth of the Nexus ecosystem.

@@ -32,7 +32,7 @@ Nexus wallet includes modular functionality consisting of the interface, module 
 
 The PoS fundamental principle is securing the network, and for that it provides an incentive. Node operators incur expenses with the hardware, management, bandwidth and electricity. The instructions in this section provide an optimal configuration for strict budgets and the IoT industry.
 
-### **Average Users (GUI Wallet):**&#x20;
+### **General Users (GUI Wallet):**&#x20;
 
 Any computer which meets the minimum requirements, If staking is the only service planned an Intel NUC core i3 / Ryzen 3 or equivalent with 4GB RAM and 120GB SSD is recommended. If the staking computer will be used for other purposes, increase memory and disk space appropriately.
 

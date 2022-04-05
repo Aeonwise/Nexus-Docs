@@ -182,25 +182,25 @@ Individual accounts on Bittrex are identified by unique usernames which are actu
 Because of the potential for financial impact involving the use of your Bittrex account, the process of creating and verifying an account includes several security measures to prevent unauthorized access and to protect your account.
 
 1. Begin the account registration process by going to [https://www.bittrex.com/Account/Register](https://www.bittrex.com/Account/Register). The following screen should appear.
-2. ![](../.gitbook/assets/buynxs1)
+2. ![](../../.gitbook/assets/buynxs1)
 3. Choose whether to create a **Personal** or **Corporate** account. The instructions in this document assume creation of a Personal account.
 4. Enter the email address to use for this account. The email address entered will be used as the account’s Bittrex username.
 5. Enter a password to use for this account. Passwords must be at least 12 characters long. It is recommended to use both alphanumeric characters and symbols to enhance password security.
 6. Click the **Create Account** button. A verification email will be sent to the email address specified in Step 3 above. Upon receipt of the verification email, click the **Verify Email** button in the email to verify the email address.
-7. ![](../.gitbook/assets/buynxs2)
+7. ![](../../.gitbook/assets/buynxs2)
 8. Note that the verification will verify the browser on the device you are on; thus, you must ensure the same browser opens when clicking the Verify Email button. Otherwise, you will get a “device verification failed” error.
 9. After verifying the email address, the Terms of Service will be presented for review and agreement. Be sure to read, understand, and agree to **all** conditions and restrictions to own and use a Bittrex account. Once this is done, click **Accept Terms**.
 10. Next, the screen for entry of Basic Profile Info will be presented (screenshot below). Complete **all** fields using a keyboard with Latin (English) characters. **Characters and symbols in other languages cannot be processed and will result in a failed verification**.
-11. ![](<../.gitbook/assets/buynxs3 (1)>)
+11. ![](<../../.gitbook/assets/buynxs3 (1)>)
 12. Click the **Continue** button to proceed to ID Verification. All Bittrex accounts must be verified with government-issued identification. To begin the process, click **Start Verification**. Identity verification requires photos of your official government identification and a selfie (face photo).
 13. Note that it is strongly recommended to use a passport for the identification. This is the most widely accepted identification document; other forms of accepted identification vary by country.
-14. ![](<../.gitbook/assets/buynxs4 (1)>)
+14. ![](<../../.gitbook/assets/buynxs4 (1)>)
 15. Follow the ID Verification directions carefully. The required images may be captured by the camera on your mobile device or uploaded from an image file. An image of the front of the ID and a selfie are required. If ID other than a passport is used, a request may be made to submit an image of the back of the ID. If on a computer without a camera, please select the Issuing Country/Region and ID Type. The next page prompts to submit the ID, where one can select “Switch to mobile?” to continue on to the mobile device. Choose the option that works best for you (email, QR code, copy link) to continue on your mobile device. By submitting a selfie, users may avoid the primary reason people encounter identity verification delays.
 16. Note that the web page must remain open while using your mobile device.
 17. **Any submissions that do not satisfy these requirements will fail automatically. If this happens, you will be directed to repeat the verification steps with some tips on how to submit a successful verification. After three (3) failed attempts, you will have to submit a support ticket for an agent to assist in the verification process.**
 18. ID Verification can take up to 10 minutes to approve. It is important to keep the page open while the verification is processing. Upon successful verification, the next step in the process will automatically be presented.
 19. As a standard Know Your Customer (KYC) practice, Bittrex requests basic financial information regarding source of funding. Follow the prompts presented in the screenshot below and click **Continue**.
-20. ![](../.gitbook/assets/buynxs5)
+20. ![](../../.gitbook/assets/buynxs5)
 21. To comply with US regulations and further verify identity, Bittrex will request your Social Security number be provided. When prompted, select **Yes**, then enter your Social Security number and click **Submit**.
 22. Note that selecting **No** if you do not have a Social Security number will require submission of an **Alien Identification Number** or **Passport Number** instead.
 23. Upon successful identity verification, a message will be received stating that this is the case.
@@ -214,25 +214,25 @@ Upon approval of a new account, it should be set up to use multifactor authentic
 The following steps allow funding from a debit card from a US bank into a US dollar wallet on Bittrex.
 
 1. From the main Bittrex screen, click the **Holding** link in the group of links at the top-right of the screen.
-2. ![](../.gitbook/assets/buynxs6)
+2. ![](../../.gitbook/assets/buynxs6)
 3. Once the Holdings screen displays all of your fiat and crypto holdings, click the **Debit card** button.
 4. The **Deposit USD from debit card** screen will display. Enter the number of dollars to pull from the debit card. Note that Bittrex will deduct a 3% fee on top of the amount being pulled from the debit card.
-5. ![](<../.gitbook/assets/buynxs7 (1)>)
+5. ![](<../../.gitbook/assets/buynxs7 (1)>)
 6. Click the **Enter card info next** button to display the screen on which the debit card details will be entered.
 7. The screen which displays contains all of the fields required to identify the debit card and the person who owns it. Enter the contents of all fields. **Card holder** is the name of the person who owns the card. The **CVV** is the three-digit code on the back of the debit card.
-8. ![](../.gitbook/assets/buynxs8)
+8. ![](../../.gitbook/assets/buynxs8)
 9. Further down the form are the fields required to identify the person who owns the card from their billing information.
-10. ![](<../.gitbook/assets/buynxs9 (1)>)
-11. ![](<../.gitbook/assets/buynxs10 (1)>)
+10. ![](<../../.gitbook/assets/buynxs9 (1)>)
+11. ![](<../../.gitbook/assets/buynxs10 (1)>)
 12. If you agree to the Terms & Conditions and the Privacy policy, which is required to continue the process, check the checkbox below the **State** field. Then click the **Continue** button.
-13. ![](<../.gitbook/assets/buynxs11 (1)>)
+13. ![](<../../.gitbook/assets/buynxs11 (1)>)
 14. The vendor Bittrex uses to access US banks requires further identification Choose the telephone number on file which the system should use to send the verification code by clicking on the radio button preceding the masked phone number. Then click the **Continue** button.
 15. The screen that displays allows entry of the code sent to the specified phone number. Enter the code in the field labeled **Enter code**, then click the **Submit** button.
-16. ![](<../.gitbook/assets/buynxs12 (1)>)
+16. ![](<../../.gitbook/assets/buynxs12 (1)>)
 17. Bittrex then displays an indication that the card verification process is complete. Close the display by clicking the close button (“X”) at the top-right of the display.
-18. ![](<../.gitbook/assets/buynxs13 (1)>)
+18. ![](<../../.gitbook/assets/buynxs13 (1)>)
 19. After a brief delay that depends entirely on the bank, the funds will be received into the USD wallet on the Holdings screen. An example screenshot of the Holdings screen with funds in the USD wallet is displayed here.
-20. ![](../.gitbook/assets/buynxs14)
+20. ![](../../.gitbook/assets/buynxs14)
 
 **Purchase BTC with USD, and NXS with BTC**
 

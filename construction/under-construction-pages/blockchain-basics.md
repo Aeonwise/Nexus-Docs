@@ -6,7 +6,7 @@ People, known as miners, are given a monetary incentive to verify transactions. 
 
 Many blockchains use a mechanism called Proof-of-Work (PoW) exclusively that requires resource inputs such as hardware and electricity. Others use Proof-of-Stake (PoS) that requires less physical resources, however requires the miner to ‘wager’ some coins. Thus, there is an incentive to verify transactions correctly. To attempt a double-spend attack (to spend a cryptocurrency coin twice), a person would need 51% of the PoW and/or PoS power, which can be very costly to achieve. Therefore, the blockchain provides a trustworthy source of information, where all transactions are witnessed and verified by a global consensus rather than by a central trusted authority.
 
-![](../.gitbook/assets/hash)
+![](../../.gitbook/assets/hash)
 
 ### **What are the steps?**
 
@@ -19,7 +19,7 @@ Many blockchains use a mechanism called Proof-of-Work (PoW) exclusively that req
 
 ### **What is Decentralization?**
 
-![](<../.gitbook/assets/topologies (1)>)
+![](<../../.gitbook/assets/topologies (1)>)
 
 The above diagram illustrates three different topologies. Centralized and Decentralized are concepts of authority, whereas distribution is a spatial concept, meaning it relates to the physical network topology. A network can be distributed, as well as being centralized or decentralized. An ideal network topology has a decentralized consensus process, with a distributed node topology.
 

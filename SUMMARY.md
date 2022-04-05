@@ -44,7 +44,6 @@
 ## Economics
 
 * [Economics](economics/economics.md)
-* [Buy NXS](readme/buy-nxs.md)
 * [Fees](readme/fees.md)
 
 ## GUIDES
@@ -100,11 +99,6 @@
 
 ## FAQ
 
-## TERMINOLOGY
-
-* [Page 1](terminology/page-1.md)
-* [Blockchain Basics](terminology/blockchain-basics.md)
-
 ## CONSTRUCTION
 
 * [Under Construction Pages](construction/under-construction-pages/README.md)
@@ -130,3 +124,5 @@
   * [Intro to Dapps](construction/under-construction-pages/intro-to-dapps.md)
   * [Dec Identity](construction/under-construction-pages/dec-identity.md)
   * [Long Term Goals](construction/under-construction-pages/long-term-goals.md)
+  * [Buy NXS](construction/under-construction-pages/buy-nxs.md)
+  * [Blockchain Basics](construction/under-construction-pages/blockchain-basics.md)

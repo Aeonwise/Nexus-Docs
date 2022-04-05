@@ -4,7 +4,7 @@ description: Understanding Staking Attributes
 
 # Staking Attributes
 
-
+If staking using the Interface the overview will show the staking attributes on the right side of the interface. It includes stake rate, block weight, trust weight and stake weight. For CLI users use the API finance/get/stakeinfo to get the stake information.
 
 ![](https://nexus.io/ResourceHub/images/guide/stake-guide2.png)
 
