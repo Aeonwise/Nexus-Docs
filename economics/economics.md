@@ -6,10 +6,11 @@ description: Nexus Coinomics
 
 * Current Supply: 73 mil (1st April, 2022)
 * Target Supply @ 2024: 78 mil
+* Current Inflation: 3.58% (1st April, 2022)&#x20;
 
+## Nexus Minting
 
-
-The first NXS block was mined on September 23rd, 2014 at 16:20:00 GMT – 7. As of April 4 2022, the total supply of NXS is 73,092,716.09, which is 93.7% of the September 2024 target of 78,000,000.
+The first Nexus block was mined on September 23rd, 2014 at 16:20:00 GMT – 7. As of April 4 2022, the total supply of NXS is 73,092,716.09, which is 93.7% of the September 2024 target of 78,000,000.
 
 The issuance of NXS is independent of a central bank or government, it has zero debt or interest associated with its distribution, and its supply is regulated by mathematics. This is in direct contrast to the creation of new loans of fiat currency by ‘Fractional Reserve Banking’, which people are required to pay back to a bank.
 
