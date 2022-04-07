@@ -16,6 +16,8 @@ Likewise, challenges faced by the original blockchain protocol have also led to 
 
 Most people believe that everything in crypto world is decentralised, but the reality is completely different. Crypto world is filled with buzzwords and marketing which creates a lot of confusion. If you are looking at a project which is truly decentralized then we need to look at some of the attributes.&#x20;
 
+These attributes apply only for protocol or base chains.
+
 * No ICO or Premine.
 * Decentralized consensus.
 * Distributed physical network topology.
@@ -32,13 +34,17 @@ Most people believe that everything in crypto world is decentralised, but the re
 
 ### Nexus and Decentralization:
 
-Nexus has been designed with emphasis for connections between people and inspired by the ethos of Satoshi. It is this vision which drives innovations to adhere to the decentralized authority and P2P values. We have made sure that every innovation and solution we provide confirm to concepts of decentralization and distribution.&#x20;
+Nexus has been designed with emphasis on connections between people and inspired by the ethos of Satoshi. It is this vision which drives innovations to adhere to the decentralized authority and P2P values. We have made sure that every innovation and solution we provide maintains  decentralization.&#x20;
 
 Nexus was mined into existence similar to Bitcoin and there was no ICO or premine. It has three channel consensus which consists of two mining channels Prime, Hash and one staking nPOS. This helps to balance mining monopoly with ASIC miners on Bitcoin. Staking on Nexus is based on Trust and the time spent securing the network is calculated with a trust score and its the product of the no of staked NXS and the trust score which determines the 3% max stake rate (compensation) and  if the user stops staking, the trust score decays in a ratio 3:1. This Trust based staking design prevents a whale to take over the network even if he manages to own 51% of the tokens.
 
-Nexus does not believe in offchain or Layer -2 transactions and has designed 3DC as a scaling solution. The Nexus mobile wallet is an extension of the network using the lite node and no middlemen. Nexus governance is driven by the community and has recently bootstrapped a starfish based DAO powered by the social stack and after rigorous testing will be mathematically encoded into the blockchain with the 7.0 update later this year. Nexus has a on-chain treasury and that is used to fund the various development activities on Nexus. The funding and expenses are transparent to the community. Nexus does not accept direct external funding and is working with a very small but effective team.
+Nexus does not believe in offchain or layer -2 transactions and has designed 3DC as a scaling solution. The Nexus mobile wallet is an extension of the network using the lite node and no middlemen. Nexus governance is driven by the community and has recently bootstrapped a starfish based DAO powered by the social stack and after rigorous testing will be mathematically encoded into the blockchain with the 7.0 update later this year. Nexus has a on-chain treasury and that is used to fund the various development activities on Nexus. The funding and expenses are transparent to the community. Nexus does not accept direct external funding and is working with a very small but effective team.
 
-Nexus will not be interoperable with other chains and this was a conscious design decision from the team. The wallet which is also known as _**Interface**_ can run the full node or as a lite node. Users can use the Interface to easily create transactions with inbuilt QR code scanner. Users can also issue tokens, assets, tokenize assets, namespaces, global names and also use the template contracts to run some standard contracts. This abstracts the user from the complexity of blockchain.
+Nexus will not be interoperable with other chains and this was a conscious design decision from the team. The wallet which is also known as _**Interface**_ can run as a full node or as a lite node. Users can use the Interface to easily create transactions with inbuilt QR code scanner. Users can also issue tokens, assets, tokenize assets, namespaces, global names and also use the template contracts to run some standard contracts. This abstracts the user from the complexity of blockchain.
+
+Nexus is run by a worldwide community and we have nodes which are distributed all over the globe, this brings in the physical distribution of the network and makes it resilient to internet downtime in some part of the globe or some countries banning crypto.&#x20;
+
+Nexus is not a business and we are building something really unique and special
 
 
 
