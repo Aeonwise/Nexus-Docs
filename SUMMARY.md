@@ -21,6 +21,7 @@
   * [Legacy and Tritium](fundamentals/nexus-explained/legacy-and-tritium.md)
   * [DAO](fundamentals/nexus-explained/dao.md)
   * [Consensus on Nexus](fundamentals/nexus-explained/consensus-on-nexus.md)
+  * [Decentralization and Nexus](fundamentals/nexus-explained/decentralization-and-nexus.md)
 
 ## Technology
 
@@ -105,7 +106,6 @@
 ## CONSTRUCTION
 
 * [Under Construction Pages](construction/under-construction-pages/README.md)
-  * [Decentralization and Nexus](construction/under-construction-pages/decentralization-and-nexus.md)
   * [Mining on Linux](construction/under-construction-pages/mining-on-linux.md)
   * [Web 3.0](construction/under-construction-pages/web-3.0/README.md)
     * [Safenet](construction/under-construction-pages/web-3.0/safenet.md)
