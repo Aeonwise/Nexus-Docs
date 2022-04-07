@@ -6,19 +6,27 @@ description: Nexus Interface
 
 ## Interface Guide
 
-****
-
-The following guides below walk you through the Nexus Desktop Wallet, from initial installation to the use of its core modules. Alternatively, there is an introductory video available below.
+The following guides below walk you through the Nexus Desktop Wallet, from initial installation to the use of its core modules. Alternatively, there are a few video available below.
 
 The videos below are brought to you by [The Digital Future!](https://www.youtube.com/channel/UC1lMk6jKYv4lg6gs1oS\_OYw)
 
-An introduction to the Nexus Tritium Wallet:
+### An introduction to the Nexus Tritium Wallet
 
-Installing the Nexus wallet on a Linux device:
+{% embed url="https://www.youtube.com/watch?v=TROz7yXf4oM" %}
+An introduction to the Nexus Tritium Wallet
+{% endembed %}
 
-Bootstrap and Synchronize:
+### Installing the Nexus wallet on a Linux:
 
-Creating a Recovery Phrase:
+{% embed url="https://www.youtube.com/watch?v=7UvYJbUwJnQ" %}
+
+### Creating a Recovery Phrase:
+
+{% embed url="https://www.youtube.com/watch?t=8s&v=pQdKpaaM--E" %}
+
+### **Change Recovery Phrase or Password & Pin**
+
+{% embed url="https://www.youtube.com/watch?t=153s&v=7cps7LofXNA" %}
 
 ## **Disclaimer and Loss of Password**
 
