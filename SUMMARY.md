@@ -65,6 +65,7 @@
     * [Licence](guides/guides/nexus-interface/licence.md)
     * [System Requirements](guides/guides/nexus-interface/system-requirements.md)
     * [Verify Installer](guides/guides/nexus-interface/verify-installer.md)
+    * [Install](guides/guides/nexus-interface/install.md)
     * [Bootstrap](guides/guides/nexus-interface/bootstrap.md)
     * [Wallet Modules](guides/guides/nexus-interface/wallet-modules/README.md)
       * [Overview](guides/guides/nexus-interface/wallet-modules/overview.md)
