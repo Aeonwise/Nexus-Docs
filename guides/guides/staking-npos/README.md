@@ -18,7 +18,7 @@ True stake rewards, however, are not like earning interest. Staking rewards are 
 
 Nexus has a total of 78 million native coins and these will be mined fully in 2024 with a tail end emissions / inflation of 3.67%. 3% will be for the PoS if all the nexus tokens are staked and 0.67% for the hash and prime mining channels.
 
-Nexus provides desktop wallets for windows, mac and Linux. The mobile wallet (lite node only) is currently in public beta and will be released in H1 of 2021. As of today, Nexus only supports full-node staking, although the next major upgrade will also include pooled staking, with a minimum balance of 1 NXS.
+Nexus provides desktop wallets for windows, mac and Linux. The mobile wallet (lite node only) is currently in public beta and will be released in H2 of 2022. As of today, Nexus only supports full-node staking, although the next major upgrade will also include pooled staking, with a minimum balance of 1 NXS.
 
 Nexus staked holdings will also be valuable for voting in the upcoming DAO, where trust will be an crucial factor. Voting will supply weight/age values to trust and amount of staked NXS, providing considerable resistance against manipulation and bad actor influences.. Note: In the previous election conducted for Nexus embassy allocation, the amount of nxs for each vote was capped at 10K nxs + trust weight. This is currently not hard coded, but will be implemented in the upcoming DAO release. The threshold variables can be changed as per the requirement and also can be voted on by the community.
 
