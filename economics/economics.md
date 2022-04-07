@@ -4,9 +4,9 @@ description: Nexus Coinomics
 
 # Economics
 
-* Current Supply: 73 mil (1st April, 2022)
-* Target Supply @ 2024: 78 mil
-* Current Inflation: 3.58% (1st April, 2022)&#x20;
+* **Current Supply: 73 mil (1st April, 2022)**
+* **Target Supply @ 2024: 78 mil**
+* **Current Inflation: 3.58% (1st April, 2022)**&#x20;
 
 ## Nexus Minting
 

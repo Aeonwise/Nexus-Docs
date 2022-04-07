@@ -16,19 +16,19 @@ Likewise, challenges faced by the original blockchain protocol have also led to 
 
 Most people believe that everything in crypto world is decentralised, but the reality is completely different. Crypto world is filled with buzzwords and marketing which creates a lot of confusion. If you are looking at a project which is truly decentralized then we need to look at some of the attributes.&#x20;
 
+* No ICO or Premine.
 * Decentralized consensus.
 * Distributed physical network topology.
 * DAO based on-chain community governance.
 * On-chain treasury to fund the project.
 * Justifiable tokenomics, inflation and gamification (Compensation to Network actors)
 * Transactions should only be Peer-to-Peer (P2P).&#x20;
-* No ICO or Premine.
 * No Venture Capital (VC) direct funding.
 * No single point of centralization in the P2P chain.
 * In-built monopolistic safeguards.
 * No off-chain or Layer-2 Transactions.
-* Interoperability with Chains which don't adhere to decentralization.
-* Normal users should be able to access blockchain solutions directly and should be abstracted from the complexity.
+* Interoperability with chains which don't adhere to decentralization and similar security standards.
+* Normal users should be able to access blockchain solutions directly, without a third party and should be abstracted from the complexity.
 
 ### Nexus and Decentralization:
 

@@ -21,7 +21,6 @@
   * [Legacy and Tritium](fundamentals/nexus-explained/legacy-and-tritium.md)
   * [DAO](fundamentals/nexus-explained/dao.md)
   * [Consensus on Nexus](fundamentals/nexus-explained/consensus-on-nexus.md)
-  * [Decentralized Identity](fundamentals/nexus-explained/decentralized-identity.md)
 
 ## Technology
 
@@ -126,3 +125,4 @@
   * [Decentralized Identity](construction/under-construction-pages/decentralized-identity.md)
   * [Buy NXS](construction/under-construction-pages/buy-nxs.md)
   * [Blockchain Basics](construction/under-construction-pages/blockchain-basics.md)
+  * [Decentralized Identity](construction/under-construction-pages/decentralized-identity-1.md)
