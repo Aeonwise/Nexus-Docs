@@ -18,9 +18,17 @@ Our technology is designed to **simplify lives, empower communities, and streaml
 
 ### <mark style="color:orange;">Join Us:</mark>
 
-Join our telegram community channel to better understand Nexus, link below:
+Join our telegram community channel to better understand Nexus and keep upto date on its developments, link below:
 
 {% embed url="https://t.me/NexusOfficial" %}
+
+### <mark style="color:orange;">Social Media Links:</mark>
+
+Nexus is available on quite a few social media platforms. Click the link below:
+
+{% embed url="https://nexus.io/links" %}
+LInk to the Social Media Page
+{% endembed %}
 
 {% hint style="warning" %}
 This is a living document, still a work in progress and after completion will be updated
