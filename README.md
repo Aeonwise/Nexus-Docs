@@ -1,8 +1,9 @@
 ---
 description: CONNECTING A DECENTRALIZED WORLD
+layout: landing
 ---
 
-# Welcome to Nexus Documentation
+# Nexus Documentation
 
 ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FC3z0QMfACp3YahCLQM07%2Fuploads%2F8ETFsG3IfBcLwR1tv6SL%2Fblue%20logo?alt=media)
 
