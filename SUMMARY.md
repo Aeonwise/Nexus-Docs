@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Page 1](README.md)
-* [Nexus Documentation](<README (1).md>)
+* [Nexus Documentation](README.md)
   * [Nexus Website](https://nexus.io)
   * [Whitepapers](https://nexus.io/whitepapers)
   * [History of Nexus](readme/history-of-nexus.md)
