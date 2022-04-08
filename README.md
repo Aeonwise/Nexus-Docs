@@ -1,6 +1,5 @@
 ---
 description: CONNECTING A DECENTRALIZED WORLD
-layout: editorial
 ---
 
 # Nexus Documentation
