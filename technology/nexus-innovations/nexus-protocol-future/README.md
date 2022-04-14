@@ -42,7 +42,7 @@ The ground infrastructure will provide content delivery services to local networ
 
 The infrastructure components are elegantly woven together with an economic model designed to nurture the numerous revenue streams, in order to ultimately provide humanity with free access to internet services globally whilst creating universal economic opportunities. This is reinforced with mathematical models that resist monopolization by de-monetizing predatory behaviors, thus increasing incentives to cooperatives.
 
-![](https://miro.medium.com/max/1400/1\*0AXWpP\_\_rEy5eXfPaK6ESw.png)****
+<img src="https://miro.medium.com/max/1400/1*0AXWpP__rEy5eXfPaK6ESw.png" alt="" data-size="original">****
 
 **Figure 3: Comparing Sarnoff’s, Metcalfe’s and Reed’s Laws \[3]**
 

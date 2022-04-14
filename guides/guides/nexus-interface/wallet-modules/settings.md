@@ -51,11 +51,11 @@ Any Wallet updates will show in a pop up box. These updates must be installed as
 **Nexus Address Format:** Format your NXS addresses to your liking. Note, the format (e.g. the 9 spaces in the Segmented style) is NOT copied over when copying an address. This is just for visual preference only. The options are:
 
 * Segmented
-* ![](https://nexus.io/ResourceHub/images/guide/settings1.png)
+* <img src="https://nexus.io/ResourceHub/images/guide/settings1.png" alt="" data-size="original">
 * Truncate middle
-* ![](https://nexus.io/ResourceHub/images/guide/settings2.png)
+* <img src="https://nexus.io/ResourceHub/images/guide/settings2.png" alt="" data-size="original">
 * Raw
-* ![](https://nexus.io/ResourceHub/images/guide/settings3.png)
+* <img src="https://nexus.io/ResourceHub/images/guide/settings3.png" alt="" data-size="original">
 
 **Theme:**
 
