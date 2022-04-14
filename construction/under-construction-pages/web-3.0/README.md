@@ -36,9 +36,27 @@ Today’s internet allows global coordination via a set of intermediaries, provi
 
 **Web 2.0** radically shrunk the latency and cost at which people & businesses could trade  information & work with geographically distributed counterparties they didn’t necessarily know, via trusted intermediaries. Truly global businesses started to form, as the reach of counterparties expanded by a few orders of magnitude. At its heart, today’s internet allows global coordination via a set of intermediaries, providing a digital social trust layer for strangers to interact: from Facebook, whatsapp, Uber, eBay & AirBnB. Unfortunately we’ve become overly dependent on these platforms, and when they move from “attract” to “extract”, their users (whether individuals or businesses) suffer via higher fees or platform risk (i.e. the platform has the power to destroy your business running on it). While today’s interactions might magically and reliably take place on a global scale, it is predominantly the $200Bn digital advertising business, with ‘we the users’ as the product, which fuels this machine. It is now also broadly understood that these platforms of the ‘post truth’ world have created echo-chambers within which unfiltered and unashamedly populist or indeed fallacious claims reverberate and reinforce — sometimes with chaotic consequences.&#x20;
 
+### The dark side of web 2.0—Privacy <a href="#the-dark-side-of-web-20---privacy" id="the-dark-side-of-web-20---privacy"></a>
+
+While web 2.0 is the web we’ve known and loved, there are some real downsides. First and foremost: It’s a nightmare for privacy.
+
+Web 2.0 apps are often “free,” in that there’s no charge for users to use the service. But these companies have to make money somehow. So instead they “monetize” their users: They collect mountains of personal data about users, and profit off it in the form of highly targeted ad space they sell to online advertisers.
+
+Consider the example of online shopping. In web 2.0, if you shop for a pair of shoes online, you’ll be followed by disturbingly accurate ads for those same shoes on other websites, in your newsfeed, or even your email inbox. The data collection that powers this following (or “retargeting”) has led to massive data leaks, where Big Tech gets hacked for millions of user credit cards or social security numbers.
+
+The challenge with web 2.0 is users often have no control over whether their data gets collected, how it’s stored, or what tech companies do with it. Basically, you trade your data to use the app. Since tech companies aren’t making money directly from their products, you (or more specifically, your data) become the product they sell.
 
 
-****
+
+### The dark side of web 2.0—Centralized authority <a href="#the-dark-side-of-web-20---centralized-authority" id="the-dark-side-of-web-20---centralized-authority"></a>
+
+The other major downside of web 2.0 is that it relies on centralized authority. Think governments, Big Tech, and Wall Street. These central authorities verify your identity, authorize online transactions, control who can publish content (and what kind of content), and more. Essentially, web 2.0 companies act like a benevolent dictatorship: They decide who’s allowed in or out, how long they can stay, and what they can do.
+
+Consider the example of online banking. Whatever bank you use for checking and savings holds your assets. They determine how you access it (think debit cards and ATMs, or mobile banking apps). They determine who you can transact with. And, most importantly, they validate your identity—and access—based on the info from other centralized authorities like the government (think of social security numbers or ID cards).
+
+And this is just one simple example. Behind the scenes, Big Tech is used to validate your identity and grant you access to thousands of services. Most people have no idea how often Facebook and Google are used as authentication services for other apps.
+
+In web 2.0, the individual has very few individual rights. Things like Europe’s GDPR and California’s CCPA do grant users more rights to disclose what’s collected, how, where it’s stored, and how it’s destroyed. But in the end, the core problem persists: centralized authority.
 
 ## What is Web 3.0?
 
