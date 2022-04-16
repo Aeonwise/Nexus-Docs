@@ -1,6 +1,10 @@
 # Web 3.0
 
-Web 3.0 (also known as Web3) is the next iteration of the world wide web. which incorporates concepts including decentralization and token-based economics.&#x20;
+What is web 3.0
+
+Web 3.0, also known as Web3 is the next iteration of the world wide web. which incorporates concepts including decentralization and token-based economics.&#x20;
+
+To better understand web3 we need to see the evolution of the world wide web.
 
 ## BACKGROUND
 
