@@ -1,10 +1,10 @@
 # Web 3.0
 
-What is web 3.0
+## What is web 3.0?
 
 Web 3.0, also known as Web3 is the next iteration of the world wide web. which incorporates concepts including decentralization and token-based economics.&#x20;
 
-To better understand web3 we need to see the evolution of the world wide web.
+To better understand web3, we need to understand the evolution of world wide web.
 
 ## BACKGROUND
 
@@ -18,11 +18,11 @@ Think of Web 1.0 as the read-only web.
 
 ### **What is Web 2.0?** <a href="#what-is-web-2-0" id="what-is-web-2-0"></a>
 
-Most of us have primarily experienced the web in its current form, commonly referred to as web2. You can think of web2 as the interactive and social web.
+The web in its current form, commonly referred to as web2, also known as the interactive and social web.
 
-In the web2 world, you don’t have to be a developer to participate in the creation process. Many apps are built in a way that easily allows anyone to be a creator.
+In the web2 world, users don’t have to be a developer to participate in the creation process. Many apps are built in a way that easily allows anyone to be a creator.
 
-If you want to craft a thought and share it with the world, you can. If you want to upload a video and allow millions of people to see it, interact with it, and comment on it, you can do that too.
+If anyone wants to craft a thought and share it with the world, they can. If anyone want to upload a video and allow millions of people to see it, interact with it, and comment on it, it can be done.
 
 Web2 is simple, really, and because of its simplicity more and more people around the world are becoming creators.
 
@@ -34,13 +34,13 @@ Think of Web 2.0 as the read- write web.
 
 ## **Problems with web 2**
 
-Web 2 also called the participatory web or social web refers to websites that emphasize user-generated content, ease of use, participatory culture and interoperability (i.e., compatibility with other products, systems, and devices) for end users.
+Web 2 also called the participatory web or social web, refers to websites that emphasize user-generated content, ease of use, participatory culture and interoperability (i.e., compatibility with other products, systems, and devices) for end users.
 
 Today’s internet allows global coordination via a set of intermediaries, providing a digital social trust layer for strangers to interact: from Facebook, whatsapp, Uber, eBay & AirBnB. Today these entities are the kingmakers of the digital world.
 
 **Web 2.0** radically shrunk the latency and cost at which people & businesses could trade  information & work with geographically distributed counterparties they didn’t necessarily know, via trusted intermediaries. Truly global businesses started to form, as the reach of counterparties expanded by a few orders of magnitude. At its heart, today’s internet allows global coordination via a set of intermediaries, providing a digital social trust layer for strangers to interact: from Facebook, whatsapp, Uber, eBay & AirBnB. Unfortunately we’ve become overly dependent on these platforms, and when they move from “attract” to “extract”, their users (whether individuals or businesses) suffer via higher fees or platform risk (i.e. the platform has the power to destroy your business running on it). While today’s interactions might magically and reliably take place on a global scale, it is predominantly the $200Bn digital advertising business, with ‘we the users’ as the product, which fuels this machine. It is now also broadly understood that these platforms of the ‘post truth’ world have created echo-chambers within which unfiltered and unashamedly populist or indeed fallacious claims reverberate and reinforce — sometimes with chaotic consequences.&#x20;
 
-### The dark side of web 2.0—Privacy <a href="#the-dark-side-of-web-20---privacy" id="the-dark-side-of-web-20---privacy"></a>
+### Privacy: <a href="#the-dark-side-of-web-20---privacy" id="the-dark-side-of-web-20---privacy"></a>
 
 While web 2.0 is the web we’ve known and loved, there are some real downsides. First and foremost: It’s a nightmare for privacy.
 
@@ -52,7 +52,7 @@ The challenge with web 2.0 is users often have no control over whether their dat
 
 
 
-### The dark side of web 2.0—Centralized authority <a href="#the-dark-side-of-web-20---centralized-authority" id="the-dark-side-of-web-20---centralized-authority"></a>
+### Centralized Authority: <a href="#the-dark-side-of-web-20---centralized-authority" id="the-dark-side-of-web-20---centralized-authority"></a>
 
 The other major downside of web 2.0 is that it relies on centralized authority. Think governments, Big Tech, and Wall Street. These central authorities verify your identity, authorize online transactions, control who can publish content (and what kind of content), and more. Essentially, web 2.0 companies act like a benevolent dictatorship: They decide who’s allowed in or out, how long they can stay, and what they can do.
 
