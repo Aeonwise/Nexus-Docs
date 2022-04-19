@@ -1,6 +1,6 @@
 # Decentralization and Nexus
 
-_Decentralisation_ is often used as a general term in crypto for describing trust-less, permission-less and immutable blockchains. The words _Decentralisation_ and _Web3_ are used ambiguously __ in every blockchain. Nevertheless, the distinctions are technically significant: the consensus and topology of networks determines their properties. This article will help you decipher the difference.&#x20;
+_Decentralization_ is often used as a general term in crypto for describing trust-less, permission-less and immutable blockchains. The words _Decentralisation_ and _Web3_ are used ambiguously __ in every blockchain. Nevertheless, the distinctions are technically significant: the consensus and topology of networks determines their properties. This article will help you decipher the difference.&#x20;
 
 ![](../../.gitbook/assets/CDD.png)
 
