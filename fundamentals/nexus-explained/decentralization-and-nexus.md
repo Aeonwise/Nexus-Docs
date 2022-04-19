@@ -12,11 +12,11 @@ Many blockchains market themselves as decentralized technology. However, ICOs, S
 
 Likewise, challenges faced by the original blockchain protocol have also led to cryptocurrencies creating ‘off chain solutions’ that require central nodes or servers. This essentially gives control back to a third-party. Similarly, blockchains that have developed ‘Delegated Proof-of-Stake’ (DPoS) consensus mechanisms have also become more centralized.
 
-### Attributes of a Truly Decentralized Protocol Chain
+### Decentralized Protocol Chain Attributes
 
-Most people believe that everything in crypto world is decentralised, but the reality is completely different. Crypto world is filled with buzzwords and marketing which creates a lot of confusion. To analyse project if it is truly decentralized then we need to look at some of the attributes.&#x20;
+Most believe that everything in crypto world is decentralized, but the reality is completely different. Crypto world is filled with buzzwords and marketing which creates a lot of confusion. To analyse if a project is truly decentralized, we need to look at it's attributes.&#x20;
 
-These attributes apply only for protocol or base chains.
+These attributes apply only for protocol or base chains:
 
 * No ICO or Premine.
 * Decentralized consensus.&#x20;
@@ -31,7 +31,7 @@ These attributes apply only for protocol or base chains.
 * In-built monopolistic safeguards.
 * No off-chain or Layer-2 Transactions.
 * Interoperability with chains which don't adhere to decentralization and similar security standards.
-* Normal users should be able to access blockchain solutions directly, without a third party and should be abstracted from the complexity.
+* Normal users should be able to access blockchain solutions directly, without a third party and abstracted from technical complexity.
 
 ### Nexus and Decentralization:
 
