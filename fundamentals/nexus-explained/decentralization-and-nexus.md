@@ -14,17 +14,18 @@ Likewise, challenges faced by the original blockchain protocol have also led to 
 
 ### Attributes of a Truly Decentralized Protocol Chain
 
-Most people believe that everything in crypto world is decentralised, but the reality is completely different. Crypto world is filled with buzzwords and marketing which creates a lot of confusion. If you are looking at a project which is truly decentralized then we need to look at some of the attributes.&#x20;
+Most people believe that everything in crypto world is decentralised, but the reality is completely different. Crypto world is filled with buzzwords and marketing which creates a lot of confusion. To analyse project if it is truly decentralized then we need to look at some of the attributes.&#x20;
 
 These attributes apply only for protocol or base chains.
 
 * No ICO or Premine.
-* Decentralized consensus.
+* Decentralized consensus.&#x20;
 * Distributed physical network topology.
+* Anyone should be able to run a node without permission.
 * DAO based on-chain community governance.
 * On-chain treasury to fund the project.
 * Justifiable tokenomics, inflation and gamification (Compensation to Network actors)
-* Transactions should only be Peer-to-Peer (P2P).&#x20;
+* Transactions should be Peer-to-Peer (P2P).&#x20;
 * No Venture Capital (VC) direct funding.
 * No single point of centralization in the P2P chain.
 * In-built monopolistic safeguards.
@@ -34,13 +35,13 @@ These attributes apply only for protocol or base chains.
 
 ### Nexus and Decentralization:
 
-Nexus has been designed with emphasis on connections between people and inspired by the ethos of Satoshi. It is this vision which drives innovations to adhere to the decentralized authority and P2P values. We have made sure that every innovation and solution we provide maintains  decentralization.&#x20;
+Nexus is designed with emphasis on connections between people and inspired by Satoshi's ethos . It is this vision which drives innovations to adhere to the decentralized authority and P2P values. We have made sure that every innovation and solution we provide maintains and furthur strengthens decentralization.&#x20;
 
-Nexus was mined into existence similar to Bitcoin and there was no ICO or premine. It has three channel consensus which consists of two mining channels Prime, Hash and one staking nPOS. This helps to balance mining monopoly with ASIC miners on Bitcoin. Staking on Nexus is based on Trust and the time spent securing the network is calculated with a trust score and its the product of the no of staked NXS and the trust score which determines the 3% max stake rate (compensation) and  if the user stops staking, the trust score decays in a ratio 3:1. This Trust based staking design prevents a whale to take over the network even if he manages to own 51% of the tokens.
+Nexus was mined into existence similar to Bitcoin and there was no ICO or premine. It has three channel consensus which consists of two mining channels Prime, Hash and one staking nPOS. This helps to balance mining monopoly with ASIC miners like on Bitcoin. Staking on Nexus is based on Trust and the time spent securing the network is calculated with a trust score and its the product of the no of staked NXS and the trust score which determines the 3% max stake rate (compensation) and if the user stops staking, the trust score decays at a ratio of 3:1. This Trust based staking design prevents a whale to take over the network even if he manages to own 51% of the tokens.
 
 Nexus is run by a worldwide community and this ensures nodes are distributed all over the globe, this brings in the physical distribution of the network and makes it resilient to internet downtime in some part of the globe or some countries banning crypto.&#x20;
 
-Nexus does not believe in off-chain or layer -2 transactions and has designed [3DC](../../technology/nexus-innovations/3-dimensional-chain-future/) as a scaling solution for the future. Even the Nexus mobile wallet is an extension of the network using the lite node.&#x20;
+Nexus is of the opinion that off-chain or layer -2 transactions sacrifice decentralization and to increase scalability has designed [3DC](../../technology/nexus-innovations/3-dimensional-chain-future/) as a scaling solution for the future. Even the Nexus mobile wallet is an extension of the network using the lite node.&#x20;
 
 Nexus governance is driven by the community and has recently bootstrapped a starfish based DAO powered by the social stack. Today the DAO is not an on-chain DAO, as the design needs validation, after rigorous testing will be mathematically encoded into the blockchain with the 7.0 update later this year.&#x20;
 
