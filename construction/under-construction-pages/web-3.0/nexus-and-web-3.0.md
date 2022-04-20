@@ -1,6 +1,8 @@
 # Nexus and Web 3.0
 
-Nexus will be the preeminent blockchain to shape and redefine web 3.0, this can be attributed to our vision and ethos which makes decentralization as the cornerstone and enables P2P as the default way of transacting.
+Nexus will be the vanguard to architect and build the real web 3.0; completely decentralised, token based economics and which will transfer ownership to people. This can be attributed to our vision,  ethos, which enables a foundation decentralization as the  and enables P2P as the default way of transacting.
+
+
 
 ### Crypto and Web 3.0?
 
@@ -19,7 +21,9 @@ Nexus was born as a cryptocurrency in 2014, watching the innovations and develop
 
 The Nexus team developed the TAO framework which was designed as a 7  layer software stack,  interoperable with the OSI stack. Tritium is the foundational layer of the framework and it has been going strong from November 2019, when the first tritium block was mined.&#x20;
 
-The last two years Nexus released the Nexus Protocol whitepaper. This protocol replaces the Internet Protocol (IP). The ONE stack which will replace the OSI stack and LX-OS will be the OS, intertwined with the blockchain, will power the decentralised internet. A lot of architectural work has been completed at the backend, even then there is along road ahead.
+The last two years Nexus released the Nexus Protocol whitepaper. This protocol replaces the Internet Protocol (IP). The ONE stack which will replace the OSI stack and LX-OS will be the OS, intertwined with the blockchain, will power the decentralised internet. A lot of architectural work has been completed at the backend, even then there is a long road ahead.
+
+
 
 
 
