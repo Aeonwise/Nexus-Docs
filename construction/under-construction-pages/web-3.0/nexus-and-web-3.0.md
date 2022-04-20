@@ -1,8 +1,6 @@
 # Nexus and Web 3.0
 
-Nexus will be the crypto vanguard to architect and build the real web 3.0; completely decentralised, token based economics and transfer ownership to people. This can be attributed to our vision,  ethos based on a decentralized foundation and enables P2P as the default way of transacting.
-
-
+Nexus will be the crypto vanguard to architect and build the real web 3.0; completely decentralised, token based economics and will enable people to own and govern the network. This can be attributed to our vision, ethos based on a decentralized foundation and enables P2P as the default way of transacting.
 
 ### Crypto and Web 3.0?
 
@@ -15,7 +13,7 @@ Essentially every protocol blockchain is creating their own island or siloed net
 
 
 
-### Why Nexus Will Redefine Web3
+### Why Nexus Will Redefine Web3?
 
 Nexus was born as a cryptocurrency in 2014, watching the innovations and developments in crypto,  realization dawned that unless the internet was not decentralised, any blockchain built on top will not be able to stand the test of time. It also realised that creating a new internet was  inconceivable and monumental task.
 
