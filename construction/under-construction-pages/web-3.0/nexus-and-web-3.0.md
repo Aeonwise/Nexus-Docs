@@ -38,3 +38,9 @@ The only way is create a real web3 will start with building the decentralized &#
 
 &#x20;
 
+{% embed url="https://www.youtube.com/watch?t=825s&v=BS3Cfo784z8" %}
+
+The LLL-OS is now renamed to LX-OS
+
+{% embed url="https://www.youtube.com/watch?t=15s&v=czuCN6cyMxk" %}
+
