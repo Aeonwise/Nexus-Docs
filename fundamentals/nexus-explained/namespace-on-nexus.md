@@ -2,9 +2,9 @@
 description: All information on the TAO Naming System
 ---
 
-# TAO Naming System
+# Namespace on Nexus
 
-Following in the footsteps of the [Domain Naming System (DNS)](https://www.networkworld.com/article/3268449/what-is-dns-and-how-does-it-work.html), Nexus Tritium, Anime Obsidian (TAO) Framework provides a multi-tiered naming system which offers globally unique identification, personalization and branding opportunities. The TAO Naming System (TNS), perhaps only deserving brief recognition compared to the existing and anticipated technological advancements in Nexus, beckons human creativity to opportunize this unique naming and ownership framework.
+Following in the footsteps of the [Domain Naming System (DNS)](https://www.networkworld.com/article/3268449/what-is-dns-and-how-does-it-work.html), Nexus Tritium, Anime, and Obsidian (TAO) Framework provides a multi-tiered naming system which offers globally unique identification, personalization and branding opportunities. The TAO Naming System (TNS), perhaps only deserving brief recognition compared to the existing and anticipated technological advancements in Nexus, beckons human creativity to opportunize this unique naming and ownership framework.
 
 &#x20;Three categories exist in the TNS: **local names**, **namespaces**, and **global names**. Names, regardless of the category, technically exist as object registers which route to another register’s address, such as a token, account, or asset. More simply stated, names can be attached and detached from registers. The category of name determines the restrictions on routing, transferability, and address format.&#x20;
 
