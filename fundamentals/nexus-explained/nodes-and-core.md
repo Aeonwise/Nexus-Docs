@@ -6,11 +6,11 @@ description: WHAT ARE NODES AND CORE?
 
 ## NODE
 
-Nexus is a distributed network of computers running the software (known as nodes) that can verify blocks and transaction data. Participants need a software application, known as core, on the computer to "run" a node.
+Nexus is a distributed network of computers running the software(known as nodes) that can verify blocks and transaction data. Participants need a software application, known as core, on the computer to "run" a node.
 
 ### NODE TYPES
 
-The Nexus core can be configured to run as different types of nodes that consume data differently. The Nexus core can run two different types of nodes - full and lite.&#x20;
+The Nexus core can be configured to run as different types of nodes that consume data differently. The Nexus core can run two different types of nodes - full and light.&#x20;
 
 ### Full Node
 
