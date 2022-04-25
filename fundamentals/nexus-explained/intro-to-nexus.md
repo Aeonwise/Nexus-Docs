@@ -20,11 +20,11 @@ NXS is created by the protocol as compensation for miners and stakers for provid
 
 Any participant who broadcasts a contract execution request must also offer some amount of NXS to the network as a fee. This fee will be awarded to whoever eventually does the work of verifying the transaction, executing it, committing it to the blockchain, and broadcasting it to the network.
 
-Developers can build decentralised applications (dapps) using the REST API, Augmented contracts . NXS allows users to use the network for a lot of things like creating tokens, assets, tokenising assets, namespaces, supply chain solutions.
+Developers can build decentralised applications(dapps) using the REST API, Augmented contracts . NXS allows users to use the network for a lot of things like creating tokens, assets, tokenising assets, namespaces, supply chain solutions
 
 ## MINTING NXS <a href="#minting-ether" id="minting-ether"></a>
 
-Minting is the process in which new NXS gets created on the ledger. The underlying protocol can only create the new NXS. The protocol was designed with a max of 78 million NXS for 10 years, and after that there will be tail end emission of a max 3.67%
+Minting is the process in which new NXS gets created on the ledger. The underlying protocol can only create the new NXS. The protocol was designed with a max of 78 million NXS for 10 years and after that there will be tail end emission of a max 3.67%
 
 {% hint style="info" %}
 **Nexus was mined into existence similar to Bitcoin and there was no premine or ICO**.
