@@ -6,11 +6,11 @@ description: Tritium Amine & Obsidian Framework
 
 Blockchains today are still in its infancy, growing and innovating at a rapid pace. To emerge as a unique and fully decentralised solution among its peers, Nexus needs to incorporate the most innovate technology without sacrificing decentralization.&#x20;
 
-Nexus started out as a clone of peer coin and in 2016 embarked on an upgrade path to a ground breaking framework called TAO. Nexus views the blockchain as a foundational element of a larger framework. The TAO Framework — named for the three phases of deployment: Tritium, Amine and Obsidian.&#x20;
+Nexus started out as a clone of Peercoin and in 2016 embarked on an upgrade path to a ground breaking framework called TAO. Nexus views the blockchain as a foundational element of a larger framework. The TAO Framework — named for the three phases of deployment: Tritium, Amine, and Obsidian.&#x20;
 
 ![](../../.gitbook/assets/TAO.png)
 
-Upon completion of the TAO framework Nexus blockchain will be a 3 Dimensional chain based on a seven-layered software stack modular design, which can scale as needed by the network.&#x20;
+Upon completion of the TAO framework Nexus blockchain will be a 3-Dimensional chain based on a seven-layered software stack modular design, which can scale as needed by the network.&#x20;
 
 **Tritum:** It is the foundation of the TAO framework, and along the way a few things were added to the Tritium roadmap which was renamed as Tritium++. Tritium has been running on mainnet from 12th November, 2019 when the first Tritium block was mined.
 
