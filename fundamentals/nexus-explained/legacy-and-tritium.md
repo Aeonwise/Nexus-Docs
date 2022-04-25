@@ -6,7 +6,7 @@ description: What is Legacy and Tritium?
 
 ## Legacy
 
-Nexus was born as Coinshield (CSD) on 23rd September, 2019 with the Peercoin codebase and started as a cryptocurrency project. The crypto market was innovating by leaps and bounds and Ethereum, brought smart-contracts to blockchain, which was a massive step to. Nexus has a few innovations of its own, but waited to see how things will unfurl.
+Nexus was born as Coinshield (CSD) on 23rd September, 2019 with the peercoin codebase and started as a cryptocurrency project. The crypto market was innovating by leaps and bounds and Ethereum, brought smart-contracts to blockchain, which was a massive step to. Nexus has a few innovations of its own, but waited to see how things will unfurl.
 
 In 2016 CSD was renamed to Nexus (NXS) and then the team laid a research initiative for a major upgrade to Nexus which today is known as Tritium. The chain before the tritium upgrade is called the legacy chain and this chain still runs linked to the Tritium chain and is still alive, to ensure all the legacy coin holders can migrate to Tritium Chain.
 

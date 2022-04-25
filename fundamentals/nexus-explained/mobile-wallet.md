@@ -1,6 +1,10 @@
+---
+description: Nexus Mobile Wallet
+---
+
 # Mobile Wallet
 
-Among the people using crypto, only a very few use mobile wallets, this is due to the fact that most of the mobile wallets are custodial wallets, centralised in certain ways or the user experience sucks.&#x20;
+Among the people using crypto, only a very few use mobile wallets, this is due to the fact that most of the mobile wallets are custodial wallets, centralised in certain ways, need regular private key (wallet.dat) backups or the user experience sucks.&#x20;
 
 ## Problem With Mobile Wallets
 
@@ -14,7 +18,7 @@ Mobile wallets are mostly custodial or they are run through proxy servers and ev
 
 ## Nexus Mobile Wallet
 
-Decentralize the Decentralization being the motto, every aspect of Nexus is designed to be Peer-to-Peer (P2P). The mobile wallet, runs the same [Core](../../fundamentals/nexus-explained/nodes-and-core.md#evm) used in the desktop, operates as a lite node by connecting directly to several of its peers on the network. This allows the wallet to broadcast transactions directly to the network and detect confirmations by checking for inclusion against block headers. The Nexus network also gains added security by being able to verify block headers provided by multiple peers.
+Decentralize the Decentralization being the motto, every aspect of Nexus is designed to be Peer-to-Peer (P2P). The mobile wallet, runs the same [Core](nodes-and-core.md#evm) used in the desktop, operates as a lite node by connecting directly to several of its peers on the network. This allows the wallet to broadcast transactions directly to the network and detect confirmations by checking for inclusion against block headers. The Nexus network also gains added security by being able to verify block headers provided by multiple peers.
 
 ### **A Next-Gen Mobile Wallet**
 
