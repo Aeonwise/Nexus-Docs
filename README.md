@@ -18,7 +18,7 @@ Our technology is designed to **simplify lives, empower communities, and streaml
 
 ### <mark style="color:orange;">Join Us:</mark>
 
-Join our Telegram community channel to better understand Nexus and keep up to date on its developments, link below:
+Join our telegram community channel to better understand Nexus and keep upto date on its developments, link below:
 
 {% embed url="https://t.me/NexusOfficial" %}
 

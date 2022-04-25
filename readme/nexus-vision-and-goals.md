@@ -24,6 +24,6 @@ These are some of the main goals which we have listed here. Tritium which is fou
 
 #### Join Us
 
-If anyone finds our vision and goals align with theirs, wants to contribute, wants to join the DAO or want to know more about Nexus, join our community telegram channel, linked below
+If anyone finds our vision and goals align with theirs, wants to contribute, wants to join the DAO or want to know more about Nexus, join our community Telegram channel, linked below
 
 {% embed url="https://t.me/NexusOfficial" %}
