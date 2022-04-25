@@ -18,11 +18,11 @@ Cryptographic mechanisms ensure that once transactions are verified as valid and
 
 ### WHAT ARE ADVANCED  CONTRACTS? <a href="#what-are-smart-contracts" id="what-are-smart-contracts"></a>
 
-The 7 layered software stack architecture plays the crucial role; with its operations and register layer which command and controls the NVM.&#x20;
+The 7-layered software stack architecture plays the crucial role; with its operations and register layer which command and controls the NVM.&#x20;
 
 Register layer is the data storage system that maintains an immutable record and history, including current and previous states, therefore they can be used to record the state of applications. The register layer is the data layer which mimics the CPU cache memory which is the fastest memory on a computer.&#x20;
 
-Operation layer contains instructions or actions that give registers context, and define more complex contract logic. A contract is an object containing: a register pre-state (the register that is being operated on that was passed upwards from the Register Layer), a primitive operation (only one primitive operation per contract), and a set of conditions (any amount of conditional operations)
+Operation layer contains instructions or actions that give registers context, and define more complex contract logic. A contract is an object containing: a register pre-state (the register that is being operated on that was passed upwards from the Register Layer), a primitive operation (only one primitive operation per contract), and a set of conditions (any amount of conditional operations).
 
 At a more basic level, Advanced Contracts are comparable to real world contracts, written on paper and enforced by a court of law. It's highly advanced as its enforced by code, its binding and it makes the trusted third parties redundant.
 
