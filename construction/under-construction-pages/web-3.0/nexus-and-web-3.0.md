@@ -17,11 +17,15 @@ Essentially every protocol blockchain is creating their own island or siloed net
 
 Nexus was born as a cryptocurrency in 2014, watching the innovations and developments in crypto,  realization dawned that unless the internet was decentralised, any blockchain built on top will not be entirely decentralized. It also realised that creating a new internet was an inconceivable task.
 
-The Nexus team developed the TAO framework which was designed as a 7  layer software stack,  interoperable with the OSI stack. Tritium is the foundational layer of the framework and it has been going strong from November 2019, when the first tritium block was mined.&#x20;
+Nexus team realized that to  create a decentralised internet, requires a highly scalable blockchain and ease of use, even an average user should be able to transact easily.
+
+The Nexus team developed the TAO framework which was designed as a 7-layer software stack,  interoperable with the OSI stack. Tritium is the foundational layer of the framework and it has been going strong from November 2019, when the first tritium block was mined.&#x20;
 
 The last two years Nexus released the Nexus Protocol (NP) whitepaper. This protocol replaces the Internet Protocol (IP). The ONE stack will replace the OSI stack and LX-OS will be the OS, intertwined with the Nexus blockchain for added security, will power the decentralised internet. A lot of architectural work has been completed at the backend, even then there is a long road ahead.
 
-Nexus will also build the internet infrastructure where today undersea fibre optic cables connect the various parts of the world, we will be launching LEO satellites which will connect to other and will relay to ground stations. &#x20;
+Nexus will also build the internet infrastructure, today undersea fibre optic cables connect the various parts of the world. We will be launching LEO satellites which will connect to each other and will relay to ground stations.
+
+Data is a crucial part of the internet, along with data privacy, Nexus has designed its own decentralized cloud storage solution named Nexus cloud which will be enabled by the File API. The data will be scattered with redundancy on the nodes running the network, this helps secure the network and incentivises people for the services and time.
 
 
 
