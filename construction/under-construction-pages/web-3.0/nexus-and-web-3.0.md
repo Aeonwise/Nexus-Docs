@@ -15,7 +15,7 @@ Essentially every protocol blockchain is creating their own island or siloed net
 
 ### Why Nexus Will Redefine Web3?
 
-Nexus was born as a cryptocurrency in 2014, watching the innovations and developments in crypto,  realization dawned that unless the internet was decentralised, any blockchain built on top will not be able to be decentralized. It also realised that creating a new internet was an inconceivable task.
+Nexus was born as a cryptocurrency in 2014, watching the innovations and developments in crypto,  realization dawned that unless the internet was decentralised, any blockchain built on top will not be entirely decentralized. It also realised that creating a new internet was an inconceivable task.
 
 The Nexus team developed the TAO framework which was designed as a 7  layer software stack,  interoperable with the OSI stack. Tritium is the foundational layer of the framework and it has been going strong from November 2019, when the first tritium block was mined.&#x20;
 
