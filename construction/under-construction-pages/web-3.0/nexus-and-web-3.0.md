@@ -15,23 +15,21 @@ Essentially every protocol blockchain is creating their own island or siloed net
 
 ### Why Nexus Will Redefine Web3?
 
-Nexus was born as a cryptocurrency in 2014, watching the innovations and developments in crypto,  realization dawned that unless the internet was decentralised, any blockchain built on top will not be entirely decentralized. It also realised that creating a new internet was an inconceivable task.
+Nexus was born as a cryptocurrency in 2014, watching the innovations and developments in crypto,  realization dawned that unless the internet was decentralised, any blockchain built on top will not be entirely decentralized. It also realised that creating a new internet was an inconceivable task and only innovation can make this possible.
 
-Nexus team realized that to  create a decentralised internet, requires a highly scalable blockchain and ease of use, even an average user should be able to transact easily.
+Nexus team realized that to create a secure, decentralised internet, requires a highly scalable blockchain which had to be designed first, with ease of use for the average user to transact easily and abstracted from complexities.
 
-The Nexus team developed the TAO framework which was designed as a 7-layer software stack,  interoperable with the OSI stack. Tritium is the foundational layer of the framework and it has been going strong from November 2019, when the first tritium block was mined.&#x20;
+The Nexus team developed the TAO framework which was designed as a 7-layer software stack,  interoperable with the OSI stack. Tritium is the foundational layer of the framework and when the TAO is completed it will be a 3-dimensional blockchain which can scale as per the usage.
 
+Starting out as a separate, completely decentralized internet network was never an option, the whole world is already wired into the existing internet. The only viable option is to start from the existing internet using the existing infrastructure and then branch out with interoperability to the new decentralized
 
-
-###
-
-Starting out as a separate, completely decentralized internet network is inconceivable, the whole world is already wired into the existing internet. The only viable option is to start from the existing internet using the existing infrastructure and then branch out with interoperability to the new decentralized
+The structure of safenet can be divided into software and hardware. We will delve deeper into each one of them.&#x20;
 
 
 
 ### Software:
 
-Nexus has designed Safenet to be interoperable with the existing internet, initially will use IP4 overlay to run its own Nexus Protocol as underlay and build the various software components and then deploy its own decentralised infrastructure to expand Safenet.
+Nexus has designed Safenet to be interoperable with the existing internet, initially will use IP4 overlay to run its own Nexus Protocol as underlay and build the various software components and then deploy its own decentralised infrastructure to expand Safenet. This internet will use  blockchain for maximum security and also the latest tools to build a solution which can last for centuries.
 
 The last two years Nexus released the Nexus Protocol (NP) whitepaper. This protocol replaces the Internet Protocol (IP). The ONE stack will replace the OSI stack, LISP which is a locator, identifier separation protocol and LX-OS will be the operating system, intertwined with the Nexus blockchain for added security to power the decentralised internet infrastructure. A lot of architectural work has been completed at the backend, even then there is a long road ahead.
 
