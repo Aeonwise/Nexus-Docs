@@ -9,21 +9,19 @@ Web3 is a buzzword tossed around by all the blockchain protocols, claim it as a 
 
 The essence of web3 is decentralization, token based economy and enabling ownership of the underlying asset. **`Is it possible to create a web3 ecosystem on top of the centralized internet, controlled by the very corporations who own Web2 and regulated by the authoritarian and sovereign government's?`**
 
-Essentially every protocol blockchain is creating their own island or siloed network  and interoperability is similar to bridges across these islands.&#x20;
+Essentially every protocol blockchain is creating their own island or siloed network, and interoperability is similar to bridges across these islands. All these will be at the mercy of the centralised internet providers.&#x20;
 
 
 
 ### Why Nexus Will Redefine Web3?
 
-Nexus was born as a cryptocurrency in 2014, watching the innovations and developments in crypto,  realization dawned that unless the internet was decentralised, any blockchain built on top will not be entirely decentralized. It also realised that creating a new internet was an inconceivable task and only innovation can make this possible.
+Nexus was born as a cryptocurrency in 2014, watching the innovations and developments in crypto,  it was evident that unless the internet was decentralised, any blockchain built on top will not be entirely decentralized. We also realised that creating a new internet was an inconceivable task and only innovation can make this possible.
 
-Nexus team realized that to create a secure, decentralised internet, requires a highly scalable blockchain which had to be designed first, with ease of use for the average user to transact easily and abstracted from complexities.
+To secure a decentralised internet, requires a highly scalable blockchain which had to be designed first, with ease of use for the average user to transact easily and abstracted from complexities. The Nexus team developed the TAO framework which was designed as a 7-layer software stack,  interoperable with the OSI (Open System Interconnect) stack. We are now running Tritium,  the foundational layer of the framework and when the TAO is completed it will be a 3-Dimensional blockchain which can scale as per the usage.
 
-The Nexus team developed the TAO framework which was designed as a 7-layer software stack,  interoperable with the OSI stack. Tritium is the foundational layer of the framework and when the TAO is completed it will be a 3-dimensional blockchain which can scale as per the usage.
+Starting out as an independent internet network was never an option, the whole world is already wired into the existing internet. The only viable option is to start from the existing internet using the existing infrastructure and then branch out with interoperability to the new decentralized infrastructure.&#x20;
 
-Starting out as a separate, completely decentralized internet network was never an option, the whole world is already wired into the existing internet. The only viable option is to start from the existing internet using the existing infrastructure and then branch out with interoperability to the new decentralized
-
-The structure of safenet can be divided into software and hardware. We will delve deeper into each one of them.&#x20;
+The better understand safenet, we will divide into software and hardware. We will delve deeper into each one of them.&#x20;
 
 
 
