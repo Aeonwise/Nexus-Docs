@@ -21,17 +21,21 @@ To secure a decentralised internet, requires a highly scalable blockchain which 
 
 Starting out as an independent internet network was never an option, the whole world is already wired into the existing internet. The only viable option is to start from the existing internet using the existing infrastructure and then branch out with interoperability to the new decentralized infrastructure.&#x20;
 
-The better understand safenet, we will divide into software and hardware. We will delve deeper into each one of them.&#x20;
+To better understand safenet, we can divide into software and hardware. We will delve deeper into each one of them.&#x20;
 
 
 
 ### Software:
 
-Nexus has designed Safenet to be interoperable with the existing internet, initially will use IP4 overlay to run its own Nexus Protocol as underlay and build the various software components and then deploy its own decentralised infrastructure to expand Safenet. This internet will use  blockchain for maximum security and also the latest tools to build a solution which can last for centuries.
+Nexus Protocol (NP) is the protocol which will replace Internet Protocol (IP), ONE stack will replace the OSI stack and compliments the Nexus 7-layered software stack.&#x20;
+
+Safenet will be interoperable with the existing internet, initially will use IP4 overlay to run its own Nexus Protocol as underlay and build the various software components and then deploy its own decentralised infrastructure to expand Safenet. This internet will use  blockchain for maximum security and also the latest tools to build a solution which can last for centuries.
 
 The last two years Nexus released the Nexus Protocol (NP) whitepaper. This protocol replaces the Internet Protocol (IP). The ONE stack will replace the OSI stack, LISP which is a locator, identifier separation protocol and LX-OS will be the operating system, intertwined with the Nexus blockchain for added security to power the decentralised internet infrastructure. A lot of architectural work has been completed at the backend, even then there is a long road ahead.
 
 Data is a crucial part of the internet, along with data privacy, Nexus has designed its own decentralized cloud storage solution named "Nexus Cloud" which will be enabled by the File API. The data will be scattered with redundancy across the nodes on the network, this helps secure the network and incentivises people for the services and time. Accessing storage using API's is the easiest and convenient way for dapp developers. This will create utility for NXS.
+
+Domain Name Services (DNS)  and Certification authorities (CA) will be replaced by decentralised systems based on Nexus blockchain.&#x20;
 
 
 
@@ -39,7 +43,7 @@ Data is a crucial part of the internet, along with data privacy, Nexus has desig
 
 ### Hardware:
 
-The internet infrastructure is what make the internet possible.  Fiber cables across the oceans connect continents and hardware routers keep the internet humming. Nexus will build its internet infrastructure, today undersea fibre optic cables connect the various parts of the world. We will be launching LEO satellites which will connect to each other and will relay to ground stations.
+The internet infrastructure is what make the internet possible.  Fibre cables across the oceans connect continents and hardware routers keep the internet humming. Nexus will build its internet infrastructure, which will be powered with  LEO satellites which will connect to each other and will relay to ground stations. Phased array antennae will make it easier to&#x20;
 
 
 
