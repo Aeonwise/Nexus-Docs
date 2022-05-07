@@ -27,11 +27,13 @@ To better understand safenet, we can divide into software and hardware. We will 
 
 ### Software:
 
-Nexus Protocol (NP) is the protocol which will replace Internet Protocol (IP), ONE stack will replace the OSI stack and compliments the Nexus 7-layered software stack.&#x20;
+Safenet will require it's own protocols, stacks, routing, CDN, Certificate Authorities (CA), Domain Naming Services (DNS), storage and Operating system (OS).&#x20;
+
+Nexus has been designing all the required software implementations. Nexus Protocol (NP) is the protocol which will replace Internet Protocol (IP), ONE stack will replace the OSI stack and compliments the Nexus 7-layered software stack.&#x20;
 
 Safenet will be interoperable with the existing internet, initially will use IP4 overlay to run its own Nexus Protocol as underlay and build the various software components and then deploy its own decentralised infrastructure to expand Safenet. This internet will use  blockchain for maximum security and also the latest tools to build a solution which can last for centuries.
 
-The last two years Nexus released the Nexus Protocol (NP) whitepaper. This protocol replaces the Internet Protocol (IP). The ONE stack will replace the OSI stack, LISP which is a locator, identifier separation protocol and LX-OS will be the operating system, intertwined with the Nexus blockchain for added security to power the decentralised internet infrastructure. A lot of architectural work has been completed at the backend, even then there is a long road ahead.
+The last two years Nexus released the Nexus Protocol whitepaper, this replaces the Internet Protocol (IP). The ONE stack will replace the OSI stack, LISP which is a locator, identifier separation protocol and LX-OS will be the operating system, intertwined with the Nexus blockchain for added security to power the decentralised internet infrastructure. A lot of architectural work has been completed at the backend, even then there is a long road ahead.
 
 Data is a crucial part of the internet, along with data privacy, Nexus has designed its own decentralized cloud storage solution named "Nexus Cloud" which will be enabled by the File API. The data will be scattered with redundancy across the nodes on the network, this helps secure the network and incentivises people for the services and time. Accessing storage using API's is the easiest and convenient way for dapp developers. This will create utility for NXS.
 
