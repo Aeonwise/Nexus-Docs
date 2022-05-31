@@ -20,8 +20,8 @@ Tritium being the main chain transactions on this chain. Any transaction on trit
 
 #### Legacy to Tritium Transactions
 
-Legacy to tritium transactions, when a user withdraws from the exchange into his Tritium account. This transaction will only list the CREDIT to the Tritium account and can be easily recognised by checking the "Operation" field which will say.
+Legacy to tritium transactions, when a user withdraws from the exchange into his Tritium account. This transaction will only list the CREDIT to the Tritium account and can be easily recognised by checking the "OPERATION" field which should read `CREDIT` and "FOR" field read  `LEGACY` , which says its a credit for an incoming Legacy transaction.
 
 #### Tritium to Legacy Transactions
 
-Tritium to Legacy  transactions are carried out when a user send NXS to an exchange account. This can also be sent to a personal account also. This transaction will only list the CREDIT to the Tritium account and can be easily recognised by checking the "Operation" field which will show "LEGACY" and also the "TO address will start from 2.
+Tritium to Legacy  transactions are carried out when a user send NXS to an exchange account. This can also be sent to a personal account also. This transaction will only list the credit to the Tritium account and can be easily recognised by checking the "`OPERATION`" field which should read `LEGACY` and also the "`TO`" address will start from 2 which is a Legacy address.
