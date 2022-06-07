@@ -2,6 +2,7 @@
 
 * [Nexus Documentation](README.md)
   * [Nexus Website](https://nexus.io/)
+  * [Developer Documentation](https://devdocs.nexus-interactions.io/)
   * [Whitepapers](https://nexus.io/whitepapers)
   * [History of Nexus](readme/history-of-nexus.md)
   * [Nexus Vision & Goals](readme/nexus-vision-and-goals.md)
