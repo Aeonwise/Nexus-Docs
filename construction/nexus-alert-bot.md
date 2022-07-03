@@ -10,7 +10,7 @@ The `Nexus Alert Bot`,  a telegram bot which will list transactions on the Nexus
 
 This will list the data shown with the alert message.
 
-![](<../.gitbook/assets/Alert Data.png>)
+![](<../.gitbook/assets/Alert Data1.png>)
 
 * The fish icon which shows as per the legend.
 * Found on block: Block Height
