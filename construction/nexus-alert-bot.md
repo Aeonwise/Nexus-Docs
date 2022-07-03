@@ -36,14 +36,16 @@ Now that this guide helps users to make out the type of transactions done and th
 
 To keep the visual differences based on amounts, the alerts have been grouped based on the transactions and named after fishes. The legend is given below:
 
-* \>= 500,000 NXS:    Blue Whale
-* \>= 250,000 NXS:    Sperm Whale
-* \>= 100,000 NXS:    Humpback Whale
-* \>= 80,000 NXS:      Whale Shark
-* \>= 60,000 NXS:      Tiger Shark
-* \>= 30,000 NXS:      Blue White Shark
-* \>= 10,000 NXS:       Dolphin
-* \>= 5,000 NXS:         Tuna
-* \>= 1,000 NXS:         Sardine
-* < 1,000 NXS:           Shrimp  - (This is not used now as its < 1000NXS)
+#### Legend:
+
+* \>= 500,000 NXS:    Blue Whale (🐳🐳🐳🐳🐳🐳)
+* \>= 250,000 NXS:    Sperm Whale (🐋🐋🐋🐋🐋🐋)
+* \>= 100,000 NXS:    Humpback Whale (🐋🐋🐋)
+* \>= 80,000 NXS:      Whale Shark (🦈🦈🦈🦈🦈🦈)
+* \>= 60,000 NXS:      Tiger Shark  (🦈🦈🦈🦈)
+* \>= 30,000 NXS:      Blue White Shark (🦈🦈)
+* \>= 10,000 NXS:       Dolphin (🐬🐬)
+* \>= 5,000 NXS:         Tuna (🐟🐟)
+* \>= 1,000 NXS:         Sardine (🐠🐠)
+* < 1,000 NXS:           Shrimp  (🦐🦐 )- (This is not used now as its < 1000NXS)
 
