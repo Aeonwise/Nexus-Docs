@@ -128,4 +128,4 @@
   * [Blockchain Basics](construction/under-construction-pages/blockchain-basics.md)
   * [Decentralized Identity](construction/under-construction-pages/decentralized-identity-1.md)
   * [LX-OS (](construction/under-construction-pages/lx-os.md)
-* [Nexus Alert Bot](construction/nexus-alert-bot.md)
+* [Nexus Alerts](construction/nexus-alerts.md)

@@ -1,10 +1,10 @@
 ---
-description: Nexus Transactions Alert Bot
+description: Nexus Alert Bot
 ---
 
-# Nexus Alert Bot
+# Nexus Alerts
 
-The `Nexus Alert Bot`,  a telegram bot which will list transactions on the Nexus blockchain above 1000 NXS or tokens. This bot was born from a community request to track network growth, way to value Nexus by tracking online transactions, total NXS on tritium chain vs NXS on exchanges and also a way to be aware of pumps and dumps.&#x20;
+The `Nexus Alerts`,  a telegram bot which will list transactions on the Nexus blockchain above 1000 NXS or tokens. This bot was born from a community request to track network growth, way to value Nexus by tracking online transactions, total NXS on tritium chain vs NXS on exchanges and also a way to be aware of pumps and dumps.&#x20;
 
 ## Data Shown in Alerts:
 
@@ -12,7 +12,7 @@ Each transaction taking place on the blockchain is checked for a credit and that
 
 ![](<../.gitbook/assets/Alert Data1.png>)
 
-* The fish icon which shows as per the [legend](nexus-alert-bot.md#legend).
+* The fish icon which shows as per the [legend](nexus-alerts.md#legend).
 * `Humpback Whale found on block` : Block Height.
 * `Amount` : Amount of NXS or tokens included in the transaction.
 * `Token`: The token for which the `credit` is generated. NXS or Token (name or address).
