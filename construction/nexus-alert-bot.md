@@ -12,9 +12,10 @@ This will list the data shown with the alert message.
 
 ![](<../.gitbook/assets/Alert Data1.png>)
 
-* The fish icon which shows as per the legend.
-* Found on block: Block Height
-* `Token`: The token for which the alert is generated. NXS or Token name or address.
+* The fish icon which shows as per the [legend](nexus-alert-bot.md#legend).
+* Found on block: Block Height.
+* Amount : Amount of NXS or tokens included in the transaction.
+* `Token`: The token for which the `credit` is generated. NXS or Token (name or address).
 * `Operation` :  The operation of the contract. Only `credit` contracts is only shown for alerts.
 * `For` : This is the notification type for which the `Operation` was carried out for.
 * `Proof` :  The register address proving the credit or the sending address for debit from tritium.
