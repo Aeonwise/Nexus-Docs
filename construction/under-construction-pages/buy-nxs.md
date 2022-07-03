@@ -95,7 +95,7 @@ When you have set up an account on an exchange (Binance, Bittrex, etc), you will
 
 **How to Purchase NXS**
 
-Swapzone is an instant non-custodial cryptocurrency exсhange aggregator that constantly monitors the best exchange rates for users to exchange thousands of different cryptocurrencies instantly, with low fees and no registration. **NOTE:** After pressing "exchange", you will be redirected to the [Swapzone](https://swapzone.io) website to complete the swap. Please read Swapzone's Privacy Policy and Terms and Conditions before completing a transaction to verify you meet eligibility to do so.
+Swapzone is an instant non-custodial cryptocurrency exсhange aggregator that constantly monitors the best exchange rates for users to exchange thousands of different cryptocurrencies instantly, with low fees and no registration. **NOTE:** After pressing "exchange", you will be redirected to the [Swapzone](https://swapzone.io/) website to complete the swap. Please read Swapzone's Privacy Policy and Terms and Conditions before completing a transaction to verify you meet eligibility to do so.
 
 InstaSwap is a Non-Custodial Exchange Platform that allows users to exchange directly at market price within minutes. As a privacy focused platform, your personal data is safe and never shared. Keeping your anonymity intact. Instructions for how to use the widget are listed below.
 
@@ -261,4 +261,4 @@ This guide will walk you through the process of withdrawing NXS from the Bittrex
 9.
 10. After a delay of anywhere from five minutes to a half hour, Bittrex will release the NXS just withdrawn. The status of the withdrawal will be reported on the **Withdrawals** tab of the **Holdings** screen.
 11.
-12. Once the withdrawal moves from Pending Withdrawals to Withdrawal History, Bittrex provides a transaction ID. That ID can be used to search the [block explorer](https://explorer.nexus.io) for the status of the withdrawal transaction.
+12. Once the withdrawal moves from Pending Withdrawals to Withdrawal History, Bittrex provides a transaction ID. That ID can be used to search the [block explorer](https://explorer.nexus.io/) for the status of the withdrawal transaction.

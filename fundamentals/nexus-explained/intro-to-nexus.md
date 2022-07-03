@@ -63,6 +63,6 @@ Every operation on Nexus is carried out as a contract. Multiple contracts (max 9
 
 Users can query the NXS balance of any account using the Nexus Interface on the user module, account's page where all the accounts are listed with the NXS holdings.&#x20;
 
-[Explorer ](https://explorer.nexus.io)is a popular tool to inspect address balances via a web-based application.&#x20;
+[Explorer ](https://explorer.nexus.io/)is a popular tool to inspect address balances via a web-based application.&#x20;
 
 \

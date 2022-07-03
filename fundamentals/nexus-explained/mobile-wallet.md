@@ -12,7 +12,7 @@ Most blockchain mobile wallets connect directly to proxy servers run by third pa
 
 Mobile wallets are mostly custodial or they are run through proxy servers and even though the blockchain itself is decentralised, the mobile wallet is not which can lead to problems like the one given below:
 
-[Metamask](https://metamask.io) using [Infura](https://infura.io) as the backend and this has resulted in censoring users from certain countries. Click on the link below:
+[Metamask](https://metamask.io/) using [Infura](https://infura.io/) as the backend and this has resulted in censoring users from certain countries. Click on the link below:
 
 {% embed url="https://www.theblockcrypto.com/linked/136256/venezuelan-users-of-crypto-wallet-metamask-say-they-can-no-longer-access-it" %}
 
