@@ -1,10 +1,14 @@
+---
+description: Mining on Linux computer.
+---
+
 # Mining on Linux
 
-{% hint style="danger" %}
-This guide is in the works and not completed.
-{% endhint %}
+Mining on Linux is not straightforward like windows and the user has to compile the NexusMiner from source. This guide will help you setup mining on Linux. This guide is tailored for Ubuntu and Debian based distributions.
 
-Mining on Linux is not straightforward like windows and the user has to compile the NexusMiner from source. This guide will help you setup mining on Linux. This guide is tailored for Ubuntu
+{% hint style="info" %}
+Make sure you install the latest GPU drivers from the manufacturer. Driver installation is outside the scope of this guide.
+{% endhint %}
 
 ## Prepare Ubuntu for Miner:&#x20;
 
@@ -14,7 +18,9 @@ Install the dependencies
 sudo apt install build-essential libboost-all-dev libdb-dev libdb++-dev libssl-dev libminiupnpc-dev libgmp-dev -y 
 ```
 
-Ubuntu does not have the latest version of boost and libgmp-dev. The install will be a manual process listed below:
+Ubuntu does not have the latest version of boost. The install will be a manual process listed below:
+
+### Install Boost
 
 This below is a direct link to the boost website:
 
@@ -29,7 +35,13 @@ wget https://boostorg.jfrog.io/artifactory/main/release/1.78.0/source/boost_1_78
 Extract boost installer to a new directory named Boost.
 
 ```
-tar xzvf boost_1_69_0.tar.gz -C~/Boost
+tar xzvf boost_1_69_0.tar.gz -C ~/Boost
+```
+
+Change into the Boost folder
+
+```
+cd Boost
 ```
 
 Install boost
@@ -58,7 +70,7 @@ To verify boost version:
 
 ### Install Cmake:
 
-Nexus miner uses the latest version of cmake. Ubuntu does not have the latest version of cmake. If  the distro has cmake version lower than 3.19, then follow the steps below to install latest version of cmake manually.
+Nexus miner uses the latest version of cmake  and Ubuntu does not ship with the latest version of cmake. If  the distro has cmake version lower than 3.19, then follow the steps below to install latest version of cmake manually.
 
 Go to the cmake downloads page (link below) and download the linux cmake script files with .sh extension
 
@@ -80,7 +92,7 @@ First will be the licence, use “Enter” to scroll down or “spacebar” to s
 
 Cmake is installed and ready for the next step.
 
-### Download and Compile NexusMiner
+## Download and Compile NexusMiner
 
 Clone the NexusMiner repository&#x20;
 
@@ -169,6 +181,12 @@ To save the config file Ctrl+s & Ctrl+x
 
 To run the miner change into the miner directory
 
+```
+cd NexusMiner
+```
 
+```
+./NexusMiner
+```
 
 Hope you enjoyed the guide!!
