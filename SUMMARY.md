@@ -104,7 +104,7 @@
 ## Mining
 
 * [Mining on Windows](mining/mining-on-windows.md)
-* [Mining on Linux](mining/mining-on-linux.md)
+* [Mining on Linux](construction/under-construction-pages/mining-on-linux.md)
 
 ## FAQ
 

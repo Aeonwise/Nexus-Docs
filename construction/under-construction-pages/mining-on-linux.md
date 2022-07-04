@@ -84,6 +84,10 @@ cd Downloads
 
 Run the installer
 
+![](https://lh6.googleusercontent.com/9FU6gF8E6ij0g0gNkuYbuG-7IG7IaypFe\_oKBTi4DUXocjKkKckEHrQLRDMFXscUVmvDuDmM-kKywvYzqNeb1F6xiBo-48uUPovFe10xyO2V57ctc8vB\_\_r81XApwWsRmpIpBkJ6tG7cqFV5-Q)
+
+![](https://lh4.googleusercontent.com/KeXuGqp8Qe4uSpiQ8MTJFlctZcrVGEHUBQzK90ioKSwwiaV7VLbnnuy0I9-kkMLmZT4xwdhwbwL63J1tqFyYhCMb5E-eVmt2fRQ1qN0PdWNmMKZupIu5xGuAobsmnjYLwoIvrkyqWhD4BWrhuA)
+
 ```
 ./<cmakefilename.sh>
 ```
