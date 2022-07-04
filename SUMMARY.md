@@ -87,6 +87,10 @@
   * [Invoice Module Guide](guides/guides/invoice-module-guide.md)
   * [Tokenizing Assets](guides/guides/tokenizing-assets.md)
 
+## Nexus Alerts
+
+* [Nexus Alerts](nexus-alerts/nexus-alerts.md)
+
 ## How To
 
 * [Create on Nexus](how-to/create-on-nexus/README.md)
@@ -128,4 +132,3 @@
   * [Blockchain Basics](construction/under-construction-pages/blockchain-basics.md)
   * [Decentralized Identity](construction/under-construction-pages/decentralized-identity-1.md)
   * [LX-OS (](construction/under-construction-pages/lx-os.md)
-* [Nexus Alerts](construction/nexus-alerts.md)
