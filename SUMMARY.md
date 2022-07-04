@@ -104,6 +104,7 @@
 ## Mining
 
 * [Mining on Windows](mining/mining-on-windows.md)
+* [Mining on Linux](mining/mining-on-linux.md)
 
 ## FAQ
 
@@ -113,7 +114,6 @@
 
 * [Under Construction Pages](construction/under-construction-pages/README.md)
   * [Nexus Funding](construction/under-construction-pages/nexus-funding.md)
-  * [Mining on Linux](construction/under-construction-pages/mining-on-linux.md)
   * [Web 3.0](construction/under-construction-pages/web-3.0/README.md)
     * [Safenet](construction/under-construction-pages/web-3.0/safenet.md)
     * [Nexus and Web 3.0](construction/under-construction-pages/web-3.0/nexus-and-web-3.0.md)
