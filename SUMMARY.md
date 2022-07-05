@@ -105,6 +105,7 @@
 
 * [Mining on Windows](mining/mining-on-windows.md)
 * [Mining on Linux](construction/under-construction-pages/mining-on-linux.md)
+* [Miner Configuration](mining/miner-configuration.md)
 
 ## FAQ
 
