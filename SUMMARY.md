@@ -103,9 +103,10 @@
 
 ## Mining
 
-* [Mining on Windows](mining/mining-on-windows.md)
-* [Mining on Linux](construction/under-construction-pages/mining-on-linux.md)
-* [Miner Configuration](mining/miner-configuration.md)
+* [Mining on Nexus](mining/mining-on-nexus/README.md)
+  * [Mining on Windows](mining/mining-on-nexus/mining-on-windows.md)
+  * [Mining on Linux](mining/mining-on-nexus/mining-on-linux.md)
+  * [Miner Configuration](mining/mining-on-nexus/miner-configuration.md)
 
 ## FAQ
 
