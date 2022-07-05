@@ -20,8 +20,8 @@ The miner cannot run prime and hash at the same time on a single computer
 
 To configure the miner, check the link below:&#x20;
 
-{% content-ref url="miner-configuration.md" %}
-[miner-configuration.md](miner-configuration.md)
+{% content-ref url="mining-on-nexus/miner-configuration.md" %}
+[miner-configuration.md](mining-on-nexus/miner-configuration.md)
 {% endcontent-ref %}
 
 ## Nexus Desktop Wallet:
@@ -55,7 +55,7 @@ Restart the core for the changes to take effect
 
 Go to the folder where the NexusMiner executable and miner.conf are located, double click on the NexusMiner executable. A security warning window will pop up (shown in image below), click run and the miner will start in a terminal. The miner will run and start mining which you can see from the messages on the miner terminal window. There is no user interaction required.&#x20;
 
-![](../../.gitbook/assets/Miner61.png)
+![](../.gitbook/assets/Miner61.png)
 
 To check if everything is working, go to the mining pool page link below, on the header right side, paste the Nexus address entered in the miner.conf file in the search box and click on search. This will open a page like below, where you can see the details of your miner.&#x20;
 
@@ -63,7 +63,7 @@ To check if everything is working, go to the mining pool page link below, on the
 **Prime Pool Miner Website**
 {% endembed %}
 
-![Mining Details for Each Miner](../../.gitbook/assets/Miner7.png)
+![Mining Details for Each Miner](../.gitbook/assets/Miner7.png)
 
 ## Stop the Miner
 
@@ -71,12 +71,12 @@ To stop the miner close the NexusMiner terminal window.
 
 ## Screenshots
 
-![miner.conf for prime pool with 1 GPU](../../.gitbook/assets/Miner31.png)
+![miner.conf for prime pool with 1 GPU](../.gitbook/assets/Miner31.png)
 
-![NexusMiner v1.4 Prime Pool mining with single GPU](../../.gitbook/assets/Miner1.png)
+![NexusMiner v1.4 Prime Pool mining with single GPU](../.gitbook/assets/Miner1.png)
 
-![NexusMiner v1.4 Prime Pool mining with single GPU](../../.gitbook/assets/Miner2.png)
+![NexusMiner v1.4 Prime Pool mining with single GPU](../.gitbook/assets/Miner2.png)
 
-![miner.conf for prime pool with 1 GPU & 2 CPU cores](../../.gitbook/assets/Miner41.png)
+![miner.conf for prime pool with 1 GPU & 2 CPU cores](../.gitbook/assets/Miner41.png)
 
-![NexusMiner v1.4 Prime Pool mining with single GPU and two CPU Cores](../../.gitbook/assets/Miner5.png)
+![NexusMiner v1.4 Prime Pool mining with single GPU and two CPU Cores](../.gitbook/assets/Miner5.png)

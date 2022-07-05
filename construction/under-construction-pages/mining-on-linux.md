@@ -162,8 +162,8 @@ cp NexusMiner ~/Miner
 
 To configure the miner, check the link below:&#x20;
 
-{% content-ref url="miner-configuration.md" %}
-[miner-configuration.md](miner-configuration.md)
+{% content-ref url="../../mining/mining-on-nexus/miner-configuration.md" %}
+[miner-configuration.md](../../mining/mining-on-nexus/miner-configuration.md)
 {% endcontent-ref %}
 
 ## Run the Miner:

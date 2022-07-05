@@ -14,10 +14,10 @@ The miner configuration is stored in a **`miner.conf`** file, it should be in th
 
 For linux CLI, use the below commands:
 
-To change into the Miner folder
+To change into the Miner folder where the NexusMIner executable is available, if it's a different folder change accordingly.
 
 ```
-// Some code
+cd Miner
 ```
 
 Create the miner.conf file.
@@ -28,7 +28,7 @@ nano miner.conf
 
 Find below the JSON config files for both prime and hash miners. Copy paste and change the settings as per the setup. Remember that each GPU or FPGA has to be configured as a unique worker. Also make sure the "_wallet\_ip"  "port", "local\_ip", "mining\_mode" and "pool" details are correct._
 
-For pool mining the _N_exus payout address will be the identifier to the pool and the block reward payout will be done to the same address. Most pool's have a minimum reward amount to be collected before payout.
+For Nexus prime and hash pools the payout address will be the identifier to the pool and the  reward payout will be done to the same address. Most pool's have a minimum reward amount to be collected before payout.
 
 {% tabs %}
 {% tab title="Prime Pool" %}
@@ -184,7 +184,7 @@ For pool mining the _N_exus payout address will be the identifier to the pool an
 
 To save the config file Ctrl+s & Ctrl+x
 
-#### MIner Config Direct Link
+#### Miner Config Direct Link:
 
 We provide a few standard mining configs, download and configure to suit the setup. Each GPU or FPGA will be configured as a separate worker. (Each core on the CPU will be configured as a worker - Used for solo mining on testnet).&#x20;
 
